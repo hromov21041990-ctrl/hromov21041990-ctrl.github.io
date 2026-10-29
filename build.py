@@ -2,6 +2,7 @@ import json,os,re,shutil,hashlib,html as esc
 from pathlib import Path
 from urllib.parse import urlparse
 from lxml import html,etree
+from seo import metadata as seo_metadata, prepare_body, structured_data
 from vulkan import SERIES as VULKAN_SERIES, catalog_body as vulkan_catalog, breadcrumbs as vulkan_crumbs, product_facts as vulkan_facts, documents as vulkan_documents
 from catalog_identity import prepare_catalog
 from faci import breadcrumbs as faci_crumbs, facts as faci_facts, documents as faci_documents, intro as faci_intro, configuration_views as faci_views, specifications as faci_specs
@@ -18,7 +19,11 @@ ORIGIN=os.environ.get('SITE_ORIGIN','https://pelletsgrupp-migration.hromov-aa.ch
 JS_VERSION=hashlib.sha256((ROOT/'site.js').read_bytes()).hexdigest()[:12]
 def e(s):return esc.escape(str(s),quote=True)
 def normalize_business_claims(s):
+ s=re.sub(r'<p>Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in\..*?vel odio\.</p>','',s,flags=re.S)
  replacements={
+  'производство высококачественных пеллет':'поставку качественных пеллет',
+  'Производство, оборудование и сервис под ключ':'Топливо, оборудование и сервис под ключ',
+  'Производство и офис':'Офис и поставки',
   'является производителем пеллетов':'поставляет топливные пеллеты',
   'а также является производителем пеллетов':'а также поставляет топливные пеллеты',
   'PelletsGrupp производит цилиндрические гранулы':'PelletsGrupp поставляет цилиндрические гранулы',
@@ -38,6 +43,7 @@ def normalize_phone(s):
  s=re.sub(r'\+7[\s\u00a0]*\(930\)[\s\u00a0]*316[-–]18[-–]55','+7 (343) 345-52-25',s)
  return re.sub(r'\+7[\s\u00a0]*\(343\)[\s\u00a0]*226[-–]0?2?[-–]28','+7 (343) 345-52-25',s)
 def plain(s):
+ s=normalize_business_claims(s)
  try:return normalize_business_claims(normalize_phone(' '.join(html.fromstring('<div>'+s+'</div>').text_content().split())))
  except:return normalize_business_claims(normalize_phone(s))
 page_ids={p['ID']:p['path'] for p in PAGES};paths={p['path'] for p in PAGES};paths|={p['path'] for p in PRODUCTS}
@@ -68,15 +74,21 @@ foot='''<footer><div class="wrap"><div class="footgrid"><div><a class="brand bra
 foot=foot.replace('/soglasie-na-obrabotku-personalnyh-dannyh/','/pustayastranitsa_qewx/')
 head=head.replace('<a href="/servisiremont/">Сервис</a>','<a href="/otoplenie/">Монтаж</a><a href="/servisiremont/">Сервис</a>')
 foot=foot.replace('<a href="/servisiremont/">Сервис и ремонт</a>','<a href="/otoplenie/">Монтаж отопления</a><a href="/servisiremont/">Сервис и ремонт</a>')
+head=prepare_body('',head)
+foot=prepare_body('',foot)
 written={}
 def write(path,title,body,desc='',schema=None):
  out=DIST/path.strip('/')/'index.html' if path!='/' else DIST/'index.html';out.parent.mkdir(parents=True,exist_ok=True)
+ title,desc=seo_metadata(path,title,desc)
+ body=prepare_body(path,body)
+ original_schema=schema
+ schema=structured_data(path,body,schema,ORIGIN)
  desc=normalize_business_claims((desc or f'{title}. Пеллетное отопление, оборудование, топливо, монтаж и сервис PelletsGrupp в Екатеринбурге.').strip())
- robots='<meta name="robots" content="noindex,nofollow">' if PREVIEW else ''
+ robots='<meta name="robots" content="noindex,nofollow">' if PREVIEW else '<meta name="robots" content="noindex,follow">' if path=='/404/' else ''
  note='<div class="testnote">Тестовая версия переноса · заявки по телефону</div>' if PREVIEW else ''
  ld='<script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('</','<\\/')+'</script>' if schema else ''
- extra_style='<link rel="stylesheet" href="/vulkan.css">' if path.startswith('/vulkan/') or (schema and schema.get('category','').startswith('Vulkan ')) else ''
- out.write_text(f'<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title><meta name="description" content="{e(desc)}">{robots}<link rel="canonical" href="{e(ORIGIN+path)}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website"><link rel="stylesheet" href="/site.css">{extra_style}{ld}<script src="/site.js?v={JS_VERSION}" defer></script></head><body>{note}{head}<main>{body}</main>{foot}</body></html>');written[path]=title
+ extra_style='<link rel="stylesheet" href="/vulkan.css">' if path.startswith('/vulkan/') or (original_schema and original_schema.get('category','').startswith('Vulkan ')) else ''
+ out.write_text(f'<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title><meta name="description" content="{e(desc)}">{robots}<link rel="canonical" href="{e(ORIGIN+path)}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website"><meta property="og:url" content="{e(ORIGIN+path)}"><meta property="og:site_name" content="PelletsGrupp"><link rel="stylesheet" href="/site.css">{extra_style}{ld}<script src="/site.js?v={JS_VERSION}" defer></script></head><body>{note}{head}<main>{body}</main>{foot}</body></html>');written[path]=title
 def money(n):
  if n is None:return 'Цена по запросу'
  value=float(n)
@@ -109,7 +121,7 @@ def crumbs(title):return f'<div class="wrap crumbs"><a href="/">Главная</
 def tiles(items):return '<div class="grid">'+''.join(f'<a class="tile" href="{p["path"]}"><span class="badge">Полезно знать</span><h3>{e(p["TITLE"])}</h3><span class="text-link">Читать статью →</span></a>' for p in items)+'</div>'
 brands=['BIOTEP','FACI','Вулкан','СТАРТ','ZOTA'];brandroutes={'BIOTEP':'/biotep/','FACI':'/faci/','Вулкан':'/vulkan/','СТАРТ':'/start/','ZOTA':'/zota/'}
 articles=[p for p in PAGES if p['PUBLIC']=='Y' and len(p['TITLE'])>45 and p['ID']!='123']
-home=f'''<div class="wrap"><section class="hero"><div><div class="eyebrow">PelletsGrupp · пеллетное отопление</div><h1>Тепло в доме.<br>Всё остальное<br>берём на себя.</h1><p class="lead">Пеллетные котлы, поставка топлива, монтаж и сервис. Поможем подобрать систему отопления для вашего дома.</p><div class="actions"><a class="btn" href="/katalog/">Подобрать котёл →</a><a class="btn light" href="/pellety/">Заказать пеллеты</a></div><div class="proof"><span><b>01</b> Подбор оборудования</span><span><b>02</b> Доставка топлива</span><span><b>03</b> Сервис и ремонт</span></div></div><div class="photo"><img src="{SITE['home']}" alt="Котельное оборудование PelletsGrupp"><div class="stamp"><strong>BIOTEP</strong>Наш флагман для отопления дома</div></div></section></div><section class="section white"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Оборудование с поддержкой</span><h2>Пеллетные котлы BIOTEP</h2></div><a href="/biotep/">Вся линейка →</a></div><div class="grid products">{''.join(card(p) for p in PRODUCTS if p['brand']=='BIOTEP' and p.get('product_type')!='biotep_spare')}</div></div></section><section class="section"><div class="wrap"><div class="section-head"><div><span class="eyebrow">От топлива до обслуживания</span><h2>Одна компания. Полный цикл.</h2></div></div><div class="grid cycle-grid"><div class="service"><div class="num">01 / ТОПЛИВО</div><h3>Древесные пеллеты</h3><p>Белые и серые пеллеты. Фасовка в мешки и биг-бэги, розничные и оптовые поставки.</p><a class="text-link" href="/pellety/">Выбрать топливо →</a></div><div class="service"><div class="num">02 / ОБОРУДОВАНИЕ</div><h3>Котлы и горелки</h3><p>BIOTEP, FACI, Вулкан, СТАРТ и горелки ZOTA. Подбор модели и комплектации под ваш объект.</p><a class="text-link" href="/katalog/">Открыть каталог →</a></div><div class="service"><div class="num">03 / МОНТАЖ</div><h3>Монтаж отопления</h3><p>Установка котла, системы отопления и дымохода. Подбор материалов, сборка и пусконаладка оборудования.</p><a class="text-link" href="/otoplenie/">Подробнее о монтаже →</a></div><div class="service"><div class="num">04 / СЕРВИС</div><h3>Обслуживание и ремонт</h3><p>Сезонная чистка, настройка автоматики и помощь в эксплуатации пеллетного котла.</p><a class="text-link" href="/servisiremont/">Узнать об услугах →</a></div></div></div></section><section class="section white"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Помогаем разобраться</span><h2>Об отоплении — по делу</h2></div><a href="/blog/">Все статьи →</a></div>{tiles(articles[-3:])}</div></section>'''+cta()
+home=f'''<div class="wrap"><section class="hero"><div><div class="eyebrow">PelletsGrupp · пеллетное отопление</div><h1>Пеллетное отопление<br>в Екатеринбурге</h1><p class="lead">Пеллетные котлы, поставка топлива, монтаж и сервис. Подберём систему отопления для вашего дома в Екатеринбурге и Свердловской области.</p><div class="actions"><a class="btn" href="/katalog/">Подобрать котёл →</a><a class="btn light" href="/pellety/">Заказать пеллеты</a></div><div class="proof"><span><b>01</b> Подбор оборудования</span><span><b>02</b> Доставка топлива</span><span><b>03</b> Сервис и ремонт</span></div></div><div class="photo"><img src="{SITE['home']}" alt="Котельное оборудование PelletsGrupp"><div class="stamp"><strong>BIOTEP</strong>Наш флагман для отопления дома</div></div></section></div><section class="section white"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Оборудование с поддержкой</span><h2>Пеллетные котлы BIOTEP</h2></div><a href="/biotep/">Вся линейка →</a></div><div class="grid products">{''.join(card(p) for p in PRODUCTS if p['brand']=='BIOTEP' and p.get('product_type')!='biotep_spare')}</div></div></section><section class="section"><div class="wrap"><div class="section-head"><div><span class="eyebrow">От топлива до обслуживания</span><h2>Одна компания. Полный цикл.</h2></div></div><div class="grid cycle-grid"><div class="service"><div class="num">01 / ТОПЛИВО</div><h3>Древесные пеллеты</h3><p>Белые и серые пеллеты. Фасовка в мешки и биг-бэги, розничные и оптовые поставки.</p><a class="text-link" href="/pellety/">Выбрать топливо →</a></div><div class="service"><div class="num">02 / ОБОРУДОВАНИЕ</div><h3>Котлы и горелки</h3><p>BIOTEP, FACI, Вулкан, СТАРТ и горелки ZOTA. Подбор модели и комплектации под ваш объект.</p><a class="text-link" href="/katalog/">Открыть каталог →</a></div><div class="service"><div class="num">03 / МОНТАЖ</div><h3>Монтаж отопления</h3><p>Установка котла, системы отопления и дымохода. Подбор материалов, сборка и пусконаладка оборудования.</p><a class="text-link" href="/otoplenie/">Подробнее о монтаже →</a></div><div class="service"><div class="num">04 / СЕРВИС</div><h3>Обслуживание и ремонт</h3><p>Сезонная чистка, настройка автоматики и помощь в эксплуатации пеллетного котла.</p><a class="text-link" href="/servisiremont/">Узнать об услугах →</a></div></div></div></section><section class="section white"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Помогаем разобраться</span><h2>Об отоплении — по делу</h2></div><a href="/blog/">Все статьи →</a></div>{tiles(articles[-3:])}</div></section>'''+cta()
 from installation import home_block, page as installation_page
 home_marker='<section class="section white"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Помогаем разобраться</span>'
 assert home_marker in home
@@ -215,16 +227,19 @@ for p in PAGES:
  seo=p.get('ADDITIONAL_FIELDS',{});title=seo.get('METAMAIN_TITLE') or p['TITLE']+' — PelletsGrupp';desc=seo.get('METAMAIN_DESCRIPTION') or ''
  body=crumbs(p['TITLE'])+f'<div class="wrap"><div class="page-head"><h1>{e(p["TITLE"])}</h1></div><article class="article">'+''.join(sections)+'</article></div>'+cta()
  write(path,title,body,desc)
-contacts=crumbs('Контакты')+'<div class="wrap"><div class="page-head"><span class="eyebrow">Всегда на связи</span><h1>Обсудим ваше отопление</h1></div><div class="contact-grid"><div class="tile"><h2>Продажи и консультации</h2><p><a href="tel:+73433455225">+7 (343) 345-52-25</a><br><a href="mailto:office@pelletsgrupp.ru">office@pelletsgrupp.ru</a></p><p>Пн–Пт, 09:00–18:00</p><a class="btn" href="tel:+73433455225">Позвонить: +7 (343) 345-52-25</a></div><div class="tile"><h2>Офис в Екатеринбурге</h2><p>ул. Лукиных, д. 1, оф. 4</p><p>ООО «ПЕЛЛЕТС ГРУПП»<br>ИНН 6678134556<br>ОГРН 1236600075910</p><p class="fine">Перед визитом согласуйте время по телефону.</p></div></div></div>'
+contacts=crumbs('Контакты')+'<div class="wrap"><div class="page-head"><span class="eyebrow">Всегда на связи</span><h1>Контакты PelletsGrupp в Екатеринбурге</h1></div><div class="contact-grid"><div class="tile"><h2>Продажи и консультации</h2><p><a href="tel:+73433455225">+7 (343) 345-52-25</a><br><a href="mailto:office@pelletsgrupp.ru">office@pelletsgrupp.ru</a></p><p>Пн–Пт, 09:00–18:00</p><a class="btn" href="tel:+73433455225">Позвонить: +7 (343) 345-52-25</a></div><div class="tile"><h2>Офис в Екатеринбурге</h2><p>ул. Лукиных, д. 1, оф. 4</p><p>ООО «ПЕЛЛЕТС ГРУПП»<br>ИНН 6678134556<br>ОГРН 1236600075910</p><p class="fine">Перед визитом согласуйте время по телефону.</p></div></div></div>'
 write('/kontakty/','Контакты PelletsGrupp — Екатеринбург',contacts,'Телефон, email и адрес PelletsGrupp в Екатеринбурге. Подбор котлов, поставка пеллет, сервис и ремонт.')
 # Retain aliases referenced in exported pages, while excluding retired brands from navigation.
 aliases={'/kotly/':'/katalog/','/kotly-i-gorelki/':'/katalog/','/kotly_rxdg/':'/katalog/','/katalog/katalog/':'/katalog/'}
+# Confirmed old search-result URLs; static redirects until an HTTP redirect layer is available.
+aliases.update(json.loads((ROOT/'data/seo-redirects.json').read_text()))
+assert all(target in written for target in aliases.values())
 for p in PAGES:
  if p['path'] not in written and p['PUBLIC']=='Y':aliases[p['path']]='/katalog/'
 for path,target in aliases.items():
  if path in written:continue
  source_page=next((p for p in PAGES if p['path']==path),None)
- legacy_title=(source_page or {}).get('TITLE') or 'Каталог оборудования'
+ legacy_title=(source_page or {}).get('TITLE') or written.get(target,'Каталог оборудования')
  write(path,legacy_title+' — PelletsGrupp',crumbs('Каталог')+f'<section class="section"><div class="wrap"><h1>{e(legacy_title)}</h1><p>Актуальная информация представлена в общем каталоге PelletsGrupp.</p><a class="btn" href="{target}">Перейти в каталог →</a></div></section>',f'{legacy_title}. Актуальный каталог оборудования PelletsGrupp.')
  alias_file=DIST/path.strip('/')/'index.html'
  alias_html=alias_file.read_text()

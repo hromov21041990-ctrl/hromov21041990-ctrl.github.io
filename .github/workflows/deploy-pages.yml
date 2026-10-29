@@ -32,6 +32,7 @@ jobs:
         run: |
           python verify.py
           python audit_production.py
+          python verify_seo.py
       - uses: actions/configure-pages@v5
         with:
           enablement: true

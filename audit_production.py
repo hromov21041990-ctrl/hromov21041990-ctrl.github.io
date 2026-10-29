@@ -17,7 +17,7 @@ for file in html_files:
 
     if "chatgpt.site" in source:
         errors.append((str(relative), "test-host reference"))
-    if "noindex" in source.lower():
+    if any("noindex" in value.lower() for value in document.xpath('//meta[@name="robots"]/@content')) and str(relative) not in ("404.html", "404/index.html"):
         errors.append((str(relative), "noindex in production"))
     if "Тестовая версия переноса" in source:
         errors.append((str(relative), "test banner in production"))
