@@ -195,7 +195,7 @@ pellets_extra='<section class="section"><div class="wrap"><article class="articl
 write('/pellety/','Топливные пеллеты в Екатеринбурге — цены и доставка | PelletsGrupp',pellets_page(pellets_extra),'Серые пеллеты — 12 000 ₽/т, белые — 17 000 ₽/т. Мешки по 30 кг и биг-бэги по 1 т, самовывоз в Екатеринбурге и доставка. Поставки для дома и бизнеса.',{'@context':'https://schema.org','@graph':[{'@type':'Product','sku':p['sku'],'name':p['name'],'image':ORIGIN+p['image'],'brand':{'@type':'Brand','name':'PelletsGrupp'},'offers':{'@type':'Offer','price':p['price'],'priceCurrency':'RUB','url':ORIGIN+'/pellety/','description':'Цена за тонну, доставка отдельно'}} for p in PELLET_TYPES]})
 for p in PAGES:
  path=p['path']
- if p['PUBLIC']!='Y' or p['ACTIVE']!='Y' or p['ID'] in skip or path in written:continue
+ if p['PUBLIC']!='Y' or p['ACTIVE']!='Y' or p['ID'] in skip or path in written or path=='/kotly_rxdg/':continue
  # Layout fragments and blank templates have no independent public content.
  if p['TITLE'].startswith('Область') or p['TITLE']=='Пустой шаблон':continue
  if p['ID']=='199':write(path,'Блог о пеллетном отоплении — PelletsGrupp',crumbs('Блог')+'<div class="wrap"><div class="page-head"><span class="eyebrow">Полезные материалы</span><h1>Разбираемся в отоплении</h1></div>'+tiles(articles)+'</div>');continue
@@ -218,7 +218,7 @@ for p in PAGES:
 contacts=crumbs('Контакты')+'<div class="wrap"><div class="page-head"><span class="eyebrow">Всегда на связи</span><h1>Обсудим ваше отопление</h1></div><div class="contact-grid"><div class="tile"><h2>Продажи и консультации</h2><p><a href="tel:+73433455225">+7 (343) 345-52-25</a><br><a href="mailto:office@pelletsgrupp.ru">office@pelletsgrupp.ru</a></p><p>Пн–Пт, 09:00–18:00</p><a class="btn" href="tel:+73433455225">Позвонить: +7 (343) 345-52-25</a></div><div class="tile"><h2>Офис в Екатеринбурге</h2><p>ул. Лукиных, д. 1, оф. 4</p><p>ООО «ПЕЛЛЕТС ГРУПП»<br>ИНН 6678134556<br>ОГРН 1236600075910</p><p class="fine">Перед визитом согласуйте время по телефону.</p></div></div></div>'
 write('/kontakty/','Контакты PelletsGrupp — Екатеринбург',contacts,'Телефон, email и адрес PelletsGrupp в Екатеринбурге. Подбор котлов, поставка пеллет, сервис и ремонт.')
 # Retain aliases referenced in exported pages, while excluding retired brands from navigation.
-aliases={'/kotly/':'/katalog/','/kotly-i-gorelki/':'/katalog/','/katalog/katalog/':'/katalog/'}
+aliases={'/kotly/':'/katalog/','/kotly-i-gorelki/':'/katalog/','/kotly_rxdg/':'/katalog/','/katalog/katalog/':'/katalog/'}
 for p in PAGES:
  if p['path'] not in written and p['PUBLIC']=='Y':aliases[p['path']]='/katalog/'
 for path,target in aliases.items():
