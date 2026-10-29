@@ -1,0 +1,35 @@
+name: Update manufacturer prices
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: catalog-sync
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: python sync_prices.py
+      - run: python build.py
+        env:
+          PRODUCTION: '1'
+          SITE_ORIGIN: https://pelletsgrupp.ru
+      - run: python verify.py
+      - run: python audit_production.py
+      - name: Save verified update
+        run: |
+          git config user.name "PelletsGrupp catalog updater"
+          git config user.email "catalog-updater@users.noreply.github.com"
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m "Update verified manufacturer prices"
+            git push
+          fi
