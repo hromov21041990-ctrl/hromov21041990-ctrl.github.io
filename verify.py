@@ -184,6 +184,7 @@ for p in vulkan:
  assert p['images'],p['name']
  page=html.fromstring((DIST/p['path'].strip('/')/'index.html').read_text())
  schema=json.loads(page.xpath('//script[@type="application/ld+json"]')[0].text)
+ schema=next(node for node in schema.get('@graph',[schema]) if node.get('@type')=='Product')
  assert schema['offers']['price']==p['price'],p['name']
  if source[slug].get('conflicts'):
   assert any('Уточняется' in v for k,v in p['specs'].items() if 'площад' in k.lower()),p['name']
@@ -258,6 +259,7 @@ for p in products:
  page=html.fromstring((DIST/p['path'].strip('/')/'index.html').read_text())
  assert page.xpath('//*[@id="product-sku"]/text()')==[p['sku']]
  schema=json.loads(page.xpath('//script[@type="application/ld+json"]')[0].text)
+ schema=next(node for node in schema.get('@graph',[schema]) if node.get('@type')=='Product')
  assert schema['sku']==p['sku']
 # Renaming, repricing and reordering must preserve identities, including FACI choices.
 trial=copy.deepcopy(products);fuel=copy.deepcopy(pellets);reg=copy.deepcopy(registry)

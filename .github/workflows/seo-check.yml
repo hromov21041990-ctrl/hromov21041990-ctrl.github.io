@@ -1,0 +1,22 @@
+name: Check PelletsGrupp SEO changes
+on:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: python build.py
+        env:
+          PRODUCTION: '1'
+          SITE_ORIGIN: https://pelletsgrupp.ru
+      - run: python verify.py
+      - run: python audit_production.py
+      - run: python verify_seo.py
