@@ -1,0 +1,20 @@
+{
+  "folders": {
+    "3": {
+      "PARENT_ID": null,
+      "ACTIVE": "Y",
+      "TITLE": "Каталог",
+      "CODE": "katalog",
+      "INDEX_ID": "89"
+    },
+    "5": {
+      "PARENT_ID": null,
+      "ACTIVE": "Y",
+      "TITLE": "Персональный раздел",
+      "CODE": "personalnyyrazdel",
+      "INDEX_ID": "93"
+    }
+  },
+  "logo": "/assets/archive-59033.webp",
+  "home": "/assets/archive-40177.webp"
+}

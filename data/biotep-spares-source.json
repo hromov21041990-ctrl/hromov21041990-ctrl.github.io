@@ -1,0 +1,959 @@
+{
+  "source_title": "ЗИП опт март 2026",
+  "effective_date": "2026-02-12",
+  "source_file_pages": 5,
+  "price_rule": "РРЦ с НДС (КАТАЛОГ)",
+  "items": [
+    {
+      "page": 1,
+      "manufacturer_article": "4002",
+      "name": "Контроллер управления котлом",
+      "note": "Для всех моделей BIOTEP; отличается прошивка.",
+      "rrp": 31680,
+      "category": "automation",
+      "images": [
+        "/assets/biotep-spares/4002-1.jpg"
+      ]
+    },
+    {
+      "page": 1,
+      "manufacturer_article": "4003",
+      "name": "Дисплей пеллетного котла с проводом",
+      "note": "Для всех моделей BIOTEP.",
+      "rrp": 4320,
+      "category": "automation",
+      "images": [
+        "/assets/biotep-spares/4003-1.jpg"
+      ]
+    },
+    {
+      "page": 1,
+      "manufacturer_article": "4918",
+      "name": "Вентилятор наддува SOHON AC230V/50Hz 35W",
+      "note": "FAN1, с трубкой Вентури для BD-N27C5; вход d97 мм, выход d60 мм; применяется с октября 2022 года.",
+      "rrp": 17280,
+      "category": "airflow",
+      "images": [
+        "/assets/biotep-spares/4918-1.jpg"
+      ]
+    },
+    {
+      "page": 1,
+      "manufacturer_article": "5037",
+      "name": "Воздухозаборник d97 (BD-N-09-11)",
+      "note": "Для вентилятора SOHON, d97, BIOTEP 32.",
+      "rrp": 837.12,
+      "category": "airflow",
+      "images": [
+        "/assets/biotep-spares/5037-1.jpg"
+      ]
+    },
+    {
+      "page": 1,
+      "manufacturer_article": "4814",
+      "name": "Воздухозаборник d51 мм",
+      "note": "Для вентилятора TRIAL, вход d51 мм, BD27C5.",
+      "rrp": 2400,
+      "category": "airflow",
+      "images": [
+        "/assets/biotep-spares/4814-1.jpg"
+      ]
+    },
+    {
+      "page": 1,
+      "manufacturer_article": "5739",
+      "name": "Воздуховод BD-N-09-A2M",
+      "note": "Приёмный патрубок после вентилятора наддува для BIOTEP 25/32; отверстие для ТЭН под зажим.",
+      "rrp": 2688,
+      "category": "airflow",
+      "images": []
+    },
+    {
+      "page": 1,
+      "manufacturer_article": "4005",
+      "name": "Вентилятор дымоудаления центробежный SIT",
+      "note": "FAN2; сопротивление обмотки 28-32 Ом; BIOTEP 18/25/32.",
+      "rrp": 26880,
+      "category": "airflow",
+      "images": [
+        "/assets/biotep-spares/4005-1.jpg"
+      ]
+    },
+    {
+      "page": 1,
+      "manufacturer_article": "4015",
+      "name": "Насос циркуляционный",
+      "note": "PMP, 50/70/100 Вт, 50 л/мин, H-6 м; BIOTEP 18/25/32.",
+      "rrp": 7680,
+      "category": "automation",
+      "images": [
+        "/assets/biotep-spares/4015-1.jpg"
+      ]
+    },
+    {
+      "page": 1,
+      "manufacturer_article": "4006",
+      "name": "Датчик давления управляющий (прессостат) Huba Control",
+      "note": "UPRS1, дифференциальный датчик давления; BIOTEP 18/25/32.",
+      "rrp": 14507.52,
+      "category": "automation",
+      "images": [
+        "/assets/biotep-spares/4006-1.jpg"
+      ]
+    },
+    {
+      "page": 1,
+      "manufacturer_article": "4399",
+      "name": "Реле давления безопасности Huba Control",
+      "note": "SCP / UPRS2, защита открытой дверки; BIOTEP 18/25/32.",
+      "rrp": 7680,
+      "category": "automation",
+      "images": [
+        "/assets/biotep-spares/4399-1.jpg"
+      ]
+    },
+    {
+      "page": 1,
+      "manufacturer_article": "4879",
+      "name": "Трубка Вентури",
+      "note": "Датчик потока на вентиляторе наддува FAN1 SOHON; BIOTEP 18/25/32.",
+      "rrp": 1152,
+      "category": "automation",
+      "images": [
+        "/assets/biotep-spares/4879-1.jpg"
+      ]
+    },
+    {
+      "page": 1,
+      "manufacturer_article": "5038",
+      "name": "Трубка Вентури узкая",
+      "note": "Датчик потока для BIOTEP 77; также для замены Вентури на TRIAL с доработкой посадки.",
+      "rrp": 1152,
+      "category": "automation",
+      "images": [
+        "/assets/biotep-spares/5038-1.jpg"
+      ]
+    },
+    {
+      "page": 1,
+      "manufacturer_article": "4920",
+      "name": "Мотор-редуктор шнека AC230V/50Hz 7,0 RPM с кожухом и проводом",
+      "note": "FED1; обмотка 1425-1430 Ом; BIOTEP 18/25/32.",
+      "rrp": 9600,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/4920-1.jpg"
+      ]
+    },
+    {
+      "page": 1,
+      "manufacturer_article": "5099",
+      "name": "Мотор-редуктор AC230V/50Hz 7,0 RPM",
+      "note": "Без провода и кожуха.",
+      "rrp": 8064,
+      "category": "auger",
+      "images": []
+    },
+    {
+      "page": 1,
+      "manufacturer_article": "5040",
+      "name": "Шнек для BIOTEP 32/25",
+      "note": "Посадка под вал привода d=8,0 мм.",
+      "rrp": 3504,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/5040-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "5217",
+      "name": "Опора шнека с буфером BIOTEP 32/25",
+      "note": "Опора шнека с буфером.",
+      "rrp": 672,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/5217-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "5041",
+      "name": "Шнек для BIOTEP 32/25 в сборе",
+      "note": "Втулки, шайбы и монтажная пластина; выпуск после октября 2022 года.",
+      "rrp": 5515.2,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/5041-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "5039",
+      "name": "Шнек для BIOTEP 32/25 в сборе с приводом",
+      "note": "Втулки, шайбы, монтажная пластина, мотор-редуктор и провод.",
+      "rrp": 15360,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/5039-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "5728",
+      "name": "Шнек для BIOTEP 18",
+      "note": "Посадка под вал привода d=8,0 мм.",
+      "rrp": 3504,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/5728-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "5729",
+      "name": "Шнек для BIOTEP 18 в сборе",
+      "note": "Втулки, шайбы и монтажная пластина; посадка под вал d=8,0 мм.",
+      "rrp": 5515.2,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/5729-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "5916",
+      "name": "Шнек для BIOTEP 77",
+      "note": "Посадка под вал привода d=8,0 мм.",
+      "rrp": 3504,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/5916-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "4862",
+      "name": "Шнек для BIOTEP 77 в сборе",
+      "note": "Втулки, шайбы и монтажная пластина.",
+      "rrp": 5515.2,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/4862-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "5218",
+      "name": "Опора шнека с буфером для BD-27C5",
+      "note": "Выпуск до октября 2022 года.",
+      "rrp": 672,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/5218-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "4712",
+      "name": "Шнек для BD-27C5 (dв=8,5 мм)",
+      "note": "Выпуск до октября 2022 года; посадка под вал d=8,5 мм.",
+      "rrp": 3532.8,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/4712-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "4036",
+      "name": "Шнек для BD-27C5 (dв=8,5 мм) в сборе",
+      "note": "Выпуск до октября 2022 года; втулки, шайбы и монтажная пластина.",
+      "rrp": 4416,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/4036-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "4713",
+      "name": "Шнек для BD-C15L (dв=8,5 мм)",
+      "note": "Выпуск до октября 2022 года; сварной узел без втулок, шайб и монтажной пластины.",
+      "rrp": 3532.8,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/4713-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "4037",
+      "name": "Шнек для BD-C15L (dв=8,5 мм) в сборе",
+      "note": "Выпуск до октября 2022 года; втулки, шайбы и монтажная пластина.",
+      "rrp": 4416,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/4037-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "4011",
+      "name": "ТЭН розжига керамический под зажим",
+      "note": "CND, керамика 112x11 мм; сопротивление 80-90 Ом.",
+      "rrp": 4704,
+      "category": "ignition",
+      "images": [
+        "/assets/biotep-spares/4011-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "5982",
+      "name": "ТЭН розжига кварцевый",
+      "note": "Для BIOTEP 18/25/32/77, установка под зажим.",
+      "rrp": 6336,
+      "category": "ignition",
+      "images": [
+        "/assets/biotep-spares/5982-1.jpg",
+        "/assets/biotep-spares/5982-2.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "4529",
+      "name": "Трубка ТЭНа BD-21-09-14 для BIOTEP 32/25",
+      "note": "Для центрирования ТЭН под зажим.",
+      "rrp": 288,
+      "category": "ignition",
+      "images": [
+        "/assets/biotep-spares/4529-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "4730",
+      "name": "Трубка ТЭНа 325-04-065 для BIOTEP 18",
+      "note": "Для центрирования ТЭН под зажим.",
+      "rrp": 288,
+      "category": "ignition",
+      "images": [
+        "/assets/biotep-spares/4730-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "6264",
+      "name": "Трубка ТЭНа BD-77-29-003 для BIOTEP 77",
+      "note": "Для центрирования ТЭН под зажим.",
+      "rrp": 288,
+      "category": "ignition",
+      "images": [
+        "/assets/biotep-spares/6264-1.jpg"
+      ]
+    },
+    {
+      "page": 2,
+      "manufacturer_article": "4919",
+      "name": "ТЭН розжига керамический с резьбой",
+      "note": "Для котлов до 2019 года; керамика 112x11 мм, втулка 3/8, сопротивление 80-90 Ом.",
+      "rrp": 4704,
+      "category": "ignition",
+      "images": [
+        "/assets/biotep-spares/4919-1.jpg",
+        "/assets/biotep-spares/4919-2.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4883",
+      "name": "Датчик температуры дымовых газов",
+      "note": "TC1, термопара.",
+      "rrp": 3360,
+      "category": "automation",
+      "images": [
+        "/assets/biotep-spares/4883-1.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4884",
+      "name": "Датчик температуры в камере сгорания",
+      "note": "TC2, термопара.",
+      "rrp": 3360,
+      "category": "automation",
+      "images": [
+        "/assets/biotep-spares/4884-1.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4525",
+      "name": "Датчик температуры воды",
+      "note": "T1/T2, обратка и подача.",
+      "rrp": 1440,
+      "category": "automation",
+      "images": [
+        "/assets/biotep-spares/4525-1.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4008",
+      "name": "Термостат электрический капиллярный предохранительный IMIT",
+      "note": "SCT / STB, выключатель по высокой температуре.",
+      "rrp": 3206.4,
+      "category": "automation",
+      "images": [
+        "/assets/biotep-spares/4008-1.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4250",
+      "name": "Пластина крепления платы",
+      "note": "Основа крепления контроллера BIOTEP 32/25.",
+      "rrp": 480,
+      "category": "body",
+      "images": [
+        "/assets/biotep-spares/4250-1.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4014",
+      "name": "Чашка горелки с уплотнителем",
+      "note": "Чашка горелки в комплекте с уплотнителем.",
+      "rrp": 6912,
+      "category": "burner",
+      "images": [
+        "/assets/biotep-spares/4014-1.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4764",
+      "name": "Корпус горелки для котла BIOTEP 32/25",
+      "note": "Корпус горелки.",
+      "rrp": 11040,
+      "category": "burner",
+      "images": [
+        "/assets/biotep-spares/4764-1.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4332",
+      "name": "Чаша горелки BD C25-04-A6 из нержавеющей стали",
+      "note": "Нержавеющая сталь 4 мм; для BIOTEP 18.",
+      "rrp": 6400.32,
+      "category": "burner",
+      "images": [
+        "/assets/biotep-spares/4332-1.jpg",
+        "/assets/biotep-spares/4332-2.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "5736",
+      "name": "Проставка дымососа BD-N-02-10",
+      "note": "Для разворота дымохода влево; L=120 мм, d136 мм.",
+      "rrp": 5088,
+      "category": "burner",
+      "images": [
+        "/assets/biotep-spares/5736-1.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4381",
+      "name": "Рамка турбуляторов BD-N-12-A1",
+      "note": "Для BIOTEP 32/25.",
+      "rrp": 5088,
+      "category": "body",
+      "images": [
+        "/assets/biotep-spares/4381-1.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4808",
+      "name": "Рычаг турбуляторов BD-N-12-A2",
+      "note": "Два рычага на рамку.",
+      "rrp": 1344,
+      "category": "body",
+      "images": [
+        "/assets/biotep-spares/4808-1.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4247",
+      "name": "Болт M8x20 DIN933, класс прочности 10.9",
+      "note": "Два болта на ось.",
+      "rrp": 7.2,
+      "category": "body",
+      "images": []
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4754",
+      "name": "Ось турбуляторов BD-N-12-07",
+      "note": "Для котла BD-N27C5.",
+      "rrp": 1776,
+      "category": "body",
+      "images": [
+        "/assets/biotep-spares/4754-1.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4873",
+      "name": "Ручка для котла BD-N27C5",
+      "note": "Для BIOTEP 32/25.",
+      "rrp": 1104,
+      "category": "body",
+      "images": [
+        "/assets/biotep-spares/4873-1.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4364",
+      "name": "Ручка цилиндрическая M10x80, бакелит",
+      "note": "Для BIOTEP 32/25.",
+      "rrp": 701.76,
+      "category": "body",
+      "images": [
+        "/assets/biotep-spares/4364-1.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4052",
+      "name": "Турбулятор BD-N-12-09",
+      "note": "30 штук на котёл BIOTEP 32.",
+      "rrp": 441.6,
+      "category": "body",
+      "images": [
+        "/assets/biotep-spares/4052-1.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4400",
+      "name": "Ножка BD-N-03-A2",
+      "note": "Резьба M12.",
+      "rrp": 552,
+      "category": "body",
+      "images": [
+        "/assets/biotep-spares/4400-1.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4075",
+      "name": "Резиновый амортизатор мотора шнека",
+      "note": "Буфер крышки багажника.",
+      "rrp": 552,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/4075-1.jpg"
+      ]
+    },
+    {
+      "page": 3,
+      "manufacturer_article": "4039",
+      "name": "Втулка нижняя BD-N-15-51",
+      "note": "На шнек снизу.",
+      "rrp": 468.48,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/4039-1.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "4048",
+      "name": "Шайба нижняя BD-N-15-57",
+      "note": "На шнек снизу.",
+      "rrp": 72,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/4048-1.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "4040",
+      "name": "Втулка верхняя BD-N-15-52",
+      "note": "На шнек сверху.",
+      "rrp": 468.48,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/4040-1.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "4049",
+      "name": "Шайба верхняя BD-N-15-58",
+      "note": "На шнек сверху.",
+      "rrp": 72,
+      "category": "auger",
+      "images": [
+        "/assets/biotep-spares/4049-1.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "5092",
+      "name": "Теплоизоляция крышки теплообменника 27C5",
+      "note": "Вермикулит, для 27C5.",
+      "rrp": 2400,
+      "category": "insulation",
+      "images": [
+        "/assets/biotep-spares/5092-1.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "5088",
+      "name": "Защита вермикулита крышки теплообменника",
+      "note": "Металл, для BD-27C5.",
+      "rrp": 2196.48,
+      "category": "insulation",
+      "images": [
+        "/assets/biotep-spares/5088-1.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "5093",
+      "name": "Теплоизоляция дверки топки",
+      "note": "Вермикулит, для 27C5 и BD21.",
+      "rrp": 2400,
+      "category": "insulation",
+      "images": [
+        "/assets/biotep-spares/5093-1.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "5089",
+      "name": "Защита вермикулита дверки топки",
+      "note": "Металл, для 27C5 и BD21.",
+      "rrp": 2196.48,
+      "category": "insulation",
+      "images": [
+        "/assets/biotep-spares/5089-1.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "5094",
+      "name": "Теплоизоляция дверки теплообменника 27C5",
+      "note": "Вермикулит, для BD-27C5.",
+      "rrp": 2400,
+      "category": "insulation",
+      "images": [
+        "/assets/biotep-spares/5094-1.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "5096",
+      "name": "Теплоизоляция дверки теплообменника BD21",
+      "note": "Вермикулит, нижняя, для BD21.",
+      "rrp": 2400,
+      "category": "insulation",
+      "images": [
+        "/assets/biotep-spares/5096-1.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "5095",
+      "name": "Теплоизоляция верхней крышки теплообменника BD21",
+      "note": "Вермикулит, верхняя, для BD21.",
+      "rrp": 2400,
+      "category": "insulation",
+      "images": [
+        "/assets/biotep-spares/5095-1.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "4124",
+      "name": "Кожух защиты FAN1 BD-N-25-01",
+      "note": "Устанавливается над FAN1.",
+      "rrp": 288,
+      "category": "body",
+      "images": []
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "4055",
+      "name": "Кронштейн управляющего прессостата BD-N-25-02",
+      "note": "Крепление чёрного прессостата Huba Control.",
+      "rrp": 288,
+      "category": "body",
+      "images": []
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "4789",
+      "name": "Кронштейн реле давления BD-N-13-15",
+      "note": "Крепление серого реле безопасности Huba Control.",
+      "rrp": 288,
+      "category": "body",
+      "images": []
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "5208",
+      "name": "Щиток задний BD-N-13-21M",
+      "note": "Экран защиты электроники.",
+      "rrp": 2400,
+      "category": "body",
+      "images": []
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "5209",
+      "name": "Кожух дисплея BD-N-14-12",
+      "note": "Устанавливается внутри бункера.",
+      "rrp": 480,
+      "category": "body",
+      "images": [
+        "/assets/biotep-spares/5209-1.jpg"
+      ]
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "5181",
+      "name": "Бункер верхний BD-N-14-20",
+      "note": "Бордовый для BIOTEP 32; 910x650x300 мм, 9 кг.",
+      "rrp": 6000,
+      "category": "body",
+      "images": []
+    },
+    {
+      "page": 4,
+      "manufacturer_article": "5051",
+      "name": "Комплект ПВХ-трубок и соединителей",
+      "note": "Полный комплект.",
+      "rrp": 960,
+      "category": "tubes",
+      "images": [
+        "/assets/biotep-spares/5051-1.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "manufacturer_article": "5207",
+      "name": "Трубка прессостата",
+      "note": "Контроль атмосферного давления.",
+      "rrp": 96,
+      "category": "tubes",
+      "images": []
+    },
+    {
+      "page": 5,
+      "manufacturer_article": "4177",
+      "name": "Т-образные разделители для силиконовых трубок 6 мм",
+      "note": "Комплект, пара.",
+      "rrp": 480,
+      "category": "tubes",
+      "images": [
+        "/assets/biotep-spares/4177-1.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "manufacturer_article": "5180",
+      "name": "Уплотнитель чашки горелки BD27C5",
+      "note": "Шнур керамический квадратный 8x8 мм.",
+      "rrp": 1440,
+      "category": "seals",
+      "images": [
+        "/assets/biotep-spares/5180-1.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "manufacturer_article": "",
+      "name": "Уплотнитель дверцы теплообменника",
+      "note": "Уплотнитель дверцы теплообменника.",
+      "rrp": 1440,
+      "category": "seals",
+      "images": [
+        "/assets/biotep-spares/uplotnitel-dvercy-teploobmennika-1.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "manufacturer_article": "6156",
+      "name": "Уплотнитель дверцы топки",
+      "note": "Уплотнитель дверцы топки.",
+      "rrp": 1440,
+      "category": "seals",
+      "images": [
+        "/assets/biotep-spares/6156-1.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "manufacturer_article": "6157",
+      "name": "Уплотнитель крышки теплообменника",
+      "note": "Уплотнитель крышки теплообменника.",
+      "rrp": 1440,
+      "category": "seals",
+      "images": [
+        "/assets/biotep-spares/6157-1.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "manufacturer_article": "5204",
+      "name": "Кабель дисплея",
+      "note": "Кабель дисплея котла BIOTEP.",
+      "rrp": 480,
+      "category": "wires",
+      "images": [
+        "/assets/biotep-spares/5204-1.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "manufacturer_article": "5043",
+      "name": "Провод вентилятора наддува FAN1",
+      "note": "Провод вентилятора наддува.",
+      "rrp": 480,
+      "category": "wires",
+      "images": [
+        "/assets/biotep-spares/5043-1.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "manufacturer_article": "5045",
+      "name": "Провод дымососа FAN2",
+      "note": "Провод вентилятора дымоудаления.",
+      "rrp": 480,
+      "category": "wires",
+      "images": [
+        "/assets/biotep-spares/5045-1.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "manufacturer_article": "5042",
+      "name": "Провод реле давления",
+      "note": "Провод реле давления.",
+      "rrp": 480,
+      "category": "wires",
+      "images": [
+        "/assets/biotep-spares/5042-1.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "manufacturer_article": "5210",
+      "name": "Кабель прессостата Huba",
+      "note": "Кабель прессостата Huba Control.",
+      "rrp": 480,
+      "category": "wires",
+      "images": [
+        "/assets/biotep-spares/5210-1.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "manufacturer_article": "5046",
+      "name": "Провод датчика безопасности IMIT",
+      "note": "Провод датчика безопасности IMIT.",
+      "rrp": 480,
+      "category": "wires",
+      "images": [
+        "/assets/biotep-spares/5046-1.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "manufacturer_article": "5044",
+      "name": "Провод мотор-редуктора",
+      "note": "Провод мотор-редуктора шнека.",
+      "rrp": 480,
+      "category": "wires",
+      "images": [
+        "/assets/biotep-spares/5044-1.jpg"
+      ]
+    },
+    {
+      "page": 5,
+      "manufacturer_article": "5047",
+      "name": "Провод насоса",
+      "note": "Провод циркуляционного насоса.",
+      "rrp": 480,
+      "category": "wires",
+      "images": [
+        "/assets/biotep-spares/5047-1.jpg"
+      ]
+    }
+  ],
+  "excluded_without_rrp": [
+    {
+      "page": 4,
+      "manufacturer_article": "5627",
+      "name": "BD-77-92-001 Экран",
+      "note": "Экран для чаши BIOTEP 77C",
+      "reason": "В прайсе не указана РРЦ"
+    }
+  ],
+  "image_import": {
+    "source": "Фотографии извлечены из товарных строк исходного PDF",
+    "products_with_photos": 74,
+    "products_without_photos": 9,
+    "photo_files": 77,
+    "without_photos": [
+      {
+        "manufacturer_article": "5739",
+        "name": "Воздуховод BD-N-09-A2M"
+      },
+      {
+        "manufacturer_article": "5099",
+        "name": "Мотор-редуктор AC230V/50Hz 7,0 RPM"
+      },
+      {
+        "manufacturer_article": "4247",
+        "name": "Болт M8x20 DIN933, класс прочности 10.9"
+      },
+      {
+        "manufacturer_article": "4124",
+        "name": "Кожух защиты FAN1 BD-N-25-01"
+      },
+      {
+        "manufacturer_article": "4055",
+        "name": "Кронштейн управляющего прессостата BD-N-25-02"
+      },
+      {
+        "manufacturer_article": "4789",
+        "name": "Кронштейн реле давления BD-N-13-15"
+      },
+      {
+        "manufacturer_article": "5208",
+        "name": "Щиток задний BD-N-13-21M"
+      },
+      {
+        "manufacturer_article": "5181",
+        "name": "Бункер верхний BD-N-14-20"
+      },
+      {
+        "manufacturer_article": "5207",
+        "name": "Трубка прессостата"
+      }
+    ]
+  }
+}

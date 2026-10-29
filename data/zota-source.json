@@ -1,0 +1,857 @@
+{
+  "checked_at": "2026-10-22",
+  "category_url": "https://dk-zota.ru/catalog/pelletnye-gorelki",
+  "scope": "All pellet burners and the five related accessory groups shown by the supplier",
+  "category_counts": {
+    "gorelki": 3,
+    "bunker": 8,
+    "mehanizm-podachi": 1,
+    "adapter": 17,
+    "otboynik": 4,
+    "avtomatika-dlya-gorelok": 1
+  },
+  "products": 34,
+  "source_snapshot": [
+    {
+      "slug": "gorelka-pelletnaya-pristavnaya-zota-fox-g2-25-gorelka-kontroller-c-line-pba",
+      "name": "Горелка пеллетная приставная ZOTA FOX G2 - 25 (горелка+Контроллер C-Line PBA)",
+      "manufacturer_article": "ZF4938004025",
+      "source_url": "https://dk-zota.ru/product/gorelka-pelletnaya-pristavnaya-zota-fox-g2-25-gorelka-kontroller-c-line-pba",
+      "category": "gorelki",
+      "category_label": "Пеллетные горелки",
+      "checked_at": "2026-10-22",
+      "price": 87500,
+      "source_availability": "10 шт",
+      "summary": "Пеллетная горелка «FOX G2» предназначена для установки на любые модели твердотопливных котлов ZOTA без чугунной плиты.",
+      "description": "<p>Пеллетная горелка «FOX G2» предназначена для автоматизации котлов ZOTA без чугунной плиты.  В качестве топлива используются пеллеты диаметром 6-8 мм.</p><p><strong>Подходит для:</strong></p><ul><li><a href=\"https://dk-zota.ru/products/tverdotoplivnye/t/specifications--model-3%5B%5D=7633\">Тополь-М</a></li><li><a href=\"https://dk-zota.ru/products/tverdotoplivnye/t/specifications--model-3%5B%5D=7411\">Тополь-ВК</a></li><li><a href=\"https://dk-zota.ru/products/tverdotoplivnye/t/specifications--model-3%5B%5D=8139\">Magna</a></li><li><a href=\"https://dk-zota.ru/products/tverdotoplivnye/t/specifications--model-3%5B%5D=6786\">Bulat</a></li></ul><p>На сегодняшний день компания ZOTA предлагает две модели пеллетной горелки мощностью 25 и 43 кВт. С их помощью можно отапливать помещения площадью от 50 до 430 квадратных метров.</p><p><strong>Пеллетная горелка, установленная на отопительный твердотопливный котел,  превращает его в автоматический и дает возможность:</strong></p><ul><li>снизить расходы на отопление;</li><li>увеличить длительности работы на одной порции топлива до нескольких суток;</li><li>автоматически поддерживать заданную температуру в помещении.</li></ul><p>Регулировка мощности горелки производится с помощью модуля автоматики.</p><p><strong>Пульт управления горелкой обеспечивает следующие функции и обладает следующими отличительными особенностями:</strong></p><ul><li>автоматический поджиг топлива;</li><li> автоматическая модуляция мощности горелки;</li><li>контроль автоподжига и горения с помощью фотоэлемента;</li><li> быстрый старт и остановка горелки;</li><li> небольшая потребляемая мощность от питающей электрической сети;</li><li> наличие функции автоматической очистки горелки;</li><li> наличие механического устройства очистки топки горелки;</li><li> управление насосами трех контуров;</li><li> погодное регулирование;</li><li> встроенный термостат с функцией снижения температуры теплоносителя;</li><li> обеспечение безопасности за счет мониторинга температуры топлива в горелке;</li><li> высокий КПД работы горелки за счет распределенной подачи воздуха в зону горения;</li><li> запись статистки.</li></ul><p>Для монтажа горелки необходим адаптер. Его подбор осуществляется относительно модели котла. На котлы Bulat горелка устанавливается без адаптера. Для увеличения КПД можно подобрать комплект турбулизаторов. Подробно ознакомиться с этим можно в разделе <a href=\"https://dk-zota.ru/catalog/komplektuyushchie-5\"><strong><u>Дополнительные комплектующие</u></strong></a>.</p><p>Существует возможность расширить функционал горелки за счет подключения дополнительных внешних модулей: интернет-модуля, комнатного термостата, модуля управления элементами системы отопления.</p>",
+      "specifications": {
+        "Мощность, кВт": "25",
+        "Автоподжиг": "да",
+        "Гарантия, лет": "1",
+        "Серия": "FOX G2",
+        "Вид топлива (Котлы автоматические универсальные)": "пеллеты",
+        "КПД, % (Котлы автоматические универсальные)": "90",
+        "Срок службы, лет": "10",
+        "Диапазон регулирования температуры воздуха, °C": "2-35",
+        "Объем бункера, л (Котлы автоматические универсальные)": "-",
+        "Габариные размеры (ВхШхГ), мм": "260х245х565",
+        "Диапазон регулирования температуры воды, °C": "40-90",
+        "Горелка (Котлы автоматические универсальные)": "лотковая",
+        "Датчик пламени": "да",
+        "Механизм подачи (Котлы автоматические универсальные)": "двухшнековый",
+        "Обновление ПО": "да",
+        "Управление трехходовым клапаном (Котлы автоматические универсальные)": "да",
+        "Опция бункера с увеличенным размером": "да",
+        "Работа с гидроразделителем и баком-аккумулятором": "да",
+        "Система самоочистки лотка горелки": "кочерга чистки горелки"
+      },
+      "documents": [
+        {
+          "title": "Контроллер C-Line 200PBA Редакция 29-01-2026.pdf",
+          "url": "https://dk-zota.ru/api/storage/entries/4249/files/original/5wDmv2pet86AWjps.pdf"
+        },
+        {
+          "title": "Паспорт ZOTA FOX C-Line редакция от 28-08-2026.pdf",
+          "url": "https://dk-zota.ru/api/storage/entries/4249/files/original/EEjEcbj2aJoExM7E.pdf"
+        }
+      ],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/4249/images/site/NdE0Pc4OEisI7qr6.webp",
+          "sha256": "d033fd7231507991e0b1bf42bbfb37b30fa2716b47ef835ab76ebbe06ebb690d"
+        }
+      ]
+    },
+    {
+      "slug": "gorelka-pelletnaya-pristavnaya-zota-fox-g2-43-gorelka-kontroller-c-line-pba",
+      "name": "Горелка пеллетная приставная ZOTA FOX G2 - 43 (горелка+Контроллер C-Line PBA)",
+      "manufacturer_article": "ZF4938004043",
+      "source_url": "https://dk-zota.ru/product/gorelka-pelletnaya-pristavnaya-zota-fox-g2-43-gorelka-kontroller-c-line-pba",
+      "category": "gorelki",
+      "category_label": "Пеллетные горелки",
+      "checked_at": "2026-10-22",
+      "price": 96400,
+      "source_availability": "под заказ",
+      "summary": "Пеллетная горелка «FOX G2» предназначена для установки на любые модели твердотопливных котлов ZOTA без чугунной плиты.",
+      "description": "<p>Пеллетная горелка «FOX G2» предназначена для автоматизации котлов ZOTA без чугунной плиты.  В качестве топлива используются пеллеты диаметром 6-8 мм.</p><p><strong>Подходит для:</strong></p><ul><li><a href=\"https://dk-zota.ru/products/tverdotoplivnye/t/specifications--model-3%5B%5D=7633\">Тополь-М</a></li><li><a href=\"https://dk-zota.ru/products/tverdotoplivnye/t/specifications--model-3%5B%5D=8139\">Magna</a></li><li><a href=\"https://dk-zota.ru/products/tverdotoplivnye/t/specifications--model-3%5B%5D=6786\">Bulat</a></li></ul><p>На сегодняшний день компания ZOTA предлагает две модели пеллетной горелки мощностью 25 и 43 кВт. С их помощью можно отапливать помещения площадью от 50 до 430 квадратных метров.</p><p><strong>Пеллетная горелка, установленная на отопительный твердотопливный котел,  превращает его в автоматический и дает возможность:</strong></p><ul><li>снизить расходы на отопление;</li><li>увеличить длительности работы на одной порции топлива до нескольких суток;</li><li>автоматически поддерживать заданную температуру в помещении.</li></ul><p>Регулировка мощности горелки производится с помощью модуля автоматики.</p><p><strong>Пульт управления горелкой обеспечивает следующие функции и обладает следующими отличительными особенностями:</strong></p><ul><li>автоматический поджиг топлива;</li><li> автоматическая модуляция мощности горелки;</li><li>контроль автоподжига и горения с помощью фотоэлемента;</li><li> быстрый старт и остановка горелки;</li><li> небольшая потребляемая мощность от питающей электрической сети;</li><li> наличие функции автоматической очистки горелки;</li><li> наличие механического устройства очистки топки горелки;</li><li> управление насосами трех контуров;</li><li> погодное регулирование;</li><li> встроенный термостат с функцией снижения температуры теплоносителя;</li><li> обеспечение безопасности за счет мониторинга температуры топлива в горелке;</li><li> высокий КПД работы горелки за счет распределенной подачи воздуха в зону горения;</li><li> запись статистки.</li></ul><p>Для монтажа горелки необходим адаптер. Его подбор осуществляется относительно модели котла. На котлы Bulat горелка устанавливается без адаптера. Для увеличения КПД можно подобрать комплект турбулизаторов. Подробно ознакомиться с этим можно в разделе <a href=\"https://dk-zota.ru/catalog/komplektuyushchie-5\"><strong><u>Дополнительные комплектующие</u></strong></a>.</p><p>Существует возможность расширить функционал горелки за счет подключения дополнительных внешних модулей: интернет-модуля, комнатного термостата, модуля управления элементами системы отопления.</p>",
+      "specifications": {
+        "Автоподжиг": "да",
+        "Мощность, кВт": "43",
+        "Гарантия, лет": "1",
+        "Серия": "FOX G2",
+        "Вид топлива (Котлы автоматические универсальные)": "пеллеты",
+        "КПД, % (Котлы автоматические универсальные)": "90",
+        "Срок службы, лет": "10",
+        "Диапазон регулирования температуры воздуха, °C": "2-35",
+        "Объем бункера, л (Котлы автоматические универсальные)": "-",
+        "Габариные размеры (ВхШхГ), мм": "260х245х590",
+        "Диапазон регулирования температуры воды, °C": "40-90",
+        "Горелка (Котлы автоматические универсальные)": "лотковая",
+        "Датчик пламени": "да",
+        "Механизм подачи (Котлы автоматические универсальные)": "двухшнековый",
+        "Обновление ПО": "да",
+        "Управление трехходовым клапаном (Котлы автоматические универсальные)": "да",
+        "Опция бункера с увеличенным размером": "да",
+        "Работа с гидроразделителем и баком-аккумулятором": "да",
+        "Система самоочистки лотка горелки": "кочерга чистки горелки"
+      },
+      "documents": [
+        {
+          "title": "Контроллер C-Line 200PBA Редакция 29-01-2026.pdf",
+          "url": "https://dk-zota.ru/api/storage/entries/4251/files/original/MR3M6gyL55Z30DdA.pdf"
+        },
+        {
+          "title": "Паспорт ZOTA FOX C-Line редакция от 28-08-2026.pdf",
+          "url": "https://dk-zota.ru/api/storage/entries/4251/files/original/gJiQ601s7w28i1Wz.pdf"
+        }
+      ],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/4251/images/site/kOkT05Sve4qo22Td.webp",
+          "sha256": "d033fd7231507991e0b1bf42bbfb37b30fa2716b47ef835ab76ebbe06ebb690d"
+        }
+      ]
+    },
+    {
+      "slug": "gorelka-pelletnaya-pristavnaya-zota-ray-g2-25-gorelka-kontroller-c-line-pba",
+      "name": "Горелка пеллетная приставная ZOTA RAY G2 - 25 (горелка+Контроллер C-Line PBA)",
+      "manufacturer_article": "RY4938002025",
+      "source_url": "https://dk-zota.ru/product/gorelka-pelletnaya-pristavnaya-zota-ray-g2-25-gorelka-kontroller-c-line-pba",
+      "category": "gorelki",
+      "category_label": "Пеллетные горелки",
+      "checked_at": "2026-10-22",
+      "price": 101900,
+      "source_availability": "под заказ",
+      "summary": "",
+      "description": "<h4><strong>Описание </strong></h4><p><strong>Функциональность</strong></p><ul><li>пеллетная горелка Ray предназначена для установки на любые модели твердотопливных котлов ZOTA без чугунной плиты и конфорок;</li><li>новая система автоматической очиcтки гарантирует бесперебойную работу при использовании пеллет с высоким содержанием золы (агропеллеты), что достигается применением продувочного вентилятора и автоматического подвижного колосника;</li><li>устанавливается с помощью адаптера. Рядом с котлом размещается бункер, из которого топливо посредством шнековой подачи поступает в горелку;</li><li>топливо:  пеллеты диаметром 6-8 мм (древесные и агропеллеты);</li><li>длительность работы на одной порции топлива до нескольких суток;</li><li>автоматическое поддержание заданной температуры  в помещении;</li><li>автоматический поджиг топлива;</li><li>автоматическая модуляция мощности горелки;</li><li>управление насосами двух контуров (ЦО и ГВС);</li><li>встроенный термостат с функцией снижения температуры теплоносителя;</li><li>возможно подключение дополнительных внешних модулей: интернет модуля, комнатного термостата, модуля управления элементами системы отопления, погодозависимого управления (опционально);</li><li>в базовый комплект входит бункер объемом 200 л, при желании можно укомплектовать горелку бункером большего объема. Адаптер для установки горелки  в комплект не входит;</li></ul><p><strong>Безопасность </strong></p><ul><li>быстрый старт и остановка горелки;</li><li>безопасность за счет мониторинга температуры топлива в горелке;</li><li>запись статистики.</li></ul><p><strong>Надежность  </strong></p><ul><li> контроль автоподжига и горения с помощью фотоэлемента.</li></ul><p><strong>Экономичность</strong></p><ul><li>снижение расходов на отопление;</li><li>высокий КПД работы горелки за счет распределенной подачи воздуха в зону горения;</li><li>небольшая потребляемая мощность от питающей электрической сети.</li></ul>",
+      "specifications": {
+        "Мощность, кВт": "25",
+        "Автоподжиг": "да",
+        "Гарантия, лет": "1",
+        "Серия": "RAY G2",
+        "Вид топлива (Котлы автоматические универсальные)": "пеллеты",
+        "КПД, % (Котлы автоматические универсальные)": "90",
+        "Срок службы, лет": "10",
+        "Диапазон регулирования температуры воздуха, °C": "2-35",
+        "Объем бункера, л (Котлы автоматические универсальные)": "-",
+        "Габариные размеры (ВхШхГ), мм": "260х245х550",
+        "Диапазон регулирования температуры воды, °C": "40-90",
+        "Горелка (Котлы автоматические универсальные)": "лотковая",
+        "Датчик пламени": "да",
+        "Механизм подачи (Котлы автоматические универсальные)": "двухшнековый",
+        "Обновление ПО": "да",
+        "Управление трехходовым клапаном (Котлы автоматические универсальные)": "да",
+        "Опция бункера с увеличенным размером": "да",
+        "Работа с гидроразделителем и баком-аккумулятором": "да",
+        "Система самоочистки лотка горелки": "подвижный лоток с ножом-отбойником"
+      },
+      "documents": [
+        {
+          "title": "Контроллер C-Line 200PBA Редакция 29-01-2026.pdf",
+          "url": "https://dk-zota.ru/api/storage/entries/4264/files/original/ulT7tBU0a9MMhEVu.pdf"
+        },
+        {
+          "title": "Паспорт ZOTA RAY C-Line редакция от 28-08-2026.pdf",
+          "url": "https://dk-zota.ru/api/storage/entries/4264/files/original/Ei6DFngiRfkvLlSt.pdf"
+        }
+      ],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/4264/images/site/A0u5SY6VhZL2SUKY.webp",
+          "sha256": "1dee1e3bc7266c55cbeae6aba3c35fda769fd81b8e6f7048f3b41362ae3abe71"
+        }
+      ]
+    },
+    {
+      "slug": "sekciya-bunkera-zota-fox-ray-200l-dlya-b300",
+      "name": "Дополнительная секция бункера Zota Fox, RAY 200л для бункера 300л",
+      "manufacturer_article": "SB4932000200",
+      "source_url": "https://dk-zota.ru/product/sekciya-bunkera-zota-fox-ray-200l-dlya-b300",
+      "category": "bunker",
+      "category_label": "Бункер",
+      "checked_at": "2026-10-22",
+      "price": 8100,
+      "source_availability": "3 шт",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p>Топливный бункер обеспечивает запас топлива для работы котла и состоит из четырех одинаковых боковых панелей, регулируемых ножек, крышки и приемной горловины. Бункер поставляется в разобранном виде.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/2137/images/site/vkIWceLQr5V08gEF.webp",
+          "sha256": "4c3ba5586e4ea4c5be32ece98087e634b7fa40c6d846d59a8f9b25572d389abf"
+        },
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/2137/images/site/6ykPtuINHlzYF3rm.webp",
+          "sha256": "e661cfcdda1c46cf2d33f5415ce451e83735eb097f8c0be761e4f24472709a6a"
+        }
+      ]
+    },
+    {
+      "slug": "sekciya-bunkera-zota-fox-ray-300l-dlya-b500",
+      "name": "Дополнительная секция бункера Zota Fox, RAY 300л для бункера 500л",
+      "manufacturer_article": "SB4932000300",
+      "source_url": "https://dk-zota.ru/product/sekciya-bunkera-zota-fox-ray-300l-dlya-b500",
+      "category": "bunker",
+      "category_label": "Бункер",
+      "checked_at": "2026-10-22",
+      "price": 10100,
+      "source_availability": "6 шт",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p>Топливный бункер обеспечивает запас топлива для работы котла и состоит из четырех одинаковых боковых панелей, регулируемых ножек, крышки и приемной горловины. Бункер поставляется в разобранном виде.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/2066/images/site/St0jU0NPaurR2UYD.webp",
+          "sha256": "4c3ba5586e4ea4c5be32ece98087e634b7fa40c6d846d59a8f9b25572d389abf"
+        },
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/2066/images/site/H9gnwHfNME5e5wWV.webp",
+          "sha256": "ea3b8b74b401f3c7901f76d5b92fd98be115cd695ce1e044ab1e6fc06549c278"
+        }
+      ]
+    },
+    {
+      "slug": "bunker-gorelki-zota-fox-ray-300l",
+      "name": "Бункер горелки ZOTA Fox, RAY (300л)",
+      "manufacturer_article": "BR4932000300",
+      "source_url": "https://dk-zota.ru/product/bunker-gorelki-zota-fox-ray-300l",
+      "category": "bunker",
+      "category_label": "Бункер",
+      "checked_at": "2026-10-22",
+      "price": 23300,
+      "source_availability": "1 шт",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p>Топливный бункер обеспечивает запас топлива для работы котла и состоит из четырех одинаковых боковых панелей, регулируемых ножек, крышки и приемной горловины. Бункер поставляется в разобранном виде.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/610/images/site/ZhS6RnkB71WmjCXn.webp",
+          "sha256": "40de939c71bfd643944ac1a8f6e02eb38e181bb207c31a8190f0839d3a03230c"
+        },
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/610/images/site/TjE2hkrBi9bbmNym.webp",
+          "sha256": "086264b61d8335936bb03341a78fefddde4ff70acef84a2fb84c4f95b9a184b7"
+        }
+      ]
+    },
+    {
+      "slug": "sekciya-bunkera-zota-fox-ray-150l-dlya-b200",
+      "name": "Дополнительная секция бункера Zota Fox, RAY 150л для бункера 200л",
+      "manufacturer_article": "SB4932000150",
+      "source_url": "https://dk-zota.ru/product/sekciya-bunkera-zota-fox-ray-150l-dlya-b200",
+      "category": "bunker",
+      "category_label": "Бункер",
+      "checked_at": "2026-10-22",
+      "price": 6000,
+      "source_availability": "под заказ",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p>Топливный бункер обеспечивает запас топлива для работы котла и состоит из четырех одинаковых боковых панелей, регулируемых ножек, крышки и приемной горловины. Бункер поставляется в разобранном виде.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/1425/images/site/u7Z02itR3rONCjRP.webp",
+          "sha256": "4c3ba5586e4ea4c5be32ece98087e634b7fa40c6d846d59a8f9b25572d389abf"
+        },
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/1425/images/site/x25WIGaSCBIrPMee.webp",
+          "sha256": "1941d0b2fd836630a02cc063bf1e1b19f868a5158eff607b1e794fb8d46461ac"
+        }
+      ]
+    },
+    {
+      "slug": "sekciya-bunkera-zota-fox-ray-500l-dlya-b800",
+      "name": "Дополнительная секция бункера Zota Fox, RAY 500л для бункера 800л",
+      "manufacturer_article": "SB4932000500",
+      "source_url": "https://dk-zota.ru/product/sekciya-bunkera-zota-fox-ray-500l-dlya-b800",
+      "category": "bunker",
+      "category_label": "Бункер",
+      "checked_at": "2026-10-22",
+      "price": 14100,
+      "source_availability": "под заказ",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p>Топливный бункер обеспечивает запас топлива для работы котла и состоит из четырех одинаковых боковых панелей, регулируемых ножек, крышки и приемной горловины. Бункер поставляется в разобранном виде.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/2743/images/site/QJwPIhL8AlXrkcBZ.webp",
+          "sha256": "4c3ba5586e4ea4c5be32ece98087e634b7fa40c6d846d59a8f9b25572d389abf"
+        },
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/2743/images/site/WTfKr7dyfS8cc14j.webp",
+          "sha256": "3bfc07494c6e326eb11a4b7a41d96f68addc7e179ef7a56fce9b2df2d1add226"
+        }
+      ]
+    },
+    {
+      "slug": "bunker-gorelki-zota-fox-ray-200l",
+      "name": "Бункер горелки ZOTA Fox, RAY 200л",
+      "manufacturer_article": "BR4932000200",
+      "source_url": "https://dk-zota.ru/product/bunker-gorelki-zota-fox-ray-200l",
+      "category": "bunker",
+      "category_label": "Бункер",
+      "checked_at": "2026-10-22",
+      "price": 16200,
+      "source_availability": "под заказ",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p>Топливный бункер обеспечивает запас топлива для работы котла и состоит из четырех одинаковых боковых панелей, регулируемых ножек, крышки и приемной горловины. Бункер поставляется в разобранном виде.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/586/images/site/L8sLVLxdNFvfulkB.webp",
+          "sha256": "40de939c71bfd643944ac1a8f6e02eb38e181bb207c31a8190f0839d3a03230c"
+        },
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/586/images/site/X6fABAAE1knx794W.webp",
+          "sha256": "869b3d16969f613a649b8d0dec7272dbf81f04656daa3f4dca634a3aa47a6307"
+        }
+      ]
+    },
+    {
+      "slug": "bunker-gorelki-zota-fox-ray-500l",
+      "name": "Бункер горелки ZOTA Fox, RAY 500л",
+      "manufacturer_article": "BR4932000500",
+      "source_url": "https://dk-zota.ru/product/bunker-gorelki-zota-fox-ray-500l",
+      "category": "bunker",
+      "category_label": "Бункер",
+      "checked_at": "2026-10-22",
+      "price": 33600,
+      "source_availability": "под заказ",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p>Топливный бункер обеспечивает запас топлива для работы котла и состоит из четырех одинаковых боковых панелей, регулируемых ножек, крышки и приемной горловины. Бункер поставляется в разобранном виде.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/785/images/site/q0Y7l2F5KckOgV3p.webp",
+          "sha256": "faca81ec88971ea7941e2c18e39b7b03b201276ebff8bd26ef683f0444bcb433"
+        },
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/785/images/site/ceX3tD7lDS8O0Tv8.webp",
+          "sha256": "086264b61d8335936bb03341a78fefddde4ff70acef84a2fb84c4f95b9a184b7"
+        }
+      ]
+    },
+    {
+      "slug": "bunker-gorelki-zota-fox-ray-800l",
+      "name": "Бункер горелки ZOTA Fox, RAY 800л",
+      "manufacturer_article": "BR4932000800",
+      "source_url": "https://dk-zota.ru/product/bunker-gorelki-zota-fox-ray-800l",
+      "category": "bunker",
+      "category_label": "Бункер",
+      "checked_at": "2026-10-22",
+      "price": 45800,
+      "source_availability": "под заказ",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p>Топливный бункер обеспечивает запас топлива для работы котла и состоит из четырех одинаковых боковых панелей, регулируемых ножек, крышки и приемной горловины. Бункер поставляется в разобранном виде.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/2439/images/site/4w7pQkf3BZBUVnW2.webp",
+          "sha256": "c026786980e5ff34564b83213d6b65abcc7914892888c6d500b8231a07e4bb5b"
+        },
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/2439/images/site/dEkuWZ3aUfZm7iAG.webp",
+          "sha256": "086264b61d8335936bb03341a78fefddde4ff70acef84a2fb84c4f95b9a184b7"
+        }
+      ]
+    },
+    {
+      "slug": "mehanizm-podachi-zota-fox-ray-s-fiksaciey-shneka",
+      "name": "Механизм подачи Zota FOX; RAY с фиксацией шнека",
+      "manufacturer_article": "ZF4991100031",
+      "source_url": "https://dk-zota.ru/product/mehanizm-podachi-zota-fox-ray-s-fiksaciey-shneka",
+      "category": "mehanizm-podachi",
+      "category_label": "Механизм подачи",
+      "checked_at": "2026-10-22",
+      "price": 18990,
+      "source_availability": "под заказ",
+      "summary": "",
+      "description": "",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/3726/images/site/H3eM8OGBoG8GzeEW.webp",
+          "sha256": "13ea7de6bb938694f5bb3f032064d81f236088b5af819724e7036b57a45174f1"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-fox-25-master-x-14-20",
+      "name": "Адаптер горелки Zota Fox-25 для Master X 14;20",
+      "manufacturer_article": "AD4931121012",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-fox-25-master-x-14-20",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 2290,
+      "source_availability": "2 шт",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Fox для котлов Master X 14, 20</strong></p><p>Адаптер устанавливается вместо серийной двери, поставляемой с твердотопливным котлом ZOTA без механических доработок конструкции и использования специализированного инструмента.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/1801/images/original/nGGwLCfbBOQSGFRb.webp",
+          "sha256": "4d2b0a3775edf1db72d97738d58691edc5b73beec73845d4f50fb2a5ebb5c392"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-ray-25-bulat-18-23-28-v-1-0-0-i-2-0-0-vypusk-do-31-04-2020",
+      "name": "Адаптер горелки Zota RAY-25 для Bulat 18;23;28",
+      "manufacturer_article": "AD4931122001",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-ray-25-bulat-18-23-28-v-1-0-0-i-2-0-0-vypusk-do-31-04-2020",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 3250,
+      "source_availability": "7 шт",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Ray для Bulat 18;23;28</strong></p><p>Адаптер устанавливается вместо серийной двери, поставляемой с твердотопливным котлом ZOTA без механических доработок конструкции и использования специализированного инструмента.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/1297/images/original/d57K0zIhLsBWanXk.webp",
+          "sha256": "a5a85a52a9aff400d95baff96a45bd3cbe9e6bc6bd195defe1ee8536141dbef0"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-fox-25-topol-m-14-20-30-do-31-12-20-master-14-20",
+      "name": "Адаптер горелки Zota Fox-25 для Тополь-М 14;20;30 (до 31.12.20), Master 14;20",
+      "manufacturer_article": "AD4931121001",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-fox-25-topol-m-14-20-30-do-31-12-20-master-14-20",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 3850,
+      "source_availability": "2 шт",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Fox для котлов Тополь-М 14;20;30, Master 14;20</strong></p><p>Адаптер устанавливается вместо серийной двери, поставляемой с твердотопливным котлом ZOTA без механических доработок конструкции и использования специализированного инструмента.</p><h3> </h3>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/622/images/original/ywCenR14R5VmTbxX.webp",
+          "sha256": "b45a87a530f5c0263b829c263f476e2924089090ae08e2f7fa40537e0717ee89"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-fox-25-topol-vk-16-22-32-topol-m-14-20-30-s-01-01-21",
+      "name": "Адаптер горелки Zota Fox-25 для Тополь-ВК 16;22;32, Тополь-М 14;20;30 (с 01.01.21)",
+      "manufacturer_article": "AD4931121007",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-fox-25-topol-vk-16-22-32-topol-m-14-20-30-s-01-01-21",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 3850,
+      "source_availability": "6 шт",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Fox для котлов Тополь-ВК 16;22;32, Тополь-М 14;20;30 (с 01.01.21)</strong></p><p>Адаптер устанавливается вместо серийной двери, поставляемой с твердотопливным котлом ZOTA без механических доработок конструкции и использования специализированного инструмента.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/1962/images/original/TSExYqJuOjvbRLsg.webp",
+          "sha256": "32915fcacfd9add3278cbed4f920e2170716c3c2af28642897cd8d55802c3225"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-fox-25-kupper-ok15-18-20-30-pro22-28",
+      "name": "Адаптер горелки Zota Fox-25 для Куппер ОК15;18;20;30; ПРО22;28",
+      "manufacturer_article": "AD4931121006",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-fox-25-kupper-ok15-18-20-30-pro22-28",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 3850,
+      "source_availability": "2 шт",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Fox для котлов Куппер ОК 15;18;20;30; ПРО 22;28</strong></p><p>Адаптер устанавливается вместо серийной двери, поставляемой с твердотопливным котлом ZOTA без механических доработок конструкции и использования специализированного инструмента.</p><h3> </h3>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/2523/images/original/DFozjqufeFQIWC4Z.webp",
+          "sha256": "c58855ddfbdfefa5abcd202b83c08b194c3bf7fcfe95124e1baf1fbfe78bb35d"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-fox-43-magna-35-45-v2-reguliruemye-petli-s-28-12-2021",
+      "name": "Адаптер горелки Zota Fox-43 для Magna 35, 45 V2 (регулируемые петли)",
+      "manufacturer_article": "AD4931121013",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-fox-43-magna-35-45-v2-reguliruemye-petli-s-28-12-2021",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 4990,
+      "source_availability": "10 шт",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Fox универсальный для котла Magna 35, 45</strong></p><p>Адаптер устанавливается вместо серийной двери, поставляемой с твердотопливным котлом ZOTA без механических доработок конструкции и использования специализированного инструмента.</p><p><strong>Адаптер подходит для котлов Magna 35 и 45, даты выпуска с 28.12.2021 г.</strong></p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/1039/images/original/vTtxfZRSykcy0p4J.webp",
+          "sha256": "626e1d51c2c66c1e32280140aa58f9cfa17fe06bd969ebc3b5af42cfcb1aa1a4"
+        },
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/1039/images/original/ycTz73cXf2Dlp7kd.webp",
+          "sha256": "2c1fafb094960ab238a6376c696982daa4f23d27822aa2f071ad5655ace0fd9c"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-fox-25-magna-15-20-26",
+      "name": "Адаптер горелки Zota Fox-25 для Magna 15;20;26",
+      "manufacturer_article": "AD4931121004",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-fox-25-magna-15-20-26",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 5500,
+      "source_availability": "1 шт",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Fox для котлов Magna 15,20,26</strong></p><p>Адаптер устанавливается вместо серийной двери, поставляемой с твердотопливным котлом ZOTA без механических доработок конструкции и использования специализированного инструмента.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/1517/images/original/8FItY5IgaoOiKDAf.webp",
+          "sha256": "e4adf82f967e85c71fd23007fceec28d67642958652af0fac6ea9749f76540c4"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-ray-25-universalnyy",
+      "name": "Адаптер горелки Zota RAY-25 (универсальный)",
+      "manufacturer_article": "AD4931122004",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-ray-25-universalnyy",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 3050,
+      "source_availability": "под заказ",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Ray универсальный</strong></p><p>Адаптер горелки ZOTA Ray-25 предназначен для установки горелки на различные типы котлов. Адаптер устанавливается на штатную дверцу котла, после предварительной подготовки дверцы, изготовления отверстий для крепления адаптера.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/180/images/original/1uQlj3O2Gw2gMQIE.webp",
+          "sha256": "66dffe842015d38793193723721e53f27abd4affb6d1d4c9ff2d9bbc0e6775ca"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-fox-25-universalnyy",
+      "name": "Адаптер горелки Zota Fox-25 универсальный",
+      "manufacturer_article": "AD4931121005",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-fox-25-universalnyy",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 3050,
+      "source_availability": "под заказ",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Fox универсальный</strong></p><p>Адаптер горелки ZOTA Fox-25 предназначен для установки горелки на различные типы котлов. Адаптер устанавливается на штатную дверцу котла, после предварительной подготовки дверцы, изготовления отверстий для крепления адаптера.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/1515/images/original/L49vV0cHG3TjdHFN.webp",
+          "sha256": "3de439c79d409c05b39268878abf8676e266b2ca31eafca60d28ec707b0fec4b"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-fox-43-universalnyy",
+      "name": "Адаптер горелки Zota Fox-43 (универсальный)",
+      "manufacturer_article": "AD4931121010",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-fox-43-universalnyy",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 3650,
+      "source_availability": "под заказ",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Fox универсальный</strong></p><p>Адаптер горелки ZOTA Fox-43 предназначен для установки горелки на различные типы котлов. Адаптер устанавливается на штатную дверцу котла, после предварительной подготовки дверцы, изготовления отверстий для крепления адаптера.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/1606/images/original/a9P2CqGY7P6VZ4gu.webp",
+          "sha256": "e80c9c6054885a3f04f8df85e6196587f76b8642a6c16b8b5559cf55bc4f0ac3"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-ray-25-kupper-ok15-18-20-30-pro22-28",
+      "name": "Адаптер горелки Zota RAY-25 для Куппер ОК15;18;20;30, ПРО22;28",
+      "manufacturer_article": "AD4931122002",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-ray-25-kupper-ok15-18-20-30-pro22-28",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 3850,
+      "source_availability": "под заказ",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Ray для котлов Куппер ОК 15;18;20;30, ПРО 22;28</strong></p><p>Адаптер горелки ZOTA Ray-25 предназначен для установки горелки на котел Куппер ОК15;18;20;30, ПРО22;28. Адаптер устанавливается на штатную дверцу котла, после предварительной подготовки дверцы, изготовления отверстий для крепления адаптера.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/944/images/original/WuGAVeZdcUYk83Pw.webp",
+          "sha256": "27a72eb88d8de70e3461e22dc50691befc6fce88303c2cf5c4f5450d9f15ec22"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-ray-25-topol-m-14-20-30-topol-vk-16-22-32",
+      "name": "Адаптер горелки Zota RAY-25 для Тополь-М 14;20;30, Тополь-ВК 16;22;32",
+      "manufacturer_article": "AD4931122003",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-ray-25-topol-m-14-20-30-topol-vk-16-22-32",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 4000,
+      "source_availability": "под заказ",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Ray для Тополь-М 14;20;30, Тополь-ВК 16;22;32</strong></p><p>Адаптер устанавливается вместо серийной двери, поставляемой с твердотопливным котлом ZOTA без механических доработок конструкции и использования специализированного инструмента.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/2019/images/original/onFF8i3moVEDpSI4.webp",
+          "sha256": "4e9bad620215ca986f01e21d86e9f1af2479bebf5d436ea2a2c6ef434d168d71"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-fox-25-mix-20-31-5",
+      "name": "Адаптер горелки Zota Fox-25 для Mix 20;31,5",
+      "manufacturer_article": "AD4931121003",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-fox-25-mix-20-31-5",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 5100,
+      "source_availability": "под заказ",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Fox для Mix 20;31,5</strong></p><p>Адаптер горелки ZOTA Fox-25 предназначен для установки горелки на котлы Mix 20;31,5. Адаптер устанавливается на штатную дверцу котла, после предварительной подготовки дверцы, изготовления отверстий для крепления адаптера.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/9/images/original/5kTWu2Ii5iHOAdXO.webp",
+          "sha256": "6cf86a8b13f786cfa2b926ca6bcb3f574c68274001ded9c6c75af511f7ad5611"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-fox-43-topol-m-60",
+      "name": "Адаптер горелки Zota Fox-43 для Тополь-М 60",
+      "manufacturer_article": "AD4931121009",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-fox-43-topol-m-60",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 5100,
+      "source_availability": "под заказ",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Fox универсальный для котла Тополь-М 60</strong></p><p>Адаптер устанавливается вместо серийной двери, поставляемой с твердотопливным котлом ZOTA без механических доработок конструкции и использования специализированного инструмента.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/338/images/original/5ymyBDaa1MOITcan.webp",
+          "sha256": "d7255ed0b48739e2cee2329c601e257722a92e4aac135557b4eb1298be7a3a43"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-fox-43-topol-m-42",
+      "name": "Адаптер горелки Zota Fox-43 для Тополь-М 42",
+      "manufacturer_article": "AD4931121008",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-fox-43-topol-m-42",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 5100,
+      "source_availability": "под заказ",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Fox универсальный для котла Тополь-М 42</strong></p><p>Адаптер устанавливается вместо серийной двери, поставляемой с твердотопливным котлом ZOTA без механических доработок конструкции и использования специализированного инструмента.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/724/images/original/rGP33UFlps2JvRKM.webp",
+          "sha256": "07c2d77d2a6c4f35b1c1fcf59093342fae4b48ea4b3a73bdfe33a987fd4d9831"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-fox-25-mix-40-50",
+      "name": "Адаптер горелки Zota Fox-25 для Mix 40;50",
+      "manufacturer_article": "AD4931121002",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-fox-25-mix-40-50",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 5100,
+      "source_availability": "под заказ",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Fox для Mix 40;50</strong></p><p>Адаптер горелки ZOTA Fox-25 предназначен для установки горелки на котлы Mix 20;31,5. Адаптер устанавливается на штатную дверцу котла, после предварительной подготовки дверцы, изготовления отверстий для крепления адаптера.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/2643/images/original/RP4EELn4jHJKAybM.webp",
+          "sha256": "6ca93d86035a5476786f7bcfd984d5a58bc5ca15661fb3cbe5f458656d54ce67"
+        }
+      ]
+    },
+    {
+      "slug": "adapter-gorelki-zota-fox-43-magna-35-45",
+      "name": "Адаптер горелки Zota Fox-43 для Magna 35, 45 (до 28.12.2021 г.)",
+      "manufacturer_article": "AD4931121011",
+      "source_url": "https://dk-zota.ru/product/adapter-gorelki-zota-fox-43-magna-35-45",
+      "category": "adapter",
+      "category_label": "Адаптер",
+      "checked_at": "2026-10-22",
+      "price": 5950,
+      "source_availability": "под заказ",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p><strong>Адаптер горелки ZOTA Fox универсальный для котла Magna 35, 45</strong></p><p>Адаптер устанавливается вместо серийной двери, поставляемой с твердотопливным котлом ZOTA без механических доработок конструкции и использования специализированного инструмента.</p><p><strong>Адаптер подходит для котлов Magna 35 и 45, даты выпуска до 28.12.2021 г.</strong></p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/2330/images/original/jIFqTQKx09zBe01Q.webp",
+          "sha256": "e2ee1110934a0fb7c83e5a549383f5a167576406a408de83899e5c69bf54db85"
+        },
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/2330/images/original/ykgJ3tuqB4nNqMhW.webp",
+          "sha256": "ab0a2b8d5712e6248ce22d667c1e2a5d5a5ae41837e14fe7797949485b69cbfa"
+        }
+      ]
+    },
+    {
+      "slug": "otboynik-topki-bulat-18-23-28-dlya-fox-ray",
+      "name": "Отбойник топки Bulat-18; 23; 28 для FOX, RAY",
+      "manufacturer_article": "OT4932000028",
+      "source_url": "https://dk-zota.ru/product/otboynik-topki-bulat-18-23-28-dlya-fox-ray",
+      "category": "otboynik",
+      "category_label": "Отбойник",
+      "checked_at": "2026-10-22",
+      "price": 4000,
+      "source_availability": "6 шт",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/2336/images/original/tdzNbwDSczBYbeeA.webp",
+          "sha256": "c37f8515012b7ea49c48fca9085af742660d30f78ad1604e6b4ec0b219cb1db4"
+        }
+      ]
+    },
+    {
+      "slug": "otboynik-topki-bulat-35-dlya-fox-ray",
+      "name": "Отбойник топки Bulat-35 для FOX, RAY",
+      "manufacturer_article": "OT4932000035",
+      "source_url": "https://dk-zota.ru/product/otboynik-topki-bulat-35-dlya-fox-ray",
+      "category": "otboynik",
+      "category_label": "Отбойник",
+      "checked_at": "2026-10-22",
+      "price": 4300,
+      "source_availability": "4 шт",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/853/images/original/tclbU836ef3ragDH.webp",
+          "sha256": "1965ffd323c6340bb5353f25ba34051bda32b5dc3d681d60735f968e9eded3f1"
+        }
+      ]
+    },
+    {
+      "slug": "otboynik-topki-bulat-45-dlya-fox-ray",
+      "name": "Отбойник топки Bulat-45 для FOX, RAY",
+      "manufacturer_article": "OT4932000045",
+      "source_url": "https://dk-zota.ru/product/otboynik-topki-bulat-45-dlya-fox-ray",
+      "category": "otboynik",
+      "category_label": "Отбойник",
+      "checked_at": "2026-10-22",
+      "price": 5100,
+      "source_availability": "2 шт",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/1641/images/original/5gi4sz9opgzXTsgj.webp",
+          "sha256": "b9ce027aafef6e9be9477c814bf6468c50d7511784731305c583d7945d961a86"
+        }
+      ]
+    },
+    {
+      "slug": "otboynik-topki-zota-fox-25-v3",
+      "name": "Отбойник топки Zota Fox-25 V3",
+      "manufacturer_article": "ZF4991100023",
+      "source_url": "https://dk-zota.ru/product/otboynik-topki-zota-fox-25-v3",
+      "category": "otboynik",
+      "category_label": "Отбойник",
+      "checked_at": "2026-10-22",
+      "price": 806,
+      "source_availability": "под заказ",
+      "summary": "Комплектующие для пеллетных горелок",
+      "description": "<p>Отбойник предназначен для установки на горелку ZOTA Fox-25, и обеспечивает фокусировку факела горелки.</p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/1009/images/site/WW2EUYvLiXvi1y8Y.webp",
+          "sha256": "865edeb38e879406efd31142265fe27305e9b2818b8b481e0c22cd1eb18e1b1e"
+        }
+      ]
+    },
+    {
+      "slug": "datchik-pogodozavisimogo-upravleniya-ct-4-p",
+      "name": "Датчик погодозависимого управления CT 4-P",
+      "manufacturer_article": "ZWCT4-P",
+      "source_url": "https://dk-zota.ru/product/datchik-pogodozavisimogo-upravleniya-ct-4-p",
+      "category": "avtomatika-dlya-gorelok",
+      "category_label": "Автоматика для горелок",
+      "checked_at": "2026-10-22",
+      "price": 4080,
+      "source_availability": "под заказ",
+      "summary": "Автоматика для пеллетных горелок",
+      "description": "<h2><strong>Описание</strong></h2>\n\n<p> </p>",
+      "specifications": {},
+      "documents": [],
+      "images": [
+        {
+          "source_url": "https://dk-zota.ru/api/storage/entries/881/images/original/8SdSJH1XKBIQTTfH.webp",
+          "sha256": "608217580b4925697e6b8fb40a54ffbd07ecef8a5ce6cebe9f0a2cc086401326"
+        }
+      ]
+    }
+  ]
+}

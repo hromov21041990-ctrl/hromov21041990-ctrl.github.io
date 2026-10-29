@@ -1,0 +1,22 @@
+[
+  {
+    "id": "pellets-grey",
+    "name": "Серые пеллеты",
+    "category": "2-я категория",
+    "price": 12000,
+    "image": "/assets/archive-44129.webp",
+    "ash": "менее 0,5%",
+    "heat": "более 4500 ккал/кг",
+    "sku": "PG-000138"
+  },
+  {
+    "id": "pellets-white",
+    "name": "Белые пеллеты",
+    "category": "1-я категория",
+    "price": 17000,
+    "image": "/assets/archive-44119.webp",
+    "ash": "менее 0,3%",
+    "heat": "до 4500 ккал/кг",
+    "sku": "PG-000139"
+  }
+]

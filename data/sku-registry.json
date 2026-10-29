@@ -1,0 +1,878 @@
+{
+  "format": "PG-000001",
+  "next_number": 470,
+  "entries": {
+    "equipment:64de7f6f12d6": "PG-000001",
+    "equipment:306fb7b144b2": "PG-000002",
+    "equipment:4e33696dbe72": "PG-000003",
+    "equipment:25b6aed503ff": "PG-000004",
+    "equipment:3f929c1ecd59": "PG-000005",
+    "equipment:3f929c1ecd59:v001:b002": "PG-000006",
+    "equipment:3f929c1ecd59:v001:b003": "PG-000007",
+    "equipment:3f929c1ecd59:v002:b001": "PG-000008",
+    "equipment:3f929c1ecd59:v002:b002": "PG-000009",
+    "equipment:3f929c1ecd59:v002:b003": "PG-000010",
+    "equipment:3f929c1ecd59:v003:b001": "PG-000011",
+    "equipment:3f929c1ecd59:v003:b002": "PG-000012",
+    "equipment:3f929c1ecd59:v003:b003": "PG-000013",
+    "equipment:ea9df0fe7a2f": "PG-000014",
+    "equipment:ea9df0fe7a2f:v001:b002": "PG-000015",
+    "equipment:ea9df0fe7a2f:v001:b003": "PG-000016",
+    "equipment:ea9df0fe7a2f:v002:b001": "PG-000017",
+    "equipment:ea9df0fe7a2f:v002:b002": "PG-000018",
+    "equipment:ea9df0fe7a2f:v002:b003": "PG-000019",
+    "equipment:ea9df0fe7a2f:v003:b001": "PG-000020",
+    "equipment:ea9df0fe7a2f:v003:b002": "PG-000021",
+    "equipment:ea9df0fe7a2f:v003:b003": "PG-000022",
+    "equipment:3d4208e55f66": "PG-000023",
+    "equipment:3d4208e55f66:v001:b002": "PG-000024",
+    "equipment:3d4208e55f66:v001:b003": "PG-000025",
+    "equipment:3d4208e55f66:v002:b001": "PG-000026",
+    "equipment:3d4208e55f66:v002:b002": "PG-000027",
+    "equipment:3d4208e55f66:v002:b003": "PG-000028",
+    "equipment:3d4208e55f66:v003:b001": "PG-000029",
+    "equipment:3d4208e55f66:v003:b002": "PG-000030",
+    "equipment:3d4208e55f66:v003:b003": "PG-000031",
+    "equipment:4c2bfe280ca4": "PG-000032",
+    "equipment:4c2bfe280ca4:v001:b002": "PG-000033",
+    "equipment:4c2bfe280ca4:v001:b003": "PG-000034",
+    "equipment:4c2bfe280ca4:v002:b001": "PG-000035",
+    "equipment:4c2bfe280ca4:v002:b002": "PG-000036",
+    "equipment:4c2bfe280ca4:v002:b003": "PG-000037",
+    "equipment:4c2bfe280ca4:v003:b001": "PG-000038",
+    "equipment:4c2bfe280ca4:v003:b002": "PG-000039",
+    "equipment:4c2bfe280ca4:v003:b003": "PG-000040",
+    "equipment:546fc4f179a2": "PG-000041",
+    "equipment:546fc4f179a2:v001:b002": "PG-000042",
+    "equipment:546fc4f179a2:v001:b003": "PG-000043",
+    "equipment:546fc4f179a2:v002:b001": "PG-000044",
+    "equipment:546fc4f179a2:v002:b002": "PG-000045",
+    "equipment:546fc4f179a2:v002:b003": "PG-000046",
+    "equipment:546fc4f179a2:v003:b001": "PG-000047",
+    "equipment:546fc4f179a2:v003:b002": "PG-000048",
+    "equipment:546fc4f179a2:v003:b003": "PG-000049",
+    "equipment:b3db8fcc94dc": "PG-000050",
+    "equipment:b3db8fcc94dc:v001:b002": "PG-000051",
+    "equipment:b3db8fcc94dc:v001:b003": "PG-000052",
+    "equipment:b3db8fcc94dc:v002:b001": "PG-000053",
+    "equipment:b3db8fcc94dc:v002:b002": "PG-000054",
+    "equipment:b3db8fcc94dc:v002:b003": "PG-000055",
+    "equipment:b3db8fcc94dc:v003:b001": "PG-000056",
+    "equipment:b3db8fcc94dc:v003:b002": "PG-000057",
+    "equipment:b3db8fcc94dc:v003:b003": "PG-000058",
+    "equipment:efe5b1b3421a": "PG-000059",
+    "equipment:efe5b1b3421a:v001:b002": "PG-000060",
+    "equipment:efe5b1b3421a:v001:b003": "PG-000061",
+    "equipment:efe5b1b3421a:v002:b001": "PG-000062",
+    "equipment:efe5b1b3421a:v002:b002": "PG-000063",
+    "equipment:efe5b1b3421a:v002:b003": "PG-000064",
+    "equipment:efe5b1b3421a:v003:b001": "PG-000065",
+    "equipment:efe5b1b3421a:v003:b002": "PG-000066",
+    "equipment:efe5b1b3421a:v003:b003": "PG-000067",
+    "equipment:7c91e6acd91b": "PG-000068",
+    "equipment:c99f84640833": "PG-000069",
+    "equipment:f0e941129519": "PG-000070",
+    "equipment:8110ec555840": "PG-000071",
+    "equipment:1d2371411a14": "PG-000072",
+    "equipment:c0aeee1f4222": "PG-000073",
+    "equipment:0731263a5151": "PG-000074",
+    "equipment:93418e388523": "PG-000075",
+    "equipment:9bd1cbe9e518": "PG-000076",
+    "equipment:b8af7d98f384": "PG-000077",
+    "equipment:f0ee8ebad075": "PG-000078",
+    "equipment:e07dcb6404e2": "PG-000079",
+    "equipment:b53b9992a81b": "PG-000080",
+    "equipment:6246665d3c8f": "PG-000081",
+    "equipment:f789ea86e99f": "PG-000082",
+    "equipment:a68776dac7dc": "PG-000083",
+    "equipment:b25311971c5f": "PG-000084",
+    "equipment:c6e458460e92": "PG-000085",
+    "equipment:0aa86d140699": "PG-000086",
+    "equipment:799be73a9c00": "PG-000087",
+    "equipment:0f73ad00f9ae": "PG-000088",
+    "equipment:fe2b43909293": "PG-000089",
+    "equipment:118382610a5c": "PG-000090",
+    "equipment:9065c56ae4bb": "PG-000091",
+    "equipment:128bdd47e0f7": "PG-000092",
+    "equipment:b519681818da": "PG-000093",
+    "equipment:6bc193a006a9": "PG-000094",
+    "equipment:63b06b949721": "PG-000095",
+    "equipment:7f006a7fc454": "PG-000096",
+    "equipment:82036690e003": "PG-000097",
+    "equipment:0f79ebeb47c6": "PG-000098",
+    "equipment:71f8ce690b88": "PG-000099",
+    "equipment:2a80b11cbe33": "PG-000100",
+    "equipment:0464290399f1": "PG-000101",
+    "equipment:deba0518d828": "PG-000102",
+    "equipment:0dfbe77e9c0b": "PG-000103",
+    "equipment:559f30ba8008": "PG-000104",
+    "equipment:ed6cfd98e8c5": "PG-000105",
+    "equipment:b9f265c2f26a": "PG-000106",
+    "equipment:1ebf781a1ed2": "PG-000107",
+    "equipment:0bedcfeef846": "PG-000108",
+    "equipment:9f517f9755c3": "PG-000109",
+    "equipment:847209a18d46": "PG-000110",
+    "equipment:d1d5d2ea37c0": "PG-000111",
+    "equipment:40bf4a46e41b": "PG-000112",
+    "equipment:01d91ea9bfd8": "PG-000113",
+    "equipment:ace5daa8f936": "PG-000114",
+    "equipment:299de62d5502": "PG-000115",
+    "equipment:713f7494b32c": "PG-000116",
+    "equipment:cd0ad204cca8": "PG-000117",
+    "equipment:d3668ffb06fd": "PG-000118",
+    "equipment:152ee8a6ae71": "PG-000119",
+    "equipment:33432d3204bd": "PG-000120",
+    "equipment:8f5ecb1b60a0": "PG-000121",
+    "equipment:934559fb0611": "PG-000122",
+    "equipment:b24cbd5ff661": "PG-000123",
+    "equipment:f74aa96ae52f": "PG-000124",
+    "equipment:a8e8f77908d9": "PG-000125",
+    "equipment:d2f353514058": "PG-000126",
+    "equipment:5a29f0832e76": "PG-000127",
+    "equipment:30dd745e06a2": "PG-000128",
+    "equipment:ccc44d57c2e4": "PG-000129",
+    "equipment:7dbbad66447f": "PG-000130",
+    "equipment:21e756ce367a": "PG-000131",
+    "equipment:da6df1fda207": "PG-000132",
+    "equipment:368a193ba1e8": "PG-000133",
+    "equipment:aca4ed6bb222": "PG-000134",
+    "equipment:40839d24b10d": "PG-000135",
+    "equipment:e16db5d06fe8": "PG-000136",
+    "equipment:cb7524b41c65": "PG-000137",
+    "pellets:pellets-grey": "PG-000138",
+    "pellets:pellets-white": "PG-000139",
+    "equipment:5b7a2ac0e181": "PG-000140",
+    "equipment:5b7a2ac0e181:v001:b002": "PG-000141",
+    "equipment:5b7a2ac0e181:v001:b003": "PG-000142",
+    "equipment:5b7a2ac0e181:v002:b001": "PG-000143",
+    "equipment:5b7a2ac0e181:v002:b002": "PG-000144",
+    "equipment:5b7a2ac0e181:v002:b003": "PG-000145",
+    "equipment:5b7a2ac0e181:v003:b001": "PG-000146",
+    "equipment:5b7a2ac0e181:v003:b002": "PG-000147",
+    "equipment:5b7a2ac0e181:v003:b003": "PG-000148",
+    "equipment:b928ad151372": "PG-000149",
+    "equipment:b928ad151372:v001:b002": "PG-000150",
+    "equipment:b928ad151372:v001:b003": "PG-000151",
+    "equipment:b928ad151372:v002:b001": "PG-000152",
+    "equipment:b928ad151372:v002:b002": "PG-000153",
+    "equipment:b928ad151372:v002:b003": "PG-000154",
+    "equipment:b928ad151372:v003:b001": "PG-000155",
+    "equipment:b928ad151372:v003:b002": "PG-000156",
+    "equipment:b928ad151372:v003:b003": "PG-000157",
+    "equipment:3b81d4d96e28": "PG-000158",
+    "equipment:3b81d4d96e28:v001:b002": "PG-000159",
+    "equipment:3b81d4d96e28:v001:b003": "PG-000160",
+    "equipment:3b81d4d96e28:v002:b001": "PG-000161",
+    "equipment:3b81d4d96e28:v002:b002": "PG-000162",
+    "equipment:3b81d4d96e28:v002:b003": "PG-000163",
+    "equipment:3b81d4d96e28:v003:b001": "PG-000164",
+    "equipment:3b81d4d96e28:v003:b002": "PG-000165",
+    "equipment:3b81d4d96e28:v003:b003": "PG-000166",
+    "equipment:5c814888e3bd": "PG-000167",
+    "equipment:5c814888e3bd:v001:b002": "PG-000168",
+    "equipment:5c814888e3bd:v001:b003": "PG-000169",
+    "equipment:5c814888e3bd:v002:b001": "PG-000170",
+    "equipment:5c814888e3bd:v002:b002": "PG-000171",
+    "equipment:5c814888e3bd:v002:b003": "PG-000172",
+    "equipment:5c814888e3bd:v003:b001": "PG-000173",
+    "equipment:5c814888e3bd:v003:b002": "PG-000174",
+    "equipment:5c814888e3bd:v003:b003": "PG-000175",
+    "equipment:c14ca463cfa3": "PG-000176",
+    "equipment:c14ca463cfa3:v001:b002": "PG-000177",
+    "equipment:c14ca463cfa3:v002:b001": "PG-000178",
+    "equipment:c14ca463cfa3:v002:b002": "PG-000179",
+    "equipment:c14ca463cfa3:v003:b001": "PG-000180",
+    "equipment:c14ca463cfa3:v003:b002": "PG-000181",
+    "equipment:a13e4d7b7ca1": "PG-000182",
+    "equipment:a13e4d7b7ca1:v001:b002": "PG-000183",
+    "equipment:a13e4d7b7ca1:v002:b001": "PG-000184",
+    "equipment:a13e4d7b7ca1:v002:b002": "PG-000185",
+    "equipment:a13e4d7b7ca1:v003:b001": "PG-000186",
+    "equipment:a13e4d7b7ca1:v003:b002": "PG-000187",
+    "equipment:c8838d531a11": "PG-000188",
+    "equipment:c8838d531a11:v001:b002": "PG-000189",
+    "equipment:c8838d531a11:v002:b001": "PG-000190",
+    "equipment:c8838d531a11:v002:b002": "PG-000191",
+    "equipment:c8838d531a11:v003:b001": "PG-000192",
+    "equipment:c8838d531a11:v003:b002": "PG-000193",
+    "equipment:563c8aea9e48": "PG-000194",
+    "equipment:563c8aea9e48:v001:b002": "PG-000195",
+    "equipment:563c8aea9e48:v002:b001": "PG-000196",
+    "equipment:563c8aea9e48:v002:b002": "PG-000197",
+    "equipment:563c8aea9e48:v003:b001": "PG-000198",
+    "equipment:563c8aea9e48:v003:b002": "PG-000199",
+    "equipment:98e7b1f0b829": "PG-000200",
+    "equipment:98e7b1f0b829:v002:b001": "PG-000201",
+    "equipment:98e7b1f0b829:v003:b001": "PG-000202",
+    "equipment:0170bad5a07d": "PG-000203",
+    "equipment:0170bad5a07d:v002:b001": "PG-000204",
+    "equipment:c99f84640833:v001:b002": "PG-000205",
+    "equipment:c99f84640833:v001:b003": "PG-000206",
+    "equipment:c99f84640833:v001:b004": "PG-000207",
+    "equipment:f0e941129519:v001:b002": "PG-000208",
+    "equipment:f0e941129519:v001:b003": "PG-000209",
+    "equipment:85f07ccceda7": "PG-000210",
+    "equipment:85f07ccceda7:v001:b002": "PG-000211",
+    "equipment:85f07ccceda7:v001:b003": "PG-000212",
+    "equipment:85f07ccceda7:v001:b004": "PG-000213",
+    "equipment:52aa78740202": "PG-000214",
+    "equipment:52aa78740202:v001:b002": "PG-000215",
+    "equipment:52aa78740202:v001:b003": "PG-000216",
+    "equipment:8110ec555840:v001:b002": "PG-000217",
+    "equipment:8a1a929ddcf2": "PG-000218",
+    "equipment:8a1a929ddcf2:v001:b002": "PG-000219",
+    "equipment:8a1a929ddcf2:v001:b003": "PG-000220",
+    "equipment:375a90bd8776": "PG-000221",
+    "equipment:375a90bd8776:v001:b002": "PG-000222",
+    "equipment:375a90bd8776:v001:b003": "PG-000223",
+    "equipment:3dc7f8a59995": "PG-000224",
+    "equipment:18469fb825e0": "PG-000225",
+    "equipment:18469fb825e0:v001:b002": "PG-000226",
+    "equipment:aced51ee6941": "PG-000227",
+    "equipment:af284e3b9a93": "PG-000228",
+    "equipment:780ddd65023b": "PG-000229",
+    "equipment:ebdeeb55a756": "PG-000230",
+    "equipment:ef072539d916": "PG-000231",
+    "equipment:cdba7b3f9f21": "PG-000232",
+    "equipment:740c6498a2c8": "PG-000233",
+    "equipment:74c97eb210aa": "PG-000234",
+    "equipment:39a2fe22c819": "PG-000235",
+    "equipment:46c9a4f121f2": "PG-000236",
+    "equipment:a9816209616b": "PG-000237",
+    "equipment:381b47fac7bc": "PG-000238",
+    "equipment:bc85ed0e1137": "PG-000239",
+    "equipment:25b5e274e09b": "PG-000240",
+    "equipment:274aa6e962ef": "PG-000241",
+    "equipment:6b2f06fd2774": "PG-000242",
+    "equipment:9d264a0d46e8": "PG-000243",
+    "equipment:297a85789264": "PG-000244",
+    "equipment:029d03419554": "PG-000245",
+    "equipment:3d3a9e1885e4": "PG-000246",
+    "equipment:0c1e8a8d212c": "PG-000247",
+    "equipment:7ab329b1479e": "PG-000248",
+    "equipment:eaca4b8740ab": "PG-000249",
+    "equipment:1de3d0312498": "PG-000250",
+    "equipment:8adc5192eca9": "PG-000251",
+    "equipment:ec945e18e148": "PG-000252",
+    "equipment:4d790c108ed2": "PG-000253",
+    "equipment:1c665e2d69e2": "PG-000254",
+    "equipment:89314fb22013": "PG-000255",
+    "equipment:a536f6055539": "PG-000256",
+    "equipment:2dfc35dfe426": "PG-000257",
+    "equipment:94c5742366b1": "PG-000258",
+    "equipment:01a9c55d9813": "PG-000259",
+    "equipment:61e6a5b9fa93": "PG-000260",
+    "equipment:biotep-spare-4002": "PG-000261",
+    "equipment:biotep-spare-4003": "PG-000262",
+    "equipment:biotep-spare-4918": "PG-000263",
+    "equipment:biotep-spare-5037": "PG-000264",
+    "equipment:biotep-spare-4814": "PG-000265",
+    "equipment:biotep-spare-5739": "PG-000266",
+    "equipment:biotep-spare-4005": "PG-000267",
+    "equipment:biotep-spare-4015": "PG-000268",
+    "equipment:biotep-spare-4006": "PG-000269",
+    "equipment:biotep-spare-4399": "PG-000270",
+    "equipment:biotep-spare-4879": "PG-000271",
+    "equipment:biotep-spare-5038": "PG-000272",
+    "equipment:biotep-spare-4920": "PG-000273",
+    "equipment:biotep-spare-5099": "PG-000274",
+    "equipment:biotep-spare-5040": "PG-000275",
+    "equipment:biotep-spare-5217": "PG-000276",
+    "equipment:biotep-spare-5041": "PG-000277",
+    "equipment:biotep-spare-5039": "PG-000278",
+    "equipment:biotep-spare-5728": "PG-000279",
+    "equipment:biotep-spare-5729": "PG-000280",
+    "equipment:biotep-spare-5916": "PG-000281",
+    "equipment:biotep-spare-4862": "PG-000282",
+    "equipment:biotep-spare-5218": "PG-000283",
+    "equipment:biotep-spare-4712": "PG-000284",
+    "equipment:biotep-spare-4036": "PG-000285",
+    "equipment:biotep-spare-4713": "PG-000286",
+    "equipment:biotep-spare-4037": "PG-000287",
+    "equipment:biotep-spare-4011": "PG-000288",
+    "equipment:biotep-spare-5982": "PG-000289",
+    "equipment:biotep-spare-4529": "PG-000290",
+    "equipment:biotep-spare-4730": "PG-000291",
+    "equipment:biotep-spare-6264": "PG-000292",
+    "equipment:biotep-spare-4919": "PG-000293",
+    "equipment:biotep-spare-4883": "PG-000294",
+    "equipment:biotep-spare-4884": "PG-000295",
+    "equipment:biotep-spare-4525": "PG-000296",
+    "equipment:biotep-spare-4008": "PG-000297",
+    "equipment:biotep-spare-4250": "PG-000298",
+    "equipment:biotep-spare-4014": "PG-000299",
+    "equipment:biotep-spare-4764": "PG-000300",
+    "equipment:biotep-spare-4332": "PG-000301",
+    "equipment:biotep-spare-5736": "PG-000302",
+    "equipment:biotep-spare-4381": "PG-000303",
+    "equipment:biotep-spare-4808": "PG-000304",
+    "equipment:biotep-spare-4247": "PG-000305",
+    "equipment:biotep-spare-4754": "PG-000306",
+    "equipment:biotep-spare-4873": "PG-000307",
+    "equipment:biotep-spare-4364": "PG-000308",
+    "equipment:biotep-spare-4052": "PG-000309",
+    "equipment:biotep-spare-4400": "PG-000310",
+    "equipment:biotep-spare-4075": "PG-000311",
+    "equipment:biotep-spare-4039": "PG-000312",
+    "equipment:biotep-spare-4048": "PG-000313",
+    "equipment:biotep-spare-4040": "PG-000314",
+    "equipment:biotep-spare-4049": "PG-000315",
+    "equipment:biotep-spare-5092": "PG-000316",
+    "equipment:biotep-spare-5088": "PG-000317",
+    "equipment:biotep-spare-5093": "PG-000318",
+    "equipment:biotep-spare-5089": "PG-000319",
+    "equipment:biotep-spare-5094": "PG-000320",
+    "equipment:biotep-spare-5096": "PG-000321",
+    "equipment:biotep-spare-5095": "PG-000322",
+    "equipment:biotep-spare-4124": "PG-000323",
+    "equipment:biotep-spare-4055": "PG-000324",
+    "equipment:biotep-spare-4789": "PG-000325",
+    "equipment:biotep-spare-5208": "PG-000326",
+    "equipment:biotep-spare-5209": "PG-000327",
+    "equipment:biotep-spare-5181": "PG-000328",
+    "equipment:biotep-spare-5051": "PG-000329",
+    "equipment:biotep-spare-5207": "PG-000330",
+    "equipment:biotep-spare-4177": "PG-000331",
+    "equipment:biotep-spare-5180": "PG-000332",
+    "equipment:biotep-spare-no-code-f064283d10": "PG-000333",
+    "equipment:biotep-spare-6156": "PG-000334",
+    "equipment:biotep-spare-6157": "PG-000335",
+    "equipment:biotep-spare-5204": "PG-000336",
+    "equipment:biotep-spare-5043": "PG-000337",
+    "equipment:biotep-spare-5045": "PG-000338",
+    "equipment:biotep-spare-5042": "PG-000339",
+    "equipment:biotep-spare-5210": "PG-000340",
+    "equipment:biotep-spare-5046": "PG-000341",
+    "equipment:biotep-spare-5044": "PG-000342",
+    "equipment:biotep-spare-5047": "PG-000343",
+    "equipment:vulkan-spare-pg-000344": "PG-000344",
+    "equipment:vulkan-spare-pg-000345": "PG-000345",
+    "equipment:vulkan-spare-pg-000346": "PG-000346",
+    "equipment:vulkan-spare-pg-000347": "PG-000347",
+    "equipment:vulkan-spare-pg-000348": "PG-000348",
+    "equipment:vulkan-spare-pg-000349": "PG-000349",
+    "equipment:vulkan-spare-pg-000350": "PG-000350",
+    "equipment:vulkan-spare-pg-000351": "PG-000351",
+    "equipment:vulkan-spare-pg-000352": "PG-000352",
+    "equipment:vulkan-spare-pg-000353": "PG-000353",
+    "equipment:vulkan-spare-pg-000354": "PG-000354",
+    "equipment:vulkan-spare-pg-000355": "PG-000355",
+    "equipment:vulkan-spare-pg-000356": "PG-000356",
+    "equipment:vulkan-spare-pg-000357": "PG-000357",
+    "equipment:vulkan-spare-pg-000358": "PG-000358",
+    "equipment:vulkan-spare-pg-000359": "PG-000359",
+    "equipment:vulkan-spare-pg-000360": "PG-000360",
+    "equipment:vulkan-spare-pg-000361": "PG-000361",
+    "equipment:vulkan-spare-pg-000362": "PG-000362",
+    "equipment:vulkan-spare-pg-000363": "PG-000363",
+    "equipment:vulkan-spare-pg-000364": "PG-000364",
+    "equipment:vulkan-spare-pg-000365": "PG-000365",
+    "equipment:vulkan-spare-pg-000366": "PG-000366",
+    "equipment:vulkan-spare-pg-000367": "PG-000367",
+    "equipment:vulkan-spare-pg-000368": "PG-000368",
+    "equipment:vulkan-spare-pg-000369": "PG-000369",
+    "equipment:vulkan-spare-pg-000370": "PG-000370",
+    "equipment:vulkan-spare-pg-000371": "PG-000371",
+    "equipment:vulkan-spare-pg-000372": "PG-000372",
+    "equipment:vulkan-spare-pg-000373": "PG-000373",
+    "equipment:vulkan-spare-pg-000374": "PG-000374",
+    "equipment:vulkan-spare-pg-000375": "PG-000375",
+    "equipment:vulkan-spare-pg-000376": "PG-000376",
+    "equipment:vulkan-spare-pg-000377": "PG-000377",
+    "equipment:vulkan-spare-pg-000378": "PG-000378",
+    "equipment:vulkan-spare-pg-000379": "PG-000379",
+    "equipment:vulkan-spare-pg-000380": "PG-000380",
+    "equipment:vulkan-spare-pg-000381": "PG-000381",
+    "equipment:vulkan-spare-pg-000382": "PG-000382",
+    "equipment:vulkan-spare-pg-000383": "PG-000383",
+    "equipment:vulkan-spare-pg-000384": "PG-000384",
+    "equipment:vulkan-spare-pg-000385": "PG-000385",
+    "equipment:vulkan-spare-pg-000386": "PG-000386",
+    "equipment:vulkan-spare-pg-000387": "PG-000387",
+    "equipment:vulkan-spare-pg-000388": "PG-000388",
+    "equipment:vulkan-spare-pg-000389": "PG-000389",
+    "equipment:vulkan-spare-pg-000390": "PG-000390",
+    "equipment:vulkan-spare-pg-000391": "PG-000391",
+    "equipment:vulkan-spare-pg-000392": "PG-000392",
+    "equipment:vulkan-spare-pg-000393": "PG-000393",
+    "equipment:vulkan-spare-pg-000394": "PG-000394",
+    "equipment:vulkan-spare-pg-000395": "PG-000395",
+    "equipment:vulkan-spare-pg-000396": "PG-000396",
+    "equipment:vulkan-spare-pg-000397": "PG-000397",
+    "equipment:vulkan-spare-pg-000398": "PG-000398",
+    "equipment:vulkan-spare-pg-000399": "PG-000399",
+    "equipment:vulkan-spare-pg-000400": "PG-000400",
+    "equipment:vulkan-spare-pg-000401": "PG-000401",
+    "equipment:vulkan-spare-pg-000402": "PG-000402",
+    "equipment:vulkan-spare-pg-000403": "PG-000403",
+    "equipment:vulkan-spare-pg-000404": "PG-000404",
+    "equipment:vulkan-spare-pg-000405": "PG-000405",
+    "equipment:vulkan-spare-pg-000406": "PG-000406",
+    "equipment:vulkan-spare-pg-000407": "PG-000407",
+    "equipment:vulkan-spare-pg-000408": "PG-000408",
+    "equipment:vulkan-spare-pg-000409": "PG-000409",
+    "equipment:vulkan-spare-pg-000410": "PG-000410",
+    "equipment:vulkan-spare-pg-000411": "PG-000411",
+    "equipment:vulkan-spare-pg-000412": "PG-000412",
+    "equipment:vulkan-spare-pg-000413": "PG-000413",
+    "equipment:vulkan-spare-pg-000414": "PG-000414",
+    "equipment:vulkan-spare-pg-000415": "PG-000415",
+    "equipment:vulkan-spare-pg-000416": "PG-000416",
+    "equipment:vulkan-spare-pg-000417": "PG-000417",
+    "equipment:vulkan-spare-pg-000418": "PG-000418",
+    "equipment:vulkan-spare-pg-000419": "PG-000419",
+    "equipment:vulkan-spare-pg-000420": "PG-000420",
+    "equipment:vulkan-spare-pg-000421": "PG-000421",
+    "equipment:vulkan-spare-pg-000422": "PG-000422",
+    "equipment:vulkan-spare-pg-000423": "PG-000423",
+    "equipment:vulkan-spare-pg-000424": "PG-000424",
+    "equipment:vulkan-spare-pg-000425": "PG-000425",
+    "equipment:vulkan-spare-pg-000426": "PG-000426",
+    "equipment:vulkan-spare-pg-000427": "PG-000427",
+    "equipment:vulkan-spare-pg-000428": "PG-000428",
+    "equipment:vulkan-spare-pg-000429": "PG-000429",
+    "equipment:vulkan-spare-pg-000430": "PG-000430",
+    "equipment:vulkan-spare-pg-000431": "PG-000431",
+    "equipment:vulkan-spare-pg-000432": "PG-000432",
+    "equipment:vulkan-spare-pg-000433": "PG-000433",
+    "equipment:vulkan-spare-pg-000434": "PG-000434",
+    "equipment:vulkan-spare-pg-000435": "PG-000435",
+    "equipment:vulkan-spare-pg-000436": "PG-000436",
+    "equipment:vulkan-spare-pg-000437": "PG-000437",
+    "equipment:vulkan-spare-pg-000438": "PG-000438",
+    "equipment:vulkan-spare-pg-000439": "PG-000439",
+    "equipment:vulkan-spare-pg-000440": "PG-000440",
+    "equipment:vulkan-spare-pg-000441": "PG-000441",
+    "equipment:vulkan-spare-pg-000442": "PG-000442",
+    "equipment:vulkan-spare-pg-000443": "PG-000443",
+    "equipment:vulkan-spare-pg-000444": "PG-000444",
+    "equipment:vulkan-spare-pg-000445": "PG-000445",
+    "equipment:vulkan-spare-pg-000446": "PG-000446",
+    "equipment:vulkan-spare-pg-000447": "PG-000447",
+    "equipment:vulkan-spare-pg-000448": "PG-000448",
+    "equipment:vulkan-spare-pg-000449": "PG-000449",
+    "equipment:vulkan-spare-pg-000450": "PG-000450",
+    "equipment:vulkan-spare-pg-000451": "PG-000451",
+    "equipment:vulkan-spare-pg-000452": "PG-000452",
+    "equipment:vulkan-spare-pg-000453": "PG-000453",
+    "equipment:vulkan-spare-pg-000454": "PG-000454",
+    "equipment:vulkan-spare-pg-000455": "PG-000455",
+    "equipment:vulkan-spare-pg-000456": "PG-000456",
+    "equipment:vulkan-spare-pg-000457": "PG-000457",
+    "equipment:vulkan-spare-pg-000458": "PG-000458",
+    "equipment:vulkan-spare-pg-000459": "PG-000459",
+    "equipment:vulkan-spare-pg-000460": "PG-000460",
+    "equipment:vulkan-spare-pg-000461": "PG-000461",
+    "equipment:vulkan-spare-pg-000462": "PG-000462",
+    "equipment:vulkan-spare-pg-000463": "PG-000463",
+    "equipment:vulkan-spare-pg-000464": "PG-000464",
+    "equipment:vulkan-spare-pg-000465": "PG-000465",
+    "equipment:vulkan-spare-pg-000466": "PG-000466",
+    "equipment:vulkan-spare-pg-000467": "PG-000467",
+    "equipment:vulkan-spare-pg-000468": "PG-000468",
+    "equipment:vulkan-spare-pg-000469": "PG-000469"
+  },
+  "option_ids": {
+    "equipment:3f929c1ecd59": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002",
+        "Ottima": "v003"
+      },
+      "bunkers": {
+        "0.5 м3": "b001",
+        "1 м3": "b002",
+        "2 м3": "b003"
+      }
+    },
+    "equipment:ea9df0fe7a2f": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002",
+        "Ottima": "v003"
+      },
+      "bunkers": {
+        "0.5 м3": "b001",
+        "1 м3": "b002",
+        "2 м3": "b003"
+      }
+    },
+    "equipment:3d4208e55f66": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002",
+        "Ottima": "v003"
+      },
+      "bunkers": {
+        "0.5 м3": "b001",
+        "1 м3": "b002",
+        "2 м3": "b003"
+      }
+    },
+    "equipment:4c2bfe280ca4": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002",
+        "Ottima": "v003"
+      },
+      "bunkers": {
+        "0.5 м3": "b001",
+        "1 м3": "b002",
+        "2 м3": "b003"
+      }
+    },
+    "equipment:546fc4f179a2": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002",
+        "Ottima": "v003"
+      },
+      "bunkers": {
+        "0.5 м3": "b001",
+        "1 м3": "b002",
+        "2 м3": "b003"
+      }
+    },
+    "equipment:b3db8fcc94dc": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002",
+        "Ottima": "v003"
+      },
+      "bunkers": {
+        "0.5 м3": "b001",
+        "1 м3": "b002",
+        "2 м3": "b003"
+      }
+    },
+    "equipment:efe5b1b3421a": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002",
+        "Ottima": "v003"
+      },
+      "bunkers": {
+        "0.5 м3": "b001",
+        "1 м3": "b002",
+        "2 м3": "b003"
+      }
+    },
+    "equipment:7c91e6acd91b": {
+      "variants": {
+        "Ottima": "v001"
+      },
+      "bunkers": {
+        "300 л": "b001"
+      }
+    },
+    "equipment:5b7a2ac0e181": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002",
+        "Ottima": "v003"
+      },
+      "bunkers": {
+        "0.5 м3": "b001",
+        "1 м3": "b002",
+        "2 м3": "b003"
+      }
+    },
+    "equipment:b928ad151372": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002",
+        "Ottima": "v003"
+      },
+      "bunkers": {
+        "0.5 м3": "b001",
+        "1 м3": "b002",
+        "2 м3": "b003"
+      }
+    },
+    "equipment:3b81d4d96e28": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002",
+        "Ottima": "v003"
+      },
+      "bunkers": {
+        "0.5 м3": "b001",
+        "1 м3": "b002",
+        "2 м3": "b003"
+      }
+    },
+    "equipment:5c814888e3bd": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002",
+        "Ottima": "v003"
+      },
+      "bunkers": {
+        "0.5 м3": "b001",
+        "1 м3": "b002",
+        "2 м3": "b003"
+      }
+    },
+    "equipment:c14ca463cfa3": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002",
+        "Ottima": "v003"
+      },
+      "bunkers": {
+        "1 м3": "b001",
+        "2 м3": "b002"
+      }
+    },
+    "equipment:a13e4d7b7ca1": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002",
+        "Ottima": "v003"
+      },
+      "bunkers": {
+        "1 м3": "b001",
+        "2 м3": "b002"
+      }
+    },
+    "equipment:c8838d531a11": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002",
+        "Ottima": "v003"
+      },
+      "bunkers": {
+        "1 м3": "b001",
+        "2 м3": "b002"
+      }
+    },
+    "equipment:563c8aea9e48": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002",
+        "Ottima": "v003"
+      },
+      "bunkers": {
+        "1 м3": "b001",
+        "2 м3": "b002"
+      }
+    },
+    "equipment:98e7b1f0b829": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002",
+        "Ottima": "v003"
+      },
+      "bunkers": {
+        "2000 л": "b001"
+      }
+    },
+    "equipment:0170bad5a07d": {
+      "variants": {
+        "Base": "v001",
+        "Classico": "v002"
+      },
+      "bunkers": {
+        "2500 л": "b001"
+      }
+    },
+    "equipment:c99f84640833": {
+      "variants": {
+        "Базовая комплектация": "v001"
+      },
+      "bunkers": {
+        "200 л": "b001",
+        "300 л": "b002",
+        "400 л": "b003",
+        "600 л": "b004"
+      }
+    },
+    "equipment:f0e941129519": {
+      "variants": {
+        "Базовая комплектация": "v001"
+      },
+      "bunkers": {
+        "300 л": "b001",
+        "400 л": "b002",
+        "600 л": "b003"
+      }
+    },
+    "equipment:85f07ccceda7": {
+      "variants": {
+        "Базовая комплектация": "v001"
+      },
+      "bunkers": {
+        "200 л": "b001",
+        "300 л": "b002",
+        "400 л": "b003",
+        "600 л": "b004"
+      }
+    },
+    "equipment:52aa78740202": {
+      "variants": {
+        "Базовая комплектация": "v001"
+      },
+      "bunkers": {
+        "300 л": "b001",
+        "400 л": "b002",
+        "600 л": "b003"
+      }
+    },
+    "equipment:8110ec555840": {
+      "variants": {
+        "Базовая комплектация": "v001"
+      },
+      "bunkers": {
+        "400 л": "b001",
+        "600 л": "b002"
+      }
+    },
+    "equipment:8a1a929ddcf2": {
+      "variants": {
+        "Базовая комплектация": "v001"
+      },
+      "bunkers": {
+        "400 л": "b001",
+        "700 л": "b002",
+        "1500 л": "b003"
+      }
+    },
+    "equipment:375a90bd8776": {
+      "variants": {
+        "Базовая комплектация": "v001"
+      },
+      "bunkers": {
+        "400 л": "b001",
+        "700 л": "b002",
+        "1500 л": "b003"
+      }
+    },
+    "equipment:3dc7f8a59995": {
+      "variants": {
+        "Базовая комплектация": "v001"
+      },
+      "bunkers": {
+        "400 л": "b001"
+      }
+    },
+    "equipment:18469fb825e0": {
+      "variants": {
+        "Базовая комплектация": "v001"
+      },
+      "bunkers": {
+        "800 л": "b001",
+        "1500 л": "b002"
+      }
+    }
+  },
+  "default_offers": {
+    "equipment:3f929c1ecd59": [
+      "v001",
+      "b001"
+    ],
+    "equipment:ea9df0fe7a2f": [
+      "v001",
+      "b001"
+    ],
+    "equipment:3d4208e55f66": [
+      "v001",
+      "b001"
+    ],
+    "equipment:4c2bfe280ca4": [
+      "v001",
+      "b001"
+    ],
+    "equipment:546fc4f179a2": [
+      "v001",
+      "b001"
+    ],
+    "equipment:b3db8fcc94dc": [
+      "v001",
+      "b001"
+    ],
+    "equipment:efe5b1b3421a": [
+      "v001",
+      "b001"
+    ],
+    "equipment:7c91e6acd91b": [
+      "v001",
+      "b001"
+    ],
+    "equipment:5b7a2ac0e181": [
+      "v001",
+      "b001"
+    ],
+    "equipment:b928ad151372": [
+      "v001",
+      "b001"
+    ],
+    "equipment:3b81d4d96e28": [
+      "v001",
+      "b001"
+    ],
+    "equipment:5c814888e3bd": [
+      "v001",
+      "b001"
+    ],
+    "equipment:c14ca463cfa3": [
+      "v001",
+      "b001"
+    ],
+    "equipment:a13e4d7b7ca1": [
+      "v001",
+      "b001"
+    ],
+    "equipment:c8838d531a11": [
+      "v001",
+      "b001"
+    ],
+    "equipment:563c8aea9e48": [
+      "v001",
+      "b001"
+    ],
+    "equipment:98e7b1f0b829": [
+      "v001",
+      "b001"
+    ],
+    "equipment:0170bad5a07d": [
+      "v001",
+      "b001"
+    ],
+    "equipment:c99f84640833": [
+      "v001",
+      "b001"
+    ],
+    "equipment:f0e941129519": [
+      "v001",
+      "b001"
+    ],
+    "equipment:85f07ccceda7": [
+      "v001",
+      "b001"
+    ],
+    "equipment:52aa78740202": [
+      "v001",
+      "b001"
+    ],
+    "equipment:8110ec555840": [
+      "v001",
+      "b001"
+    ],
+    "equipment:8a1a929ddcf2": [
+      "v001",
+      "b001"
+    ],
+    "equipment:375a90bd8776": [
+      "v001",
+      "b001"
+    ],
+    "equipment:3dc7f8a59995": [
+      "v001",
+      "b001"
+    ],
+    "equipment:18469fb825e0": [
+      "v001",
+      "b001"
+    ]
+  }
+}

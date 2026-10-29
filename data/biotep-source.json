@@ -1,0 +1,187 @@
+{
+  "checked_at": "2026-10-22",
+  "category_url": "https://bio-tep.ru/catalog/",
+  "support_url": "https://bio-tep.ru/support/",
+  "scope": "Four pellet boilers from the current BIOTEP manufacturer catalogue, with model pages and official support documents",
+  "models": 4,
+  "source_snapshot": [
+    {
+      "model": "18",
+      "name": "Автоматический пеллетный котел BIOTEP 18",
+      "manufacturer_title": "Пеллетный котел BIOTEP 18",
+      "source_url": "https://bio-tep.ru/product/biotep-18/",
+      "checked_at": "2026-10-22",
+      "price": 369000,
+      "power_kw": 18,
+      "power_label": "4–17 кВт",
+      "description": "Компактный автоматический пеллетный котёл для частных домов и небольших котельных. Автоматика управляет розжигом, подачей топлива и горением, распознаёт качество пеллет и особенности дымохода. В конструкции предусмотрены группа безопасности, циркуляционный насос и расширительный бак. Модель рассчитана на отопление помещений площадью от 50 до 200 м².",
+      "specifications": {
+        "Площадь отопления": "50–200 м²",
+        "Диапазон мощности": "4–17 кВт",
+        "КПД": "92%",
+        "Диаметр дымохода": "80 мм",
+        "Объём воды в котле": "41 л",
+        "Подключение ГВС": "Возможно",
+        "Энергопотребление": "75 Вт",
+        "Группа безопасности": "Встроена",
+        "Электропитание": "230 В / 50 Гц",
+        "Встроенный бункер": "55 / 100 л",
+        "Габариты (В × Ш × Г)": "1450 × 570 × 730 мм",
+        "Масса": "220 кг",
+        "Топливо": "Древесные пеллеты"
+      },
+      "advantages": [
+        "Автоматический розжиг, подача топлива и остановка",
+        "Регулирование мощности в диапазоне 4–17 кВт",
+        "Распознавание теплотворности пеллет и конструкции дымохода",
+        "Встроенные группа безопасности, насос и расширительный бак",
+        "Автоматическая очистка теплообменника",
+        "Возможность подключения горячего водоснабжения"
+      ],
+      "documents": [
+        {"title": "Паспорт и инструкция BIOTEP 18", "url": "https://drive.google.com/file/d/1rIN_A1P2aRdBAw0VKQMmqoUQHXmZw5IN/view?usp=sharing", "type": "PDF"},
+        {"title": "Схема подключения BIOTEP 18", "url": "https://drive.google.com/file/d/1sbgox4GtIEmxcXfx1tyKjQkgj1K-2gNe/view?usp=sharing", "type": "PDF"},
+        {"title": "Монтаж и сервис BIOTEP 18", "url": "https://drive.google.com/file/d/1O8w5oK6CcrgN10hvTr_EpkrAGNWIAxoK/view?usp=sharing", "type": "PDF"},
+        {"title": "Регулярная очистка котла BIOTEP", "url": "https://drive.google.com/file/d/1XXfZjKPwwqz_9jd1oxxTaNQE7nfuNZiT/view?usp=sharing", "type": "PDF"},
+        {"title": "Подключение термостата — параметр THER", "url": "https://drive.google.com/file/d/1P73zzRReR5eDf1klESH6QN-V09ci-9gb/view?usp=sharing", "type": "PDF"},
+        {"title": "Цикл работы котла на дисплее", "url": "https://drive.google.com/file/d/1CcZHpCl8_7QTqTYi-qtznok0YcL2ThAz/view?usp=sharing", "type": "PDF"},
+        {"title": "Протокол испытаний пожарной безопасности", "url": "https://drive.google.com/file/d/12hEJZdMyrk3POFh4EGz_xUqwq_xXl54Z/view?usp=sharing", "type": "PDF"}
+      ]
+    },
+    {
+      "model": "25",
+      "name": "Автоматический пеллетный котел BIOTEP 25",
+      "manufacturer_title": "Пеллетный котел BIOTEP 25",
+      "source_url": "https://bio-tep.ru/product/biotep-25/",
+      "checked_at": "2026-10-22",
+      "price": 356000,
+      "power_kw": 25,
+      "power_label": "6–22 кВт",
+      "description": "Компактный автоматический пеллетный котёл мощностью 6–22 кВт для объектов площадью от 60 до 300 м². Встроенный бункер вмещает 130 кг пеллет, а автоматика управляет розжигом, подачей топлива и горением. Котёл подстраивается под качество топлива и дымоход; интервал между загрузками зависит от теплопотерь здания и режима работы.",
+      "specifications": {
+        "Площадь отопления": "60–300 м²",
+        "Диапазон мощности": "6–22 кВт",
+        "КПД": "92%",
+        "Диаметр дымохода": "80 мм",
+        "Объём воды в котле": "60 л",
+        "Подключение ГВС": "Возможно",
+        "Энергопотребление": "75 Вт",
+        "Группа безопасности": "Встроена",
+        "Электропитание": "230 В / 50 Гц",
+        "Встроенный бункер": "130 кг",
+        "Габариты (В × Ш × Г)": "1410 × 720 × 660 мм",
+        "Масса": "215 кг",
+        "Топливо": "Древесные пеллеты"
+      },
+      "advantages": [
+        "Автоматический розжиг, подача топлива и остановка",
+        "Регулирование мощности в диапазоне 6–22 кВт",
+        "Распознавание теплотворности пеллет и конструкции дымохода",
+        "Встроенная группа безопасности",
+        "Бункер вместимостью 130 кг",
+        "Автоматическая очистка теплообменника",
+        "Возможность подключения горячего водоснабжения"
+      ],
+      "documents": [
+        {"title": "Паспорт и инструкция BIOTEP 25", "url": "https://drive.google.com/file/d/1OixwiOr3uVcUIUaAQYDBhhBB-q9bcEga/view?usp=sharing", "type": "PDF"},
+        {"title": "Схема подключения BIOTEP 25", "url": "https://drive.google.com/file/d/1J9WIABYKsArV6Yh-988jMnuuliC03lsl/view?usp=sharing", "type": "PDF"},
+        {"title": "Монтаж и сервис BIOTEP 25/32", "url": "https://drive.google.com/file/d/1g8o-QaA8NXzJdG4TV_yNagXNBqdEBkEG/view?usp=sharing", "type": "PDF"},
+        {"title": "Межсезонная очистка и ревизия BIOTEP 25/32", "url": "https://drive.google.com/file/d/1DEQWUSOB5cj19Rl6K_722JZ7llb2q5Kr/view?usp=sharing", "type": "PDF"},
+        {"title": "Регулярная очистка котла BIOTEP", "url": "https://drive.google.com/file/d/1XXfZjKPwwqz_9jd1oxxTaNQE7nfuNZiT/view?usp=sharing", "type": "PDF"},
+        {"title": "Подключение термостата — параметр THER", "url": "https://drive.google.com/file/d/1P73zzRReR5eDf1klESH6QN-V09ci-9gb/view?usp=sharing", "type": "PDF"},
+        {"title": "Цикл работы котла на дисплее", "url": "https://drive.google.com/file/d/1CcZHpCl8_7QTqTYi-qtznok0YcL2ThAz/view?usp=sharing", "type": "PDF"},
+        {"title": "Протокол испытаний пожарной безопасности", "url": "https://drive.google.com/file/d/12hEJZdMyrk3POFh4EGz_xUqwq_xXl54Z/view?usp=sharing", "type": "PDF"}
+      ]
+    },
+    {
+      "model": "32",
+      "name": "Автоматический пеллетный котел BIOTEP 32",
+      "manufacturer_title": "Пеллетный котел BIOTEP 32",
+      "source_url": "https://bio-tep.ru/product/biotep-32/",
+      "checked_at": "2026-10-22",
+      "price": 409000,
+      "power_kw": 32,
+      "power_label": "8–31 кВт",
+      "description": "Автоматический пеллетный котёл в моноблочном корпусе для отопления зданий площадью от 80 до 450 м². Встроенный бункер рассчитан на 180 кг пеллет. В котле предусмотрены группа безопасности, циркуляционный насос, узел подмеса обратной линии и защита от коррозии. Автоматика выполняет первый запуск и подстраивает горение под качество пеллет и особенности дымохода.",
+      "specifications": {
+        "Площадь отопления": "80–450 м²",
+        "Диапазон мощности": "8–31 кВт",
+        "КПД": "92%",
+        "Диаметр дымохода": "80 мм",
+        "Объём воды в котле": "74 л",
+        "Подключение ГВС": "Возможно",
+        "Энергопотребление": "75 Вт",
+        "Группа безопасности": "Встроена",
+        "Электропитание": "230 В / 50 Гц",
+        "Встроенный бункер": "180 кг",
+        "Габариты (В × Ш × Г)": "1400 × 910 × 660 мм",
+        "Масса": "270 кг",
+        "Топливо": "Древесные пеллеты"
+      },
+      "advantages": [
+        "Автоматический розжиг, подача топлива и остановка",
+        "Регулирование мощности в диапазоне 8–31 кВт",
+        "Распознавание теплотворности пеллет и конструкции дымохода",
+        "Встроенные группа безопасности и циркуляционный насос",
+        "Узел подмеса обратной линии и защита от коррозии",
+        "Бункер вместимостью 180 кг",
+        "Автоматическая очистка теплообменника",
+        "Возможность подключения горячего водоснабжения"
+      ],
+      "documents": [
+        {"title": "Паспорт и инструкция BIOTEP 32", "url": "https://drive.google.com/file/d/1ATNzssNcBIXLiCqm5x3pjIwTsH8zcLeI/view?usp=sharing", "type": "PDF"},
+        {"title": "Схема подключения BIOTEP 32", "url": "https://drive.google.com/file/d/1w574PaIMtOQHTq678M7L0s2vTexz0Ff3/view?usp=sharing", "type": "PDF"},
+        {"title": "Монтаж и сервис BIOTEP 25/32", "url": "https://drive.google.com/file/d/1g8o-QaA8NXzJdG4TV_yNagXNBqdEBkEG/view?usp=sharing", "type": "PDF"},
+        {"title": "Межсезонная очистка и ревизия BIOTEP 25/32", "url": "https://drive.google.com/file/d/1DEQWUSOB5cj19Rl6K_722JZ7llb2q5Kr/view?usp=sharing", "type": "PDF"},
+        {"title": "Регулярная очистка котла BIOTEP", "url": "https://drive.google.com/file/d/1XXfZjKPwwqz_9jd1oxxTaNQE7nfuNZiT/view?usp=sharing", "type": "PDF"},
+        {"title": "Подключение термостата — параметр THER", "url": "https://drive.google.com/file/d/1P73zzRReR5eDf1klESH6QN-V09ci-9gb/view?usp=sharing", "type": "PDF"},
+        {"title": "Цикл работы котла на дисплее", "url": "https://drive.google.com/file/d/1CcZHpCl8_7QTqTYi-qtznok0YcL2ThAz/view?usp=sharing", "type": "PDF"},
+        {"title": "Протокол испытаний пожарной безопасности", "url": "https://drive.google.com/file/d/12hEJZdMyrk3POFh4EGz_xUqwq_xXl54Z/view?usp=sharing", "type": "PDF"}
+      ]
+    },
+    {
+      "model": "77",
+      "name": "Автоматический пеллетный котел BIOTEP 77",
+      "manufacturer_title": "Пеллетный котел BIOTEP 77",
+      "source_url": "https://bio-tep.ru/product/biotep-77/",
+      "checked_at": "2026-10-22",
+      "price": 799000,
+      "power_kw": 77,
+      "power_label": "18–77 кВт",
+      "description": "Старшая модель линейки BIOTEP для отопления объектов площадью от 150 до 1100 м². Система FIRE CONTROL управляет розжигом и горением, а автоматика запускает котёл без предварительной калибровки под пеллеты и дымоход. Встроенный бункер имеет объём 280 л. Для объектов с большей нагрузкой производитель предусматривает каскадное подключение нескольких котлов.",
+      "specifications": {
+        "Площадь отопления": "150–1100 м²",
+        "Диапазон мощности": "18–77 кВт",
+        "КПД": "более 90%",
+        "Диаметр дымохода": "100 мм",
+        "Объём воды в котле": "156 л",
+        "Подключение ГВС": "Возможно",
+        "Энергопотребление": "75 Вт",
+        "Группа безопасности": "Встроена",
+        "Электропитание": "230 В / 50 Гц",
+        "Встроенный бункер": "280 л",
+        "Габариты (В × Ш × Г)": "1650 × 1400 × 760 мм",
+        "Масса": "580 кг",
+        "Топливо": "Древесные пеллеты"
+      },
+      "advantages": [
+        "Автоматический розжиг, подача топлива и остановка",
+        "Регулирование мощности в диапазоне 18–77 кВт",
+        "Система управления горением FIRE CONTROL",
+        "Распознавание теплотворности пеллет и конструкции дымохода",
+        "Встроенная группа безопасности",
+        "Бункер объёмом 280 л",
+        "Возможность каскадного подключения",
+        "Возможность подключения горячего водоснабжения"
+      ],
+      "documents": [
+        {"title": "Паспорт и инструкция BIOTEP 77", "url": "https://drive.google.com/file/d/1BNenWl-lyQ3vxVD3jWjRGdcn2sY2ppmc/view?usp=sharing", "type": "PDF"},
+        {"title": "Схема подключения BIOTEP 77", "url": "https://drive.google.com/file/d/13ONgZC0fUtM7M_O_Mz-xgIGjN6LOvP8Y/view?usp=sharing", "type": "PDF"},
+        {"title": "Регулярная очистка котла BIOTEP", "url": "https://drive.google.com/file/d/1XXfZjKPwwqz_9jd1oxxTaNQE7nfuNZiT/view?usp=sharing", "type": "PDF"},
+        {"title": "Подключение термостата — параметр THER", "url": "https://drive.google.com/file/d/1P73zzRReR5eDf1klESH6QN-V09ci-9gb/view?usp=sharing", "type": "PDF"},
+        {"title": "Цикл работы котла на дисплее", "url": "https://drive.google.com/file/d/1CcZHpCl8_7QTqTYi-qtznok0YcL2ThAz/view?usp=sharing", "type": "PDF"},
+        {"title": "Протокол испытаний пожарной безопасности", "url": "https://drive.google.com/file/d/12hEJZdMyrk3POFh4EGz_xUqwq_xXl54Z/view?usp=sharing", "type": "PDF"}
+      ]
+    }
+  ]
+}

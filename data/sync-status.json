@@ -1,0 +1,80 @@
+{
+  "checked_at": "2026-10-14T10:56:33.236685+00:00",
+  "updated": [
+    "Автоматический пеллетный котел BIOTEP 18",
+    "Автоматический пеллетный котел BIOTEP 25",
+    "Автоматический пеллетный котел BIOTEP 32",
+    "Автоматический пеллетный котел BIOTEP 77",
+    "Пеллетный котел FACI 15",
+    "Пеллетный котел FACI 20",
+    "Пеллетный котел FACI 26",
+    "Пеллетный котел FACI 34",
+    "Пеллетный котел FACI 42",
+    "Пеллетный котел FACI 51",
+    "Пеллетный котел FACI 78",
+    "Пеллетный котел FACI GT",
+    "Пеллетный котел Вулкан Эко 100",
+    "Пеллетный котел Вулкан Эко 15",
+    "Пеллетный котел Вулкан Эко 19",
+    "Пеллетный котел Вулкан Эко 25",
+    "Пеллетный котел Вулкан Эко 32",
+    "Пеллетный котел Вулкан Эко 40",
+    "Пеллетный котел Вулкан Эко 50",
+    "Пеллетный котел Вулкан Эко 60",
+    "Пеллетный котел Вулкан Эко 80",
+    "Пеллетный котел СТАРТ-20-GR",
+    "Пеллетный котел СТАРТ-30-GR",
+    "Пеллетный котел СТАРТ-50-GR"
+  ],
+  "errors": [],
+  "pending_review": [
+    {
+      "model": "Горелка пеллетная ZOTA Fox-43 с бункером и механизмом подачи",
+      "reason": "Confirm original Fox SKU and complete kit; Fox G2 is not equivalent"
+    },
+    {
+      "model": "Пеллетная горелка ZOTA Fox-25 с бункером и механизмом подачи",
+      "reason": "Confirm original Fox SKU and complete kit; Fox G2 is not equivalent"
+    },
+    {
+      "model": "Пеллетный котел FACI 105",
+      "reason": "New FACI model requires owner review"
+    },
+    {
+      "model": "Пеллетный котел FACI 130",
+      "reason": "New FACI model requires owner review"
+    },
+    {
+      "model": "Пеллетный котел FACI 215",
+      "reason": "New FACI model requires owner review"
+    },
+    {
+      "model": "Пеллетный котел FACI 258",
+      "reason": "New FACI model requires owner review"
+    },
+    {
+      "model": "Пеллетный котел FACI 386",
+      "reason": "New FACI model requires owner review"
+    },
+    {
+      "model": "Пеллетный котел FACI 455",
+      "reason": "New FACI model requires owner review"
+    },
+    {
+      "model": "Пеллетный котел FACI 645",
+      "reason": "New FACI model requires owner review"
+    },
+    {
+      "model": "Пеллетный котел FACI 761",
+      "reason": "New FACI model requires owner review"
+    },
+    {
+      "model": "Пеллетный котел FACI 1000",
+      "reason": "New FACI model requires owner review"
+    },
+    {
+      "model": "Пеллетный котел FACI 1500",
+      "reason": "New FACI model requires owner review"
+    }
+  ]
+}

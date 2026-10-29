@@ -1,0 +1,4168 @@
+{
+  "checked_at": "2026-10-21",
+  "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+  "models": 18,
+  "standard_configurations": 129,
+  "scope": "Pellet boilers and standard bunkers only; external DI STRADA accessories excluded",
+  "source_snapshot": [
+    {
+      "model": "GT",
+      "title": "Автоматический котел FACI GT",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-gt.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 40,
+      "power_min_kw": 10,
+      "power_label": "10-40 кВт",
+      "bunker_l": 300,
+      "price": 600000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Ottima",
+          "price": 600000,
+          "old_price": 672000,
+          "includes": [
+            "Очистка котла с помощью рычага",
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[119][kompl]",
+            "value": "3",
+            "checked": "checked"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "300 л",
+          "extra": 0,
+          "fixed": true,
+          "default": true
+        }
+      ],
+      "external_bunkers": [],
+      "specifications": {
+        "Мощность": "10-40 кВт",
+        "Емкость бункера": "300 л",
+        "Вид топлива": "пеллеты",
+        "Габариты котла ДхШхВ, мм": "710х1220х1550",
+        "Диаметр дымохода": "159 мм",
+        "Вес": "280 кг"
+      },
+      "description": "Пеллетный котёл FACI GT с диапазоном мощности 10–40 кВт и встроенным бункером на 300 л. Комплектация Ottima включает автоподжиг, механическую очистку теплообменника рычагом и управление со смартфона через Wi-Fi или Ethernet.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа.",
+        "Мощность указана диапазоном; не следует представлять модель как котёл одной фиксированной мощности."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/Avtomaticheskiy_kotel_FACI_GT1.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/0acbb48c8db9cb7c736eb97c6c533d8a_457x490x-1.jpg",
+          "alt": "Автоматический котел FACI GT",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/18e8f708bdf483a032.jpg",
+          "width": 1208,
+          "height": 1600,
+          "bytes": 128051,
+          "sha256": "21f337c57c838fd270f3c5c4dd4a53752d68b3712961bce7fa1182adb85a84f5"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/119/Avtomaticheskiy_kotel_FACI_GT2.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/62ba1eab46bc60ae8b1468be4d9c3945_487x490x-1.jpg",
+          "alt": "Автоматический котел FACI GT",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/cbaf806d698afc326e.jpg",
+          "width": 1000,
+          "height": 1478,
+          "bytes": 151721,
+          "sha256": "512cf8d77beca3926df823322413092d2b2c6c2fc375f871d3457a99624bd312"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/119/Avtomaticheskiy_kotel_FACI_GT3.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/dba0a4f1751991ebb405ffbe8c0684ed_487x490x-1.jpg",
+          "alt": "Автоматический котел FACI GT",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/d799e7a651997c46a7.jpg",
+          "width": 1000,
+          "height": 1212,
+          "bytes": 147321,
+          "sha256": "5f76bdfc39c26c3df2c5cb6975779743d0bda02854f9cf48dd9bd71ac6445abd"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/119/Avtomaticheskiy_kotel_FACI_GT05.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/93d340bb2ee328e65eb290912b03b8e0_487x490x-1.jpg",
+          "alt": "Автоматический котел FACI GT",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/b4713930b409d0b7ba.jpg",
+          "width": 1000,
+          "height": 927,
+          "bytes": 148534,
+          "sha256": "603757444e97a43d1470c5e43b148d4a5388817f29da58d351cad15a1f9d3391"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/119/Avtomaticheskiy_kotel_FACI_GT31.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/a260da8e73d7f0a3b86b2c0c9d1f3b9e_487x490x-1.jpg",
+          "alt": "Автоматический котел FACI GT",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/1998c91fd5a70f3c26.jpg",
+          "width": 1000,
+          "height": 1351,
+          "bytes": 152235,
+          "sha256": "702730bb342b497ea6e0fb213ce4757ff91d13da5840a8c52a314c8c5d8727c6"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/119/Avtomaticheskiy_kotel_FACI_GT06.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/e55b71e311ac9cfcd1d4ab1a11ce639e_487x490x-1.jpg",
+          "alt": "Автоматический котел FACI GT",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/c40e0e7f4ab26239d7.jpg",
+          "width": 1000,
+          "height": 1778,
+          "bytes": 151216,
+          "sha256": "a807e893ac3dd3db2c56a4dd3e6e2a937fa33f2dd8c7b2c13ef08cad4376e524"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/119/Avtomaticheskiy_kotel_FACI_GT07.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/d992a447fe4a855318a01a9258e5b6e4_487x490x-1.jpg",
+          "alt": "Автоматический котел FACI GT",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/179cded7de6e4cb062.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 152082,
+          "sha256": "aa5e2ba57cc3e08cbc0e47376b98270dd7a3022b360911cda29cbb45175b689c"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/119/Avtomaticheskiy_kotel_FACI_GT08.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b6676b6dd1881c6547ab70d3e0ae312a_487x490x-1.jpg",
+          "alt": "Автоматический котел FACI GT",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/602b15022a5bf0ede3.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 141668,
+          "sha256": "26ef0c98be4f6e069183c20a19730213d67aeb19b36162d8ac4679a20e851c83"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/119/Avtomaticheskiy_kotel_FACI_GT04.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/c6ed1428fcbb50250c7718de3d0f7237_487x490x-1.jpg",
+          "alt": "Автоматический котел FACI GT",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/c282815cd7ac58bbde.jpg",
+          "width": 1000,
+          "height": 563,
+          "bytes": 152506,
+          "sha256": "0bb01e409a2af44a4499e6847ebeebd5bdf6e1bdfa3cc40e11e3d637b802d1e1"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "15",
+      "title": "Пеллетный котел FACI 15",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-15.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 15,
+      "power_min_kw": null,
+      "power_label": "15 кВт",
+      "bunker_l": 500,
+      "price": 345000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 345000,
+          "old_price": 386400,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[1][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 372000,
+          "old_price": 416640,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[1][kompl]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "Ottima",
+          "price": 576840,
+          "old_price": 646061,
+          "includes": [
+            "Автоподжиг",
+            "Автоочистка теплообменника",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[1][kompl]",
+            "value": "3"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "0.5 м3",
+          "extra": 0,
+          "attributes": {
+            "data-default": "1",
+            "data-id": "1",
+            "data-price": "0",
+            "type": "radio",
+            "name": "cart[1][bunker][option]",
+            "value": "1",
+            "_checked": ""
+          },
+          "default": true
+        },
+        {
+          "name": "1 м3",
+          "extra": 54600,
+          "attributes": {
+            "data-id": "2",
+            "data-price": "54600",
+            "type": "radio",
+            "name": "cart[1][bunker][option]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "2 м3",
+          "extra": 79800,
+          "attributes": {
+            "data-id": "5",
+            "data-price": "79800",
+            "type": "radio",
+            "name": "cart[1][bunker][option]",
+            "value": "5"
+          }
+        }
+      ],
+      "external_bunkers": [],
+      "specifications": {
+        "Мощность": "15 кВт",
+        "Емкость бункера": "500 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Габариты котла с боковым расположением бункера ДхШхВ": "859 х 1531 х 1574 мм",
+        "Габариты котла с задним расположением бункера ДхШхВ": "1869 х 860 х 1574 мм",
+        "Диаметр дымохода": "159 мм",
+        "Вес": "285 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 15 мощностью 15 кВт с базовым бункером на 500 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/15_1_1.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/057ff46def4c04f6c7add09c54b74bad_457x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 15",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/7e910a67fed928e679.jpg",
+          "width": 626,
+          "height": 1000,
+          "bytes": 64399,
+          "sha256": "c7015cd469548af5af3fa2d8408986808db48e64eee76124f5b89024c3537cc1"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/1/15_2.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/4edcf7e25957e2478ece2418e81cf508_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 15",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/4665f201283b28dba7.jpg",
+          "width": 667,
+          "height": 1000,
+          "bytes": 49802,
+          "sha256": "77d6ec7f7ab47810d0b8e2cfaa81ae72c586687dc82ebabc692792c9b07c6902"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/1/15_3.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/8cbb09ad1e34b6ee0062f8260a1cfeeb_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 15",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/0907e3e069341e0ded.jpg",
+          "width": 839,
+          "height": 1000,
+          "bytes": 67049,
+          "sha256": "d8db07873a8e428d86348d67709d615a7b69f52a53f2b86603b3583deac1f44b"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/1/15_4.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/0eed723cfced02af4533892c10ba7878_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 15",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/47bdc3c010127ae17c.jpg",
+          "width": 667,
+          "height": 1000,
+          "bytes": 38209,
+          "sha256": "626256406ceafc1197d044e5847624ce11f236a3173a7123414884423f9bad9f"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/1/PU111.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/52ceb419200f5a826bfc186ba8088ccd_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 15",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/5f568cccb922b314b2.png",
+          "width": 700,
+          "height": 643,
+          "bytes": 40824,
+          "sha256": "1f953e64df52c33fde274cc297d220335a72f09003c1d0003137265e8ab7e5ee"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "20",
+      "title": "Пеллетный котел FACI 20",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-20.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 20,
+      "power_min_kw": null,
+      "power_label": "20 кВт",
+      "bunker_l": 500,
+      "price": 362000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 362000,
+          "old_price": 405440,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[2][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 389000,
+          "old_price": 435680,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[2][kompl]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "Ottima",
+          "price": 593840,
+          "old_price": 665101,
+          "includes": [
+            "Автоподжиг",
+            "Автоочистка теплообменника",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[2][kompl]",
+            "value": "3"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "0.5 м3",
+          "extra": 0,
+          "attributes": {
+            "data-default": "1",
+            "data-id": "1",
+            "data-price": "0",
+            "type": "radio",
+            "name": "cart[2][bunker][option]",
+            "value": "1",
+            "_checked": ""
+          },
+          "default": true
+        },
+        {
+          "name": "1 м3",
+          "extra": 54600,
+          "attributes": {
+            "data-id": "2",
+            "data-price": "54600",
+            "type": "radio",
+            "name": "cart[2][bunker][option]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "2 м3",
+          "extra": 79800,
+          "attributes": {
+            "data-id": "5",
+            "data-price": "79800",
+            "type": "radio",
+            "name": "cart[2][bunker][option]",
+            "value": "5"
+          }
+        }
+      ],
+      "external_bunkers": [],
+      "specifications": {
+        "Мощность": "20 кВт",
+        "Емкость бункера": "500 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Габариты котла с боковым расположением бункера ДхШхВ": "859 х 1531 х 1574 мм",
+        "Габариты котла с задним расположением бункера ДхШхВ": "1869 х 860 х 1574 мм",
+        "Диаметр дымохода": "159 мм",
+        "Вес": "335 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 20 мощностью 20 кВт с базовым бункером на 500 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/15_1.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/057ff46def4c04f6c7add09c54b74bad_457x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 20",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/424060b184d24b9c71.jpg",
+          "width": 626,
+          "height": 1000,
+          "bytes": 64399,
+          "sha256": "c7015cd469548af5af3fa2d8408986808db48e64eee76124f5b89024c3537cc1"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/2/15_2.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/4edcf7e25957e2478ece2418e81cf508_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 20",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/356ff5246bed91ba02.jpg",
+          "width": 667,
+          "height": 1000,
+          "bytes": 49802,
+          "sha256": "77d6ec7f7ab47810d0b8e2cfaa81ae72c586687dc82ebabc692792c9b07c6902"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/2/15_3.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/8cbb09ad1e34b6ee0062f8260a1cfeeb_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 20",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/3b809ec8a157d1c9c0.jpg",
+          "width": 839,
+          "height": 1000,
+          "bytes": 67049,
+          "sha256": "d8db07873a8e428d86348d67709d615a7b69f52a53f2b86603b3583deac1f44b"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/2/15_4.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/0eed723cfced02af4533892c10ba7878_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 20",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/cdddda2d398bc800af.jpg",
+          "width": 667,
+          "height": 1000,
+          "bytes": 38209,
+          "sha256": "626256406ceafc1197d044e5847624ce11f236a3173a7123414884423f9bad9f"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/2/PU111.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/52ceb419200f5a826bfc186ba8088ccd_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 20",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/d37c531d814aa90e19.png",
+          "width": 700,
+          "height": 643,
+          "bytes": 40824,
+          "sha256": "1f953e64df52c33fde274cc297d220335a72f09003c1d0003137265e8ab7e5ee"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "26",
+      "title": "Пеллетный котел FACI 26",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-26.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 26,
+      "power_min_kw": null,
+      "power_label": "26 кВт",
+      "bunker_l": 500,
+      "price": 387000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 387000,
+          "old_price": 433440,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[3][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 414000,
+          "old_price": 463680,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[3][kompl]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "Ottima",
+          "price": 618840,
+          "old_price": 693101,
+          "includes": [
+            "Автоподжиг",
+            "Автоочистка теплообменника",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[3][kompl]",
+            "value": "3"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "0.5 м3",
+          "extra": 0,
+          "attributes": {
+            "data-default": "1",
+            "data-id": "1",
+            "data-price": "0",
+            "type": "radio",
+            "name": "cart[3][bunker][option]",
+            "value": "1",
+            "_checked": ""
+          },
+          "default": true
+        },
+        {
+          "name": "1 м3",
+          "extra": 54600,
+          "attributes": {
+            "data-id": "2",
+            "data-price": "54600",
+            "type": "radio",
+            "name": "cart[3][bunker][option]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "2 м3",
+          "extra": 79800,
+          "attributes": {
+            "data-id": "5",
+            "data-price": "79800",
+            "type": "radio",
+            "name": "cart[3][bunker][option]",
+            "value": "5"
+          }
+        }
+      ],
+      "external_bunkers": [],
+      "specifications": {
+        "Мощность": "26 кВт",
+        "Емкость бункера": "500 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Габариты котла с боковым расположением бункера ДхШхВ": "911 х 1504 х 1574 мм",
+        "Габариты котла с задним расположением бункера ДхШхВ": "1924 х 866 х 1574 мм",
+        "Диаметр дымохода": "159 мм",
+        "Вес": "366 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 26 мощностью 26 кВт с базовым бункером на 500 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/34_1_1__0.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/c78465fa7ff84e8b0b4ab9953005ed46_457x490x-1.png",
+          "alt": "Пеллетный котел FACI 26",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/9d5ffba9ace5a51713.png",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 140321,
+          "sha256": "abd7888ec3430f8ed420dc29beea1e6c6f4a72a2653d8c080af708d7cd5f57c0"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/3/34_2_1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/aed7e2672930992741dbf816c4e197ab_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 26",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/12ff0ca32e6d77d548.png",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 161686,
+          "sha256": "5ef17eba1954a023eab4799785bf045bd862c966a4938d22afd6b0c66851d4bd"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/3/34_3_1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/e6ecf02f00a0c424291edfde5cfd0b94_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 26",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/cbd9a19d458124ffac.png",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 156712,
+          "sha256": "3001022680df1487f784a91c3f6083aae5b1ef5c01b5b2bd8399fd79d9404251"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/3/PU111.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/52ceb419200f5a826bfc186ba8088ccd_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 26",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/885127beb92abccff4.png",
+          "width": 700,
+          "height": 643,
+          "bytes": 40824,
+          "sha256": "1f953e64df52c33fde274cc297d220335a72f09003c1d0003137265e8ab7e5ee"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "34",
+      "title": "Пеллетный котел FACI 34",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-34.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 34,
+      "power_min_kw": null,
+      "power_label": "34 кВт",
+      "bunker_l": 500,
+      "price": 405000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 405000,
+          "old_price": 453600,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[4][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 432000,
+          "old_price": 483840,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[4][kompl]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "Ottima",
+          "price": 636840,
+          "old_price": 713261,
+          "includes": [
+            "Автоподжиг",
+            "Автоочистка теплообменника",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[4][kompl]",
+            "value": "3"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "0.5 м3",
+          "extra": 0,
+          "attributes": {
+            "data-default": "1",
+            "data-id": "1",
+            "data-price": "0",
+            "type": "radio",
+            "name": "cart[4][bunker][option]",
+            "value": "1",
+            "_checked": ""
+          },
+          "default": true
+        },
+        {
+          "name": "1 м3",
+          "extra": 54600,
+          "attributes": {
+            "data-id": "2",
+            "data-price": "54600",
+            "type": "radio",
+            "name": "cart[4][bunker][option]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "2 м3",
+          "extra": 79800,
+          "attributes": {
+            "data-id": "5",
+            "data-price": "79800",
+            "type": "radio",
+            "name": "cart[4][bunker][option]",
+            "value": "5"
+          }
+        }
+      ],
+      "external_bunkers": [],
+      "specifications": {
+        "Мощность": "34 кВт",
+        "Емкость бункера": "500 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Габариты котла с боковым расположением бункера ДхШхВ": "911 х 1504 х 1574 мм",
+        "Габариты котла с задним расположением бункера ДхШхВ": "1924 х 866 х 1574 мм",
+        "Диаметр дымохода": "159 мм",
+        "Вес": "400 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 34 мощностью 34 кВт с базовым бункером на 500 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/34_1_1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/c78465fa7ff84e8b0b4ab9953005ed46_457x490x-1.png",
+          "alt": "Пеллетный котел FACI 34",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/eb266ec2a0b2ffe381.png",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 140321,
+          "sha256": "abd7888ec3430f8ed420dc29beea1e6c6f4a72a2653d8c080af708d7cd5f57c0"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/4/34_2_1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/aed7e2672930992741dbf816c4e197ab_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 34",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/666a3ab0a0cbddeed3.png",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 161686,
+          "sha256": "5ef17eba1954a023eab4799785bf045bd862c966a4938d22afd6b0c66851d4bd"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/4/34_3_1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/e6ecf02f00a0c424291edfde5cfd0b94_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 34",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/63281c3b75424e04a0.png",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 156712,
+          "sha256": "3001022680df1487f784a91c3f6083aae5b1ef5c01b5b2bd8399fd79d9404251"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/4/PU111.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/52ceb419200f5a826bfc186ba8088ccd_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 34",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/7f83a8dc679a3d7c4d.png",
+          "width": 700,
+          "height": 643,
+          "bytes": 40824,
+          "sha256": "1f953e64df52c33fde274cc297d220335a72f09003c1d0003137265e8ab7e5ee"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "42",
+      "title": "Пеллетный котел FACI 42",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-42.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 42,
+      "power_min_kw": null,
+      "power_label": "42 кВт",
+      "bunker_l": 500,
+      "price": 410000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 410000,
+          "old_price": 459200,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[5][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 437000,
+          "old_price": 489440,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[5][kompl]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "Ottima",
+          "price": 700155,
+          "old_price": 784174,
+          "includes": [
+            "Автоподжиг",
+            "Автоочистка теплообменника",
+            "Автозолоудаление",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[5][kompl]",
+            "value": "3"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "0.5 м3",
+          "extra": 0,
+          "attributes": {
+            "data-default": "1",
+            "data-id": "1",
+            "data-price": "0",
+            "type": "radio",
+            "name": "cart[5][bunker][option]",
+            "value": "1",
+            "_checked": ""
+          },
+          "default": true
+        },
+        {
+          "name": "1 м3",
+          "extra": 54600,
+          "attributes": {
+            "data-id": "2",
+            "data-price": "54600",
+            "type": "radio",
+            "name": "cart[5][bunker][option]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "2 м3",
+          "extra": 79800,
+          "attributes": {
+            "data-id": "5",
+            "data-price": "79800",
+            "type": "radio",
+            "name": "cart[5][bunker][option]",
+            "value": "5"
+          }
+        }
+      ],
+      "external_bunkers": [],
+      "specifications": {
+        "Мощность": "42 кВт",
+        "Емкость бункера": "500 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Габариты котла с боковым расположением бункера ДхШхВ": "1288 х 2040 х 1608 мм",
+        "Габариты котла с задним расположением бункера ДхШхВ": "2181 х 860 х 1608 мм",
+        "Диаметр дымохода": "200 мм",
+        "Вес": "410 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 42 мощностью 42 кВт с базовым бункером на 500 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/Pelletnyy_kotkl_42.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/fd8e7d3e4891ea34fc92a9b6b69bd566_457x490x-1.png",
+          "alt": "Пеллетный котел FACI 42",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/501181a5eadbea5c41.png",
+          "width": 1418,
+          "height": 1600,
+          "bytes": 134732,
+          "sha256": "5c007acd217eb919827204adcd3c3e1ab9ed883111f20657e56a81ee0f2e84b6"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/5/panel_pelletnyy_kotkl.JPG",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/1dd6b009091fce7cdb1fc5bb4a08cd4f_487x490x-1.JPG",
+          "alt": "Пеллетный котел FACI 42",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/cab76bf124537c45c9.jpg",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 124215,
+          "sha256": "cf848ce96e40a24a506fbeb7322da73d160cab02a8deeb03e5e874bbf3097333"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "51",
+      "title": "Пеллетный котел FACI 51",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-51.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 51,
+      "power_min_kw": null,
+      "power_label": "51 кВт",
+      "bunker_l": 500,
+      "price": 505000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 505000,
+          "old_price": 565600,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[6][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 532000,
+          "old_price": 595840,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[6][kompl]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "Ottima",
+          "price": 795155,
+          "old_price": 890574,
+          "includes": [
+            "Автоподжиг",
+            "Автоочистка теплообменника",
+            "Автозолоудаление",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[6][kompl]",
+            "value": "3"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "0.5 м3",
+          "extra": 0,
+          "attributes": {
+            "data-default": "1",
+            "data-id": "1",
+            "data-price": "0",
+            "type": "radio",
+            "name": "cart[6][bunker][option]",
+            "value": "1",
+            "_checked": ""
+          },
+          "default": true
+        },
+        {
+          "name": "1 м3",
+          "extra": 54600,
+          "attributes": {
+            "data-id": "2",
+            "data-price": "54600",
+            "type": "radio",
+            "name": "cart[6][bunker][option]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "2 м3",
+          "extra": 79800,
+          "attributes": {
+            "data-id": "5",
+            "data-price": "79800",
+            "type": "radio",
+            "name": "cart[6][bunker][option]",
+            "value": "5"
+          }
+        }
+      ],
+      "external_bunkers": [],
+      "specifications": {
+        "Мощность": "51 кВт",
+        "Емкость бункера": "500 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Габариты котла с боковым расположением бункера ДхШхВ": "1288 х 2040 х 1608 мм",
+        "Габариты котла с задним расположением бункера ДхШхВ": "2181 х 860 х 1608 мм",
+        "Диаметр дымохода": "200 мм",
+        "Вес": "450 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 51 мощностью 51 кВт с базовым бункером на 500 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/Pelletnyy_kotkl_51.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/73e25e6b1f41688a1523b14cfc1cc9c2_457x490x-1.png",
+          "alt": "Пеллетный котел FACI 51",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/31d97a4d067348c716.png",
+          "width": 1464,
+          "height": 1600,
+          "bytes": 135370,
+          "sha256": "864b26d8b5299067b48c07fb67bd288be3832c4c514608a9958cb357aa2e1d1b"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/6/panel_pelletnyy_kotkl.JPG",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/1dd6b009091fce7cdb1fc5bb4a08cd4f_487x490x-1.JPG",
+          "alt": "Пеллетный котел FACI 51",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/6f627ed58390a1aabe.jpg",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 124215,
+          "sha256": "cf848ce96e40a24a506fbeb7322da73d160cab02a8deeb03e5e874bbf3097333"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "78",
+      "title": "Пеллетный котел FACI 78",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-78.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 78,
+      "power_min_kw": null,
+      "power_label": "78 кВт",
+      "bunker_l": 500,
+      "price": 610000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 610000,
+          "old_price": 683200,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[7][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 637000,
+          "old_price": 713440,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[7][kompl]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "Ottima",
+          "price": 905291,
+          "old_price": 1013926,
+          "includes": [
+            "Автоподжиг",
+            "Автоочистка теплообменника",
+            "Автозолоудаление",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[7][kompl]",
+            "value": "3"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "0.5 м3",
+          "extra": 0,
+          "attributes": {
+            "data-default": "1",
+            "data-id": "1",
+            "data-price": "0",
+            "type": "radio",
+            "name": "cart[7][bunker][option]",
+            "value": "1",
+            "_checked": ""
+          },
+          "default": true
+        },
+        {
+          "name": "1 м3",
+          "extra": 54600,
+          "attributes": {
+            "data-id": "2",
+            "data-price": "54600",
+            "type": "radio",
+            "name": "cart[7][bunker][option]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "2 м3",
+          "extra": 79800,
+          "attributes": {
+            "data-id": "5",
+            "data-price": "79800",
+            "type": "radio",
+            "name": "cart[7][bunker][option]",
+            "value": "5"
+          }
+        }
+      ],
+      "external_bunkers": [],
+      "specifications": {
+        "Мощность": "78 кВт",
+        "Емкость бункера": "500 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Габариты котла с боковым расположением бункера ДхШхВ": "1311 х 1871 х 1608 мм",
+        "Габариты котла с задним расположением бункера ДхШхВ": "2491 х 860 х 1608 мм",
+        "Диаметр дымохода": "200 мм",
+        "Вес": "600 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 78 мощностью 78 кВт с базовым бункером на 500 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/78_1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/9a51d7326e7193dd62dc39bd1de9df48_457x490x-1.png",
+          "alt": "Пеллетный котел FACI 78",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/4c637dcebf22bcf411.png",
+          "width": 609,
+          "height": 609,
+          "bytes": 49532,
+          "sha256": "8b95171fe9a9e42a6deb3d2c882b39e3c48349f02e150e171d122192ff873bc9"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/7/78_2.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/3fbc74a046a76b1db955594c31614636_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 78",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/b8905a92d6bdde7760.png",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 150118,
+          "sha256": "881491047ee854cd1c47b1b04df69bcf4bb2b374067a251864b373e4b1ff66a9"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/7/78_3.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/5456af9bcd34f8deb51b169a4e67923a_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 78",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/ed67af986350efda1e.png",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 166398,
+          "sha256": "24c0fb818c91b435a189ff4b8eba29400e0c371be2a92a45d8f3b019c8fd499c"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/7/PU111.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/52ceb419200f5a826bfc186ba8088ccd_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 78",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/bde752728af4148495.png",
+          "width": 700,
+          "height": 643,
+          "bytes": 40824,
+          "sha256": "1f953e64df52c33fde274cc297d220335a72f09003c1d0003137265e8ab7e5ee"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "105",
+      "title": "Пеллетный котел FACI 105",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-105.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 105,
+      "power_min_kw": null,
+      "power_label": "105 кВт",
+      "bunker_l": 500,
+      "price": 715000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 715000,
+          "old_price": 800800,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[286][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 742000,
+          "old_price": 831040,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[286][kompl]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "Ottima",
+          "price": 1063470,
+          "old_price": 1191086,
+          "includes": [
+            "Автоподжиг",
+            "Автоочистка теплообменника",
+            "Автозолоудаление",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[286][kompl]",
+            "value": "3"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "0.5 м3",
+          "extra": 0,
+          "attributes": {
+            "data-default": "1",
+            "data-id": "1",
+            "data-price": "0",
+            "type": "radio",
+            "name": "cart[286][bunker][option]",
+            "value": "1",
+            "_checked": ""
+          },
+          "default": true
+        },
+        {
+          "name": "1 м3",
+          "extra": 54600,
+          "attributes": {
+            "data-id": "2",
+            "data-price": "54600",
+            "type": "radio",
+            "name": "cart[286][bunker][option]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "2 м3",
+          "extra": 79800,
+          "attributes": {
+            "data-id": "5",
+            "data-price": "79800",
+            "type": "radio",
+            "name": "cart[286][bunker][option]",
+            "value": "5"
+          }
+        }
+      ],
+      "external_bunkers": [],
+      "specifications": {
+        "Мощность": "105 кВт",
+        "Емкость бункера": "500 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Габариты котла с боковым расположением бункера ДхШхВ": "1802 х 2244 х 1840 мм",
+        "Габариты котла с задним расположением бункера ДхШхВ": "2732 х 860 х 1840 мм",
+        "Диаметр дымохода": "248 мм",
+        "Вес": "1050 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 105 мощностью 105 кВт с базовым бункером на 500 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/Pelletnyy_kotkl_105_0.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/69688ed49266e8d0fa4ee484912054b2_457x490x-1.png",
+          "alt": "Пеллетный котел FACI 105",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/05667ed4f90a75bed0.png",
+          "width": 1600,
+          "height": 1381,
+          "bytes": 156934,
+          "sha256": "eadaa475468b4d2b30c0ac3856b562c76be483408a0fecddce9e529a90c2d304"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/286/Silos_12_5_kotel3_4_0.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/317fe4f6c117ebabdd86d5725ba0a96b_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 105",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/8a3bd69c1527e36da7.png",
+          "width": 1217,
+          "height": 893,
+          "bytes": 63943,
+          "sha256": "8e1fd2682eddcd20fb1ebf46eecec8dc65d1949408ac6f79377bb030664c68a6"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/286/TEST_18.10.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/63fb453aa51a31645c10ff97495efa9d_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 105",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/49b73e43f40bdb63e5.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 183593,
+          "sha256": "800cb179c9bca6e4399db1827f3606f6413c691305f3a79ed1b3e8ec0e717962"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/286/TEST_18.10_2_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b993a81a18c4e3f6414ca0b828d4e605_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 105",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/5ec2e1209c64bd02e3.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 46046,
+          "sha256": "3eb3d2cc4cc5d6dd3e3601ab26f1499615521e40050f62ccd6a9b1163768a05b"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/286/panel_pelletnyy_kotkl_.JPG",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/439350be96f1892bffffdf9c58c69a8e_487x490x-1.JPG",
+          "alt": "Пеллетный котел FACI 105",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/5b940ef516fcdb0401.jpg",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 242324,
+          "sha256": "907952e29c91011dc3b6a1d6b09d72a69d7ec98e7cc27d7e534b7746800b36c5"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/286/panel_upravleniya_pelletnogo_kotla_.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/2e10a87d740bc9738ed06c9254db79f3_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 105",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/fde6970d7a1c4e9a12.jpg",
+          "width": 1600,
+          "height": 974,
+          "bytes": 143473,
+          "sha256": "cc0e8f3a5a73c8fc2deeb2543262a57a170b5f428ec51ddb2b38a95466a2055d"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "130",
+      "title": "Пеллетный котел FACI 130",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-130.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 130,
+      "power_min_kw": null,
+      "power_label": "130 кВт",
+      "bunker_l": 500,
+      "price": 750000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 750000,
+          "old_price": 840000,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[9][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 777000,
+          "old_price": 870240,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[9][kompl]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "Ottima",
+          "price": 1098470,
+          "old_price": 1230286,
+          "includes": [
+            "Автоподжиг",
+            "Автоочистка теплообменника",
+            "Автозолоудаление",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[9][kompl]",
+            "value": "3"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "0.5 м3",
+          "extra": 0,
+          "attributes": {
+            "data-default": "1",
+            "data-id": "1",
+            "data-price": "0",
+            "type": "radio",
+            "name": "cart[9][bunker][option]",
+            "value": "1",
+            "_checked": ""
+          },
+          "default": true
+        },
+        {
+          "name": "1 м3",
+          "extra": 54600,
+          "attributes": {
+            "data-id": "2",
+            "data-price": "54600",
+            "type": "radio",
+            "name": "cart[9][bunker][option]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "2 м3",
+          "extra": 79800,
+          "attributes": {
+            "data-id": "5",
+            "data-price": "79800",
+            "type": "radio",
+            "name": "cart[9][bunker][option]",
+            "value": "5"
+          }
+        }
+      ],
+      "external_bunkers": [
+        {
+          "name": "Без доп. бункера",
+          "extra": 0,
+          "attributes": {
+            "data-mainclear": "1",
+            "data-default": "1",
+            "data-main": "1",
+            "data-id": "",
+            "data-price": "",
+            "type": "radio",
+            "name": "cart[9][bunker][main]",
+            "value": "",
+            "checked": "checked"
+          },
+          "default": true
+        },
+        {
+          "name": "DI STRADA 12 м3",
+          "extra": 1490000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "335",
+            "data-price": "1490000",
+            "type": "radio",
+            "name": "cart[9][bunker][main]",
+            "value": "335"
+          }
+        },
+        {
+          "name": "DI STRADA 17 м3",
+          "extra": 1600000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "336",
+            "data-price": "1600000",
+            "type": "radio",
+            "name": "cart[9][bunker][main]",
+            "value": "336"
+          }
+        },
+        {
+          "name": "DI STRADA 22 м3",
+          "extra": 1730000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "334",
+            "data-price": "1730000",
+            "type": "radio",
+            "name": "cart[9][bunker][main]",
+            "value": "334"
+          }
+        },
+        {
+          "name": "DI STRADA 7 м3",
+          "extra": 1400000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "337",
+            "data-price": "1400000",
+            "type": "radio",
+            "name": "cart[9][bunker][main]",
+            "value": "337"
+          }
+        }
+      ],
+      "specifications": {
+        "Мощность": "130 кВт",
+        "Емкость бункера": "500 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Габариты котла с боковым расположением бункера ДхШхВ": "1802 х 2244 х 1840 мм",
+        "Габариты котла с задним расположением бункера ДхШхВ": "2732 х 860 х 1840 мм",
+        "Диаметр дымохода": "248 мм",
+        "Вес": "1105 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 130 мощностью 130 кВт с базовым бункером на 500 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/Pelletnyy_kotkl_130_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b7aca67c599af59ec1ba276e87ca2219_457x490x-1.png",
+          "alt": "Пеллетный котел FACI 130",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/fea0a6021e2dd7c4dc.png",
+          "width": 609,
+          "height": 609,
+          "bytes": 28829,
+          "sha256": "3767b12c8d9243698f3695701ac664f77e0e1e83ebd022fcb6536823abc33008"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/9/Silos_12_5_kotel3_4_0.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/317fe4f6c117ebabdd86d5725ba0a96b_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 130",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/0d146da3b38c24318b.png",
+          "width": 1217,
+          "height": 893,
+          "bytes": 63943,
+          "sha256": "8e1fd2682eddcd20fb1ebf46eecec8dc65d1949408ac6f79377bb030664c68a6"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/9/TEST_18.10.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/63fb453aa51a31645c10ff97495efa9d_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 130",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/3c3683ba6bb12bc155.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 183593,
+          "sha256": "800cb179c9bca6e4399db1827f3606f6413c691305f3a79ed1b3e8ec0e717962"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/9/TEST_18.10_2_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b993a81a18c4e3f6414ca0b828d4e605_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 130",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/02cc49bc87364622cb.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 46046,
+          "sha256": "3eb3d2cc4cc5d6dd3e3601ab26f1499615521e40050f62ccd6a9b1163768a05b"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/9/panel_pelletnyy_kotkl_.JPG",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/439350be96f1892bffffdf9c58c69a8e_487x490x-1.JPG",
+          "alt": "Пеллетный котел FACI 130",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/f7b11e2d2c404a0bc4.jpg",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 242324,
+          "sha256": "907952e29c91011dc3b6a1d6b09d72a69d7ec98e7cc27d7e534b7746800b36c5"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/9/panel_upravleniya_pelletnogo_kotla_.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/2e10a87d740bc9738ed06c9254db79f3_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 130",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/b95821405397b8322d.jpg",
+          "width": 1600,
+          "height": 974,
+          "bytes": 143473,
+          "sha256": "cc0e8f3a5a73c8fc2deeb2543262a57a170b5f428ec51ddb2b38a95466a2055d"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "215",
+      "title": "Пеллетный котел FACI 215",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-215.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 215,
+      "power_min_kw": null,
+      "power_label": "215 кВт",
+      "bunker_l": 500,
+      "price": 1040000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 1040000,
+          "old_price": 1164800,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[10][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 1067000,
+          "old_price": 1195040,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[10][kompl]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "Ottima",
+          "price": 1792930,
+          "old_price": 2008082,
+          "includes": [
+            "Автоподжиг",
+            "Автоочистка теплообменника",
+            "Автозолоудаление",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[10][kompl]",
+            "value": "3"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "0.5 м3",
+          "extra": 0,
+          "attributes": {
+            "data-default": "1",
+            "data-id": "1",
+            "data-price": "0",
+            "type": "radio",
+            "name": "cart[10][bunker][option]",
+            "value": "1",
+            "_checked": ""
+          },
+          "default": true
+        },
+        {
+          "name": "1 м3",
+          "extra": 54600,
+          "attributes": {
+            "data-id": "2",
+            "data-price": "54600",
+            "type": "radio",
+            "name": "cart[10][bunker][option]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "2 м3",
+          "extra": 79800,
+          "attributes": {
+            "data-id": "5",
+            "data-price": "79800",
+            "type": "radio",
+            "name": "cart[10][bunker][option]",
+            "value": "5"
+          }
+        }
+      ],
+      "external_bunkers": [
+        {
+          "name": "Без доп. бункера",
+          "extra": 0,
+          "attributes": {
+            "data-mainclear": "1",
+            "data-default": "1",
+            "data-main": "1",
+            "data-id": "",
+            "data-price": "",
+            "type": "radio",
+            "name": "cart[10][bunker][main]",
+            "value": "",
+            "checked": "checked"
+          },
+          "default": true
+        },
+        {
+          "name": "DI STRADA 12 м3",
+          "extra": 1490000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "335",
+            "data-price": "1490000",
+            "type": "radio",
+            "name": "cart[10][bunker][main]",
+            "value": "335"
+          }
+        },
+        {
+          "name": "DI STRADA 17 м3",
+          "extra": 1600000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "336",
+            "data-price": "1600000",
+            "type": "radio",
+            "name": "cart[10][bunker][main]",
+            "value": "336"
+          }
+        },
+        {
+          "name": "DI STRADA 22 м3",
+          "extra": 1730000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "334",
+            "data-price": "1730000",
+            "type": "radio",
+            "name": "cart[10][bunker][main]",
+            "value": "334"
+          }
+        },
+        {
+          "name": "DI STRADA 7 м3",
+          "extra": 1400000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "337",
+            "data-price": "1400000",
+            "type": "radio",
+            "name": "cart[10][bunker][main]",
+            "value": "337"
+          }
+        }
+      ],
+      "specifications": {
+        "Мощность": "215 кВт",
+        "Емкость бункера": "500 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Габариты котла с боковым расположением бункера ДхШхВ": "1962 х 2445 х 1767 мм",
+        "Габариты котла с задним расположением бункера ДхШхВ": "3082 х 860 х 1767 мм",
+        "Диаметр дымохода": "250 мм",
+        "Вес": "1356 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 215 мощностью 215 кВт с базовым бункером на 500 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/215_1_2_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/13beb905411f2438458e61b37d5b3285_457x490x-1.png",
+          "alt": "Пеллетный котел FACI 215",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/6a7b528b46625f79e5.png",
+          "width": 609,
+          "height": 609,
+          "bytes": 59604,
+          "sha256": "0b3268e9eae6718cc994917e8d1fd2cd665fbce86f8a23adcd6f3d3b2384fa31"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/10/Silos_12_5_kotel3_4_0_0.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/317fe4f6c117ebabdd86d5725ba0a96b_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 215",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/72bcb534e597f38a17.png",
+          "width": 1217,
+          "height": 893,
+          "bytes": 63943,
+          "sha256": "8e1fd2682eddcd20fb1ebf46eecec8dc65d1949408ac6f79377bb030664c68a6"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/10/Silos_12_5_kotel3_4_0.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/317fe4f6c117ebabdd86d5725ba0a96b_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 215",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/8aa1e818d5adcf635f.png",
+          "width": 1217,
+          "height": 893,
+          "bytes": 63943,
+          "sha256": "8e1fd2682eddcd20fb1ebf46eecec8dc65d1949408ac6f79377bb030664c68a6"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/10/TEST_18.10.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/63fb453aa51a31645c10ff97495efa9d_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 215",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/685f6512695862eceb.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 183593,
+          "sha256": "800cb179c9bca6e4399db1827f3606f6413c691305f3a79ed1b3e8ec0e717962"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/10/TEST_18.10_2_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b993a81a18c4e3f6414ca0b828d4e605_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 215",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/fee4f42773021e1d20.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 46046,
+          "sha256": "3eb3d2cc4cc5d6dd3e3601ab26f1499615521e40050f62ccd6a9b1163768a05b"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/10/215_2_2_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/647aff5c4de719bb7d50bd6e925f0d70_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 215",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/0e24b37ee1c044d53b.png",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 152872,
+          "sha256": "c68f1c729acf458bd8eb126f165dbefab8d3a5044801ac6db94b8689bbceba39"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/10/215_3.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/0630aec21d056ed6c1d3d825bf3a1858_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 215",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/e5808c7f401d183189.png",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 182035,
+          "sha256": "d0be7095b4b4cc6ff87473caa17b906c569767477829541b72438ebb809c50c7"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/10/1panel_pelletnyy_kotk1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/f650f8cd235c033757e3d55de5b3cdb8_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 215",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/2653ddbfc090e1fcdc.png",
+          "width": 700,
+          "height": 467,
+          "bytes": 60415,
+          "sha256": "f43969d8ea3ead18e82992b0c1a5ab8f8d279fb2f347020a71d3c15a556719f4"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/10/1panel_upravleniya_pelletnogo_kotla1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b6ace263dcec03c269818ff655ed22c3_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 215",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/2eb932807f1e968480.png",
+          "width": 700,
+          "height": 426,
+          "bytes": 35245,
+          "sha256": "c3f342196fd69d10141610933d21cec9097dfebdd6f3a5173456ab860bae58cc"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "258",
+      "title": "Пеллетный котел FACI 258",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-258.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 258,
+      "power_min_kw": null,
+      "power_label": "258 кВт",
+      "bunker_l": 500,
+      "price": 1140000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 1140000,
+          "old_price": 1276800,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[11][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 1167000,
+          "old_price": 1307040,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[11][kompl]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "Ottima",
+          "price": 2028820,
+          "old_price": 2272278,
+          "includes": [
+            "Автоподжиг",
+            "Автоочистка теплообменника",
+            "Автозолоудаление",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[11][kompl]",
+            "value": "3"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "0.5 м3",
+          "extra": 0,
+          "attributes": {
+            "data-default": "1",
+            "data-id": "1",
+            "data-price": "0",
+            "type": "radio",
+            "name": "cart[11][bunker][option]",
+            "value": "1",
+            "_checked": ""
+          },
+          "default": true
+        },
+        {
+          "name": "1 м3",
+          "extra": 54600,
+          "attributes": {
+            "data-id": "2",
+            "data-price": "54600",
+            "type": "radio",
+            "name": "cart[11][bunker][option]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "2 м3",
+          "extra": 79800,
+          "attributes": {
+            "data-id": "5",
+            "data-price": "79800",
+            "type": "radio",
+            "name": "cart[11][bunker][option]",
+            "value": "5"
+          }
+        }
+      ],
+      "external_bunkers": [
+        {
+          "name": "Без доп. бункера",
+          "extra": 0,
+          "attributes": {
+            "data-mainclear": "1",
+            "data-default": "1",
+            "data-main": "1",
+            "data-id": "",
+            "data-price": "",
+            "type": "radio",
+            "name": "cart[11][bunker][main]",
+            "value": "",
+            "checked": "checked"
+          },
+          "default": true
+        },
+        {
+          "name": "DI STRADA 12 м3",
+          "extra": 1490000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "335",
+            "data-price": "1490000",
+            "type": "radio",
+            "name": "cart[11][bunker][main]",
+            "value": "335"
+          }
+        },
+        {
+          "name": "DI STRADA 17 м3",
+          "extra": 1600000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "336",
+            "data-price": "1600000",
+            "type": "radio",
+            "name": "cart[11][bunker][main]",
+            "value": "336"
+          }
+        },
+        {
+          "name": "DI STRADA 22 м3",
+          "extra": 1730000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "334",
+            "data-price": "1730000",
+            "type": "radio",
+            "name": "cart[11][bunker][main]",
+            "value": "334"
+          }
+        },
+        {
+          "name": "DI STRADA 7 м3",
+          "extra": 1400000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "337",
+            "data-price": "1400000",
+            "type": "radio",
+            "name": "cart[11][bunker][main]",
+            "value": "337"
+          }
+        }
+      ],
+      "specifications": {
+        "Мощность": "258 кВт",
+        "Емкость бункера": "500 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Габариты котла с боковым расположением бункера ДхШхВ": "1962 х 2445 х 1767 мм",
+        "Габариты котла с задним расположением бункера ДхШхВ": "3082 х 860 х 1767 мм",
+        "Диаметр дымохода": "250 мм",
+        "Вес": "1451 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 258 мощностью 258 кВт с базовым бункером на 500 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/258_2.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/567a5ffe7bf430aae4d828c8c4533324_457x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 258",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/407eb7281f0c5b5083.jpg",
+          "width": 1000,
+          "height": 754,
+          "bytes": 67881,
+          "sha256": "fac093c439b922aad2205dcbdd1fd6b83e668cffbccaa4b6797b7d9eb2cb6924"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/11/Silos_12_5_kotel3_4_0.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/317fe4f6c117ebabdd86d5725ba0a96b_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 258",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/fdf3472d5d43d4fc81.png",
+          "width": 1217,
+          "height": 893,
+          "bytes": 63943,
+          "sha256": "8e1fd2682eddcd20fb1ebf46eecec8dc65d1949408ac6f79377bb030664c68a6"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/11/TEST_18.10.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/63fb453aa51a31645c10ff97495efa9d_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 258",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/cddee16312157dafc9.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 183593,
+          "sha256": "800cb179c9bca6e4399db1827f3606f6413c691305f3a79ed1b3e8ec0e717962"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/11/TEST_18.10_2_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b993a81a18c4e3f6414ca0b828d4e605_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 258",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/c70195f3906a20118b.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 46046,
+          "sha256": "3eb3d2cc4cc5d6dd3e3601ab26f1499615521e40050f62ccd6a9b1163768a05b"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/11/258_3.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/030c1405a5c2f6a4f508855aa54d5b03_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 258",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/80f595a4b8f4cfdfb2.jpg",
+          "width": 1000,
+          "height": 927,
+          "bytes": 86479,
+          "sha256": "ab061f076eb2e38de63ef9b77a339295f97aa3dd769d9f632c1ec0defc844804"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/11/258_4.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/3a980d25113c82d58be0a709aed54476_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 258",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/aabe8d3cc36deac8b0.jpg",
+          "width": 1000,
+          "height": 802,
+          "bytes": 65443,
+          "sha256": "c53f85b6df0e31d4d792e8711f166c748b367baf84c7d1d3dd54d2cba919be29"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/11/258_1.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/0403c0c4a0e8e1a9f3601cc5efd971cb_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 258",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/1fc7974af88dbbc4be.jpg",
+          "width": 1000,
+          "height": 667,
+          "bytes": 42614,
+          "sha256": "e9507a5653a548b0f3bb045211b555bb39950c5a753533ab700b6e49400e25d4"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/11/1panel_pelletnyy_kotk1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/f650f8cd235c033757e3d55de5b3cdb8_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 258",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/aff288569beecba89d.png",
+          "width": 700,
+          "height": 467,
+          "bytes": 60415,
+          "sha256": "f43969d8ea3ead18e82992b0c1a5ab8f8d279fb2f347020a71d3c15a556719f4"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/11/1panel_upravleniya_pelletnogo_kotla1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b6ace263dcec03c269818ff655ed22c3_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 258",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/f57d3d1994a0e83637.png",
+          "width": 700,
+          "height": 426,
+          "bytes": 35245,
+          "sha256": "c3f342196fd69d10141610933d21cec9097dfebdd6f3a5173456ab860bae58cc"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "386",
+      "title": "Пеллетный котел FACI 386",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-386.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 386,
+      "power_min_kw": null,
+      "power_label": "386 кВт",
+      "bunker_l": 1000,
+      "price": 1620000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 1620000,
+          "old_price": 1814400,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[12][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 1647000,
+          "old_price": 1844640,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[12][kompl]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "Ottima",
+          "price": 2580082,
+          "old_price": 2889692,
+          "includes": [
+            "Автоподжиг",
+            "Автоочистка теплообменника",
+            "Автозолоудаление",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[12][kompl]",
+            "value": "3"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "1 м3",
+          "extra": 0,
+          "attributes": {
+            "data-default": "1",
+            "data-id": "6",
+            "data-price": "0",
+            "type": "radio",
+            "name": "cart[12][bunker][option]",
+            "value": "6",
+            "_checked": ""
+          },
+          "default": true
+        },
+        {
+          "name": "2 м3",
+          "extra": 25200,
+          "attributes": {
+            "data-id": "4",
+            "data-price": "25200",
+            "type": "radio",
+            "name": "cart[12][bunker][option]",
+            "value": "4"
+          }
+        }
+      ],
+      "external_bunkers": [
+        {
+          "name": "Без доп. бункера",
+          "extra": 0,
+          "attributes": {
+            "data-mainclear": "1",
+            "data-default": "1",
+            "data-main": "1",
+            "data-id": "",
+            "data-price": "",
+            "type": "radio",
+            "name": "cart[12][bunker][main]",
+            "value": "",
+            "checked": "checked"
+          },
+          "default": true
+        },
+        {
+          "name": "DI STRADA 12 м3",
+          "extra": 1490000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "335",
+            "data-price": "1490000",
+            "type": "radio",
+            "name": "cart[12][bunker][main]",
+            "value": "335"
+          }
+        },
+        {
+          "name": "DI STRADA 17 м3",
+          "extra": 1600000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "336",
+            "data-price": "1600000",
+            "type": "radio",
+            "name": "cart[12][bunker][main]",
+            "value": "336"
+          }
+        },
+        {
+          "name": "DI STRADA 22 м3",
+          "extra": 1730000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "334",
+            "data-price": "1730000",
+            "type": "radio",
+            "name": "cart[12][bunker][main]",
+            "value": "334"
+          }
+        },
+        {
+          "name": "DI STRADA 7 м3",
+          "extra": 1400000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "337",
+            "data-price": "1400000",
+            "type": "radio",
+            "name": "cart[12][bunker][main]",
+            "value": "337"
+          }
+        }
+      ],
+      "specifications": {
+        "Мощность": "386 кВт",
+        "Емкость бункера": "1000 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Габариты котла с боковым расположением бункера ДхШхВ": "2575 х 3076 х 2143 мм",
+        "Габариты котла с задним расположением бункера ДхШхВ": "4117 х 1531 х 2143 мм",
+        "Диаметр дымохода": "300 мм",
+        "Вес": "2805 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 386 мощностью 386 кВт с базовым бункером на 1000 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/386_1.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/3d89f4241a4797b03a3ebcfbee87627d_457x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 386",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/f94dad7a0b51f0360c.jpg",
+          "width": 898,
+          "height": 1000,
+          "bytes": 71825,
+          "sha256": "9178ec86fe972c2ccff0a435b4b31a184b48d1216184294e2d76c375b4def5ce"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/12/Silos_12_5_kotel3_4_0.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/317fe4f6c117ebabdd86d5725ba0a96b_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 386",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/e47bba3b1ba17caf4b.png",
+          "width": 1217,
+          "height": 893,
+          "bytes": 63943,
+          "sha256": "8e1fd2682eddcd20fb1ebf46eecec8dc65d1949408ac6f79377bb030664c68a6"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/12/TEST_18.10.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/63fb453aa51a31645c10ff97495efa9d_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 386",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/a614e032f2ec1b6a80.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 183593,
+          "sha256": "800cb179c9bca6e4399db1827f3606f6413c691305f3a79ed1b3e8ec0e717962"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/12/TEST_18.10_2_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b993a81a18c4e3f6414ca0b828d4e605_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 386",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/a7a00aaeb168df4315.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 46046,
+          "sha256": "3eb3d2cc4cc5d6dd3e3601ab26f1499615521e40050f62ccd6a9b1163768a05b"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/12/386_2.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/8c7287a9da033f2d8416d8ff4b3bff1f_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 386",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/86a20189b975ad7a05.jpg",
+          "width": 1000,
+          "height": 667,
+          "bytes": 45977,
+          "sha256": "b56809dd5c97331e7cf1bfe632f65329a2b5c7ba96a6c884cf80a483de2f936c"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/12/386_3.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/8cb40aefb790384aa5d5467aa83f3190_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 386",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/9fbc90efcd1db6a4d1.jpg",
+          "width": 667,
+          "height": 1000,
+          "bytes": 44680,
+          "sha256": "8629c34b459c9e6ba03e97a52106a4af3a5419099ceb7efd22f5b29b161a7f56"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/12/386_4.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/c1f2c946b26683bbc10fa5a5d67c3b7e_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 386",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/444d3c1756dba6737b.jpg",
+          "width": 1058,
+          "height": 1000,
+          "bytes": 91543,
+          "sha256": "136190bd0179cf248c57a90cf5f78cdae56d7051e3cd91fb3423035f6222287a"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/12/1panel_pelletnyy_kotk1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/f650f8cd235c033757e3d55de5b3cdb8_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 386",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/a1ab0da17d601166df.png",
+          "width": 700,
+          "height": 467,
+          "bytes": 60415,
+          "sha256": "f43969d8ea3ead18e82992b0c1a5ab8f8d279fb2f347020a71d3c15a556719f4"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/12/1panel_upravleniya_pelletnogo_kotla1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b6ace263dcec03c269818ff655ed22c3_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 386",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/25b43ead15fe69029c.png",
+          "width": 700,
+          "height": 426,
+          "bytes": 35245,
+          "sha256": "c3f342196fd69d10141610933d21cec9097dfebdd6f3a5173456ab860bae58cc"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "455",
+      "title": "Пеллетный котел FACI 455",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-455.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 455,
+      "power_min_kw": null,
+      "power_label": "455 кВт",
+      "bunker_l": 1000,
+      "price": 1710000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 1710000,
+          "old_price": 1915200,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[13][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 1737000,
+          "old_price": 1945440,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[13][kompl]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "Ottima",
+          "price": 2670082,
+          "old_price": 2990492,
+          "includes": [
+            "Автоподжиг",
+            "Автоочистка теплообменника",
+            "Автозолоудаление",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[13][kompl]",
+            "value": "3"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "1 м3",
+          "extra": 0,
+          "attributes": {
+            "data-default": "1",
+            "data-id": "6",
+            "data-price": "0",
+            "type": "radio",
+            "name": "cart[13][bunker][option]",
+            "value": "6",
+            "_checked": ""
+          },
+          "default": true
+        },
+        {
+          "name": "2 м3",
+          "extra": 25200,
+          "attributes": {
+            "data-id": "4",
+            "data-price": "25200",
+            "type": "radio",
+            "name": "cart[13][bunker][option]",
+            "value": "4"
+          }
+        }
+      ],
+      "external_bunkers": [
+        {
+          "name": "Без доп. бункера",
+          "extra": 0,
+          "attributes": {
+            "data-mainclear": "1",
+            "data-default": "1",
+            "data-main": "1",
+            "data-id": "",
+            "data-price": "",
+            "type": "radio",
+            "name": "cart[13][bunker][main]",
+            "value": "",
+            "checked": "checked"
+          },
+          "default": true
+        },
+        {
+          "name": "DI STRADA 12 м3",
+          "extra": 1490000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "335",
+            "data-price": "1490000",
+            "type": "radio",
+            "name": "cart[13][bunker][main]",
+            "value": "335"
+          }
+        },
+        {
+          "name": "DI STRADA 17 м3",
+          "extra": 1600000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "336",
+            "data-price": "1600000",
+            "type": "radio",
+            "name": "cart[13][bunker][main]",
+            "value": "336"
+          }
+        },
+        {
+          "name": "DI STRADA 22 м3",
+          "extra": 1730000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "334",
+            "data-price": "1730000",
+            "type": "radio",
+            "name": "cart[13][bunker][main]",
+            "value": "334"
+          }
+        },
+        {
+          "name": "DI STRADA 7 м3",
+          "extra": 1400000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "337",
+            "data-price": "1400000",
+            "type": "radio",
+            "name": "cart[13][bunker][main]",
+            "value": "337"
+          }
+        }
+      ],
+      "specifications": {
+        "Мощность": "455 кВт",
+        "Емкость бункера": "1000 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Габариты котла с боковым расположением бункера ДхШхВ": "2575 х 3076 х 2143 мм",
+        "Габариты котла с задним расположением бункера ДхШхВ": "4117 х 1531 х 2143 мм",
+        "Диаметр дымохода": "300 мм",
+        "Вес": "3097 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 455 мощностью 455 кВт с базовым бункером на 1000 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/386_1_0.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/3d89f4241a4797b03a3ebcfbee87627d_457x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 455",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/2bed1f7bd6e70f665f.jpg",
+          "width": 898,
+          "height": 1000,
+          "bytes": 71825,
+          "sha256": "9178ec86fe972c2ccff0a435b4b31a184b48d1216184294e2d76c375b4def5ce"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/13/Silos_12_5_kotel3_4_0.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/317fe4f6c117ebabdd86d5725ba0a96b_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 455",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/cb5aee2e8d63044b5a.png",
+          "width": 1217,
+          "height": 893,
+          "bytes": 63943,
+          "sha256": "8e1fd2682eddcd20fb1ebf46eecec8dc65d1949408ac6f79377bb030664c68a6"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/13/TEST_18.10.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/63fb453aa51a31645c10ff97495efa9d_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 455",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/fa788d9dd510df7ddf.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 183593,
+          "sha256": "800cb179c9bca6e4399db1827f3606f6413c691305f3a79ed1b3e8ec0e717962"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/13/TEST_18.10_2_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b993a81a18c4e3f6414ca0b828d4e605_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 455",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/ffe71c974a714192d6.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 46046,
+          "sha256": "3eb3d2cc4cc5d6dd3e3601ab26f1499615521e40050f62ccd6a9b1163768a05b"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/13/386_2.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/8c7287a9da033f2d8416d8ff4b3bff1f_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 455",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/f958baae6c434c22f5.jpg",
+          "width": 1000,
+          "height": 667,
+          "bytes": 45977,
+          "sha256": "b56809dd5c97331e7cf1bfe632f65329a2b5c7ba96a6c884cf80a483de2f936c"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/13/386_3.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/8cb40aefb790384aa5d5467aa83f3190_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 455",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/2766749f68df6b2119.jpg",
+          "width": 667,
+          "height": 1000,
+          "bytes": 44680,
+          "sha256": "8629c34b459c9e6ba03e97a52106a4af3a5419099ceb7efd22f5b29b161a7f56"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/13/386_4.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/c1f2c946b26683bbc10fa5a5d67c3b7e_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 455",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/974524e5bfa7403608.jpg",
+          "width": 1058,
+          "height": 1000,
+          "bytes": 91543,
+          "sha256": "136190bd0179cf248c57a90cf5f78cdae56d7051e3cd91fb3423035f6222287a"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/13/1panel_pelletnyy_kotk1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/f650f8cd235c033757e3d55de5b3cdb8_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 455",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/d18c19855d2964f771.png",
+          "width": 700,
+          "height": 467,
+          "bytes": 60415,
+          "sha256": "f43969d8ea3ead18e82992b0c1a5ab8f8d279fb2f347020a71d3c15a556719f4"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/13/1panel_upravleniya_pelletnogo_kotla1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b6ace263dcec03c269818ff655ed22c3_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 455",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/ded890c8558a48bdf3.png",
+          "width": 700,
+          "height": 426,
+          "bytes": 35245,
+          "sha256": "c3f342196fd69d10141610933d21cec9097dfebdd6f3a5173456ab860bae58cc"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "645",
+      "title": "Пеллетный котел FACI 645",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-645.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 645,
+      "power_min_kw": null,
+      "power_label": "645 кВт",
+      "bunker_l": 1000,
+      "price": 2250000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 2250000,
+          "old_price": 2520000,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[14][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 2277000,
+          "old_price": 2550240,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[14][kompl]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "Ottima",
+          "price": 3290439,
+          "old_price": 3685292,
+          "includes": [
+            "Автоподжиг",
+            "Автоочистка теплообменника",
+            "Автозолоудаление",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[14][kompl]",
+            "value": "3"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "1 м3",
+          "extra": 0,
+          "attributes": {
+            "data-default": "1",
+            "data-id": "6",
+            "data-price": "0",
+            "type": "radio",
+            "name": "cart[14][bunker][option]",
+            "value": "6",
+            "_checked": ""
+          },
+          "default": true
+        },
+        {
+          "name": "2 м3",
+          "extra": 25200,
+          "attributes": {
+            "data-id": "4",
+            "data-price": "25200",
+            "type": "radio",
+            "name": "cart[14][bunker][option]",
+            "value": "4"
+          }
+        }
+      ],
+      "external_bunkers": [
+        {
+          "name": "Без доп. бункера",
+          "extra": 0,
+          "attributes": {
+            "data-mainclear": "1",
+            "data-default": "1",
+            "data-main": "1",
+            "data-id": "",
+            "data-price": "",
+            "type": "radio",
+            "name": "cart[14][bunker][main]",
+            "value": "",
+            "checked": "checked"
+          },
+          "default": true
+        },
+        {
+          "name": "DI STRADA 12 м3",
+          "extra": 1490000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "335",
+            "data-price": "1490000",
+            "type": "radio",
+            "name": "cart[14][bunker][main]",
+            "value": "335"
+          }
+        },
+        {
+          "name": "DI STRADA 17 м3",
+          "extra": 1600000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "336",
+            "data-price": "1600000",
+            "type": "radio",
+            "name": "cart[14][bunker][main]",
+            "value": "336"
+          }
+        },
+        {
+          "name": "DI STRADA 22 м3",
+          "extra": 1730000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "334",
+            "data-price": "1730000",
+            "type": "radio",
+            "name": "cart[14][bunker][main]",
+            "value": "334"
+          }
+        },
+        {
+          "name": "DI STRADA 7 м3",
+          "extra": 1400000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "337",
+            "data-price": "1400000",
+            "type": "radio",
+            "name": "cart[14][bunker][main]",
+            "value": "337"
+          }
+        }
+      ],
+      "specifications": {
+        "Мощность": "645 кВт",
+        "Емкость бункера": "1000 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Габариты котла с боковым расположением бункера ДхШхВ": "2747 х 3310 х 2524 мм",
+        "Габариты котла с задним расположением бункера ДхШхВ": "4223 х 1668 х 2524 мм",
+        "Диаметр дымохода": "380 мм",
+        "Вес": "3655 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 645 мощностью 645 кВт с базовым бункером на 1000 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/645_1.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/2ea5852883dc5f3da952594fca6c7891_457x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 645",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/b76f299e9f1eb4a2cc.jpg",
+          "width": 679,
+          "height": 1000,
+          "bytes": 56474,
+          "sha256": "5f15196daf1098b7ca099b4095b426257acb6f43c7fa894e8235e6a8bf4a4005"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/14/Silos_12_5_kotel3_4_0.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/317fe4f6c117ebabdd86d5725ba0a96b_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 645",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/8a97835c264a11ee9c.png",
+          "width": 1217,
+          "height": 893,
+          "bytes": 63943,
+          "sha256": "8e1fd2682eddcd20fb1ebf46eecec8dc65d1949408ac6f79377bb030664c68a6"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/14/TEST_18.10.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/63fb453aa51a31645c10ff97495efa9d_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 645",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/702c98de1eabf0b616.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 183593,
+          "sha256": "800cb179c9bca6e4399db1827f3606f6413c691305f3a79ed1b3e8ec0e717962"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/14/TEST_18.10_2_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b993a81a18c4e3f6414ca0b828d4e605_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 645",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/c3397953b0b9595013.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 46046,
+          "sha256": "3eb3d2cc4cc5d6dd3e3601ab26f1499615521e40050f62ccd6a9b1163768a05b"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/14/645_2.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/449fcea1414ce7758e145f84b7f3eddd_487x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 645",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/a51f753cb7a0513862.jpg",
+          "width": 814,
+          "height": 1000,
+          "bytes": 57465,
+          "sha256": "fc77dc64a67538e97f20126a683ef1047f85b543a297a556ffbdaae1a7c6788a"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/14/1panel_pelletnyy_kotk1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/f650f8cd235c033757e3d55de5b3cdb8_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 645",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/20c4d74517f631129e.png",
+          "width": 700,
+          "height": 467,
+          "bytes": 60415,
+          "sha256": "f43969d8ea3ead18e82992b0c1a5ab8f8d279fb2f347020a71d3c15a556719f4"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/14/1panel_upravleniya_pelletnogo_kotla1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b6ace263dcec03c269818ff655ed22c3_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 645",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/10f05ec28d7bcdc56c.png",
+          "width": 700,
+          "height": 426,
+          "bytes": 35245,
+          "sha256": "c3f342196fd69d10141610933d21cec9097dfebdd6f3a5173456ab860bae58cc"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "761",
+      "title": "Пеллетный котел FACI 761",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-761.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 761,
+      "power_min_kw": null,
+      "power_label": "761 кВт",
+      "bunker_l": 1000,
+      "price": 2450000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 2450000,
+          "old_price": 2744000,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[15][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 2477000,
+          "old_price": 2774240,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[15][kompl]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "Ottima",
+          "price": 3490439,
+          "old_price": 3909292,
+          "includes": [
+            "Автоподжиг",
+            "Автоочистка теплообменника",
+            "Автозолоудаление",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[15][kompl]",
+            "value": "3"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "1 м3",
+          "extra": 0,
+          "attributes": {
+            "data-default": "1",
+            "data-id": "6",
+            "data-price": "0",
+            "type": "radio",
+            "name": "cart[15][bunker][option]",
+            "value": "6",
+            "_checked": ""
+          },
+          "default": true
+        },
+        {
+          "name": "2 м3",
+          "extra": 25200,
+          "attributes": {
+            "data-id": "4",
+            "data-price": "25200",
+            "type": "radio",
+            "name": "cart[15][bunker][option]",
+            "value": "4"
+          }
+        }
+      ],
+      "external_bunkers": [
+        {
+          "name": "Без доп. бункера",
+          "extra": 0,
+          "attributes": {
+            "data-mainclear": "1",
+            "data-default": "1",
+            "data-main": "1",
+            "data-id": "",
+            "data-price": "",
+            "type": "radio",
+            "name": "cart[15][bunker][main]",
+            "value": "",
+            "checked": "checked"
+          },
+          "default": true
+        },
+        {
+          "name": "DI STRADA 12 м3",
+          "extra": 1490000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "335",
+            "data-price": "1490000",
+            "type": "radio",
+            "name": "cart[15][bunker][main]",
+            "value": "335"
+          }
+        },
+        {
+          "name": "DI STRADA 17 м3",
+          "extra": 1600000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "336",
+            "data-price": "1600000",
+            "type": "radio",
+            "name": "cart[15][bunker][main]",
+            "value": "336"
+          }
+        },
+        {
+          "name": "DI STRADA 22 м3",
+          "extra": 1730000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "334",
+            "data-price": "1730000",
+            "type": "radio",
+            "name": "cart[15][bunker][main]",
+            "value": "334"
+          }
+        },
+        {
+          "name": "DI STRADA 7 м3",
+          "extra": 1400000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "337",
+            "data-price": "1400000",
+            "type": "radio",
+            "name": "cart[15][bunker][main]",
+            "value": "337"
+          }
+        }
+      ],
+      "specifications": {
+        "Мощность": "761 кВт",
+        "Емкость бункера": "1000 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Габариты котла с боковым расположением бункера ДхШхВ": "2747 х 3310 х 2524 мм",
+        "Габариты котла с задним расположением бункера ДхШхВ": "4223 х 1668 х 2524 мм",
+        "Диаметр дымохода": "380 мм",
+        "Вес": "4305 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 761 мощностью 761 кВт с базовым бункером на 1000 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/761_1.jpg",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/4b070acbc96964208a0b5fff4953d231_457x490x-1.jpg",
+          "alt": "Пеллетный котел FACI 761",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/730fb85de2d1031b6b.jpg",
+          "width": 750,
+          "height": 1000,
+          "bytes": 65134,
+          "sha256": "8c358ef3297e5f1e35bd4102372ac0ad0c8e29486c6279658672aa6f0d0e24fa"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/15/Silos_12_5_kotel3_4_0.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/317fe4f6c117ebabdd86d5725ba0a96b_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 761",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/0ec6a0a9a8e015d142.png",
+          "width": 1217,
+          "height": 893,
+          "bytes": 63943,
+          "sha256": "8e1fd2682eddcd20fb1ebf46eecec8dc65d1949408ac6f79377bb030664c68a6"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/15/TEST_18.10.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/63fb453aa51a31645c10ff97495efa9d_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 761",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/18e2e0bf0082dff516.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 183593,
+          "sha256": "800cb179c9bca6e4399db1827f3606f6413c691305f3a79ed1b3e8ec0e717962"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/15/TEST_18.10_2_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b993a81a18c4e3f6414ca0b828d4e605_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 761",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/56576a217be5849c36.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 46046,
+          "sha256": "3eb3d2cc4cc5d6dd3e3601ab26f1499615521e40050f62ccd6a9b1163768a05b"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/15/1panel_pelletnyy_kotk1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/f650f8cd235c033757e3d55de5b3cdb8_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 761",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/1fcc26cf50b06084df.png",
+          "width": 700,
+          "height": 467,
+          "bytes": 60415,
+          "sha256": "f43969d8ea3ead18e82992b0c1a5ab8f8d279fb2f347020a71d3c15a556719f4"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/15/1panel_upravleniya_pelletnogo_kotla1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b6ace263dcec03c269818ff655ed22c3_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 761",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/8e6344459b1a145127.png",
+          "width": 700,
+          "height": 426,
+          "bytes": 35245,
+          "sha256": "c3f342196fd69d10141610933d21cec9097dfebdd6f3a5173456ab860bae58cc"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "1000",
+      "title": "Пеллетный котел FACI 1000",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-1000.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 1000,
+      "power_min_kw": null,
+      "power_label": "1000 кВт",
+      "bunker_l": 2000,
+      "price": 2990000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 2990000,
+          "old_price": 3348800,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[16][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 3044000,
+          "old_price": 3409280,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[16][kompl]",
+            "value": "2"
+          }
+        },
+        {
+          "name": "Ottima",
+          "price": 4057439,
+          "old_price": 4544332,
+          "includes": [
+            "Автоподжиг",
+            "Автоочистка теплообменника",
+            "Автозолоудаление",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[16][kompl]",
+            "value": "3"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "2000 л",
+          "extra": 0,
+          "fixed": true,
+          "default": true
+        }
+      ],
+      "external_bunkers": [
+        {
+          "name": "Без доп. бункера",
+          "extra": 0,
+          "attributes": {
+            "data-mainclear": "1",
+            "data-default": "1",
+            "data-main": "1",
+            "data-id": "",
+            "data-price": "",
+            "type": "radio",
+            "name": "cart[16][bunker][main]",
+            "value": "",
+            "checked": "checked"
+          },
+          "default": true
+        },
+        {
+          "name": "DI STRADA 12 м3",
+          "extra": 1490000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "335",
+            "data-price": "1490000",
+            "type": "radio",
+            "name": "cart[16][bunker][main]",
+            "value": "335"
+          }
+        },
+        {
+          "name": "DI STRADA 17 м3",
+          "extra": 1600000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "336",
+            "data-price": "1600000",
+            "type": "radio",
+            "name": "cart[16][bunker][main]",
+            "value": "336"
+          }
+        },
+        {
+          "name": "DI STRADA 22 м3",
+          "extra": 1730000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "334",
+            "data-price": "1730000",
+            "type": "radio",
+            "name": "cart[16][bunker][main]",
+            "value": "334"
+          }
+        },
+        {
+          "name": "DI STRADA 7 м3",
+          "extra": 1400000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "337",
+            "data-price": "1400000",
+            "type": "radio",
+            "name": "cart[16][bunker][main]",
+            "value": "337"
+          }
+        }
+      ],
+      "specifications": {
+        "Мощность": "1000 кВт",
+        "Емкость бункера": "2000 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Габариты котла с боковым расположением бункера ДхШхВ": "3241 х 3303 х 2932 мм",
+        "Диаметр дымохода": "480 мм",
+        "Вес": "4484 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 1000 мощностью 1000 кВт с базовым бункером на 2000 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/IMG_8493.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/9b29b5f5f03d845dac8263bb0ca09884_457x490x-1.png",
+          "alt": "Пеллетный котел FACI 1000",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/8b7854340b46e8ae45.png",
+          "width": 606,
+          "height": 874,
+          "bytes": 40381,
+          "sha256": "6a166dc207fb8bac2903c68606eb811a5a2ec98b2fe2ade08ae126210c15d2f2"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/16/Silos_12_5_kotel3_4_0.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/317fe4f6c117ebabdd86d5725ba0a96b_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 1000",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/71dc4606db7df16161.png",
+          "width": 1217,
+          "height": 893,
+          "bytes": 63943,
+          "sha256": "8e1fd2682eddcd20fb1ebf46eecec8dc65d1949408ac6f79377bb030664c68a6"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/16/TEST_18.10.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/63fb453aa51a31645c10ff97495efa9d_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 1000",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/85527b7c002631be8b.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 183593,
+          "sha256": "800cb179c9bca6e4399db1827f3606f6413c691305f3a79ed1b3e8ec0e717962"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/16/TEST_18.10_2_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b993a81a18c4e3f6414ca0b828d4e605_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 1000",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/468d77f3e8062ff73c.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 46046,
+          "sha256": "3eb3d2cc4cc5d6dd3e3601ab26f1499615521e40050f62ccd6a9b1163768a05b"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/16/1panel_pelletnyy_kotk1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/f650f8cd235c033757e3d55de5b3cdb8_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 1000",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/74fdd9eab9b32370c2.png",
+          "width": 700,
+          "height": 467,
+          "bytes": 60415,
+          "sha256": "f43969d8ea3ead18e82992b0c1a5ab8f8d279fb2f347020a71d3c15a556719f4"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/16/1panel_upravleniya_pelletnogo_kotla1_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b6ace263dcec03c269818ff655ed22c3_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 1000",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/50efb17e5f1257ee91.png",
+          "width": 700,
+          "height": 426,
+          "bytes": 35245,
+          "sha256": "c3f342196fd69d10141610933d21cec9097dfebdd6f3a5173456ab860bae58cc"
+        }
+      ],
+      "layout_options": []
+    },
+    {
+      "model": "1500",
+      "title": "Пеллетный котел FACI 1500",
+      "source_url": "https://facirus.ru/catalog/pelletnye-kotly/pelletnyy-kotel-faci-1500.html",
+      "category_url": "https://facirus.ru/catalog/pelletnye-kotly/",
+      "power_kw": 1500,
+      "power_min_kw": null,
+      "power_label": "1500 кВт",
+      "bunker_l": 2500,
+      "price": 5300000,
+      "price_kind": "Текущая полная цена сайта производителя",
+      "variants": [
+        {
+          "name": "Base",
+          "price": 5300000,
+          "old_price": 5936000,
+          "includes": [
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[349][kompl]",
+            "value": "1",
+            "checked": "checked"
+          }
+        },
+        {
+          "name": "Classico",
+          "price": 5354000,
+          "old_price": 5996480,
+          "includes": [
+            "Автоподжиг",
+            "Интернет-модуль Wi-Fi и Ethernet",
+            "Управление со смартфона"
+          ],
+          "attributes": {
+            "type": "radio",
+            "name": "cart[349][kompl]",
+            "value": "2"
+          }
+        }
+      ],
+      "bunkers": [
+        {
+          "name": "2500 л",
+          "extra": 0,
+          "fixed": true,
+          "default": true
+        }
+      ],
+      "external_bunkers": [
+        {
+          "name": "Без доп. бункера",
+          "extra": 0,
+          "attributes": {
+            "data-mainclear": "1",
+            "data-default": "1",
+            "data-main": "1",
+            "data-id": "",
+            "data-price": "",
+            "type": "radio",
+            "name": "cart[349][bunker][main]",
+            "value": "",
+            "checked": "checked"
+          },
+          "default": true
+        },
+        {
+          "name": "DI STRADA 12 м3",
+          "extra": 1490000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "335",
+            "data-price": "1490000",
+            "type": "radio",
+            "name": "cart[349][bunker][main]",
+            "value": "335"
+          }
+        },
+        {
+          "name": "DI STRADA 17 м3",
+          "extra": 1600000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "336",
+            "data-price": "1600000",
+            "type": "radio",
+            "name": "cart[349][bunker][main]",
+            "value": "336"
+          }
+        },
+        {
+          "name": "DI STRADA 22 м3",
+          "extra": 1730000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "334",
+            "data-price": "1730000",
+            "type": "radio",
+            "name": "cart[349][bunker][main]",
+            "value": "334"
+          }
+        },
+        {
+          "name": "DI STRADA 7 м3",
+          "extra": 1400000,
+          "attributes": {
+            "data-main": "1",
+            "data-id": "337",
+            "data-price": "1400000",
+            "type": "radio",
+            "name": "cart[349][bunker][main]",
+            "value": "337"
+          }
+        }
+      ],
+      "specifications": {
+        "Мощность": "1500 кВт",
+        "Емкость бункера": "2500 л",
+        "Вид топлива": "пеллеты, дрова, уголь фракции до 25 мм",
+        "Диаметр дымохода": "747 мм",
+        "Вес": "6400 кг"
+      },
+      "description": "Автоматический пеллетный котёл FACI 1500 мощностью 1500 кВт с базовым бункером на 2500 л. Подача пеллет выполняется шнековым механизмом. Дрова и уголь фракцией до 25 мм указаны производителем как дополнительные виды топлива. Оснащение зависит от выбранной комплектации.",
+      "documents": [
+        {
+          "title": "Сертификат системы менеджмента качества ISO 9001",
+          "url": "https://facirus.ru/netcat_files/6/39/iso.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/iso.jpg",
+          "sha256": "56ea26028abf2b4915d95ad709bb684e6910446f3e6ee0f40cc94d303bdf1580",
+          "validated_image": true,
+          "valid_until": "2027-08-19"
+        },
+        {
+          "title": "Декларация о соответствии ЕАЭС",
+          "url": "https://facirus.ru/netcat_files/6/39/Deklaratsiya_sootvetstviya_2029.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/Deklaratsiya_sootvetstviya_2029.jpg",
+          "sha256": "f6b9ddf0a358c76424d1a69517b08c5e70986963ee277f559b115464aa98f889",
+          "validated_image": true,
+          "valid_until": "2029-04-16"
+        },
+        {
+          "title": "Сертификат экологической безопасности",
+          "url": "https://facirus.ru/netcat_files/6/39/sst.jpg",
+          "kind": "certificate",
+          "format": "image",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/documents/sst.jpg",
+          "sha256": "64f1f51e4ed2fc9322548fc5b214600c2d98e21d42e7aacaed463eaa3ad62693",
+          "validated_image": true,
+          "valid_until": "2027-09-09"
+        }
+      ],
+      "warnings": [
+        "В карточке производителя не найден паспорт или руководство в виде скачиваемого документа."
+      ],
+      "conflicts": [],
+      "images": [
+        {
+          "source_url": "https://facirus.ru/netcat_files/10/6/IMG_8493_0.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/9b29b5f5f03d845dac8263bb0ca09884_457x490x-1.png",
+          "alt": "Пеллетный котел FACI 1500",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/45d3cb1b735d1afc15.png",
+          "width": 606,
+          "height": 874,
+          "bytes": 40381,
+          "sha256": "6a166dc207fb8bac2903c68606eb811a5a2ec98b2fe2ade08ae126210c15d2f2"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/349/Silos_12_5_kotel3_4_0.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/317fe4f6c117ebabdd86d5725ba0a96b_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 1500",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/75a2aa603c20d8256f.png",
+          "width": 1217,
+          "height": 893,
+          "bytes": 63943,
+          "sha256": "8e1fd2682eddcd20fb1ebf46eecec8dc65d1949408ac6f79377bb030664c68a6"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/349/TEST_18.10.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/63fb453aa51a31645c10ff97495efa9d_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 1500",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/b0cf00dfebe17dc9ce.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 183593,
+          "sha256": "800cb179c9bca6e4399db1827f3606f6413c691305f3a79ed1b3e8ec0e717962"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/349/TEST_18.10_2_.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b993a81a18c4e3f6414ca0b828d4e605_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 1500",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/12dc8edc5ca1743016.png",
+          "width": 545,
+          "height": 541,
+          "bytes": 46046,
+          "sha256": "3eb3d2cc4cc5d6dd3e3601ab26f1499615521e40050f62ccd6a9b1163768a05b"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/68/1panel_pelletnyy_kotk1__0.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/f650f8cd235c033757e3d55de5b3cdb8_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 1500",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/adf082b5a6f7790404.png",
+          "width": 700,
+          "height": 467,
+          "bytes": 60415,
+          "sha256": "f43969d8ea3ead18e82992b0c1a5ab8f8d279fb2f347020a71d3c15a556719f4"
+        },
+        {
+          "source_url": "https://facirus.ru/netcat_files/multifile/68/68/1panel_upravleniya_pelletnogo_kotla1__0.png",
+          "thumbnail_url": "https://facirus.ru/netcat_files/cache/b6ace263dcec03c269818ff655ed22c3_487x490x-1.png",
+          "alt": "Пеллетный котел FACI 1500",
+          "local_path": "/Users/pelletsgrupp/.codex/.chatgpt-projects/g-p-6aca9815df1c8191a13a738bb16cf11b/outputs/faci-2026-10-21/research/images/024425e1af13eceb05.png",
+          "width": 700,
+          "height": 426,
+          "bytes": 35245,
+          "sha256": "c3f342196fd69d10141610933d21cec9097dfebdd6f3a5173456ab860bae58cc"
+        }
+      ],
+      "layout_options": []
+    }
+  ]
+}

@@ -1,0 +1,3904 @@
+{
+  "checked_at": "2026-10-21",
+  "manufacturer": "https://kras-kotel.ru/",
+  "total": 64,
+  "series_counts": {
+    "boss": 13,
+    "eko": 9,
+    "eko-max": 5,
+    "max-duo": 5,
+    "optimum-ultra": 6,
+    "optimum-ultra-pro": 7,
+    "optimum-uni": 8,
+    "optimum-uni-max": 6,
+    "optimum-uni-pro": 5
+  },
+  "source_snapshot": [
+    {
+      "slug": "vulkan-boss-11",
+      "title": "Vulkan Boss 11",
+      "series": "boss",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-boss-11",
+      "price": 169000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-boss-11",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "169 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "11",
+        "Отапливаемая площадь, кв. м": "100",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "159",
+        "Объем теплоносителя, л": "48",
+        "Ёмкость бункера, л": "200",
+        "Потребляемая мощность": "600 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "270",
+        "Габариты, мм": "1090х1230х730"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Boss",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "11",
+        "Отапливаемая площадь, м²": "100"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-boss-11/pasport-boss-ot-27.09.22.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-boss-16",
+      "title": "Vulkan Boss 16",
+      "series": "boss",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-boss-16",
+      "price": 173000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-boss-16",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "173 000"
+      },
+      "specifications": {},
+      "basic_specifications": {
+        "Модельный ряд": "Boss",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "16",
+        "Отапливаемая площадь, м²": "160"
+      },
+      "main_fuel": "Фракционный бурый уголь (семечка, горошек, орех), топливные пеллеты и агропеллеты",
+      "reserve_fuel": null,
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-boss-16/pasport-boss-ot-27.09.22.pdf"
+        }
+      ],
+      "warnings": [
+        "На карточке производителя отсутствует полная таблица характеристик. Доступны только краткие характеристики.",
+        "Производитель указывает разную площадь: 160 м² в характеристиках и 140 м² в описании. На сайте площадь требует уточнения."
+      ],
+      "conflicts": [
+        {
+          "field": "heating_area_m2",
+          "specifications_value": 160.0,
+          "description_value": 140,
+          "public_value": null,
+          "resolution": "Уточняется при подборе",
+          "source_url": "https://kras-kotel.ru/katalog/vulkan-boss-16"
+        }
+      ],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-01 / абзац о топливе",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url",
+        "description_heating_area_m2": "#tabs-01 / первое описание площади"
+      }
+    },
+    {
+      "slug": "vulkan-boss-22",
+      "title": "Vulkan Boss 22",
+      "series": "boss",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-boss-22",
+      "price": 182000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-boss-22",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "182 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "22",
+        "Отапливаемая площадь, кв. м": "220",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "159",
+        "Объем теплоносителя, л": "68",
+        "Ёмкость бункера, л": "200",
+        "Потребляемая мощность": "600 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "324",
+        "Габариты —, мм": "1090х1230х970"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Boss",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "22",
+        "Отапливаемая площадь, м²": "220"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-boss-22/pasport-boss-ot-27.09.22.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-boss-26",
+      "title": "Vulkan Boss 26",
+      "series": "boss",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-boss-26",
+      "price": 189000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-boss-26",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "189 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "26",
+        "Отапливаемая площадь, кв. м": "260",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "159",
+        "Объем теплоносителя, л": "75",
+        "Ёмкость бункера, л": "200",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "332",
+        "Габариты, мм": "1090х1230х970"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Boss",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "26",
+        "Отапливаемая площадь, м²": "260"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-boss-26/pasport-boss-ot-27.09.22.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-boss-33",
+      "title": "Vulkan Boss 33",
+      "series": "boss",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-boss-33",
+      "price": 212000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-boss-33",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "212 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "33",
+        "Отапливаемая площадь, кв. м": "330",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "159",
+        "Объем теплоносителя, л": "94",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "600 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "420",
+        "Габариты, мм": "1400х1230х1050"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Boss",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "33",
+        "Отапливаемая площадь, м²": "330"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-boss-33/pasport-boss-ot-27.09.22.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-boss-48",
+      "title": "Vulkan Boss 48",
+      "series": "boss",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-boss-48",
+      "price": 229000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-boss-48",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "229 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "48",
+        "Отапливаемая площадь, кв. м": "480",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "120",
+        "Ёмкость бункера, л": "400",
+        "Потребляемая мощность": "600 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "600",
+        "Габариты, мм": "1400х1420х1200"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Boss",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "48",
+        "Отапливаемая площадь, м²": "480"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-boss-48/pasport-boss-ot-27.09.22.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-boss-68",
+      "title": "Vulkan Boss 68",
+      "series": "boss",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-boss-68",
+      "price": 327000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-boss-68",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "327 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "68",
+        "Отапливаемая площадь, кв. м": "680",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "153",
+        "Ёмкость бункера, л": "400",
+        "Потребляемая мощность": "600 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "700",
+        "Габариты, мм": "1530х1765х1110"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Boss",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "68",
+        "Отапливаемая площадь, м²": "680"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-boss-68/pasport-boss-ot-27.09.22.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-boss-90",
+      "title": "Vulkan Boss 90",
+      "series": "boss",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-boss-90",
+      "price": 365000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-boss-90",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "365 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "90",
+        "Отапливаемая площадь, кв. м": "900",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "170",
+        "Ёмкость бункера, л": "600",
+        "Потребляемая мощность": "600 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "740",
+        "Габариты, мм": "1500х1735х1237"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Boss",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "90",
+        "Отапливаемая площадь, м²": "900"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-boss-90/pasport-boss-ot-27.09.22.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-boss-115",
+      "title": "Vulkan Boss 115",
+      "series": "boss",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-boss-115",
+      "price": 405000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-boss-115",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "405 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "115",
+        "Отапливаемая площадь, кв. м": "1150",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "260",
+        "Ёмкость бункера, л": "600",
+        "Потребляемая мощность": "600 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "800",
+        "Габариты, мм": "1660х1685х1143"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Boss",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "115",
+        "Отапливаемая площадь, м²": "1150"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-boss-115/pasport-boss-ot-27.09.22.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-boss-140",
+      "title": "Vulkan Boss 140",
+      "series": "boss",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-boss-140",
+      "price": 525000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-boss-140",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "525 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "140",
+        "Отапливаемая площадь, кв. м": "1400",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "290",
+        "Ёмкость бункера, л": "600",
+        "Потребляемая мощность": "800 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "915",
+        "Габариты, мм": "1660х1709х1252"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Boss",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "140",
+        "Отапливаемая площадь, м²": "1400"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-boss-140/pasport-boss-ot-27.09.22.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-boss-180",
+      "title": "Vulkan Boss 180",
+      "series": "boss",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-boss-180",
+      "price": 586000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-boss-180",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "586 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "180",
+        "Отапливаемая площадь, кв. м": "1800",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "350",
+        "Ёмкость бункера, л": "600",
+        "Потребляемая мощность": "800 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "1400",
+        "Габариты, мм": "1680х1695х1823"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Boss",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "180",
+        "Отапливаемая площадь, м²": "1800"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-boss-180/pasport-boss-ot-27.09.22.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-boss-220",
+      "title": "Vulkan Boss 220",
+      "series": "boss",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-boss-220",
+      "price": 600000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-boss-220",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "600 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "220",
+        "Отапливаемая площадь, кв. м": "220",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "580",
+        "Ёмкость бункера, л": "800",
+        "Потребляемая мощность": "800 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "1450",
+        "Габариты, мм": "1680х1695х1823"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Boss",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "220",
+        "Отапливаемая площадь, м²": "220"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-boss-220/pasport-boss-ot-27.09.22.pdf"
+        }
+      ],
+      "warnings": [
+        "Производитель указывает разную площадь: 220 м² в характеристиках и 2200 м² в описании. На сайте площадь требует уточнения."
+      ],
+      "conflicts": [
+        {
+          "field": "heating_area_m2",
+          "specifications_value": 220.0,
+          "description_value": 2200,
+          "public_value": null,
+          "resolution": "Уточняется при подборе",
+          "source_url": "https://kras-kotel.ru/katalog/vulkan-boss-220"
+        }
+      ],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url",
+        "description_heating_area_m2": "#tabs-01 / первое описание площади"
+      }
+    },
+    {
+      "slug": "vulkan-boss-270",
+      "title": "Vulkan Boss 270",
+      "series": "boss",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-boss-270",
+      "price": 669000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-boss-270",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "669 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "270",
+        "Отапливаемая площадь, кв. м": "2700",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "720",
+        "Ёмкость бункера, л": "800",
+        "Потребляемая мощность": "800 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "1720",
+        "Габариты, мм": "1710х2048х1940"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Boss",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "270",
+        "Отапливаемая площадь, м²": "2700"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-boss-270/pasport-boss-ot-27.09.22.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-eko-15",
+      "title": "Vulkan Eko 15",
+      "series": "eko",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-eko-15",
+      "price": 219000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-eko-15",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "219 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "15",
+        "Отапливаемая площадь, кв. м": "140",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "160",
+        "Объем теплоносителя, л": "40",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "350 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "320",
+        "Габариты, мм": "1165х1325х790"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Eko",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "15",
+        "Отапливаемая площадь, м²": "140"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-eko-15/pasport-vulkan-eko.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-eko-19",
+      "title": "Vulkan Eko 19",
+      "series": "eko",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-eko-19",
+      "price": 224000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-eko-19",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "224 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "19",
+        "Отапливаемая площадь, кв. м": "180",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "160",
+        "Объем теплоносителя, л": "50",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "350 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "345",
+        "Габариты, мм": "1165х1400х790"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Eko",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "19",
+        "Отапливаемая площадь, м²": "180"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-eko-19/pasport-vulkan-eko.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-eko-25",
+      "title": "Vulkan Eko 25",
+      "series": "eko",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-eko-25",
+      "price": 236000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-eko-25",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "236 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "25",
+        "Отапливаемая площадь, кв. м": "230",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "160",
+        "Объем теплоносителя, л": "90",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "350 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "410",
+        "Габариты, мм": "1165х1410х1020"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Eko",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "25",
+        "Отапливаемая площадь, м²": "230"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-eko-25/pasport-vulkan-eko.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-eko-32",
+      "title": "Vulkan Eko 32",
+      "series": "eko",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-eko-32",
+      "price": 269000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-eko-32",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "269 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "32",
+        "Отапливаемая площадь, кв. м": "300",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "220",
+        "Объем теплоносителя, л": "110",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "350 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "450",
+        "Габариты, мм": "1235х1410х1100"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Eko",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "32",
+        "Отапливаемая площадь, м²": "300"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-eko-32/pasport-vulkan-eko.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-eko-40",
+      "title": "Vulkan Eko 40",
+      "series": "eko",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-eko-40",
+      "price": 292000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-eko-40",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "292 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "40",
+        "Отапливаемая площадь, кв. м": "400",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "220",
+        "Объем теплоносителя, л": "130",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "350 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "500",
+        "Габариты, мм": "1220х1500х1030"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Eko",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "40",
+        "Отапливаемая площадь, м²": "400"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-eko-40/pasport-vulkan-eko.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-eko-50",
+      "title": "Vulkan Eko 50",
+      "series": "eko",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-eko-50",
+      "price": 327000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-eko-50",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "327 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "50",
+        "Отапливаемая площадь, кв. м": "500",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "220",
+        "Объем теплоносителя, л": "130",
+        "Ёмкость бункера, л": "400",
+        "Потребляемая мощность": "350 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "510",
+        "Габариты, мм": "1220х1500х1080"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Eko",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "50",
+        "Отапливаемая площадь, м²": "500"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-eko-50/pasport-vulkan-eko.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-eko-60",
+      "title": "Vulkan Eko 60",
+      "series": "eko",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-eko-60",
+      "price": 373000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-eko-60",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "373 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "60",
+        "Отапливаемая площадь, кв. м": "600",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "220",
+        "Объем теплоносителя, л": "160",
+        "Ёмкость бункера, л": "600",
+        "Потребляемая мощность": "350 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "565",
+        "Габариты, мм": "1535х1535х1145"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Eko",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "60",
+        "Отапливаемая площадь, м²": "600"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-eko-60/pasport-vulkan-eko.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-eko-80",
+      "title": "Vulkan Eko 80",
+      "series": "eko",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-eko-80",
+      "price": 440000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-eko-80",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "440 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "80",
+        "Отапливаемая площадь, кв. м": "800",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "220",
+        "Объем теплоносителя, л": "190",
+        "Ёмкость бункера, л": "600",
+        "Потребляемая мощность": "350 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "710",
+        "Габариты, мм": "1530х1685х1265"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Eko",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "80",
+        "Отапливаемая площадь, м²": "800"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-eko-80/pasport-vulkan-eko.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-eko-100",
+      "title": "Vulkan Eko 100",
+      "series": "eko",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-eko-100",
+      "price": 508000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-eko-100",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "508 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "100",
+        "Отапливаемая площадь, кв. м": "1000",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "220",
+        "Объем теплоносителя, л": "240",
+        "Ёмкость бункера, л": "600",
+        "Потребляемая мощность": "350 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "790",
+        "Габариты, мм": "1530х1805х1280"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Eko",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "100",
+        "Отапливаемая площадь, м²": "1000"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-eko-100/pasport-vulkan-eko.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-eko-max-133",
+      "title": "Vulkan Eko-Max 133",
+      "series": "eko-max",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-eko-max-133",
+      "price": 576000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-eko-max-133",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "576 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "135",
+        "Отапливаемая площадь, кв. м": "1300",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "220",
+        "Объем теплоносителя, л": "310",
+        "Ёмкость бункера, л": "800",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "915",
+        "Габариты, мм": "1660х1785х1275"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Eko-Max",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "135",
+        "Отапливаемая площадь, м²": "1300"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-eko-max-133/pasport-vulkan-eko.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-eko-max-150",
+      "title": "Vulkan Eko-Max 150",
+      "series": "eko-max",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-eko-max-150",
+      "price": 672000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-eko-max-150",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "672 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "150",
+        "Отапливаемая площадь, кв. м": "1500",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "220",
+        "Объем теплоносителя, л": "315",
+        "Ёмкость бункера, л": "800",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "930",
+        "Габариты, мм": "1660х1885х1275"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Eko-Max",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "150",
+        "Отапливаемая площадь, м²": "1500"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-eko-max-150/pasport-vulkan-eko.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-eko-max-200",
+      "title": "Vulkan Eko-Max 200",
+      "series": "eko-max",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-eko-max-200",
+      "price": 757000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-eko-max-200",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "757 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "209",
+        "Отапливаемая площадь, кв. м": "2000",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "220",
+        "Объем теплоносителя, л": "580",
+        "Ёмкость бункера, л": "1200",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "1590",
+        "Габариты, мм": "2070х2015х1990"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Eko-Max",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "209",
+        "Отапливаемая площадь, м²": "2000"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-eko-max-200/pasport-vulkan-eko.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-eko-max-250",
+      "title": "Vulkan Eko-Max 250",
+      "series": "eko-max",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-eko-max-250",
+      "price": 859000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-eko-max-250",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "859 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "262",
+        "Отапливаемая площадь, кв. м": "2500",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "280",
+        "Объем теплоносителя, л": "760",
+        "Ёмкость бункера, л": "1200",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "1590",
+        "Габариты, мм": "2070х2015х1990"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Eko-Max",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "262",
+        "Отапливаемая площадь, м²": "2500"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-eko-max-250/pasport-vulkan-eko.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-eko-max-300",
+      "title": "Vulkan Eko-Max 300",
+      "series": "eko-max",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-eko-max-300",
+      "price": 959000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-eko-max-300",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "959 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "308",
+        "Отапливаемая площадь, кв. м": "3000",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "325",
+        "Объем теплоносителя, л": "820",
+        "Ёмкость бункера, л": "1900",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "1850",
+        "Габариты, мм": "2240х1975х2135"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Eko-Max",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "308",
+        "Отапливаемая площадь, м²": "3000"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-eko-max-300/pasport-vulkan-eko.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-max-duo-360",
+      "title": "Vulkan Max Duo 360",
+      "series": "max-duo",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-max-duo-360",
+      "price": 1190000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-max-duo-360",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "1 190 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "360",
+        "Отапливаемая площадь, кв. м": "3500",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "325",
+        "Объем теплоносителя, л": "910",
+        "Ёмкость бункера, л": "1900",
+        "Потребляемая мощность": "1020 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "1900",
+        "Габариты, мм": "1630х2180х2855"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Max-Duo",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "360",
+        "Отапливаемая площадь, м²": "3500"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-max-duo-360/pasport-i-rukovodstvo-eko-max-duo-25.11.2022-1.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-max-duo-400",
+      "title": "Vulkan Max Duo 400",
+      "series": "max-duo",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-max-duo-400",
+      "price": 1340000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-max-duo-400",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "1 340 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "418",
+        "Отапливаемая площадь, кв. м": "4000",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "325",
+        "Объем теплоносителя, л": "1138",
+        "Ёмкость бункера, л": "1900",
+        "Потребляемая мощность": "1020 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "2300",
+        "Габариты, мм": "1630х2300х3055"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Max-Duo",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "418",
+        "Отапливаемая площадь, м²": "4000"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-max-duo-400/pasport-i-rukovodstvo-eko-max-duo-25.11.2022-1.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-max-duo-500",
+      "title": "Vulkan Max Duo 500",
+      "series": "max-duo",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-max-duo-500",
+      "price": 1600000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-max-duo-500",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "1 600 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "524",
+        "Отапливаемая площадь, кв. м": "5000",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "325",
+        "Объем теплоносителя, л": "1430",
+        "Ёмкость бункера, л": "3000",
+        "Потребляемая мощность": "1020 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "2460",
+        "Габариты, мм": "1655х2350х3350"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Max-Duo",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "524",
+        "Отапливаемая площадь, м²": "5000"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-max-duo-500/pasport-i-rukovodstvo-eko-max-duo-25.11.2022-1.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-max-duo-600",
+      "title": "Vulkan Max Duo 600",
+      "series": "max-duo",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-max-duo-600",
+      "price": 2040000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-max-duo-600",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "2 040 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "615",
+        "Отапливаемая площадь, кв. м": "6000",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "325",
+        "Объем теплоносителя, л": "1410",
+        "Ёмкость бункера, л": "3000",
+        "Потребляемая мощность": "1020 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "2800",
+        "Габариты, мм": "1765х2240х3265"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Max-Duo",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "615",
+        "Отапливаемая площадь, м²": "6000"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-max-duo-600/pasport-i-rukovodstvo-eko-max-duo-25.11.2022-1.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-max-duo-800",
+      "title": "Vulkan Max Duo 800",
+      "series": "max-duo",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-max-duo-800",
+      "price": 2360000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-max-duo-800",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "2 360 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "800",
+        "Отапливаемая площадь, кв. м": "8000",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2,5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "325",
+        "Объем теплоносителя, л": "2200",
+        "Ёмкость бункера, л": "4000",
+        "Потребляемая мощность": "1020 Вт.",
+        "Температура теплоносителя, °C": "90",
+        "Вес, кг": "4500",
+        "Габариты, мм": "1990х2270х3670"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Max-Duo",
+        "Отапливаемая площадь, м²": "8000",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "800"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-max-duo-800/pasport-i-rukovodstvo-eko-max-duo-25.11.2022-1.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-ultra-14",
+      "title": "Vulkan Optimum Ultra 14",
+      "series": "optimum-ultra",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-14",
+      "price": 204000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-14",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "204 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "14",
+        "Отапливаемая площадь, кв. м": "140",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "159",
+        "Объем теплоносителя, л": "57",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "275",
+        "Габариты, мм": "1130х1357х547"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Ultra",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "14",
+        "Отапливаемая площадь, м²": "140"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-ultra-14/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-ultra-17",
+      "title": "Vulkan Optimum Ultra 17",
+      "series": "optimum-ultra",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-17",
+      "price": 212000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-17",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "212 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "17",
+        "Отапливаемая площадь, кв. м": "170",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "159",
+        "Объем теплоносителя, л": "75",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "325",
+        "Габариты, мм": "1130х1387х665"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Ultra",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "17",
+        "Отапливаемая площадь, м²": "170"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-ultra-17/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-ultra-22",
+      "title": "Vulkan Optimum Ultra 22",
+      "series": "optimum-ultra",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-22",
+      "price": 223000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-22",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "223 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "22",
+        "Отапливаемая площадь, кв. м": "220",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "159",
+        "Объем теплоносителя, л": "88",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "370",
+        "Габариты, мм": "1130х1372х710"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Ultra",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "22",
+        "Отапливаемая площадь, м²": "220"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-ultra-22/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [
+        "Производитель указывает разную площадь: 220 м² в характеристиках и 200 м² в описании. На сайте площадь требует уточнения."
+      ],
+      "conflicts": [
+        {
+          "field": "heating_area_m2",
+          "specifications_value": 220.0,
+          "description_value": 200,
+          "public_value": null,
+          "resolution": "Уточняется при подборе",
+          "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-22"
+        }
+      ],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url",
+        "description_heating_area_m2": "#tabs-01 / первое описание площади"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-ultra-28",
+      "title": "Vulkan Optimum Ultra 28",
+      "series": "optimum-ultra",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-28",
+      "price": 235000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-28",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "235 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "28",
+        "Отапливаемая площадь, кв. м": "280",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "159",
+        "Объем теплоносителя, л": "100",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "401",
+        "Габариты:, мм": "1140х1372х760"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Ultra",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "28",
+        "Отапливаемая площадь, м²": "280"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-ultra-28/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-ultra-35",
+      "title": "Vulkan Optimum Ultra 35",
+      "series": "optimum-ultra",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-35",
+      "price": 265000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-35",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "265 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "35",
+        "Отапливаемая площадь, кв. м": "350",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "159",
+        "Объем теплоносителя, л": "112",
+        "Ёмкость бункера, л": "400",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "435",
+        "Габариты, мм": "1307х1521х790"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Ultra",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "35",
+        "Отапливаемая площадь, м²": "350"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-ultra-35/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-ultra-50",
+      "title": "Vulkan Optimum Ultra 50",
+      "series": "optimum-ultra",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-50",
+      "price": 287000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-50",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "287 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "50",
+        "Отапливаемая площадь, кв. м": "500",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "146",
+        "Ёмкость бункера, л": "400",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "519",
+        "Габариты, мм": "1317х1570х920"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Ultra",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "50",
+        "Отапливаемая площадь, м²": "500"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-ultra-50/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-ultra-pro-17",
+      "title": "Vulkan Optimum Ultra Pro 17",
+      "series": "optimum-ultra-pro",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-pro-17",
+      "price": 228000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-pro-17",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "228 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "17",
+        "Отапливаемая площадь, кв. м": "170",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "159",
+        "Объем теплоносителя, л": "75",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "325",
+        "Габариты, мм": "1130х1387х665"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Ultra-Pro",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "17",
+        "Отапливаемая площадь, м²": "170"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-ultra-pro-17/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-ultra-pro-22",
+      "title": "Vulkan Optimum Ultra Pro 22",
+      "series": "optimum-ultra-pro",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-pro-22",
+      "price": 245000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-pro-22",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "245 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "22",
+        "Отапливаемая площадь, кв. м": "220",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "159",
+        "Объем теплоносителя, л": "88",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "370",
+        "Габариты, мм": "1130х1372х710"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Ultra-Pro",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "22",
+        "Отапливаемая площадь, м²": "220"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-ultra-pro-22/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [
+        "Производитель указывает разную площадь: 220 м² в характеристиках и 200 м² в описании. На сайте площадь требует уточнения."
+      ],
+      "conflicts": [
+        {
+          "field": "heating_area_m2",
+          "specifications_value": 220.0,
+          "description_value": 200,
+          "public_value": null,
+          "resolution": "Уточняется при подборе",
+          "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-pro-22"
+        }
+      ],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url",
+        "description_heating_area_m2": "#tabs-01 / первое описание площади"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-ultra-pro-28",
+      "title": "Vulkan Optimum Ultra Pro 28",
+      "series": "optimum-ultra-pro",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-pro-28",
+      "price": 266000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-pro-28",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "266 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "28",
+        "Отапливаемая площадь, кв. м": "280",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "159",
+        "Объем теплоносителя, л": "100",
+        "Ёмкость бункера, л": "400",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "401",
+        "Габариты, мм": "1140х1372х760"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Ultra-Pro",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "28",
+        "Отапливаемая площадь, м²": "280"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-ultra-pro-28/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-ultra-pro-35",
+      "title": "Vulkan Optimum Ultra Pro 35",
+      "series": "optimum-ultra-pro",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-pro-35",
+      "price": 296000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-pro-35",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "296 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "35",
+        "Отапливаемая площадь, кв. м": "350",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "159",
+        "Объем теплоносителя, л": "112",
+        "Ёмкость бункера, л": "400",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "435",
+        "Габариты, мм": "1307х1521х790"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Ultra-Pro",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "35",
+        "Отапливаемая площадь, м²": "350"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-ultra-pro-35/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-ultra-pro-50",
+      "title": "Vulkan Optimum Ultra Pro 50",
+      "series": "optimum-ultra-pro",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-pro-50",
+      "price": 336000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-pro-50",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "336 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "50",
+        "Отапливаемая площадь, кв. м": "500",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "146",
+        "Ёмкость бункера, л": "600",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "519",
+        "Габариты, мм": "1317х1570х920"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Ultra-Pro",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "50",
+        "Отапливаемая площадь, м²": "500"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-ultra-pro-50/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-ultra-pro-75",
+      "title": "Vulkan Optimum Ultra Pro 75",
+      "series": "optimum-ultra-pro",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-pro-75",
+      "price": 476000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-pro-75",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "476 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "75",
+        "Отапливаемая площадь, кв. м": "750",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "146",
+        "Ёмкость бункера, л": "1200",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "519",
+        "Габариты, мм": "1317х1570х920"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Ultra-Pro",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "75",
+        "Отапливаемая площадь, м²": "750"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-ultra-pro-75/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-ultra-pro-100",
+      "title": "Vulkan Optimum Ultra Pro 100",
+      "series": "optimum-ultra-pro",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-pro-100",
+      "price": 556000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-ultra-pro-100",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "556 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "100",
+        "Отапливаемая площадь, кв. м": "1000",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "146",
+        "Ёмкость бункера, л": "1200",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "519",
+        "Габариты, мм": "1317х1570х920"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Ultra-Pro",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "100",
+        "Отапливаемая площадь, м²": "1000"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-ultra-pro-100/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-12",
+      "title": "Vulkan Optimum Uni 12",
+      "series": "optimum-uni",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-12",
+      "price": 204000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-12",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "204 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "12",
+        "Отапливаемая площадь, кв. м": "130",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "160",
+        "Объем теплоносителя, л": "57",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "275",
+        "Габариты, мм": "1125х1240х535"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "12",
+        "Отапливаемая площадь, м²": "130"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-12/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-18",
+      "title": "Vulkan Optimum Uni 18",
+      "series": "optimum-uni",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-18",
+      "price": 222000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-18",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "222 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "18",
+        "Отапливаемая площадь, кв. м": "170",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "160",
+        "Объем теплоносителя, л": "75",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "325",
+        "Габариты, мм": "1125х1270х660"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "18",
+        "Отапливаемая площадь, м²": "170"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-18/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-23",
+      "title": "Vulkan Optimum Uni 23",
+      "series": "optimum-uni",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-23",
+      "price": 226000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-23",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "226 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "23",
+        "Отапливаемая площадь, кв. м": "220",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "160",
+        "Объем теплоносителя, л": "100",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "401",
+        "Габариты, мм": "1000х1260х775"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "23",
+        "Отапливаемая площадь, м²": "220"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-23/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-27",
+      "title": "Vulkan Optimum Uni 27",
+      "series": "optimum-uni",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-27",
+      "price": 236000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-27",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "236 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "27",
+        "Отапливаемая площадь, кв. м": "250",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "160",
+        "Объем теплоносителя, л": "100",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "401",
+        "Габариты, мм": "1000х1260х775"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni",
+        "Мощность котла, кВт": "27",
+        "Отапливаемая площадь, м²": "250",
+        "Тип котла": "Автоматический"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-27/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-34",
+      "title": "Vulkan Optimum Uni 34",
+      "series": "optimum-uni",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-34",
+      "price": 256000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-34",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "256 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "34",
+        "Отапливаемая площадь, кв. м": "320",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания —, °C": "200",
+        "Диаметр дымохода, мм": "160",
+        "Объем теплоносителя, л": "300",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "460",
+        "Габариты, мм": "1300х1400х830"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "34",
+        "Отапливаемая площадь, м²": "320"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-34/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-37",
+      "title": "Vulkan Optimum Uni 37",
+      "series": "optimum-uni",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-37",
+      "price": 265000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-37",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "265 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "37",
+        "Отапливаемая площадь, кв. м": "350",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД:, %": "90",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "160",
+        "Объем теплоносителя, л": "300",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "460",
+        "Габариты, мм": "1300х1400х830"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "37",
+        "Отапливаемая площадь, м²": "350"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-37/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-45",
+      "title": "Vulkan Optimum Uni 45",
+      "series": "optimum-uni",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-45",
+      "price": 300000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-45",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "300 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "45",
+        "Отапливаемая площадь, кв. м": "450",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2.5",
+        "Напряжение:, В": "220",
+        "Температура продуктов сгорания, °C": "140",
+        "Диаметр дымохода, мм": "220",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "600",
+        "Габариты, мм": "1405х1430х1080"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "45",
+        "Отапливаемая площадь, м²": "450"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-45/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-55",
+      "title": "Vulkan Optimum Uni 55",
+      "series": "optimum-uni",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-55",
+      "price": 312000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-55",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "312 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "55",
+        "Отапливаемая площадь, кв. м": "500",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "220",
+        "Объем теплоносителя, л": "146",
+        "Ёмкость бункера, л": "400",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "519",
+        "Габариты, мм": "1315х1440х930"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "55",
+        "Отапливаемая площадь, м²": "500"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-55/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-max-75",
+      "title": "Vulkan Optimum Uni Max 75",
+      "series": "optimum-uni-max",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-max-75",
+      "price": 480000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-max-75",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "480 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "",
+        "Отапливаемая площадь, кв. м": "750",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "146",
+        "Ёмкость бункера, л": "800",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "519",
+        "Габариты, мм": "1317х1570х920"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni-Max",
+        "Тип котла": "Автоматический",
+        "Отапливаемая площадь, м²": "750"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-max-75/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [
+        "Мощность модели не заполнена ни в краткой, ни в полной таблице производителя; число в названии не подставлено автоматически."
+      ],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-max-100",
+      "title": "Vulkan Optimum Uni Max 100",
+      "series": "optimum-uni-max",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-max-100",
+      "price": 565000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-max-100",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "565 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "",
+        "Отапливаемая площадь, кв. м": "1000",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "146",
+        "Ёмкость бункера, л": "1200",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "519",
+        "Габариты, мм": "1317х1570х920"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni-Max",
+        "Тип котла": "Автоматический",
+        "Отапливаемая площадь, м²": "1000"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-max-100/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [
+        "Мощность модели не заполнена ни в краткой, ни в полной таблице производителя; число в названии не подставлено автоматически."
+      ],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-max-135",
+      "title": "Vulkan Optimum Uni Max 135",
+      "series": "optimum-uni-max",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-max-135",
+      "price": 645000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-max-135",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "645 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип:": "Автоматический",
+        "Мощность, кВт": "",
+        "Отапливаемая площадь, кв. м": "1350",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "146",
+        "Ёмкость бункера, л": "1200",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "519",
+        "Габариты, мм": "1317х1570х920"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni-Max",
+        "Тип котла": "Автоматический",
+        "Отапливаемая площадь, м²": "1350"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-max-135/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [
+        "Мощность модели не заполнена ни в краткой, ни в полной таблице производителя; число в названии не подставлено автоматически."
+      ],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-max-150",
+      "title": "Vulkan Optimum Uni Max 150",
+      "series": "optimum-uni-max",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-max-150",
+      "price": 770000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-max-150",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "770 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "",
+        "Отапливаемая площадь, кв. м": "1500",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "146",
+        "Ёмкость бункера, л": "1200",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "519",
+        "Габариты, мм": "1317х1570х920"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni-Max",
+        "Тип котла": "Автоматический",
+        "Отапливаемая площадь, м²": "1500"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-max-150/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [
+        "Мощность модели не заполнена ни в краткой, ни в полной таблице производителя; число в названии не подставлено автоматически."
+      ],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-max-200",
+      "title": "Vulkan Optimum Uni Max 200",
+      "series": "optimum-uni-max",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-max-200",
+      "price": 860000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-max-200",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "860 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "",
+        "Отапливаемая площадь, кв. м": "2000",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "146",
+        "Ёмкость бункера, л": "1500",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "519",
+        "Габариты, мм": "1317х1570х920"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni-Max",
+        "Отапливаемая площадь, м²": "2000",
+        "Тип котла": "Автоматический"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-max-200/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [
+        "Мощность модели не заполнена ни в краткой, ни в полной таблице производителя; число в названии не подставлено автоматически."
+      ],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-max-250",
+      "title": "Vulkan Optimum Uni Max 250",
+      "series": "optimum-uni-max",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-max-250",
+      "price": 940000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-max-250",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "940 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "",
+        "Отапливаемая площадь, кв. м": "2500",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "82",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "219",
+        "Объем теплоносителя, л": "146",
+        "Ёмкость бункера, л": "1500",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "519",
+        "Габариты, мм": "1317х1570х920"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni-Max",
+        "Тип котла": "Автоматический",
+        "Отапливаемая площадь, м²": "2500"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-max-250/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [
+        "Мощность модели не заполнена ни в краткой, ни в полной таблице производителя; число в названии не подставлено автоматически."
+      ],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-pro-12",
+      "title": "Vulkan Optimum Uni Pro 12",
+      "series": "optimum-uni-pro",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-pro-12",
+      "price": 215000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-pro-12",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "215 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "12",
+        "Отапливаемая площадь, кв. м": "170",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "160",
+        "Объем теплоносителя, л": "75",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес —, кг": "374",
+        "Габариты, мм": "1125х1270х660"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni-Pro",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "12",
+        "Отапливаемая площадь, м²": "170"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-pro-12/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [
+        "Производитель указывает разную площадь: 170 м² в характеристиках и 120 м² в описании. На сайте площадь требует уточнения."
+      ],
+      "conflicts": [
+        {
+          "field": "heating_area_m2",
+          "specifications_value": 170.0,
+          "description_value": 120,
+          "public_value": null,
+          "resolution": "Уточняется при подборе",
+          "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-pro-12"
+        }
+      ],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url",
+        "description_heating_area_m2": "#tabs-01 / первое описание площади"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-pro-18",
+      "title": "Vulkan Optimum Uni Pro 18",
+      "series": "optimum-uni-pro",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-pro-18",
+      "price": 235000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-pro-18",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "235 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "18",
+        "Отапливаемая площадь, кв. м": "170",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "160",
+        "Объем теплоносителя, л": "75",
+        "Ёмкость бункера, л": "300",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "374",
+        "Габариты, мм": "1125х1270х660"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni-Pro",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "18",
+        "Отапливаемая площадь, м²": "170"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-pro-18/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-pro-27",
+      "title": "Vulkan Optimum Uni Pro 27",
+      "series": "optimum-uni-pro",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-pro-27",
+      "price": 250000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-pro-27",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "250 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "27",
+        "Отапливаемая площадь, кв. м": "250",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "160",
+        "Объем теплоносителя, л": "100",
+        "Ёмкость бункера, л": "400",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "462",
+        "Габариты, мм": "1000х1260х775"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni-Pro",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "27",
+        "Отапливаемая площадь, м²": "250"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-pro-27/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-pro-37",
+      "title": "Vulkan Optimum Uni Pro 37",
+      "series": "optimum-uni-pro",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-pro-37",
+      "price": 280000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-pro-37",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "280 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "37",
+        "Отапливаемая площадь, кв. м": "350",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "160",
+        "Объем теплоносителя, л": "126",
+        "Ёмкость бункера, л": "400",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "529",
+        "Габариты, мм": "1300х1400х830"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni-Pro",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "37",
+        "Отапливаемая площадь, м²": "350"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-pro-37/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    },
+    {
+      "slug": "vulkan-optimum-uni-pro-55",
+      "title": "Vulkan Optimum Uni Pro 55",
+      "series": "optimum-uni-pro",
+      "source_url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-pro-55",
+      "price": 330000,
+      "price_source": {
+        "url": "https://kras-kotel.ru/katalog/vulkan-optimum-uni-pro-55",
+        "selector": ".product__price .price__type--current .price__value",
+        "raw": "330 000"
+      },
+      "specifications": {
+        "Производитель": "Vulkan",
+        "Страна производитель": "Россия",
+        "Тип": "Автоматический",
+        "Мощность, кВт": "55",
+        "Отапливаемая площадь, кв. м": "500",
+        "Основное топливо": "Уголь, пеллеты",
+        "Резервное топливо": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+        "Назначение": "Для дома, Для дачи, Для предприятия",
+        "КПД, %": "90",
+        "Давление, бар": "2.5",
+        "Напряжение, В": "220",
+        "Температура продуктов сгорания, °C": "200",
+        "Диаметр дымохода, мм": "220",
+        "Объем теплоносителя, л": "146",
+        "Ёмкость бункера, л": "600",
+        "Потребляемая мощность": "400 Вт.",
+        "Температура теплоносителя, °C": "85",
+        "Вес, кг": "597",
+        "Габариты, мм": "1315х1440х930"
+      },
+      "basic_specifications": {
+        "Модельный ряд": "Optimun-Uni-Pro",
+        "Тип котла": "Автоматический",
+        "Мощность котла, кВт": "55",
+        "Отапливаемая площадь, м²": "500"
+      },
+      "main_fuel": "Уголь, пеллеты",
+      "reserve_fuel": "Рядовой (кусковой) Уголь, Дрова, Брикеты",
+      "documents": [
+        {
+          "title": "Паспорт",
+          "url": "https://kras-kotel.ru/assets/products/vulkan-optimum-uni-pro-55/pasport-optimum-uni-ultra-uni-mah-27.12.21.pdf"
+        }
+      ],
+      "warnings": [],
+      "conflicts": [],
+      "field_provenance": {
+        "title": "h1",
+        "specifications": "#tabs-02 table tr",
+        "basic_specifications": ".product__grid > .spec .spec__item",
+        "main_fuel": "#tabs-02 table / Основное топливо",
+        "reserve_fuel": "#tabs-02 table / Резервное топливо",
+        "source_availability": ".product__stok",
+        "images": "#productSlider .popup-gallery > a",
+        "documents": ".docs a[href]",
+        "description": "Составлено из title, мощности, площади и топлива; все факты из source_url"
+      }
+    }
+  ]
+}

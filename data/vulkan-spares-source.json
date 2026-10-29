@@ -1,0 +1,1232 @@
+{
+  "source_title": "Прайс КК2 от 15.06.2026 — Вулкан. Дил",
+  "effective_date": "2026-06-15",
+  "source_file": "Прайс_КК2-15.06.2026 -Вулкан. Дил.pdf",
+  "source_file_pages": 8,
+  "price_rule": "РРЦ производителя",
+  "items": [
+    {
+      "name": "Усиленный корпус реторты Vulkan",
+      "price": 18000,
+      "page": 4,
+      "note": "Для котлов Vulkan, кроме серии BOSS",
+      "country": "Россия",
+      "sku": "PG-000344",
+      "category_key": "automatic-options"
+    },
+    {
+      "name": "Контур вторичного воздуха на горелке Vulkan",
+      "price": 30000,
+      "page": 4,
+      "note": "Для котлов Vulkan, кроме серии BOSS",
+      "country": "Россия",
+      "sku": "PG-000345",
+      "category_key": "automatic-options"
+    },
+    {
+      "name": "Автоподжиг для котла Vulkan без замены контроллера",
+      "price": 30000,
+      "page": 4,
+      "note": "Для котлов Vulkan, кроме серии BOSS",
+      "country": "Россия",
+      "sku": "PG-000346",
+      "category_key": "automatic-options"
+    },
+    {
+      "name": "Клапан пожаротушения Vulkan",
+      "price": 25000,
+      "page": 4,
+      "note": "Опция для автоматического котла",
+      "country": "Россия",
+      "sku": "PG-000347",
+      "category_key": "automatic-options"
+    },
+    {
+      "name": "Вентилятор вторичного воздуха Vulkan для котлов 150-1000 кВт",
+      "price": 29500,
+      "page": 4,
+      "note": "Опция для автоматического котла",
+      "country": "Россия",
+      "sku": "PG-000348",
+      "category_key": "automatic-options"
+    },
+    {
+      "name": "Штыри в горловину бункера Vulkan до 300 л",
+      "price": 3800,
+      "page": 4,
+      "note": "Комплектующие бункера",
+      "country": "Россия",
+      "sku": "PG-000349",
+      "category_key": "bunkers-ash"
+    },
+    {
+      "name": "Горловина бункера Vulkan",
+      "price": 7500,
+      "page": 4,
+      "note": "Комплектующие бункера",
+      "country": "Россия",
+      "sku": "PG-000350",
+      "category_key": "bunkers-ash"
+    },
+    {
+      "name": "Бункер Vulkan 160/200 л",
+      "price": 12800,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000351",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-small.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 290 л",
+      "price": 18900,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000352",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-small.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 320 л",
+      "price": 19800,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000353",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-small.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 390 л",
+      "price": 23200,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000354",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-small.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 420 л",
+      "price": 24500,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000355",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-small.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 590 л",
+      "price": 30200,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000356",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-small.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 630 л",
+      "price": 31500,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000357",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-small.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 790 л",
+      "price": 37200,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000358",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-small.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 840 л",
+      "price": 38500,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000359",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-small.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 1150 л",
+      "price": 56300,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000360",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-large.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 1280 л",
+      "price": 59600,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000361",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-large.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 1490 л",
+      "price": 75900,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000362",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-large.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 1560 л",
+      "price": 78400,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000363",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-large.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 1900 л",
+      "price": 91200,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000364",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-large.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 2000 л",
+      "price": 93500,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000365",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-large.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 2900 л",
+      "price": 152200,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000366",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-large.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 3000 л",
+      "price": 156800,
+      "page": 4,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000367",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-large.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 3800 л",
+      "price": 169000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000368",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-large.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 5000 л",
+      "price": 240000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000369",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-large.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 7000 л",
+      "price": 295000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000370",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-large.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 10000 л",
+      "price": 380000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000371",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-large.jpg"
+      ]
+    },
+    {
+      "name": "Бункер Vulkan 15000 л",
+      "price": 490000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000372",
+      "category_key": "bunkers-ash",
+      "images": [
+        "/assets/vulkan-spares/bunker-large.jpg"
+      ]
+    },
+    {
+      "name": "Дополнительный зольный ящик Vulkan 12-30 кВт для автоматического котла",
+      "price": 4000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000373",
+      "category_key": "bunkers-ash"
+    },
+    {
+      "name": "Дополнительный зольный ящик Vulkan 32-80 кВт для автоматического котла",
+      "price": 5000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000374",
+      "category_key": "bunkers-ash"
+    },
+    {
+      "name": "Дополнительный зольный ящик Vulkan 100-150 кВт для автоматического котла",
+      "price": 7500,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000375",
+      "category_key": "bunkers-ash"
+    },
+    {
+      "name": "Дополнительный зольный ящик Vulkan свыше 200 кВт для автоматического котла",
+      "price": 9500,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000376",
+      "category_key": "bunkers-ash"
+    },
+    {
+      "name": "Комплект для чистки Vulkan № 1: ёрш и скребок",
+      "price": 2500,
+      "page": 5,
+      "note": "Для котлов до 55 кВт",
+      "country": "Россия",
+      "sku": "PG-000377",
+      "category_key": "cleaning-firebox"
+    },
+    {
+      "name": "Комплект для чистки Vulkan № 2: ёрш и скребок",
+      "price": 3000,
+      "page": 5,
+      "note": "Удлинённый комплект",
+      "country": "Россия",
+      "sku": "PG-000378",
+      "category_key": "cleaning-firebox"
+    },
+    {
+      "name": "Колосник и отбойник Vulkan для котлов 11-25 кВт",
+      "price": 15000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000379",
+      "category_key": "cleaning-firebox"
+    },
+    {
+      "name": "Колосник и отбойник Vulkan для котлов 30-60 кВт",
+      "price": 26500,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000380",
+      "category_key": "cleaning-firebox"
+    },
+    {
+      "name": "Колосник и отбойник Vulkan для котлов 80-100 кВт",
+      "price": 47500,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000381",
+      "category_key": "cleaning-firebox"
+    },
+    {
+      "name": "Дверь-отбойник Vulkan для котлов 12-37 кВт",
+      "price": 5000,
+      "page": 5,
+      "note": "Решётка",
+      "country": "Россия",
+      "sku": "PG-000382",
+      "category_key": "cleaning-firebox"
+    },
+    {
+      "name": "Дверь-отбойник Vulkan для котлов 40-100 кВт",
+      "price": 8000,
+      "page": 5,
+      "note": "Решётка",
+      "country": "Россия",
+      "sku": "PG-000383",
+      "category_key": "cleaning-firebox"
+    },
+    {
+      "name": "Тележка-зольник Vulkan 200 л выкатная для НЗУ",
+      "price": 48800,
+      "page": 5,
+      "note": "С рельсами",
+      "country": "Россия",
+      "sku": "PG-000384",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Тележка-зольник Vulkan 400 л выкатная для НЗУ",
+      "price": 64200,
+      "page": 5,
+      "note": "С рельсами",
+      "country": "Россия",
+      "sku": "PG-000385",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Тележка-зольник Vulkan 600 л выкатная",
+      "price": 77200,
+      "page": 5,
+      "note": "С рельсами",
+      "country": "Россия",
+      "sku": "PG-000386",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Тележка-зольник Vulkan 900 л выкатная",
+      "price": 99600,
+      "page": 5,
+      "note": "С рельсами",
+      "country": "Россия",
+      "sku": "PG-000387",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Комплект золоудаления Vulkan: шнек и ёмкость 120 л",
+      "price": 108000,
+      "page": 5,
+      "note": "Для котлов 14-50 кВт",
+      "country": "Россия",
+      "sku": "PG-000388",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Шнековое золоудаление Vulkan до 300 кВт, длина 2,7 м",
+      "price": 78000,
+      "page": 5,
+      "note": "Один шнек, без ёмкости",
+      "country": "Россия",
+      "sku": "PG-000389",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Шнековое золоудаление Vulkan свыше 300 кВт, длина 3,0-5,5 м",
+      "price": 146000,
+      "page": 5,
+      "note": "Два шнека, без ёмкости",
+      "country": "Россия",
+      "sku": "PG-000390",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Ёмкость Vulkan для шнекового золоудаления 200 л",
+      "price": 42000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000391",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Ёмкость Vulkan для шнекового золоудаления 400 л",
+      "price": 56000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000392",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Ёмкость Vulkan для шнекового золоудаления 600 л",
+      "price": 72000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000393",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Шнековый конвейер подачи топлива Vulkan 2-2,5 м",
+      "price": 190000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000394",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Шнековый конвейер подачи топлива Vulkan 2,5-5,0 м",
+      "price": 275000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000395",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Приёмный контейнер Vulkan для транспортёра с 3 шнеками подачи",
+      "price": 286000,
+      "page": 5,
+      "note": "Хоппер",
+      "country": "Россия",
+      "sku": "PG-000396",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Приёмный контейнер Vulkan для транспортёра с 4 шнеками подачи",
+      "price": 368000,
+      "page": 5,
+      "note": "Хоппер",
+      "country": "Россия",
+      "sku": "PG-000397",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Ленточный конвейер подачи топлива Vulkan 2-2,5 м",
+      "price": 216000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000398",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Ленточный конвейер подачи топлива Vulkan 2,5-3,5 м",
+      "price": 294000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000399",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Надставка Vulkan для приёмного контейнера 5 м³",
+      "price": 138000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000400",
+      "category_key": "ash-fuel-feed"
+    },
+    {
+      "name": "Горелка Vulkan БИО 15-30",
+      "price": 49000,
+      "page": 5,
+      "note": "Пеллеты и агропеллеты, до 30 кВт; узел без бункера, редуктора и вентилятора",
+      "country": "Россия",
+      "sku": "PG-000401",
+      "category_key": "burners"
+    },
+    {
+      "name": "Горелка Vulkan БИО 35-70",
+      "price": 69000,
+      "page": 5,
+      "note": "Пеллеты и агропеллеты, до 60 кВт; узел без бункера, редуктора и вентилятора",
+      "country": "Россия",
+      "sku": "PG-000402",
+      "category_key": "burners"
+    },
+    {
+      "name": "Горелка Vulkan БИО/MF 30 с автоподжигом",
+      "price": 75000,
+      "page": 5,
+      "note": "До 30 кВт; узел без бункера, редуктора и вентилятора",
+      "country": "Россия",
+      "sku": "PG-000403",
+      "category_key": "burners"
+    },
+    {
+      "name": "Горелка Vulkan БИО/MF 65 с автоподжигом",
+      "price": 98000,
+      "page": 5,
+      "note": "До 65 кВт; узел без бункера, редуктора и вентилятора",
+      "country": "Россия",
+      "sku": "PG-000404",
+      "category_key": "burners"
+    },
+    {
+      "name": "Горелка Vulkan EKO 12-25, диаметр 285 мм",
+      "price": 65000,
+      "page": 5,
+      "note": "Узел без бункера, редуктора и вентилятора",
+      "country": "Россия",
+      "sku": "PG-000405",
+      "category_key": "burners"
+    },
+    {
+      "name": "Горелка Vulkan EKO 30-50, диаметр 345 мм",
+      "price": 82000,
+      "page": 5,
+      "note": "Узел без бункера, редуктора и вентилятора",
+      "country": "Россия",
+      "sku": "PG-000406",
+      "category_key": "burners"
+    },
+    {
+      "name": "Горелка Vulkan EKO 60-100, диаметр 390 мм",
+      "price": 142000,
+      "page": 5,
+      "note": "Узел без бункера, редуктора и вентилятора",
+      "country": "Россия",
+      "sku": "PG-000407",
+      "category_key": "burners"
+    },
+    {
+      "name": "Горелка Vulkan EKO 130-200, диаметр 460 мм",
+      "price": 189000,
+      "page": 5,
+      "note": "Узел без бункера, редуктора и вентилятора",
+      "country": "Россия",
+      "sku": "PG-000408",
+      "category_key": "burners"
+    },
+    {
+      "name": "Горелка Vulkan EKO 250-300, диаметр 520 мм",
+      "price": 246000,
+      "page": 5,
+      "note": "Узел без бункера, редуктора и вентилятора",
+      "country": "Россия",
+      "sku": "PG-000409",
+      "category_key": "burners"
+    },
+    {
+      "name": "Горелка Vulkan EKO 300-400, диаметр 590 мм",
+      "price": 319000,
+      "page": 5,
+      "note": "Узел без бункера, редуктора и вентилятора",
+      "country": "Россия",
+      "sku": "PG-000410",
+      "category_key": "burners"
+    },
+    {
+      "name": "Шнек подачи Vulkan 0,6-0,7 м",
+      "price": 16000,
+      "page": 5,
+      "note": "Короткая подача, до 30 кВт",
+      "country": "Россия",
+      "sku": "PG-000411",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Шнек подачи Vulkan до 1,0 м",
+      "price": 18000,
+      "page": 5,
+      "note": "Для котлов до 60 кВт",
+      "country": "Россия",
+      "sku": "PG-000412",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Шнек подачи Vulkan 1,1-1,4 м",
+      "price": 21000,
+      "page": 5,
+      "note": "Для котлов 60-500 кВт",
+      "country": "Россия",
+      "sku": "PG-000413",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Шнек подачи Vulkan 1,5 м",
+      "price": 25000,
+      "page": 5,
+      "note": "Для котлов от 340 кВт",
+      "country": "Россия",
+      "sku": "PG-000414",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Шнек подачи Vulkan 1,5-2,0 м",
+      "price": 32000,
+      "page": 5,
+      "note": "Доплата за каждые 0,5 м",
+      "country": "Россия",
+      "sku": "PG-000415",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Мотор-редуктор Vulkan 30-50/0,12-0,18, 1/1200, вал 25 мм",
+      "price": 29000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000416",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Мотор-редуктор Vulkan 30-63/0,18, 1/600-1/1200, вал 25 мм",
+      "price": 32000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000417",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Мотор-редуктор Vulkan 40-63/0,25, 1/600-1/800, вал 25 мм",
+      "price": 35000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000418",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Мотор-редуктор Vulkan 40-63/0,37, 1/400-1/600, вал 25 мм",
+      "price": 36000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000419",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Мотор-редуктор Vulkan 50-63/0,55, 1/250, вал 25 мм",
+      "price": 42000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000420",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Мотор-редуктор Vulkan 50-63/0,75, 1/250, вал 25 мм",
+      "price": 45000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000421",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Мотор-редуктор Vulkan 40-75/0,37, 1/250, вал 28 мм",
+      "price": 47000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000422",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Мотор-редуктор Vulkan 50-75/0,55, 1/250, вал 28 мм",
+      "price": 50000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000423",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Мотор-редуктор Vulkan 50-75/0,75, 1/250, вал 28 мм",
+      "price": 53000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000424",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Электродвигатель Vulkan 0,12-0,18 кВт",
+      "price": 12000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000425",
+      "category_key": "augers-drives",
+      "images": [
+        "/assets/vulkan-spares/electric-motor.jpg"
+      ]
+    },
+    {
+      "name": "Электродвигатель Vulkan 0,25-0,37 кВт",
+      "price": 15000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000426",
+      "category_key": "augers-drives",
+      "images": [
+        "/assets/vulkan-spares/electric-motor.jpg"
+      ]
+    },
+    {
+      "name": "Электродвигатель Vulkan 0,55 кВт",
+      "price": 17000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000427",
+      "category_key": "augers-drives",
+      "images": [
+        "/assets/vulkan-spares/electric-motor.jpg"
+      ]
+    },
+    {
+      "name": "Электродвигатель Vulkan 0,75 кВт",
+      "price": 19000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000428",
+      "category_key": "augers-drives",
+      "images": [
+        "/assets/vulkan-spares/electric-motor.jpg"
+      ]
+    },
+    {
+      "name": "Комплект Vulkan для подключения 380 В, 1 мотор-редуктор",
+      "price": 30000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000429",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Комплект Vulkan для подключения 380 В, 2 мотор-редуктора",
+      "price": 52000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000430",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Комплект Vulkan для подключения 380 В, 3 мотор-редуктора",
+      "price": 75000,
+      "page": 5,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000431",
+      "category_key": "augers-drives"
+    },
+    {
+      "name": "Вентилятор Vulkan VFS 120, 67 Вт",
+      "price": 10500,
+      "page": 6,
+      "note": "Для котлов 11-25 кВт",
+      "country": "Россия",
+      "sku": "PG-000432",
+      "category_key": "fans"
+    },
+    {
+      "name": "Вентилятор Vulkan VFS 120, 80 Вт",
+      "price": 10500,
+      "page": 6,
+      "note": "Для котлов 15-50 кВт",
+      "country": "Россия",
+      "sku": "PG-000433",
+      "category_key": "fans"
+    },
+    {
+      "name": "Вентилятор Vulkan VFS 140, 98 Вт",
+      "price": 13500,
+      "page": 6,
+      "note": "Для котлов 60-135 кВт",
+      "country": "Россия",
+      "sku": "PG-000434",
+      "category_key": "fans"
+    },
+    {
+      "name": "Вентилятор Vulkan VFS 140, 150 Вт",
+      "price": 16900,
+      "page": 6,
+      "note": "Для котлов 100-150 кВт",
+      "country": "Россия",
+      "sku": "PG-000435",
+      "category_key": "fans"
+    },
+    {
+      "name": "Вентилятор Vulkan VFS 145, 200 Вт",
+      "price": 16900,
+      "page": 6,
+      "note": "Для котлов 135-200 кВт",
+      "country": "Россия",
+      "sku": "PG-000436",
+      "category_key": "fans"
+    },
+    {
+      "name": "Вентилятор Vulkan VFS 160",
+      "price": 22000,
+      "page": 6,
+      "note": "Для котлов 200-300 кВт",
+      "country": "Россия",
+      "sku": "PG-000437",
+      "category_key": "fans"
+    },
+    {
+      "name": "Вентилятор Vulkan VFS 180",
+      "price": 29000,
+      "page": 6,
+      "note": "Для котлов 300-350 кВт",
+      "country": "Россия",
+      "sku": "PG-000438",
+      "category_key": "fans"
+    },
+    {
+      "name": "Фланцевый переход для вентилятора Vulkan",
+      "price": 900,
+      "page": 6,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000439",
+      "category_key": "fans"
+    },
+    {
+      "name": "Вентилятор радиальный промышленный Vulkan для котла 1000 кВт",
+      "price": 41000,
+      "page": 6,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000440",
+      "category_key": "fans"
+    },
+    {
+      "name": "Вентилятор радиальный промышленный Vulkan для котла 800 кВт",
+      "price": 39000,
+      "page": 6,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000441",
+      "category_key": "fans"
+    },
+    {
+      "name": "Вентилятор радиальный промышленный Vulkan для котла 500/600 кВт",
+      "price": 37000,
+      "page": 6,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000442",
+      "category_key": "fans"
+    },
+    {
+      "name": "Вентилятор радиальный промышленный Vulkan для котла 360/400 кВт",
+      "price": 35000,
+      "page": 6,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000443",
+      "category_key": "fans"
+    },
+    {
+      "name": "Контроллер Vulkan KG SP-18/40",
+      "price": 29000,
+      "page": 6,
+      "note": "СО и ГВС",
+      "country": "Польша",
+      "sku": "PG-000444",
+      "category_key": "automation"
+    },
+    {
+      "name": "Контроллер Vulkan ECO100 AUTO",
+      "price": 12000,
+      "page": 6,
+      "note": "СО, термик и шнек",
+      "country": "Россия",
+      "sku": "PG-000445",
+      "category_key": "automation"
+    },
+    {
+      "name": "Контроллер Vulkan ECO200 AUTO",
+      "price": 14500,
+      "page": 6,
+      "note": "СО, термик и реверс",
+      "country": "Россия",
+      "sku": "PG-000446",
+      "category_key": "automation"
+    },
+    {
+      "name": "Контроллер Vulkan DM320",
+      "price": 21500,
+      "page": 6,
+      "note": "СО, ГВС и реверс",
+      "country": "Россия",
+      "sku": "PG-000447",
+      "category_key": "automation"
+    },
+    {
+      "name": "Контроллер Vulkan DM350",
+      "price": 35000,
+      "page": 6,
+      "note": "СО, ГВС, реверс и GSM",
+      "country": "Россия",
+      "sku": "PG-000448",
+      "category_key": "automation"
+    },
+    {
+      "name": "Контроллер Vulkan Avaterm 100",
+      "price": 44500,
+      "page": 6,
+      "note": "Для реторты, Wi-Fi",
+      "country": "Россия",
+      "sku": "PG-000449",
+      "category_key": "automation"
+    },
+    {
+      "name": "Контроллер Vulkan Avaterm 110",
+      "price": 46500,
+      "page": 6,
+      "note": "Для реторты, автоподжиг",
+      "country": "Россия",
+      "sku": "PG-000450",
+      "category_key": "automation"
+    },
+    {
+      "name": "Контроллер Vulkan Avanterm 1000",
+      "price": 85000,
+      "page": 6,
+      "note": "Для факельной горелки",
+      "country": "Россия",
+      "sku": "PG-000451",
+      "category_key": "automation"
+    },
+    {
+      "name": "Контроллер Vulkan Термокуб C10",
+      "price": 29800,
+      "page": 6,
+      "note": "СО, шнек и автоподжиг",
+      "country": "Россия",
+      "sku": "PG-000452",
+      "category_key": "automation"
+    },
+    {
+      "name": "Колосник Vulkan 200×300 мм для Alpha 12-20",
+      "price": 5000,
+      "page": 7,
+      "note": "Одна штука",
+      "country": "Россия",
+      "sku": "PG-000453",
+      "category_key": "semi-auto-parts"
+    },
+    {
+      "name": "Загрузочный лоток Vulkan для Alpha 12-20",
+      "price": 4200,
+      "page": 7,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000454",
+      "category_key": "semi-auto-parts"
+    },
+    {
+      "name": "Загрузочный лоток Vulkan для Alpha 25-60",
+      "price": 5300,
+      "page": 7,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000455",
+      "category_key": "semi-auto-parts"
+    },
+    {
+      "name": "Дополнительный зольный ящик Vulkan 12-30 кВт для полуавтоматического котла",
+      "price": 4200,
+      "page": 7,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000456",
+      "category_key": "semi-auto-parts"
+    },
+    {
+      "name": "Дополнительный зольный ящик Vulkan 32-80 кВт для полуавтоматического котла",
+      "price": 5600,
+      "page": 7,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000457",
+      "category_key": "semi-auto-parts"
+    },
+    {
+      "name": "Дополнительный зольный ящик Vulkan 100-150 кВт для полуавтоматического котла",
+      "price": 7800,
+      "page": 7,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000458",
+      "category_key": "semi-auto-parts"
+    },
+    {
+      "name": "Дополнительный зольный ящик Vulkan свыше 200 кВт для полуавтоматического котла",
+      "price": 9400,
+      "page": 7,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000459",
+      "category_key": "semi-auto-parts"
+    },
+    {
+      "name": "Комплект для чистки полуавтоматического котла Vulkan: ёршик и скребок",
+      "price": 3500,
+      "page": 7,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000460",
+      "category_key": "semi-auto-parts"
+    },
+    {
+      "name": "Комплект автоматики Vulkan для котла 10-27 кВт",
+      "price": 15600,
+      "page": 7,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000461",
+      "category_key": "semi-auto-automation"
+    },
+    {
+      "name": "Комплект автоматики Vulkan для котла 30-60 кВт",
+      "price": 18700,
+      "page": 7,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000462",
+      "category_key": "semi-auto-automation"
+    },
+    {
+      "name": "Регулятор тяги Vulkan с механическим термостатом и цепочкой",
+      "price": 4500,
+      "page": 7,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000463",
+      "category_key": "semi-auto-automation"
+    },
+    {
+      "name": "Термостат погружной Vulkan ST-2",
+      "price": 5900,
+      "page": 7,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000464",
+      "category_key": "semi-auto-automation"
+    },
+    {
+      "name": "Контроллер Vulkan KG SP-30/35",
+      "price": 13800,
+      "page": 7,
+      "note": "СО, плавный ход",
+      "country": "Польша",
+      "sku": "PG-000465",
+      "category_key": "semi-auto-automation"
+    },
+    {
+      "name": "Контроллер Vulkan KG SP-32 DUO",
+      "price": 32600,
+      "page": 7,
+      "note": "ГВС, плавный ход, два вентилятора",
+      "country": "Польша",
+      "sku": "PG-000466",
+      "category_key": "semi-auto-automation"
+    },
+    {
+      "name": "Датчик температуры Vulkan для контроллера KG",
+      "price": 3000,
+      "page": 7,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000467",
+      "category_key": "semi-auto-automation"
+    },
+    {
+      "name": "Контроллер Vulkan DM ECO100",
+      "price": 10200,
+      "page": 7,
+      "note": "Плавный ход",
+      "country": "Россия",
+      "sku": "PG-000468",
+      "category_key": "semi-auto-automation"
+    },
+    {
+      "name": "Контроллер Vulkan Regler PRO",
+      "price": 10500,
+      "page": 7,
+      "note": "",
+      "country": "Россия",
+      "sku": "PG-000469",
+      "category_key": "semi-auto-automation"
+    }
+  ],
+  "image_import": {
+    "source": "Фотографии извлечены из объединённых товарных групп исходного PDF",
+    "products_with_photos": 26,
+    "products_without_photos": 100,
+    "photo_files": 3,
+    "mapping": {
+      "bunker-small.jpg": "Бункеры 160/200–840 л",
+      "bunker-large.jpg": "Бункеры 1150–15000 л",
+      "electric-motor.jpg": "Электродвигатели 0,12–0,75 кВт"
+    }
+  }
+}
