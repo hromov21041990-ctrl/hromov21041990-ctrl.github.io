@@ -14,6 +14,8 @@ for file in html_files:
     source = file.read_text()
     document = html.fromstring(source)
     relative = file.relative_to(DIST)
+    if file.name.startswith("yandex_"):
+        continue
 
     if "chatgpt.site" in source:
         errors.append((str(relative), "test-host reference"))

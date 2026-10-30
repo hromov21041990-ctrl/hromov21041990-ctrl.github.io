@@ -62,7 +62,8 @@ for path in ('/', '/kontakty/'):
     assert business['telephone']=='+73433455225'
     assert business['address']['addressLocality']=='Екатеринбург'
     assert business['openingHoursSpecification']['opens']=='09:00'
-for old,target in json.loads((ROOT/'data/seo-redirects.json').read_text()).items():
+redirects=json.loads((ROOT/'data/seo-redirects.json').read_text())
+for old,target in redirects.items():
     doc=html.fromstring((DIST/old.strip('/')/'index.html').read_text())
     assert doc.xpath('//link[@rel="canonical"]/@href')==[ORIGIN+target], old
     assert doc.xpath('//meta[@http-equiv="refresh"]/@content')==['0; url='+target], old
@@ -70,7 +71,21 @@ for old,target in json.loads((ROOT/'data/seo-redirects.json').read_text()).items
 for path in ('404.html','404/index.html'):
     doc=html.fromstring((DIST/path).read_text())
     assert any('noindex' in x for x in doc.xpath('//meta[@name="robots"]/@content')),path
+verification=DIST/'yandex_9803454670de457e.html'
+assert verification.is_file()
+assert 'Verification: 9803454670de457e' in verification.read_text()
 home=html.fromstring((DIST/'index.html').read_text())
 assert 'Екатеринбурге' in home.xpath('string(//h1)')
 assert home.xpath('//main//img[@fetchpriority="high"]')
-print(f'SEO verification passed: {len(urls)} canonical sitemap URLs, unique metadata, {product_count} Product nodes, {breadcrumb_count} BreadcrumbList nodes, {image_count} raster images with dimensions, 2 legacy URL fallbacks, noindex 404.')
+assert 'mc.yandex.ru/metrika/tag.js' in (DIST/'index.html').read_text()
+assert home.xpath('//noscript//img[@src="https://mc.yandex.ru/watch/91165337"]')
+catalog=html.fromstring((DIST/'katalog'/'index.html').read_text())
+assert catalog.xpath('//*[@id="empty-clear"]')
+for path in ('/dostavka/','/o-nas/'):
+    assert home.xpath(f'//footer//a[@href="{path}"]'), path
+blog=html.fromstring((DIST/'blog'/'index.html').read_text())
+assert blog.xpath('//a[@href="/preimushhestva-pelletnykh-otopitelnykh-kotlov/"]')
+source_js=(ROOT/'site.js').read_text()
+for token in ('normalizeSearch','replaceAll(\'ё\',\'е\')','window.addEventListener(\'pageshow\'','requestAnimationFrame(filter)','phone_click','email_click','contact_cta_click','quote_copy'):
+    assert token in source_js, token
+print(f'SEO verification passed: {len(urls)} canonical sitemap URLs, unique metadata, {product_count} Product nodes, {breadcrumb_count} BreadcrumbList nodes, {image_count} raster images with dimensions, {len(redirects)} legacy URL fallbacks, noindex 404.')
