@@ -5,6 +5,7 @@ from lxml import html
 ROOT=Path(__file__).resolve().parent;DIST=ROOT/'dist';errors=[];count=0
 for f in DIST.rglob('*.html'):
  doc=html.fromstring(f.read_text());count+=1
+ if f.name.startswith('yandex_'):continue
  if not doc.xpath('//html[@lang="ru"]'):errors.append((str(f),'missing Russian document language'))
  if len(doc.xpath('//h1'))!=1:errors.append((str(f),'expected one h1'))
  for url in doc.xpath('//@href|//@src'):

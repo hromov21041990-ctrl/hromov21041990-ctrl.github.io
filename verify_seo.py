@@ -71,6 +71,9 @@ for old,target in redirects.items():
 for path in ('404.html','404/index.html'):
     doc=html.fromstring((DIST/path).read_text())
     assert any('noindex' in x for x in doc.xpath('//meta[@name="robots"]/@content')),path
+verification=DIST/'yandex_9803454670de457e.html'
+assert verification.is_file()
+assert 'Verification: 9803454670de457e' in verification.read_text()
 home=html.fromstring((DIST/'index.html').read_text())
 assert 'Екатеринбурге' in home.xpath('string(//h1)')
 assert home.xpath('//main//img[@fetchpriority="high"]')

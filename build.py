@@ -259,6 +259,8 @@ for file in DIST.rglob('*.html'):
  file.write_text('\n'.join(line.rstrip() for line in s.splitlines()))
 for name in ['site.css','site.js','vulkan.css']:shutil.copy(ROOT/name,DIST/name)
 shutil.copytree(ROOT/'assets',DIST/'assets',dirs_exist_ok=True)
+for verification in ROOT.glob('yandex_*.html'):
+ shutil.copy(verification,DIST/verification.name)
 (DIST/'robots.txt').write_text('User-agent: *\nDisallow: /\n' if PREVIEW else 'User-agent: *\nAllow: /\nSitemap: '+ORIGIN+'/sitemap.xml\n')
 (DIST/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+e(ORIGIN+p)+'</loc></url>' for p in written if p not in aliases)+'</urlset>')
 if not PREVIEW:
