@@ -17,6 +17,7 @@ DIST.mkdir(exist_ok=True)
 PAGES=json.loads((ROOT/'data/pages.json').read_text());PRODUCTS,PELLET_TYPES=prepare_catalog();SITE=json.loads((ROOT/'data/site.json').read_text())
 SEO_REDIRECTS=json.loads((ROOT/'data/seo-redirects.json').read_text())
 ORIGIN=os.environ.get('SITE_ORIGIN','https://pelletsgrupp-migration.hromov-aa.chatgpt.site').rstrip('/');PREVIEW=os.environ.get('PRODUCTION','0')!='1'
+METRIKA_ID=91165337
 JS_VERSION=hashlib.sha256((ROOT/'site.js').read_bytes()).hexdigest()[:12]
 def e(s):return esc.escape(str(s),quote=True)
 def normalize_business_claims(s):
@@ -87,9 +88,11 @@ def write(path,title,body,desc='',schema=None):
  desc=normalize_business_claims((desc or f'{title}. Пеллетное отопление, оборудование, топливо, монтаж и сервис PelletsGrupp в Екатеринбурге.').strip())
  robots='<meta name="robots" content="noindex,nofollow">' if PREVIEW else '<meta name="robots" content="noindex,follow">' if path=='/404/' else ''
  note='<div class="testnote">Тестовая версия переноса · заявки по телефону</div>' if PREVIEW else ''
+ metrika='' if PREVIEW else f'''<!-- Yandex.Metrika counter --><script>(function(m,e,t,r,i,k,a){{m[i]=m[i]||function(){{(m[i].a=m[i].a||[]).push(arguments)}};m[i].l=1*new Date();for(var j=0;j<document.scripts.length;j++){{if(document.scripts[j].src===r){{return;}}}}k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}})(window,document,'script','https://mc.yandex.ru/metrika/tag.js','ym');ym({METRIKA_ID},'init',{{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:false}});</script><!-- /Yandex.Metrika counter -->'''
+ metrika_fallback='' if PREVIEW else f'<noscript><div><img src="https://mc.yandex.ru/watch/{METRIKA_ID}" style="position:absolute;left:-9999px" alt=""></div></noscript>'
  ld='<script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('</','<\\/')+'</script>' if schema else ''
  extra_style='<link rel="stylesheet" href="/vulkan.css">' if path.startswith('/vulkan/') or (original_schema and original_schema.get('category','').startswith('Vulkan ')) else ''
- out.write_text(f'<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title><meta name="description" content="{e(desc)}">{robots}<link rel="canonical" href="{e(ORIGIN+path)}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website"><meta property="og:url" content="{e(ORIGIN+path)}"><meta property="og:site_name" content="PelletsGrupp"><link rel="stylesheet" href="/site.css">{extra_style}{ld}<script src="/site.js?v={JS_VERSION}" defer></script></head><body>{note}{head}<main>{body}</main>{foot}</body></html>');written[path]=title
+ out.write_text(f'<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title><meta name="description" content="{e(desc)}">{robots}<link rel="canonical" href="{e(ORIGIN+path)}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website"><meta property="og:url" content="{e(ORIGIN+path)}"><meta property="og:site_name" content="PelletsGrupp"><link rel="stylesheet" href="/site.css">{extra_style}{ld}{metrika}<script src="/site.js?v={JS_VERSION}" defer></script></head><body>{metrika_fallback}{note}{head}<main>{body}</main>{foot}</body></html>');written[path]=title
 def money(n):
  if n is None:return 'Цена по запросу'
  value=float(n)

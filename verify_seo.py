@@ -77,6 +77,8 @@ assert 'Verification: 9803454670de457e' in verification.read_text()
 home=html.fromstring((DIST/'index.html').read_text())
 assert 'Екатеринбурге' in home.xpath('string(//h1)')
 assert home.xpath('//main//img[@fetchpriority="high"]')
+assert 'mc.yandex.ru/metrika/tag.js' in (DIST/'index.html').read_text()
+assert home.xpath('//noscript//img[@src="https://mc.yandex.ru/watch/91165337"]')
 catalog=html.fromstring((DIST/'katalog'/'index.html').read_text())
 assert catalog.xpath('//*[@id="empty-clear"]')
 for path in ('/dostavka/','/o-nas/'):
@@ -84,6 +86,6 @@ for path in ('/dostavka/','/o-nas/'):
 blog=html.fromstring((DIST/'blog'/'index.html').read_text())
 assert blog.xpath('//a[@href="/preimushhestva-pelletnykh-otopitelnykh-kotlov/"]')
 source_js=(ROOT/'site.js').read_text()
-for token in ('normalizeSearch','replaceAll(\'ё\',\'е\')','window.addEventListener(\'pageshow\'','requestAnimationFrame(filter)'):
+for token in ('normalizeSearch','replaceAll(\'ё\',\'е\')','window.addEventListener(\'pageshow\'','requestAnimationFrame(filter)','phone_click','email_click','contact_cta_click','quote_copy'):
     assert token in source_js, token
 print(f'SEO verification passed: {len(urls)} canonical sitemap URLs, unique metadata, {product_count} Product nodes, {breadcrumb_count} BreadcrumbList nodes, {image_count} raster images with dimensions, {len(redirects)} legacy URL fallbacks, noindex 404.')
