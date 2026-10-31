@@ -81,6 +81,13 @@ assert 'mc.yandex.ru/metrika/tag.js' in (DIST/'index.html').read_text()
 assert home.xpath('//noscript//img[@src="https://mc.yandex.ru/watch/91165337"]')
 catalog=html.fromstring((DIST/'katalog'/'index.html').read_text())
 assert catalog.xpath('//*[@id="empty-clear"]')
+valdai=html.fromstring((DIST/'valdai'/'index.html').read_text())
+assert valdai.xpath('//link[@rel="canonical"]/@href')==[ORIGIN+'/valdai/']
+assert not valdai.xpath('//meta[@http-equiv="refresh"]')
+assert 'Валдай 15' in valdai.text_content() and 'Валдай 22' in valdai.text_content()
+assert 'не представлены в активном каталоге' in valdai.text_content()
+service=html.fromstring((DIST/'servisiremont'/'index.html').read_text())
+assert service.xpath('//a[@href="/valdai/"]')
 for path in ('/dostavka/','/o-nas/'):
     assert home.xpath(f'//footer//a[@href="{path}"]'), path
 blog=html.fromstring((DIST/'blog'/'index.html').read_text())
