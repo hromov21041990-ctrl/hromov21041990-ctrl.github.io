@@ -194,9 +194,11 @@ from pellets import page as pellets_page
 from service_page import page as service_page
 from maintenance_page import page as maintenance_page
 from service_pro_page import page as service_pro_page
+from valdai_page import page as valdai_page
 write('/tekhnicheskoe-obsluzhivanie-kotla/','Техническое обслуживание пеллетных котлов — PelletsGrupp',maintenance_page(),'Сезонное ТО пеллетных котлов: чистка горелки, шнека, теплообменника, дымохода и камеры сгорания, диагностика датчиков и настройка автоматики.',{'@context':'https://schema.org','@type':'Service','serviceType':'Техническое обслуживание пеллетных котлов','provider':{'@type':'Organization','name':'PelletsGrupp'},'areaServed':'Екатеринбург и Свердловская область','url':ORIGIN+'/tekhnicheskoe-obsluzhivanie-kotla/'})
 write('/servis-pro/','Сервис PRO для пеллетных котлов — тарифы | PelletsGrupp',service_pro_page(),'Программа сезонного обслуживания пеллетных котлов для физических и юридических лиц: тарифы, состав работ, плановые и аварийные выезды.',{'@context':'https://schema.org','@type':'Service','serviceType':'Программа сезонного обслуживания пеллетных котлов «Сервис PRO»','provider':{'@type':'Organization','name':'PelletsGrupp','telephone':'+73433455225'},'areaServed':'Екатеринбург и Свердловская область','url':ORIGIN+'/servis-pro/'})
 write('/servisiremont/','Сервис и ремонт пеллетных котлов в Екатеринбурге — PelletsGrupp',service_page(),'Техническое обслуживание от 5 000 ₽, ремонт от 7 500 ₽, программа «Сервис PRO» от 12 000 ₽. Сезонная чистка, диагностика и настройка пеллетных котлов.',{'@context':'https://schema.org','@type':'Service','serviceType':'Сервис и ремонт пеллетных котлов','provider':{'@type':'Organization','name':'PelletsGrupp','telephone':'+73433455225'},'areaServed':'Екатеринбург и Свердловская область','url':ORIGIN+'/servisiremont/'})
+write('/valdai/','Котлы Валдай — сервис и подбор замены в Екатеринбурге | PelletsGrupp',valdai_page(),'Информация для владельцев пеллетных котлов Валдай 15, 15ВС, 22 и 22ВС. Проверка модели, обслуживание, ремонт или подбор современной замены в Екатеринбурге.')
 pellets_source=next(p for p in PAGES if p['path']=='/pellety/')
 pellets_sections=[]
 for sec in pellets_source['sections'][9:]:
