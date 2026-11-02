@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import json,os,re,shutil,hashlib,html as esc
 from pathlib import Path
 from urllib.parse import urlparse
@@ -18,6 +19,8 @@ PAGES=json.loads((ROOT/'data/pages.json').read_text());PRODUCTS,PELLET_TYPES=pre
 SEO_REDIRECTS=json.loads((ROOT/'data/seo-redirects.json').read_text())
 ORIGIN=os.environ.get('SITE_ORIGIN','https://pelletsgrupp-migration.hromov-aa.chatgpt.site').rstrip('/');PREVIEW=os.environ.get('PRODUCTION','0')!='1'
 METRIKA_ID=91165337
+PELLETS_GUIDE_PATH='/chto-takoe-pellety-sostav-proizvodstvo-i-vidy/'
+next(p for p in PAGES if p['path']==PELLETS_GUIDE_PATH)['TITLE']='Что такое пеллеты: состав, виды и применение'
 JS_VERSION=hashlib.sha256((ROOT/'site.js').read_bytes()).hexdigest()[:12]
 def e(s):return esc.escape(str(s),quote=True)
 def normalize_business_claims(s):
@@ -195,10 +198,12 @@ from service_page import page as service_page
 from maintenance_page import page as maintenance_page
 from service_pro_page import page as service_pro_page
 from valdai_page import page as valdai_page
+from pellets_guide import page as pellets_guide_page
 write('/tekhnicheskoe-obsluzhivanie-kotla/','Техническое обслуживание пеллетных котлов — PelletsGrupp',maintenance_page(),'Сезонное ТО пеллетных котлов: чистка горелки, шнека, теплообменника, дымохода и камеры сгорания, диагностика датчиков и настройка автоматики.',{'@context':'https://schema.org','@type':'Service','serviceType':'Техническое обслуживание пеллетных котлов','provider':{'@type':'Organization','name':'PelletsGrupp'},'areaServed':'Екатеринбург и Свердловская область','url':ORIGIN+'/tekhnicheskoe-obsluzhivanie-kotla/'})
 write('/servis-pro/','Сервис PRO для пеллетных котлов — тарифы | PelletsGrupp',service_pro_page(),'Программа сезонного обслуживания пеллетных котлов для физических и юридических лиц: тарифы, состав работ, плановые и аварийные выезды.',{'@context':'https://schema.org','@type':'Service','serviceType':'Программа сезонного обслуживания пеллетных котлов «Сервис PRO»','provider':{'@type':'Organization','name':'PelletsGrupp','telephone':'+73433455225'},'areaServed':'Екатеринбург и Свердловская область','url':ORIGIN+'/servis-pro/'})
 write('/servisiremont/','Сервис и ремонт пеллетных котлов в Екатеринбурге — PelletsGrupp',service_page(),'Техническое обслуживание от 5 000 ₽, ремонт от 7 500 ₽, программа «Сервис PRO» от 12 000 ₽. Сезонная чистка, диагностика и настройка пеллетных котлов.',{'@context':'https://schema.org','@type':'Service','serviceType':'Сервис и ремонт пеллетных котлов','provider':{'@type':'Organization','name':'PelletsGrupp','telephone':'+73433455225'},'areaServed':'Екатеринбург и Свердловская область','url':ORIGIN+'/servisiremont/'})
 write('/valdai/','Котлы Валдай — сервис и подбор замены в Екатеринбурге | PelletsGrupp',valdai_page(),'Информация для владельцев пеллетных котлов Валдай 15, 15ВС, 22 и 22ВС. Проверка модели, обслуживание, ремонт или подбор современной замены в Екатеринбурге.')
+write(PELLETS_GUIDE_PATH,'Что такое пеллеты: состав, виды и применение | PelletsGrupp',pellets_guide_page(),'Что такое древесные пеллеты, из чего и как их производят, чем отличаются белые и серые гранулы и как выбрать топливо для пеллетного котла.',{'@context':'https://schema.org','@type':'Article','headline':'Что такое пеллеты: состав, виды и применение','inLanguage':'ru','mainEntityOfPage':ORIGIN+PELLETS_GUIDE_PATH,'author':{'@type':'Organization','name':'PelletsGrupp'},'publisher':{'@type':'Organization','name':'PelletsGrupp'},'about':['древесные пеллеты','топливные гранулы','пеллетное отопление']})
 pellets_source=next(p for p in PAGES if p['path']=='/pellety/')
 pellets_sections=[]
 for sec in pellets_source['sections'][9:]:
