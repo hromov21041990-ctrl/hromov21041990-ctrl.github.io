@@ -88,6 +88,18 @@ assert 'Валдай 15' in valdai.text_content() and 'Валдай 22' in valda
 assert 'не представлены в активном каталоге' in valdai.text_content()
 service=html.fromstring((DIST/'servisiremont'/'index.html').read_text())
 assert service.xpath('//a[@href="/valdai/"]')
+guide_path='/chto-takoe-pellety-sostav-proizvodstvo-i-vidy/'
+guide=html.fromstring((DIST/guide_path.strip('/')/'index.html').read_text())
+assert guide.xpath('string(//h1)')=='Что такое пеллеты: состав, виды и применение'
+assert guide.xpath('//a[@href="/pellety/"]') and guide.xpath('//a[@href="/dostavka/"]')
+assert guide.xpath('//a[@href="/katalog/"]') and guide.xpath('//a[@href="/servisiremont/"]')
+assert not guide.xpath('//a[starts-with(@href,"page:#landing")]')
+guide_nodes=[]
+for raw in guide.xpath('//script[@type="application/ld+json"]/text()'):
+    value=json.loads(raw);guide_nodes.extend(value.get('@graph',[value]))
+assert any(node.get('@type')=='Article' and node.get('mainEntityOfPage')==ORIGIN+guide_path for node in guide_nodes)
+pellets=html.fromstring((DIST/'pellety'/'index.html').read_text())
+assert pellets.xpath(f'//a[@href="{guide_path}"]')
 for path in ('/dostavka/','/o-nas/'):
     assert home.xpath(f'//footer//a[@href="{path}"]'), path
 blog=html.fromstring((DIST/'blog'/'index.html').read_text())
