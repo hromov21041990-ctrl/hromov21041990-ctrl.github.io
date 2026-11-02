@@ -67,7 +67,18 @@ for old,target in redirects.items():
     doc=html.fromstring((DIST/old.strip('/')/'index.html').read_text())
     assert doc.xpath('//link[@rel="canonical"]/@href')==[ORIGIN+target], old
     assert doc.xpath('//meta[@http-equiv="refresh"]/@content')==['0; url='+target], old
+    assert doc.xpath('//meta[@name="robots"]/@content')==['noindex,follow'], old
     assert ORIGIN+old not in urls, old
+for file in DIST.rglob('index.html'):
+    doc=html.fromstring(file.read_text())
+    refresh=doc.xpath('//meta[@http-equiv="refresh"]/@content')
+    if not refresh:continue
+    relative=file.relative_to(DIST).parent.as_posix()
+    path='/' if relative=='.' else '/'+relative+'/'
+    assert doc.xpath('//meta[@name="robots"]/@content')==['noindex,follow'], path
+    canonical=doc.xpath('//link[@rel="canonical"]/@href')
+    assert len(canonical)==1 and canonical[0]!=ORIGIN+path, path
+    assert ORIGIN+path not in urls, path
 for path in ('404.html','404/index.html'):
     doc=html.fromstring((DIST/path).read_text())
     assert any('noindex' in x for x in doc.xpath('//meta[@name="robots"]/@content')),path
