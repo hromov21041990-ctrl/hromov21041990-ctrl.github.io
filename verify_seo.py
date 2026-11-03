@@ -103,7 +103,7 @@ guide_path='/chto-takoe-pellety-sostav-proizvodstvo-i-vidy/'
 guide=html.fromstring((DIST/guide_path.strip('/')/'index.html').read_text())
 assert guide.xpath('string(//h1)')=='Что такое пеллеты: состав, виды и применение'
 assert guide.xpath('//a[@href="/pellety/"]') and guide.xpath('//a[@href="/dostavka/"]')
-assert guide.xpath('//a[@href="/katalog/"]') and guide.xpath('//a[@href="/servisiremont/"]')
+assert guide.xpath('//a[@href="/kotly/"]') and guide.xpath('//a[@href="/servisiremont/"]')
 assert not guide.xpath('//a[starts-with(@href,"page:#landing")]')
 guide_nodes=[]
 for raw in guide.xpath('//script[@type="application/ld+json"]/text()'):
@@ -111,6 +111,22 @@ for raw in guide.xpath('//script[@type="application/ld+json"]/text()'):
 assert any(node.get('@type')=='Article' and node.get('mainEntityOfPage')==ORIGIN+guide_path for node in guide_nodes)
 pellets=html.fromstring((DIST/'pellety'/'index.html').read_text())
 assert pellets.xpath(f'//a[@href="{guide_path}"]')
+assert pellets.xpath('//a[@href="/kotly/"]')
+boilers=html.fromstring((DIST/'kotly'/'index.html').read_text())
+assert boilers.xpath('string(//h1)')=='Пеллетные котлы в Екатеринбурге'
+assert not boilers.xpath('//meta[@http-equiv="refresh"]')
+assert not boilers.xpath('//meta[@name="robots" and contains(@content,"noindex")]')
+assert boilers.xpath('//link[@rel="canonical"]/@href')==[ORIGIN+'/kotly/']
+assert ORIGIN+'/kotly/' in urls
+assert len(boilers.xpath('//article[@data-product]'))==8
+assert len(boilers.xpath('//a[contains(@class,"boiler-brand")]'))==4
+assert boilers.xpath('//a[@href="/otoplenie/"]') and boilers.xpath('//a[@href="/pellety/"]') and boilers.xpath('//a[@href="/servisiremont/"]')
+boiler_nodes=[]
+for raw in boilers.xpath('//script[@type="application/ld+json"]/text()'):
+    value=json.loads(raw);boiler_nodes.extend(value.get('@graph',[value]))
+assert any(node.get('@type')=='CollectionPage' and node.get('url')==ORIGIN+'/kotly/' for node in boiler_nodes)
+assert any(node.get('@type')=='ItemList' and node.get('numberOfItems')==95 for node in boiler_nodes)
+assert any(node.get('@type')=='BreadcrumbList' for node in boiler_nodes)
 for path in ('/dostavka/','/o-nas/'):
     assert home.xpath(f'//footer//a[@href="{path}"]'), path
 blog=html.fromstring((DIST/'blog'/'index.html').read_text())
