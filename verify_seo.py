@@ -127,6 +127,20 @@ for raw in boilers.xpath('//script[@type="application/ld+json"]/text()'):
 assert any(node.get('@type')=='CollectionPage' and node.get('url')==ORIGIN+'/kotly/' for node in boiler_nodes)
 assert any(node.get('@type')=='ItemList' and node.get('numberOfItems')==95 for node in boiler_nodes)
 assert any(node.get('@type')=='BreadcrumbList' for node in boiler_nodes)
+burners=html.fromstring((DIST/'zota'/'gorelki'/'index.html').read_text())
+assert burners.xpath('string(//h1)')=='Пеллетные горелки ZOTA'
+assert len(burners.xpath('//article[@data-product]'))==3
+assert len(burners.xpath('//table[contains(@class,"burner-comparison")]//tbody/tr'))==3
+for path in ('/zota/bunkery/','/zota/mehanizm-podachi/','/zota/adaptery/','/otoplenie/','/pellety/'):
+    assert burners.xpath(f'//a[@href="{path}"]'), path
+assert burners.xpath('//link[@rel="canonical"]/@href')==[ORIGIN+'/zota/gorelki/']
+assert ORIGIN+'/zota/gorelki/' in urls
+burner_nodes=[]
+for raw in burners.xpath('//script[@type="application/ld+json"]/text()'):
+    value=json.loads(raw);burner_nodes.extend(value.get('@graph',[value]))
+assert any(node.get('@type')=='CollectionPage' and node.get('url')==ORIGIN+'/zota/gorelki/' for node in burner_nodes)
+assert any(node.get('@type')=='ItemList' and node.get('numberOfItems')==3 for node in burner_nodes)
+assert home.xpath('//header//a[@href="/zota/gorelki/"]') and home.xpath('//footer//a[@href="/zota/gorelki/"]')
 for path in ('/dostavka/','/o-nas/'):
     assert home.xpath(f'//footer//a[@href="{path}"]'), path
 blog=html.fromstring((DIST/'blog'/'index.html').read_text())
