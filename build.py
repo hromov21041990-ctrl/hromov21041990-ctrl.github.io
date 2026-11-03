@@ -254,7 +254,11 @@ for path,target in aliases.items():
  write(path,legacy_title+' — PelletsGrupp',crumbs('Каталог')+f'<section class="section"><div class="wrap"><h1>{e(legacy_title)}</h1><p>Актуальная информация представлена в общем каталоге PelletsGrupp.</p><a class="btn" href="{target}">Перейти в каталог →</a></div></section>',f'{legacy_title}. Актуальный каталог оборудования PelletsGrupp.')
  alias_file=DIST/path.strip('/')/'index.html'
  alias_html=alias_file.read_text()
- alias_html=alias_html.replace(f'<link rel="canonical" href="{e(ORIGIN+path)}">',f'<link rel="canonical" href="{e(ORIGIN+target)}"><meta http-equiv="refresh" content="0; url={e(target)}">',1)
+ alias_html=alias_html.replace(
+  f'<link rel="canonical" href="{e(ORIGIN+path)}">',
+  f'<meta name="robots" content="noindex,follow"><link rel="canonical" href="{e(ORIGIN+target)}"><meta http-equiv="refresh" content="0; url={e(target)}">',
+  1,
+ )
  alias_file.write_text(alias_html)
 # Rewrite archived internal URLs only after all final routes are known.
 for file in DIST.rglob('*.html'):

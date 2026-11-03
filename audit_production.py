@@ -19,8 +19,12 @@ for file in html_files:
 
     if "chatgpt.site" in source:
         errors.append((str(relative), "test-host reference"))
-    if any("noindex" in value.lower() for value in document.xpath('//meta[@name="robots"]/@content')) and str(relative) not in ("404.html", "404/index.html"):
+    noindex = any("noindex" in value.lower() for value in document.xpath('//meta[@name="robots"]/@content'))
+    refresh = document.xpath('//meta[@http-equiv="refresh"]/@content')
+    if noindex and str(relative) not in ("404.html", "404/index.html") and not refresh:
         errors.append((str(relative), "noindex in production"))
+    if refresh and not noindex:
+        errors.append((str(relative), "legacy redirect page remains indexable"))
     if "Тестовая версия переноса" in source:
         errors.append((str(relative), "test banner in production"))
     if "08:00" in source or "08.00" in source:
