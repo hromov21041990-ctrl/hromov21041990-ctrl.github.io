@@ -99,6 +99,21 @@ assert 'Валдай 15' in valdai.text_content() and 'Валдай 22' in valda
 assert 'не представлены в активном каталоге' in valdai.text_content()
 service=html.fromstring((DIST/'servisiremont'/'index.html').read_text())
 assert service.xpath('//a[@href="/valdai/"]')
+assert '2–3 часов' not in service.text_content()
+repair=html.fromstring((DIST/'remont-kotla'/'index.html').read_text())
+assert repair.xpath('string(//h1)')=='Ремонт пеллетных котлов в Екатеринбурге'
+assert repair.xpath('//link[@rel="canonical"]/@href')==[ORIGIN+'/remont-kotla/']
+assert ORIGIN+'/remont-kotla/' in urls
+assert 'от 7 500 ₽' in repair.text_content()
+assert len(repair.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," repair-symptom ")]'))==6
+assert len(repair.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," repair-steps ")]/*'))==4
+for path in ('/servisiremont/','/tekhnicheskoe-obsluzhivanie-kotla/','/servis-pro/','/biotep/zapchasti/','/vulkan/zapchasti/'):
+    assert repair.xpath(f'//a[@href="{path}"]'), path
+repair_nodes=[]
+for raw in repair.xpath('//script[@type="application/ld+json"]/text()'):
+    value=json.loads(raw);repair_nodes.extend(value.get('@graph',[value]))
+assert any(node.get('@type')=='Service' and node.get('url')==ORIGIN+'/remont-kotla/' for node in repair_nodes)
+assert any(node.get('@type')=='FAQPage' and len(node.get('mainEntity',[]))==4 for node in repair_nodes)
 guide_path='/chto-takoe-pellety-sostav-proizvodstvo-i-vidy/'
 guide=html.fromstring((DIST/guide_path.strip('/')/'index.html').read_text())
 assert guide.xpath('string(//h1)')=='Что такое пеллеты: состав, виды и применение'
