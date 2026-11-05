@@ -303,6 +303,7 @@ def write_price_csv(path,rows):
 write_price_csv(DIST/'downloads'/'prajs-pelletsgrupp.csv',all_rows)
 start_ids={p['id'] for p in PRODUCTS if p.get('product_type')=='start_spare'}
 write_price_csv(DIST/'downloads'/'zapchasti-start-1c.csv',[row for row in all_rows if row['site_id'] in start_ids])
+shutil.copytree(ROOT/'downloads',DIST/'downloads',dirs_exist_ok=True)
 for verification in ROOT.glob('yandex_*.html'):
  shutil.copy(verification,DIST/verification.name)
 (DIST/'robots.txt').write_text('User-agent: *\nDisallow: /\n' if PREVIEW else 'User-agent: *\nAllow: /\nSitemap: '+ORIGIN+'/sitemap.xml\n')

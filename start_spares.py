@@ -16,7 +16,7 @@ def catalog_body(products,card,selected=None):
  return ('<div class="wrap crumbs"><a href="/">Главная</a> / <a href="/katalog/">Котлы и горелки</a> / <a href="/start/">СТАРТ</a> / '+e(label)+'</div>'
  '<div class="wrap"><div class="page-head"><span class="eyebrow">Запчасти и комплектующие</span><h1>'+e(label)+'</h1><p class="lead">Запасные части и расходные материалы для пеллетных котлов СТАРТ. Цены сверены с сайтом производителя 5 ноября 2026 года. Совместимость уточним по модели и году выпуска котла.</p></div>'
  '<div class="brand-tabs"><a href="/start/">Котлы СТАРТ</a><a class="active" href="/start/zapchasti/">Запчасти СТАРТ</a></div>'+tabs+
- '<div class="actions"><a class="btn light" href="/downloads/zapchasti-start-1c.csv" download>Скачать CSV для 1С</a><a class="btn light" href="/downloads/prajs-pelletsgrupp.csv" download>Общая таблица цен</a></div>'
+ '<div class="actions"><a class="btn light" href="/downloads/zapchasti-start-1c.xlsx" download>Скачать XLSX для 1С</a><a class="btn light" href="/downloads/prajs-pelletsgrupp.xlsx" download>Общая таблица цен</a></div>'
  '<div class="filters"><input id="search" aria-label="Поиск запчасти" placeholder="Название или артикул"></div><p class="fine" id="count">'+str(len(members))+' товаров</p><div class="grid products">'+''.join(card(p) for p in members)+'</div><div id="empty" class="empty" hidden>По вашему запросу ничего не найдено.</div></div>')
 def breadcrumbs(p):
  return '<div class="wrap crumbs"><a href="/">Главная</a> / <a href="/start/">СТАРТ</a> / <a href="/start/zapchasti/">Запчасти</a> / '+e(p['name'])+'</div>'
