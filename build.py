@@ -5,13 +5,14 @@ from urllib.parse import urlparse
 from lxml import html,etree
 from seo import metadata as seo_metadata, prepare_body, structured_data
 from vulkan import SERIES as VULKAN_SERIES, catalog_body as vulkan_catalog, breadcrumbs as vulkan_crumbs, product_facts as vulkan_facts, documents as vulkan_documents
-from catalog_identity import prepare_catalog
+from catalog_identity import prepare_catalog, export_rows
 from faci import breadcrumbs as faci_crumbs, facts as faci_facts, documents as faci_documents, intro as faci_intro, configuration_views as faci_views, specifications as faci_specs
 from start import breadcrumbs as start_crumbs, facts as start_facts, documents as start_documents, intro as start_intro, configuration_views as start_views, specifications as start_specs
 from zota import CATEGORIES as ZOTA_CATEGORIES, catalog_body as zota_catalog, breadcrumbs as zota_crumbs, facts as zota_facts, documents as zota_documents
 from biotep import breadcrumbs as biotep_crumbs, facts as biotep_facts, documents as biotep_documents, intro as biotep_intro
 from biotep_spares import CATEGORIES as BIOTEP_SPARE_CATEGORIES, catalog_body as biotep_spares_catalog, breadcrumbs as biotep_spares_crumbs, facts as biotep_spares_facts
 from vulkan_spares import CATEGORIES as VULKAN_SPARE_CATEGORIES, catalog_body as vulkan_spares_catalog, breadcrumbs as vulkan_spares_crumbs, facts as vulkan_spares_facts
+from start_spares import CATEGORIES as START_SPARE_CATEGORIES, catalog_body as start_spares_catalog, breadcrumbs as start_spares_crumbs, facts as start_spares_facts
 ROOT=Path(__file__).resolve().parent;DIST=ROOT/'dist'
 if DIST.exists():shutil.rmtree(DIST)
 DIST.mkdir(exist_ok=True)
@@ -113,6 +114,8 @@ def card(p):
   meta=' · '.join(facts) or 'Мощность уточняется при подборе'
  elif p['brand']=='FACI' and p.get('power_label'):
   meta=p['power_label']+' · базовый бункер '+p['specs'].get('Емкость бункера','уточняется')
+ elif p.get('product_type')=='start_spare':
+  meta=p['start_spare_category_label']+' · '+p.get('source_availability','наличие уточняется')
  elif p['brand']=='СТАРТ':
   meta=p['power_label']+' · '+p['specs'].get('Площадь отопления по данным производителя','площадь уточняется')
  elif p['brand']=='ZOTA':
@@ -139,11 +142,11 @@ from boilers_page import boiler_products, featured_products, page as boilers_pag
 boilers=boiler_products(PRODUCTS);featured_boilers=featured_products(PRODUCTS)
 write('/kotly/','Пеллетные котлы в Екатеринбурге — цены | PelletsGrupp',crumbs('Пеллетные котлы')+boilers_page(PRODUCTS,card),'Пеллетные котлы BIOTEP, FACI, СТАРТ и Vulkan для дома и бизнеса. Цены, подбор мощности, доставка, монтаж и сервис в Екатеринбурге и области.',{'@context':'https://schema.org','@graph':[{'@type':'CollectionPage','name':'Пеллетные котлы в Екатеринбурге','url':ORIGIN+'/kotly/','inLanguage':'ru'},{'@type':'ItemList','name':'Модели пеллетных котлов','numberOfItems':len(boilers),'itemListElement':[{'@type':'ListItem','position':i,'name':p['name'],'url':ORIGIN+p['path']} for i,p in enumerate(featured_boilers,1)]}]})
 def catalog(path,title,brand=None):
- prods=[p for p in PRODUCTS if p.get('product_type') not in ('biotep_spare','vulkan_spare') and (not brand or p['brand']==brand)]
+ prods=[p for p in PRODUCTS if p.get('product_type') not in ('biotep_spare','vulkan_spare','start_spare') and (not brand or p['brand']==brand)]
  lead=biotep_intro() if brand=='BIOTEP' else faci_intro() if brand=='FACI' else start_intro() if brand=='СТАРТ' else 'Подберём оборудование и комплектацию. Организуем доставку и сервис.'
  tabs='<div class="brand-tabs"><a href="/katalog/">Все марки</a>'+''.join(f'<a class="{"active" if brand==b else ""}" href="{brandroutes[b]}">{e(b)}</a>' for b in brands)+'</div>'
  filters='<div class="filters"><input id="search" aria-label="Поиск модели" placeholder="Название модели или артикул">'+('' if brand else '<select id="brand-filter" aria-label="Марка"><option value="">Все марки</option>'+''.join(f'<option>{b}</option>' for b in brands)+'</select>')+'</div>'
- section_tabs='<div class="brand-tabs"><a class="active" href="/biotep/">Котлы BIOTEP</a><a href="/biotep/zapchasti/">Запчасти BIOTEP</a></div>' if brand=='BIOTEP' else ''
+ section_tabs='<div class="brand-tabs"><a class="active" href="/biotep/">Котлы BIOTEP</a><a href="/biotep/zapchasti/">Запчасти BIOTEP</a></div>' if brand=='BIOTEP' else '<div class="brand-tabs"><a class="active" href="/start/">Котлы СТАРТ</a><a href="/start/zapchasti/">Запчасти СТАРТ</a></div>' if brand=='СТАРТ' else ''
  body=crumbs(title)+f'<div class="wrap"><div class="page-head"><span class="eyebrow">Каталог PelletsGrupp</span><h1>{e(title)}</h1><p class="lead">{e(lead)}</p></div>{tabs}{section_tabs}{filters}<p class="fine" id="count">{len(prods)} товаров</p><div class="grid products">'+''.join(card(p) for p in prods)+'</div><div id="empty" class="empty" hidden><p>По вашему запросу ничего не найдено. Проверьте название или артикул.</p><div class="actions"><button type="button" class="btn light" id="empty-clear">Показать все товары</button><a class="btn" href="/kontakty/">Помочь с подбором →</a></div></div></div>'+cta()
  write(path,title+' — PelletsGrupp',body,'Каталог пеллетного отопления: модели, комплектации и цены. Подбор оборудования, доставка и сервис в Екатеринбурге.')
 catalog('/katalog/','Котлы и горелки')
@@ -170,6 +173,9 @@ for key,label,route in BIOTEP_SPARE_CATEGORIES:
 write('/vulkan/zapchasti/','Запчасти Vulkan — РРЦ и подбор | PelletsGrupp',vulkan_spares_catalog(PRODUCTS,card)+cta(),'Запчасти, горелки, бункеры, шнеки, приводы, автоматика и дополнительное оборудование для котлов Vulkan. РРЦ производителя.')
 for key,label,route in VULKAN_SPARE_CATEGORIES:
  write('/vulkan/zapchasti/'+route+'/',f'{label} для котлов Vulkan — РРЦ | PelletsGrupp',vulkan_spares_catalog(PRODUCTS,card,key)+cta(),f'{label} для котлов Vulkan: РРЦ производителя, внутренние артикулы и подбор совместимости.')
+write('/start/zapchasti/','Запчасти для котлов СТАРТ — цены | PelletsGrupp',start_spares_catalog(PRODUCTS,card)+cta(),'Запчасти, расходники, шнеки, приводы, автоматика и бункеры для пеллетных котлов СТАРТ. Цены производителя и подбор совместимости.')
+for key,label,route in START_SPARE_CATEGORIES:
+ write('/start/zapchasti/'+route+'/',f'{label} для котлов СТАРТ — цены | PelletsGrupp',start_spares_catalog(PRODUCTS,card,key)+cta(),f'{label} для котлов СТАРТ: цены производителя, артикулы PelletsGrupp и подбор совместимости.')
 for p in PRODUCTS:
  images=p['images'];gallery=f'<div class="gallery"><img id="main-image" src="{images[0]}" alt="{e(p["name"])}">' if images else '<div class="gallery"><p>Фотография уточняется</p>'
  gallery+='<div class="thumbs">'+''.join(f'<button data-src="{src}" data-alt="{e(p["name"])}" aria-label="Фото {i+1}"><img src="{src}" alt="" loading="lazy"></button>' for i,src in enumerate(images))+'</div></div>'
@@ -183,22 +189,23 @@ for p in PRODUCTS:
  if p['brand']=='FACI':
   view_data['configuration_views']=faci_views(p)
   specs=faci_specs(p,view_data['configuration_views'][p['offers'][0]['sku']])
- if p['brand']=='СТАРТ':
+ if p['brand']=='СТАРТ' and p.get('product_type')!='start_spare':
   view_data['configuration_views']=start_views(p)
   specs=start_specs(view_data['configuration_views'][p['offers'][0]['sku']])
  data=json.dumps(view_data,ensure_ascii=False).replace('</','<\\/')
  is_biotep_spare=p.get('product_type')=='biotep_spare'
  is_vulkan_spare=p.get('product_type')=='vulkan_spare'
- is_spare=is_biotep_spare or is_vulkan_spare
- breadcrumb=biotep_spares_crumbs(p) if is_biotep_spare else vulkan_spares_crumbs(p) if is_vulkan_spare else vulkan_crumbs(product=p) if p.get('series') else biotep_crumbs(p) if p['brand']=='BIOTEP' else faci_crumbs(p) if p['brand']=='FACI' else start_crumbs(p) if p['brand']=='СТАРТ' else zota_crumbs(p) if p['brand']=='ZOTA' else crumbs(p['name'])
- detail_intro=biotep_spares_facts(p) if is_biotep_spare else vulkan_spares_facts(p) if is_vulkan_spare else vulkan_facts(p) if p.get('series') else biotep_facts(p) if p['brand']=='BIOTEP' else faci_facts(p) if p['brand']=='FACI' else start_facts(p) if p['brand']=='СТАРТ' else zota_facts(p,rich) if p['brand']=='ZOTA' else ''
+ is_start_spare=p.get('product_type')=='start_spare'
+ is_spare=is_biotep_spare or is_vulkan_spare or is_start_spare
+ breadcrumb=biotep_spares_crumbs(p) if is_biotep_spare else vulkan_spares_crumbs(p) if is_vulkan_spare else start_spares_crumbs(p) if is_start_spare else vulkan_crumbs(product=p) if p.get('series') else biotep_crumbs(p) if p['brand']=='BIOTEP' else faci_crumbs(p) if p['brand']=='FACI' else start_crumbs(p) if p['brand']=='СТАРТ' else zota_crumbs(p) if p['brand']=='ZOTA' else crumbs(p['name'])
+ detail_intro=biotep_spares_facts(p) if is_biotep_spare else vulkan_spares_facts(p) if is_vulkan_spare else start_spares_facts(p) if is_start_spare else vulkan_facts(p) if p.get('series') else biotep_facts(p) if p['brand']=='BIOTEP' else faci_facts(p) if p['brand']=='FACI' else start_facts(p) if p['brand']=='СТАРТ' else zota_facts(p,rich) if p['brand']=='ZOTA' else ''
  detail_docs='' if is_spare else vulkan_documents(p) if p.get('series') else biotep_documents(p) if p['brand']=='BIOTEP' else faci_documents(p) if p['brand']=='FACI' else start_documents(p) if p['brand']=='СТАРТ' else zota_documents(p) if p['brand']=='ZOTA' else ''
  body=breadcrumb+f'<section class="section"><div class="wrap detail">{gallery}<div class="buybox"><span class="badge">{e(p.get("display_brand",p["brand"]))}'+(' · флагман PelletsGrupp' if p['brand']=='BIOTEP' and not is_spare else '')+f'</span><h1>{e(p["name"])}</h1><p class="sku-line">Артикул: <span id="product-sku">{e(p["sku"])}</span></p><p class="fine">Подбор, доставка и сервисное сопровождение</p>{conf}<div id="chosen-price" class="bigprice">{money(p["price"])}</div><p class="fine">'+('Цена сверена с источником '+p['checked_at']+'. Наличие уточняется при заказе.' if p['checked_at'] else 'Актуальная цена и комплектация уточняются у специалиста.')+f'</p><div class="actions"><a class="btn" href="tel:+73433455225">Позвонить: +7 (343) 345-52-25</a></div><p class="fine">Назовите специалисту модель, артикул и выбранную комплектацию.</p><button class="btn light" id="copy-quote">Скопировать выбранную модель</button><p id="copy-status" class="fine" aria-live="polite"></p></div></div></section>'+detail_intro+f'<section class="section white"><div class="wrap"><h2>Характеристики</h2>{specs if p["specs"] else "<p>Подробные характеристики уточним при подборе оборудования.</p>"}<p class="fine"><a href="{e(p["source"])}" target="_blank" rel="noopener">Источник данных →</a></p></div></section>'+detail_docs+f'<script type="application/json" id="product-data">{data}</script>'+cta()
  schema={'@context':'https://schema.org','@type':'Product','sku':p['sku'],'name':p['name'],'brand':{'@type':'Brand','name':p.get('display_brand',p['brand'])},'url':ORIGIN+p['path']}
  if p.get('series'):schema['category']='Vulkan '+p['series_name']
  if p['brand']=='ZOTA':schema['category']='ZOTA · '+p['zota_category_label'];schema['mpn']=p['manufacturer_article']
  if is_spare:
-  schema['category']=('Запчасти BIOTEP · '+p['biotep_spare_category_label']) if is_biotep_spare else ('Запчасти Vulkan · '+p['vulkan_spare_category_label'])
+  schema['category']=('Запчасти BIOTEP · '+p['biotep_spare_category_label']) if is_biotep_spare else ('Запчасти Vulkan · '+p['vulkan_spare_category_label']) if is_vulkan_spare else ('Запчасти СТАРТ · '+p['start_spare_category_label'])
   if p.get('manufacturer_article'):schema['mpn']=p['manufacturer_article']
  if images:schema['image']=[ORIGIN+i for i in images]
  if p['price'] is not None:schema['offers']={'@type':'Offer','priceCurrency':'RUB','price':p['price'],'url':ORIGIN+p['path']}
@@ -280,12 +287,22 @@ for file in DIST.rglob('*.html'):
   href=m.group(1)
   if href.startswith('/') and not href.startswith('/assets/'):
    parsed=urlparse(href)
-   if parsed.path not in written and not parsed.path.endswith(('.css','.js')):return 'href="/katalog/"'
+   if parsed.path not in written and not parsed.path.endswith(('.css','.js','.csv','.json')):return 'href="/katalog/"'
   return m.group(0)
  s=re.sub(r'href="([^"]+)"',fix,s)
  file.write_text('\n'.join(line.rstrip() for line in s.splitlines()))
 for name in ['site.css','site.js','vulkan.css']:shutil.copy(ROOT/name,DIST/name)
 shutil.copytree(ROOT/'assets',DIST/'assets',dirs_exist_ok=True)
+(DIST/'downloads').mkdir(exist_ok=True)
+import csv
+all_rows=export_rows(PRODUCTS,PELLET_TYPES)
+headers=['Артикул','Наименование','Бренд','Модель','Комплектация','Единица','Цена сайта, руб.','ID сайта','Страница товара','Источник','Код 1С','GUID 1С']
+def write_price_csv(path,rows):
+ with path.open('w',encoding='utf-8-sig',newline='') as f:
+  w=csv.writer(f,delimiter=';');w.writerow(headers);w.writerows(list(row.values()) for row in rows)
+write_price_csv(DIST/'downloads'/'prajs-pelletsgrupp.csv',all_rows)
+start_ids={p['id'] for p in PRODUCTS if p.get('product_type')=='start_spare'}
+write_price_csv(DIST/'downloads'/'zapchasti-start-1c.csv',[row for row in all_rows if row['site_id'] in start_ids])
 for verification in ROOT.glob('yandex_*.html'):
  shutil.copy(verification,DIST/verification.name)
 (DIST/'robots.txt').write_text('User-agent: *\nDisallow: /\n' if PREVIEW else 'User-agent: *\nAllow: /\nSitemap: '+ORIGIN+'/sitemap.xml\n')

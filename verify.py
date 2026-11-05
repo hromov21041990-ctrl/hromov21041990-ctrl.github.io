@@ -14,14 +14,14 @@ for f in DIST.rglob('*.html'):
   if not local.is_file() and not (local/'index.html').is_file():errors.append((str(f),url))
  if 'Ð' in doc.text_content() or 'Ñ' in doc.text_content():errors.append((str(f),'text encoding problem'))
 products=json.loads((ROOT/'data/products.json').read_text())
-assert len(products)==338
-assert len({p['path'] for p in products})==338
-assert len({p['id'] for p in products})==338
+assert len(products)==371
+assert len({p['path'] for p in products})==371
+assert len({p['id'] for p in products})==371
 for p in products:
  assert p['images'],p['name']
  if p['brand']=='FACI':
   assert p['variants'] and p['bunkers'],p['name']
- if p['brand']=='СТАРТ':
+ if p['brand']=='СТАРТ' and p.get('product_type')!='start_spare':
   assert p['variants'] and p['bunkers'] and p['automatic_pellet'],p['name']
  if p['price'] is not None:assert p['price']>0,p['name']
 biotep=[p for p in products if p['brand']=='BIOTEP' and p.get('product_type')!='biotep_spare']
@@ -119,7 +119,7 @@ assert base['specs']['Вес']=='285 кг' and 'Уточняется' in large['
 assert '500 л' in base['description'] and '2000 л' in large['description'] and '500 л' not in large['description']
 assert configuration_views(gt)[gt['sku']]['specs']['Очистка котла']=='Механическая, с помощью рычага'
 from start import configuration_views as start_views
-start=[p for p in products if p['brand']=='СТАРТ']
+start=[p for p in products if p['brand']=='СТАРТ' and p.get('product_type')!='start_spare']
 start_source=json.loads((ROOT/'data/start-source.json').read_text())
 source_start={row['source_url']:row for row in start_source['source_snapshot']}
 assert len(start)==9 and sum(len(p['offers']) for p in start)==25 and len(source_start)==9
@@ -250,8 +250,8 @@ import copy
 pellets=json.loads((ROOT/'data/pellets.json').read_text())
 registry=json.loads((ROOT/'data/sku-registry.json').read_text())
 rows=export_rows(products,pellets)
-assert len(rows)==467 and len({r['sku'] for r in rows})==467
-assert len({p['sku'] for p in products+pellets})==340
+assert len(rows)==500 and len({r['sku'] for r in rows})==500
+assert len({p['sku'] for p in products+pellets})==373
 previous_registry=json.loads(subprocess.check_output(['git','show','HEAD:data/sku-registry.json'],cwd=ROOT,text=True))
 assert all(registry['entries'].get(k)==v for k,v in previous_registry['entries'].items())
 assert registry['entries']['equipment:1d2371411a14']=='PG-000072' and registry['entries']['equipment:c0aeee1f4222']=='PG-000073'
@@ -284,3 +284,13 @@ assert trial[-1]['sku']==f'PG-{registry["next_number"]:06d}'
 if errors:
  print(errors[:20]);raise SystemExit(1)
 print('Verified',count,'HTML files, local links/assets, 338 product routes, 4 BIOTEP boilers with descriptions and documents, 83 BIOTEP spare parts in 10 groups with 77 source photos for 74 products, 18 FACI models, 129 FACI configurations, 9 START models, 25 START configurations, 34 ZOTA products in 6 supplier groups, 126 Vulkan spare parts in 10 groups with 3 source photos used for 26 products, 467 active unique articles, 64 Vulkan source prices and preserved identities.')
+start_spares=[p for p in products if p.get('product_type')=='start_spare']
+assert len(start_spares)==33
+assert all(p['start_spare_category']!='service' and p['price']>0 for p in start_spares)
+assert len({p['sku'] for p in start_spares})==33
+assert len(html.fromstring((DIST/'start'/'zapchasti'/'index.html').read_text()).xpath('//article[@data-product]'))==33
+import csv
+with (DIST/'downloads'/'zapchasti-start-1c.csv').open(encoding='utf-8-sig') as f:
+ assert len(list(csv.reader(f,delimiter=';')))==34
+with (DIST/'downloads'/'prajs-pelletsgrupp.csv').open(encoding='utf-8-sig') as f:
+ assert len(list(csv.reader(f,delimiter=';')))>373

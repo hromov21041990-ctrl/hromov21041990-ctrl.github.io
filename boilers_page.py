@@ -12,7 +12,7 @@ BRANDS = (
 def boiler_products(products):
     return [
         product for product in products
-        if product.get("product_type") not in ("biotep_spare", "vulkan_spare")
+        if product.get("product_type") not in ("biotep_spare", "vulkan_spare", "start_spare")
         and product["brand"] != "ZOTA"
     ]
 

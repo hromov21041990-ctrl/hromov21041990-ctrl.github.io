@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-ORIGIN = 'https://pelletsgrupp-migration.hromov-aa.chatgpt.site'
+ORIGIN = 'https://pelletsgrupp.ru'
 
 def save_json(path, value):
     text = json.dumps(value, ensure_ascii=False, indent=2) + '\n'
