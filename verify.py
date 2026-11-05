@@ -242,7 +242,7 @@ for prior in baseline:
 for prior in [p for p in baseline if p['brand']=='Вулкан' and p.get('product_type')!='vulkan_spare']:
  current=next(p for p in vulkan if p['path']==prior['path'])
  assert current['id']==prior['id']
-for prior in [p for p in baseline if p['brand']=='СТАРТ']:
+for prior in [p for p in baseline if p['brand']=='СТАРТ' and p.get('product_type')!='start_spare']:
  current=next(p for p in start if p['path']==prior['path'])
  assert current['id']==prior['id'] and current['sku']==prior['sku']
 from catalog_identity import assign_skus,export_rows
@@ -283,7 +283,7 @@ assert reg['entries']['equipment:'+retired['id']]==retired['sku']
 assert trial[-1]['sku']==f'PG-{registry["next_number"]:06d}'
 if errors:
  print(errors[:20]);raise SystemExit(1)
-print('Verified',count,'HTML files, local links/assets, 338 product routes, 4 BIOTEP boilers with descriptions and documents, 83 BIOTEP spare parts in 10 groups with 77 source photos for 74 products, 18 FACI models, 129 FACI configurations, 9 START models, 25 START configurations, 34 ZOTA products in 6 supplier groups, 126 Vulkan spare parts in 10 groups with 3 source photos used for 26 products, 467 active unique articles, 64 Vulkan source prices and preserved identities.')
+print('Verified',count,'HTML files, local links/assets, 371 product routes, 4 BIOTEP boilers with descriptions and documents, 83 BIOTEP spare parts in 10 groups with 77 source photos for 74 products, 18 FACI models, 129 FACI configurations, 9 START models, 25 START configurations, 34 ZOTA products in 6 supplier groups, 126 Vulkan spare parts in 10 groups with 3 source photos used for 26 products, 500 active unique articles, 64 Vulkan source prices and preserved identities.')
 start_spares=[p for p in products if p.get('product_type')=='start_spare']
 assert len(start_spares)==33
 assert all(p['start_spare_category']!='service' and p['price']>0 for p in start_spares)
