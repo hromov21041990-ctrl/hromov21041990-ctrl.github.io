@@ -54,7 +54,7 @@ for url in urls:
         assert int(image.get('width','0'))>0 and int(image.get('height','0'))>0, url
 assert not [t for t,n in Counter(titles).items() if n>1], 'Duplicate indexable titles'
 assert not [d for d,n in Counter(descriptions).items() if n>1], 'Duplicate indexable descriptions'
-assert product_count==373, product_count  # 338 equipment/parts + 2 pellet products
+assert product_count==560, product_count  # existing catalog plus 187 S-TANK products
 for path in ('/', '/kontakty/'):
     doc=html.fromstring((DIST/path.strip('/')/'index.html').read_text())
     nodes=json.loads(doc.xpath('//script[@type="application/ld+json"]/text()')[0])['@graph']
