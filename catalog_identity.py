@@ -83,7 +83,7 @@ def export_rows(products, pellets):
             configuration = (v['name'] + '; бункер ' + b['name']) if v else ''
             rows.append({'sku': offer['sku'], 'name': p['name'] + (' — ' + configuration if configuration else ''), 'brand': p.get('display_brand', p['brand']), 'model': p['name'], 'configuration': configuration, 'unit': p['unit'], 'price': v['price'] + b['extra'] if v else p['price'], 'site_id': p['id'], 'url': ORIGIN + p['path'], 'source': p['source'], 'code_1c': '', 'guid_1c': ''})
     for p in pellets:
-        rows.append({'sku': p['sku'], 'name': p['name'], 'brand': 'PelletsGrupp', 'model': p['name'], 'configuration': '', 'unit': 'тонна', 'price': p['price'], 'site_id': p['id'], 'url': ORIGIN + '/pellety/#' + p['id'], 'source': ORIGIN + '/pellety/', 'code_1c': '', 'guid_1c': ''})
+        rows.append({'sku': p['sku'], 'name': p['name'], 'brand': 'PelletsGrupp', 'model': p['name'], 'configuration': '', 'unit': p.get('unit','тонна'), 'price': p['price'], 'site_id': p['id'], 'url': ORIGIN + p.get('path','/pellety/#' + p['id']), 'source': ORIGIN + '/pellety/', 'code_1c': '', 'guid_1c': ''})
     assert len({r['sku'] for r in rows}) == len(rows)
     return rows
 

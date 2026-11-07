@@ -54,7 +54,7 @@ for url in urls:
         assert int(image.get('width','0'))>0 and int(image.get('height','0'))>0, url
 assert not [t for t,n in Counter(titles).items() if n>1], 'Duplicate indexable titles'
 assert not [d for d,n in Counter(descriptions).items() if n>1], 'Duplicate indexable descriptions'
-assert product_count==560, product_count  # existing catalog plus 187 S-TANK products
+assert product_count==562, product_count  # catalog plus S-TANK and pellet ignition product
 for path in ('/', '/kontakty/'):
     doc=html.fromstring((DIST/path.strip('/')/'index.html').read_text())
     nodes=json.loads(doc.xpath('//script[@type="application/ld+json"]/text()')[0])['@graph']
@@ -126,7 +126,7 @@ for raw in guide.xpath('//script[@type="application/ld+json"]/text()'):
 assert any(node.get('@type')=='Article' and node.get('mainEntityOfPage')==ORIGIN+guide_path for node in guide_nodes)
 pellets=html.fromstring((DIST/'pellety'/'index.html').read_text())
 assert pellets.xpath(f'//a[@href="{guide_path}"]')
-assert pellets.xpath('//a[@href="/kotly/"]')
+assert pellets.xpath('//a[@href="/katalog/"]')
 boilers=html.fromstring((DIST/'kotly'/'index.html').read_text())
 assert boilers.xpath('string(//h1)')=='Пеллетные котлы в Екатеринбурге'
 assert not boilers.xpath('//meta[@http-equiv="refresh"]')

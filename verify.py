@@ -250,8 +250,15 @@ import copy
 pellets=json.loads((ROOT/'data/pellets.json').read_text())
 registry=json.loads((ROOT/'data/sku-registry.json').read_text())
 rows=export_rows(products,pellets)
-assert len(rows)==500 and len({r['sku'] for r in rows})==500
-assert len({p['sku'] for p in products+pellets})==373
+assert len(rows)==501 and len({r['sku'] for r in rows})==501
+assert len({p['sku'] for p in products+pellets})==374
+ignition=next(p for p in pellets if p['id']=='pellets-ignition-bbq-3kg')
+white_pellets=next(p for p in pellets if p['id']=='pellets-white')
+assert ignition['sku']=='PG-000505' and ignition['price']==150 and ignition['unit']=='шт'
+assert ignition['image']=='/assets/pellets-ignition-bbq-3kg.png'
+assert white_pellets['image']=='/assets/archive-44119.webp'
+ignition_page=html.fromstring((DIST/ignition['path'].strip('/')/'index.html').read_text())
+assert ignition_page.xpath('//*[@id="product-sku"]/text()')==['PG-000505']
 previous_registry=json.loads(subprocess.check_output(['git','show','HEAD:data/sku-registry.json'],cwd=ROOT,text=True))
 assert all(registry['entries'].get(k)==v for k,v in previous_registry['entries'].items())
 assert registry['entries']['equipment:1d2371411a14']=='PG-000072' and registry['entries']['equipment:c0aeee1f4222']=='PG-000073'
@@ -283,7 +290,7 @@ assert reg['entries']['equipment:'+retired['id']]==retired['sku']
 assert trial[-1]['sku']==f'PG-{registry["next_number"]:06d}'
 if errors:
  print(errors[:20]);raise SystemExit(1)
-print('Verified',count,'HTML files, local links/assets, 371 product routes, 4 BIOTEP boilers with descriptions and documents, 83 BIOTEP spare parts in 10 groups with 77 source photos for 74 products, 18 FACI models, 129 FACI configurations, 9 START models, 25 START configurations, 34 ZOTA products in 6 supplier groups, 126 Vulkan spare parts in 10 groups with 3 source photos used for 26 products, 500 active unique articles, 64 Vulkan source prices and preserved identities.')
+print('Verified',count,'HTML files, local links/assets, 371 equipment routes plus 1 pellet product route, 4 BIOTEP boilers with descriptions and documents, 83 BIOTEP spare parts in 10 groups with 77 source photos for 74 products, 18 FACI models, 129 FACI configurations, 9 START models, 25 START configurations, 34 ZOTA products in 6 supplier groups, 126 Vulkan spare parts in 10 groups with 3 source photos used for 26 products, 501 active unique articles, 64 Vulkan source prices and preserved identities.')
 start_spares=[p for p in products if p.get('product_type')=='start_spare']
 assert len(start_spares)==33
 assert all(p['start_spare_category']!='service' and p['price']>0 for p in start_spares)

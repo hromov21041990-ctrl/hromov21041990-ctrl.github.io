@@ -223,7 +223,7 @@ for p in PRODUCTS:
  if p['price'] is not None:schema['offers']={'@type':'Offer','priceCurrency':'RUB','price':p['price'],'url':ORIGIN+p['path']}
  write(p['path'],p['name']+' — цена и подбор | PelletsGrupp',body,p['name']+'. Комплектация, цена и характеристики. Подбор, доставка и сервис в Екатеринбурге.',schema)
 skip={'87','89','91','93','95','97','107','109','111','113','123','125','127','129','131','133','135','153','159','155','157','161','175'}
-from pellets import page as pellets_page
+from pellets import page as pellets_page,detail as pellet_detail
 from service_page import page as service_page
 from maintenance_page import page as maintenance_page
 from service_pro_page import page as service_pro_page
@@ -247,7 +247,11 @@ for sec in pellets_source['sections'][9:]:
   if plain(text):parts.append(rich(text))
  if parts:pellets_sections.append('<section>'+''.join(parts)+'</section>')
 pellets_extra='<section class="section"><div class="wrap"><article class="article">'+''.join(pellets_sections)+'</article></div></section>'
-write('/pellety/','Топливные пеллеты в Екатеринбурге — цены и доставка | PelletsGrupp',pellets_page(pellets_extra),'Серые пеллеты — 12 000 ₽/т, белые — 17 000 ₽/т. Мешки по 30 кг и биг-бэги по 1 т, самовывоз в Екатеринбурге и доставка. Поставки для дома и бизнеса.',{'@context':'https://schema.org','@graph':[{'@type':'Product','sku':p['sku'],'name':p['name'],'image':ORIGIN+p['image'],'brand':{'@type':'Brand','name':'PelletsGrupp'},'offers':{'@type':'Offer','price':p['price'],'priceCurrency':'RUB','url':ORIGIN+'/pellety/','description':'Цена за тонну, доставка отдельно'}} for p in PELLET_TYPES]})
+for p in PELLET_TYPES:
+ if not p.get('path'):continue
+ pellet_schema={'@context':'https://schema.org','@type':'Product','sku':p['sku'],'name':p['name'],'image':ORIGIN+p['image'],'brand':{'@type':'Brand','name':'PelletsGrupp'},'category':'Пеллеты для розжига','offers':{'@type':'Offer','price':p['price'],'priceCurrency':'RUB','url':ORIGIN+p['path'],'availability':'https://schema.org/InStock'}}
+ write(p['path'],p['name']+' — купить в Екатеринбурге | PelletsGrupp',pellet_detail(p)+cta(),p['description']+' Цена 150 ₽ за упаковку 3 кг.',pellet_schema)
+write('/pellety/','Топливные пеллеты в Екатеринбурге — цены и доставка | PelletsGrupp',pellets_page(pellets_extra),'Серые и белые топливные пеллеты, а также пеллеты для розжига мангала в упаковке 3 кг. Самовывоз в Екатеринбурге и доставка.',{'@context':'https://schema.org','@graph':[{'@type':'Product','sku':p['sku'],'name':p['name'],'image':ORIGIN+p['image'],'brand':{'@type':'Brand','name':'PelletsGrupp'},'offers':{'@type':'Offer','price':p['price'],'priceCurrency':'RUB','url':ORIGIN+p.get('path','/pellety/#'+p['id']),'description':'Цена за '+p.get('price_unit','тонну')}} for p in PELLET_TYPES]})
 for p in PAGES:
  path=p['path']
  if p['PUBLIC']!='Y' or p['ACTIVE']!='Y' or p['ID'] in skip or path in written or path=='/kotly_rxdg/' or path in SEO_REDIRECTS:continue
