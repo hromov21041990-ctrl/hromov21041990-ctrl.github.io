@@ -163,12 +163,18 @@ zota_index=html.fromstring((DIST/'zota'/'index.html').read_text())
 assert len(zota_index.xpath('//article[@data-product]'))==34
 assert zota_index.xpath('//*[@id="count"]/text()')==['34 товара']
 assert zota_index.xpath('//*[@id="search"]')
+expected_brand_links=['/katalog/','/biotep/','/faci/','/vulkan/','/start/','/zota/']
+assert zota_index.xpath('//nav[contains(@class,"catalogue-brand-tabs")]/a/@href')==expected_brand_links
+assert zota_index.xpath('//nav[contains(@class,"catalogue-brand-tabs")]/a[@aria-current="page"]/text()')==['ZOTA']
 fox25=next(p for p in zota if p['manufacturer_article']=='ZF4938004025')
 assert fox25['price']==87500 and fox25['sku']=='PG-000227' and fox25['path']=='/katalog/item/zota-fox-25/'
 assert len(fox25['specs'])>=20 and len(fox25['documents'])==2
 from vulkan import SERIES
 vulkan=[p for p in products if p['brand']=='Вулкан' and p.get('product_type')!='vulkan_spare']
 assert len(vulkan)==64
+vulkan_index=html.fromstring((DIST/'vulkan'/'index.html').read_text())
+assert vulkan_index.xpath('//nav[contains(@class,"catalogue-brand-tabs")]/a/@href')==expected_brand_links
+assert vulkan_index.xpath('//nav[contains(@class,"catalogue-brand-tabs")]/a[@aria-current="page"]/text()')==['Вулкан']
 audit=json.loads((ROOT/'data/vulkan-source.json').read_text())
 source={p['slug']:p for p in audit['source_snapshot']}
 for key,label,expected in SERIES:

@@ -1,6 +1,7 @@
 """ZOTA pellet-burner catalogue presentation."""
 from html import escape
 from pathlib import PurePosixPath
+from catalog_nav import brand_tabs
 
 CATEGORIES = [
     ("gorelki", "Пеллетные горелки", "Горелки FOX G2 и RAY G2 с контроллером C-Line PBA.", "gorelki"),
@@ -70,7 +71,7 @@ def catalog_body(products, card, selected=None):
     title = selected_meta[1] + " ZOTA" if selected_meta else "Пеллетные горелки и комплектующие ZOTA"
     lead = selected_meta[2] if selected_meta else "Каталог повторяет структуру производителя: пеллетные горелки, бункеры, механизм подачи, адаптеры, отбойники и автоматика. Для каждой позиции указан отдельный внутренний артикул для 1С."
     body = '<div class="wrap crumbs"><a href="/">Главная</a> / <a href="/katalog/">Котлы и горелки</a> / ' + (e(title) if selected is None else '<a href="/zota/">ZOTA</a> / ' + e(selected_meta[1])) + '</div>'
-    body += f'<div class="wrap"><div class="page-head"><span class="eyebrow">Каталог ZOTA</span><h1>{e(title)}</h1><p class="lead">{e(lead)}</p></div>{tabs(selected)}'
+    body += f'<div class="wrap"><div class="page-head"><span class="eyebrow">Каталог ZOTA</span><h1>{e(title)}</h1><p class="lead">{e(lead)}</p></div>{brand_tabs("ZOTA")}{tabs(selected)}'
     extra = ""
     if selected:
         subset = [p for p in items if p["zota_category"] == selected]

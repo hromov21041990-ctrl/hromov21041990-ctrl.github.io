@@ -1,5 +1,6 @@
 """Vulkan series navigation and product facts within the existing storefront."""
 from html import escape
+from catalog_nav import brand_tabs
 
 SERIES=[('boss','Boss',13),('eko','Eko',9),('eko-max','Eko-Max',5),('max-duo','Max-Duo',5),('optimum-ultra','Optimum-Ultra',6),('optimum-ultra-pro','Optimum-Ultra-Pro',7),('optimum-uni','Optimum-Uni',8),('optimum-uni-max','Optimum-Uni-Max',6),('optimum-uni-pro','Optimum-Uni-Pro',5)]
 
@@ -22,6 +23,7 @@ def catalog_body(products,card,series=None):
     title='Автоматические котлы Vulkan'+(' '+series[1] if series else '')
     lead='Выберите модель по мощности, топливу и комплектации. Поможем с подбором, доставкой и монтажом.'
     body=breadcrumbs(series=series)+f'<div class="wrap vulkan-catalog"><div class="page-head"><span class="eyebrow">Vulkan · каталог оборудования</span><h1>{e(title)}</h1><p class="lead">{lead}</p></div>'
+    body+=brand_tabs("Вулкан")
     body+='<div class="brand-tabs"><a class="active" href="/vulkan/">Котлы Vulkan</a><a href="/vulkan/zapchasti/">Запчасти Vulkan</a></div>'
     if not series:
         body+='<div class="section-head vulkan-section-head"><h2>Серии котлов</h2><span class="fine">9 серий · 64 модели</span></div><div class="series-grid">'
