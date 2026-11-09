@@ -255,7 +255,7 @@ assert len({p['sku'] for p in products+pellets})==374
 ignition=next(p for p in pellets if p['id']=='pellets-ignition-bbq-3kg')
 white_pellets=next(p for p in pellets if p['id']=='pellets-white')
 assert ignition['sku']=='PG-000505' and ignition['price']==150 and ignition['unit']=='шт'
-assert ignition['image']=='/assets/pellets-ignition-bbq-3kg.png'
+assert ignition['image']=='/assets/pellets-ignition-bbq-3kg-v2.jpg'
 assert white_pellets['image']=='/assets/archive-44119.webp'
 ignition_page=html.fromstring((DIST/ignition['path'].strip('/')/'index.html').read_text())
 assert ignition_page.xpath('//*[@id="product-sku"]/text()')==['PG-000505']
