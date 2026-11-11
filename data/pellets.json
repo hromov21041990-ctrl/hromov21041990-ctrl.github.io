@@ -1,23 +1,25 @@
 [
   {
     "id": "pellets-grey",
-    "name": "Серые пеллеты",
-    "category": "2-я категория",
+    "name": "Древесные гранулы А2",
+    "category": "А2 · серые пеллеты",
     "price": 12000,
     "image": "/assets/archive-44129.webp",
     "ash": "менее 0,5%",
     "heat": "более 4500 ккал/кг",
-    "sku": "PG-000138"
+    "sku": "PG-000694",
+    "registry_id": "pellets-a2"
   },
   {
     "id": "pellets-white",
-    "name": "Белые пеллеты",
-    "category": "1-я категория",
+    "name": "Древесные гранулы (А1)",
+    "category": "А1 · белые пеллеты",
     "price": 17000,
     "image": "/assets/archive-44119.webp",
     "ash": "менее 0,3%",
     "heat": "до 4500 ккал/кг",
-    "sku": "PG-000139"
+    "sku": "PG-000693",
+    "registry_id": "pellets-a1"
   },
   {
     "id": "pellets-ignition-bbq-3kg",

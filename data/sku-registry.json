@@ -1,6 +1,6 @@
 {
   "format": "PG-000001",
-  "next_number": 506,
+  "next_number": 695,
   "entries": {
     "equipment:64de7f6f12d6": "PG-000001",
     "equipment:306fb7b144b2": "PG-000002",
@@ -506,7 +506,9 @@
     "equipment:start-spare-gearbox1200-040-090": "PG-000502",
     "equipment:start-spare-bunker-300-2953-2974": "PG-000503",
     "equipment:start-spare-bunker-700-3105": "PG-000504",
-    "pellets:pellets-ignition-bbq-3kg": "PG-000505"
+    "pellets:pellets-ignition-bbq-3kg": "PG-000505",
+    "pellets:pellets-a1": "PG-000693",
+    "pellets:pellets-a2": "PG-000694"
   },
   "option_ids": {
     "equipment:3f929c1ecd59": {

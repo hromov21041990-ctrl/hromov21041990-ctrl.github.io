@@ -31,7 +31,7 @@ def assign_skus(products, pellets, registry):
 
     for kind, items in [('equipment', products), ('pellets', pellets)]:
         for p in items:
-            key = kind + ':' + p['id']
+            key = kind + ':' + p.get('registry_id', p['id'])
             sku = reserve(key)
             if p.get('sku') and p['sku'] != sku:
                 raise ValueError('Attempt to change assigned SKU: ' + key)
