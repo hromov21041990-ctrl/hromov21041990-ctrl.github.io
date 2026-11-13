@@ -339,8 +339,14 @@ for p in PAGES:
 for path,target in aliases.items():
  if path in written:continue
  source_page=next((p for p in PAGES if p['path']==path),None)
- legacy_title=(source_page or {}).get('TITLE') or written.get(target,'Каталог оборудования')
- write(path,legacy_title+' — PelletsGrupp',crumbs('Каталог')+f'<section class="section"><div class="wrap"><h1>{e(legacy_title)}</h1><p>Актуальная информация представлена в общем каталоге PelletsGrupp.</p><a class="btn" href="{target}">Перейти в каталог →</a></div></section>',f'{legacy_title}. Актуальный каталог оборудования PelletsGrupp.')
+ target_title=written.get(target,'Актуальная страница')
+ legacy_title=(source_page or {}).get('TITLE') or target_title
+ if path in SEO_REDIRECTS:
+  # The archived address is a redirect, not a separate indexable document.
+  # Keep its visible copy and metadata aligned with the actual destination.
+  legacy_title=target_title
+ action_label='Перейти на актуальную страницу'
+ write(path,legacy_title,crumbs('Обновление адреса')+f'<section class="section"><div class="wrap"><h1>{e(legacy_title)}</h1><p>Эта страница переехала. Актуальная информация доступна по новому адресу.</p><a class="btn" href="{target}">{action_label} →</a></div></section>',f'Страница перенесена. Актуальная информация: {target_title}.')
  alias_file=DIST/path.strip('/')/'index.html'
  alias_html=alias_file.read_text()
  alias_html=alias_html.replace(
