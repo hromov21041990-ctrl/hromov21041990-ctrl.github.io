@@ -125,6 +125,10 @@ for raw in guide.xpath('//script[@type="application/ld+json"]/text()'):
     value=json.loads(raw);guide_nodes.extend(value.get('@graph',[value]))
 assert any(node.get('@type')=='Article' and node.get('mainEntityOfPage')==ORIGIN+guide_path for node in guide_nodes)
 pellets=html.fromstring((DIST/'pellety'/'index.html').read_text())
+assert 'Какие топливные пеллеты можно купить в PelletsGrupp?' in pellets.text_content()
+assert 'Какие топливные пеллеты производит PelletsGrupp?' not in pellets.text_content()
+assert 'PelletsGrupp контролирует сырье, фасовку и отгрузку партии.' not in pellets.text_content()
+
 assert pellets.xpath(f'//a[@href="{guide_path}"]')
 assert pellets.xpath('//a[@href="/katalog/"]')
 boilers=html.fromstring((DIST/'kotly'/'index.html').read_text())
