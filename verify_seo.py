@@ -55,6 +55,13 @@ for url in urls:
 assert not [t for t,n in Counter(titles).items() if n>1], 'Duplicate indexable titles'
 assert not [d for d,n in Counter(descriptions).items() if n>1], 'Duplicate indexable descriptions'
 assert product_count==562, product_count  # catalog plus S-TANK and pellet ignition product
+
+# Commercial boiler cards must lead customers to installation, maintenance and fuel.
+for route in ('/katalog/item/faci-15/', '/katalog/item/vulkan-boss-22/', '/katalog/item/avtomaticheskiy_pelletnyy_kotel_biotep_18/'):
+    doc = html.fromstring((DIST/route.strip('/')/'index.html').read_text())
+    for service_route in ('/otoplenie/', '/tekhnicheskoe-obsluzhivanie-kotla/', '/pellety/'):
+        assert doc.xpath(f'//a[@href="{service_route}"]'), (route, service_route)
+
 for path in ('/', '/kontakty/'):
     doc=html.fromstring((DIST/path.strip('/')/'index.html').read_text())
     nodes=json.loads(doc.xpath('//script[@type="application/ld+json"]/text()')[0])['@graph']
