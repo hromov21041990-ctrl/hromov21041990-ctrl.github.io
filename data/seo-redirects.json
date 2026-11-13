@@ -3,5 +3,7 @@
   "/katalog/item/pelletnyy_kotel_vulkan_eko_32/": "/katalog/item/vulkan-eko-32/",
   "/kotly-20-kvt/": "/katalog/",
   "/kotly-odnokonturnye/": "/katalog/",
-  "/kotly-s-gsm-modulem/": "/katalog/"
+  "/kotly-s-gsm-modulem/": "/katalog/",
+  "/katalog/kotly/pelletnye_kotly_biotep/": "/biotep/",
+  "/katalog/kotly-22-kvt/": "/kotly-22-kvt/"
 }
