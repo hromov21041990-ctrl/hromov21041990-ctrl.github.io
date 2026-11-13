@@ -144,7 +144,45 @@ write('/','Пеллетные котлы и пеллеты в Екатеринб
 write('/otoplenie/','Монтаж отопления, котлов и дымоходов в Екатеринбурге — PelletsGrupp',installation_page(),'Монтаж пеллетных котлов, систем отопления и дымоходов в Екатеринбурге. Подбор оборудования, проектирование, пусконаладка и шеф-монтаж.',{'@context':'https://schema.org','@type':'Service','serviceType':'Монтаж пеллетных котлов, отопления и дымоходов','provider':{'@type':'Organization','name':'PelletsGrupp','telephone':'+73433455225'},'areaServed':['Екатеринбург','Свердловская область'],'url':ORIGIN+'/otoplenie/'})
 from boilers_page import boiler_products, featured_products, page as boilers_page
 boilers=boiler_products(PRODUCTS);featured_boilers=featured_products(PRODUCTS)
-write('/kotly/','Пеллетные котлы в Екатеринбурге — цены | PelletsGrupp',crumbs('Пеллетные котлы')+boilers_page(PRODUCTS,card),'Пеллетные котлы BIOTEP, FACI, СТАРТ и Vulkan для дома и бизнеса. Цены, подбор мощности, доставка, монтаж и сервис в Екатеринбурге и области.',{'@context':'https://schema.org','@graph':[{'@type':'CollectionPage','name':'Пеллетные котлы в Екатеринбурге','url':ORIGIN+'/kotly/','inLanguage':'ru'},{'@type':'ItemList','name':'Модели пеллетных котлов','numberOfItems':len(boilers),'itemListElement':[{'@type':'ListItem','position':i,'name':p['name'],'url':ORIGIN+p['path']} for i,p in enumerate(featured_boilers,1)]}]})
+boiler_power_links = ('<section class="section white"><div class="wrap">'
+ '<h2>Подбор пеллетного котла по мощности</h2>'
+ '<p>Сравните модели популярных мощностей. Окончательный выбор — по теплопотерям здания.</p>'
+ '<div class="actions"><a class="btn light" href="/kotly-15-kvt/">Котлы 15 кВт →</a>'
+ '<a class="btn light" href="/kotly-22-kvt/">Котлы 22 кВт →</a></div>'
+ '</div></section>')
+write('/kotly/','Пеллетные котлы в Екатеринбурге — цены | PelletsGrupp',crumbs('Пеллетные котлы')+boilers_page(PRODUCTS,card)+boiler_power_links,'Пеллетные котлы BIOTEP, FACI, СТАРТ и Vulkan для дома и бизнеса. Цены, подбор мощности, доставка, монтаж и сервис в Екатеринбурге и области.',{'@context':'https://schema.org','@graph':[{'@type':'CollectionPage','name':'Пеллетные котлы в Екатеринбурге','url':ORIGIN+'/kotly/','inLanguage':'ru'},{'@type':'ItemList','name':'Модели пеллетных котлов','numberOfItems':len(boilers),'itemListElement':[{'@type':'ListItem','position':i,'name':p['name'],'url':ORIGIN+p['path']} for i,p in enumerate(featured_boilers,1)]}]})
+def power_landing(kw):
+    matches = [p for p in PRODUCTS if p.get('power') == kw and p['brand'] in ('FACI', 'Вулкан', 'BIOTEP', 'СТАРТ') and p.get('product_type') not in ('biotep_spare', 'vulkan_spare', 'start_spare')]
+    assert matches, f'No matching catalog models for {kw} kW'
+    path = f'/kotly-{kw}-kvt/'
+    label = f'Пеллетные котлы {kw} кВт'
+    intro = (f'Подбор пеллетных котлов мощностью {kw} кВт для домов и других объектов в Екатеринбурге. '
+             'Сравните модели и цены; окончательную мощность определяем по теплопотерям здания, а не только по площади.')
+    body = (crumbs(label) + '<section class="section"><div class="wrap"><div class="page-head">'
+            '<span class="eyebrow">Подбор по мощности</span>'
+            f'<h1>{label} в Екатеринбурге</h1><p class="lead">{e(intro)}</p>'
+            '</div><div class="section-head"><div><h2>Модели и цены</h2></div></div>'
+            '<div class="grid products">' + ''.join(card(p) for p in matches) + '</div>'
+            '<p class="fine">Стоимость и доступность конкретной комплектации уточняйте перед заказом.</p>'
+            '</div></section><section class="section white"><div class="wrap">'
+            '<h2>Как выбрать подходящую мощность</h2><p>Проверяем теплоизоляцию, окна, вентиляцию, '
+            'температурный режим, расход горячей воды и необходимый запас мощности. '
+            'Мощность котла не следует выбирать по площади без теплотехнического расчёта.</p>'
+            '<p>Поможем подобрать оборудование, дымоход, бункер и состав монтажных работ.</p>'
+            '<div class="actions"><a class="btn" href="/kotly/">Все пеллетные котлы →</a>'
+            '<a class="btn light" href="/otoplenie/">Монтаж котла →</a>'
+            '<a class="btn light" href="/servisiremont/">Сервис и ремонт →</a></div>'
+            '</div></section>' + cta())
+    schema = {'@context': 'https://schema.org', '@graph': [
+        {'@type': 'CollectionPage', 'name': label, 'url': ORIGIN + path, 'inLanguage': 'ru'},
+        {'@type': 'ItemList', 'name': label, 'numberOfItems': len(matches),
+         'itemListElement': [{'@type': 'ListItem', 'position': i, 'name': p['name'], 'url': ORIGIN + p['path']}
+                             for i, p in enumerate(matches, 1)]}]}
+    write(path, f'{label} в Екатеринбурге — цены | PelletsGrupp', body,
+          f'{label}: модели, характеристики и цены. Подбор мощности, доставка и монтаж в Екатеринбурге и Свердловской области.', schema)
+power_landing(15)
+power_landing(22)
+
 def catalog(path,title,brand=None):
  prods=[p for p in PRODUCTS if p.get('product_type') not in ('biotep_spare','vulkan_spare','start_spare') and (not brand or p['brand']==brand)]
  lead=biotep_intro() if brand=='BIOTEP' else faci_intro() if brand=='FACI' else start_intro() if brand=='СТАРТ' else 'Подберём оборудование и комплектацию. Организуем доставку и сервис.'
