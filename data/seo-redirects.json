@@ -19,5 +19,7 @@
   "/katalog/item/vneplanovoe_to/": "/servisiremont/",
   "/katalog/item/kotel_avtomaticheskii_tt_vulkan_eko_max_150_pravyi_/": "/katalog/item/vulkan-eko-max-150/",
   "/katalog/item/adapter_gorelki_zota_fox_25_topol_vk_16_22_32_topol_m_14_20_30_s_01_01_21/": "/katalog/item/zota-adapter-gorelki-zota-fox-25-topol-vk-16-22-32-topol-m-14-20-30-s-01-01-21/",
-  "/katalog/item/gorelka_pelletnaya_pristavnaya_zota_fox_25_gorelka_pu/": "/zota/gorelki/"
+  "/katalog/item/gorelka_pelletnaya_pristavnaya_zota_fox_25_gorelka_pu/": "/zota/gorelki/",
+  "/katalog/sravnenie/": "/katalog/",
+  "/katalog/item/": "/katalog/"
 }
