@@ -97,7 +97,20 @@ assert valdai.xpath('//link[@rel="canonical"]/@href')==[ORIGIN+'/valdai/']
 assert not valdai.xpath('//meta[@http-equiv="refresh"]')
 assert 'Валдай 15' in valdai.text_content() and 'Валдай 22' in valdai.text_content()
 assert 'не представлены в активном каталоге' in valdai.text_content()
+
+installation=html.fromstring((DIST/'otoplenie'/'index.html').read_text())
+assert installation.xpath('string(//h1)') == 'Монтаж пеллетных котловв Екатеринбурге'
+assert installation.xpath('//link[@rel="canonical"]/@href') == [ORIGIN+'/otoplenie/']
+assert 'Монтаж пеллетных котлов в Екатеринбурге' in installation.xpath('string(//title)')
+assert installation.xpath('//a[@href="/kotly/"]')
+assert 'Екатеринбург и Свердловская область' in installation.text_content()
+
 service=html.fromstring((DIST/'servisiremont'/'index.html').read_text())
+
+assert 'Сервис и ремонтпеллетных котлов в Екатеринбурге' == service.xpath('string(//h1)')
+assert 'в Екатеринбурге' in service.xpath('string(//title)')
+assert service.xpath('//a[@href="/kotly/"]')
+
 assert service.xpath('//a[@href="/valdai/"]')
 assert '2–3 часов' not in service.text_content()
 repair=html.fromstring((DIST/'remont-kotla'/'index.html').read_text())
