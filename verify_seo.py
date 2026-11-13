@@ -133,6 +133,21 @@ assert pellets.xpath(f'//a[@href="{guide_path}"]')
 assert pellets.xpath('//a[@href="/katalog/"]')
 boilers=html.fromstring((DIST/'kotly'/'index.html').read_text())
 assert boilers.xpath('string(//h1)')=='Пеллетные котлы в Екатеринбурге'
+
+for kw in (15, 22):
+    path = f'/kotly-{kw}-kvt/'
+    landing = html.fromstring((DIST/path.strip('/')/'index.html').read_text())
+    assert landing.xpath('string(//h1)') == f'Пеллетные котлы {kw} кВт в Екатеринбурге', path
+    assert landing.xpath('//link[@rel="canonical"]/@href') == [ORIGIN+path], path
+    assert ORIGIN+path in urls, path
+    assert landing.xpath('//article[@data-product]'), path
+    assert landing.xpath('//a[@href="/kotly/"]'), path
+    assert landing.xpath('//a[@href="/otoplenie/"]'), path
+    assert landing.xpath('//a[@href="/servisiremont/"]'), path
+    assert 'является производителем пеллетов' not in landing.text_content().lower(), path
+assert boilers.xpath('//a[@href="/kotly-15-kvt/"]')
+assert boilers.xpath('//a[@href="/kotly-22-kvt/"]')
+
 assert not boilers.xpath('//meta[@http-equiv="refresh"]')
 assert not boilers.xpath('//meta[@name="robots" and contains(@content,"noindex")]')
 assert boilers.xpath('//link[@rel="canonical"]/@href')==[ORIGIN+'/kotly/']
