@@ -22,3 +22,60 @@
 /* Preserve image proportions when intrinsic dimensions meet a smaller viewport. */
 img{height:auto}
 .plumbing-head{max-width:900px}.plumbing-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.plumbing-tile{background:white;min-height:210px;display:flex;flex-direction:column}.plumbing-tile h2{font-size:22px;margin:4px 0 12px}.plumbing-tile p{font-size:13px;color:var(--muted);margin:0}.plumbing-tile .text-link{margin-top:auto;padding-top:20px}.plumbing-brand{display:grid;grid-template-columns:1.25fr .75fr;gap:55px;align-items:center}.plumbing-brand h2{font-size:42px;margin:10px 0}.plumbing-brand>div:last-child{background:var(--paper);padding:28px;border-radius:8px}.plumbing-brand .btn{margin-top:12px}.stank-tabs{margin-bottom:16px}.stank-products{margin-bottom:30px}.stank-card .meta{min-height:38px}.stank-visual{background:linear-gradient(145deg,#edf2e7,#dfe8d8);display:flex!important;flex-direction:column;gap:4px;text-align:center}.stank-visual strong,.stank-product-visual strong{font-size:30px;letter-spacing:-1px;color:var(--ink)}.stank-visual span,.stank-product-visual span{font-size:20px;font-weight:800;color:var(--green)}.stank-visual small,.stank-product-visual small{font-size:10px;line-height:1.45;letter-spacing:1px;text-transform:uppercase;color:var(--muted);max-width:210px}.stank-gallery{min-height:480px;display:flex;flex-direction:column;justify-content:center}.stank-product-visual{min-height:330px;border-radius:8px;background:linear-gradient(145deg,#edf2e7,#dfe8d8);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center;padding:35px}.stank-product-visual strong{font-size:48px}.stank-product-visual span{font-size:32px}.stank-description{max-width:950px}.stank-description p{font-size:15px;color:#354c3f;line-height:1.9}@media(max-width:900px){.plumbing-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.plumbing-brand{grid-template-columns:1fr;gap:24px}}@media(max-width:700px){.plumbing-grid,.stank-products{grid-template-columns:1fr}.plumbing-tile{min-height:0}.plumbing-brand h2{font-size:34px}.stank-card .image{height:190px}.stank-card h3{min-height:0;font-size:15px}.stank-gallery{min-height:0}.stank-product-visual{min-height:260px}.stank-product-visual strong{font-size:38px}.stank-product-visual span{font-size:26px}}
+
+.lead-section {
+  scroll-margin-top: 110px;
+}
+
+.lead-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.55fr);
+  align-items: start;
+  gap: clamp(24px, 5vw, 64px);
+}
+
+.lead-intro {
+  max-width: 410px;
+}
+
+.lead-intro p {
+  color: var(--muted);
+}
+
+.lead-intro a {
+  font-weight: 800;
+}
+
+.lead-card {
+  min-width: 0;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+.lead-frame {
+  display: block;
+  width: 100%;
+  height: 720px;
+  border: 0;
+  border-radius: 12px 12px 0 0;
+}
+
+.lead-fallback {
+  margin: 0;
+  padding: 14px 20px 18px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.lead-fallback a {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .lead-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+}

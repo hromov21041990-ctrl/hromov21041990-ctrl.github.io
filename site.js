@@ -2,6 +2,45 @@ document.querySelector('.menu')?.addEventListener('click',e=>{const n=document.q
 const money=n=>new Intl.NumberFormat('ru-RU').format(n)+' ₽';
 const plural=(n,forms)=>n%100>=11&&n%100<=14?forms[2]:n%10===1?forms[0]:n%10>=2&&n%10<=4?forms[1]:forms[2];
 const trackGoal=(name,params={})=>{if(typeof window.ym==='function')window.ym(91165337,'reachGoal',name,{page:location.pathname,...params});};
+const leadFrame = document.querySelector('.lead-frame');
+if (leadFrame) {
+  const formUrl = new URL(leadFrame.src);
+  const successPath = formUrl.pathname.replace(/\/$/, '') + '/success';
+  let accepted = false;
+  window.addEventListener('message', event => {
+    if (event.origin !== formUrl.origin || event.source !== leadFrame.contentWindow) return;
+    if (typeof event.data !== 'string') return;
+    let data;
+    try {
+      data = JSON.parse(event.data);
+    } catch {
+      return;
+    }
+    const height = Number(data?.['iframe-height']);
+    if (Number.isFinite(height) && height > 0 && height <= 3000) {
+      leadFrame.style.height = `${Math.ceil(height)}px`;
+    }
+    if (accepted || data?.name !== leadFrame.name) return;
+
+    // Yandex Forms sends the answer key after its server accepts the response.
+    const hasAnswer = data.message === 'sent' &&
+      typeof data.answer_key === 'string' && data.answer_key.length > 0;
+    let showsResult = false;
+    if (data.type === 'messages-iframe' && typeof data.url === 'string') {
+      try {
+        const resultUrl = new URL(data.url);
+        showsResult = resultUrl.origin === formUrl.origin &&
+          resultUrl.pathname.replace(/\/$/, '') === successPath;
+      } catch {
+        return;
+      }
+    }
+    if (hasAnswer || showsResult) {
+      accepted = true;
+      trackGoal('lead_form_submit');
+    }
+  });
+}
 document.addEventListener('click',event=>{const link=event.target.closest('a[href]');if(!link)return;const href=link.getAttribute('href')||'';if(href.startsWith('tel:'))trackGoal('phone_click');else if(href.startsWith('mailto:'))trackGoal('email_click');else if(href==='/kontakty/'&&link.classList.contains('btn'))trackGoal('contact_cta_click');else if(link.closest('[data-product]'))trackGoal('catalog_product_click',{product:link.closest('[data-product]').dataset.product});});
 const normalizeSearch=value=>{
   let text=String(value||'').toLocaleLowerCase('ru-RU').replaceAll('ё','е').replace(/[^a-zа-я0-9]+/g,' ').trim();
