@@ -25,6 +25,7 @@ METRIKA_ID=91165337
 PELLETS_GUIDE_PATH='/chto-takoe-pellety-sostav-proizvodstvo-i-vidy/'
 next(p for p in PAGES if p['path']==PELLETS_GUIDE_PATH)['TITLE']='Что такое пеллеты: состав, виды и применение'
 JS_VERSION=hashlib.sha256((ROOT/'site.js').read_bytes()).hexdigest()[:12]
+CSS_VERSION=hashlib.sha256((ROOT/'site.css').read_bytes()).hexdigest()[:12]
 def e(s):return esc.escape(str(s),quote=True)
 def normalize_business_claims(s):
  s=re.sub(r'<p>Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in\..*?vel odio\.</p>','',s,flags=re.S)
@@ -91,8 +92,11 @@ written={}
 def write(path,title,body,desc='',schema=None,lead_model=None):
  out=DIST/path.strip('/')/'index.html' if path!='/' else DIST/'index.html';out.parent.mkdir(parents=True,exist_ok=True)
  title,desc=seo_metadata(path,title,desc)
- if path in LEAD_TOPICS or lead_model:
+ has_lead=path in LEAD_TOPICS or bool(lead_model)
+ if has_lead:
   body+=lead_section(ORIGIN,path,lead_model)
+ write_us_href='#zayavka' if has_lead else '/#zayavka'
+ write_us=f'<a class="write-us" href="{write_us_href}"><span class="write-us__icon" aria-hidden="true"></span>Напишите нам</a>'
  body=prepare_body(path,body)
  original_schema=schema
  schema=structured_data(path,body,schema,ORIGIN)
@@ -103,7 +107,7 @@ def write(path,title,body,desc='',schema=None,lead_model=None):
  metrika_fallback='' if PREVIEW else f'<noscript><div><img src="https://mc.yandex.ru/watch/{METRIKA_ID}" style="position:absolute;left:-9999px" alt=""></div></noscript>'
  ld='<script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('</','<\\/')+'</script>' if schema else ''
  extra_style='<link rel="stylesheet" href="/vulkan.css">' if path.startswith('/vulkan/') or (original_schema and original_schema.get('category','').startswith('Vulkan ')) else ''
- out.write_text(f'<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title><meta name="description" content="{e(desc)}">{robots}<link rel="canonical" href="{e(ORIGIN+path)}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website"><meta property="og:url" content="{e(ORIGIN+path)}"><meta property="og:site_name" content="PelletsGrupp"><link rel="stylesheet" href="/site.css">{extra_style}{ld}{metrika}<script src="/site.js?v={JS_VERSION}" defer></script></head><body>{metrika_fallback}{note}{head}<main>{body}</main>{foot}</body></html>');written[path]=title
+ out.write_text(f'<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title><meta name="description" content="{e(desc)}">{robots}<link rel="canonical" href="{e(ORIGIN+path)}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website"><meta property="og:url" content="{e(ORIGIN+path)}"><meta property="og:site_name" content="PelletsGrupp"><link rel="stylesheet" href="/site.css?v={CSS_VERSION}">{extra_style}{ld}{metrika}<script src="/site.js?v={JS_VERSION}" defer></script></head><body>{metrika_fallback}{note}{head}<main>{body}</main>{foot}{write_us}</body></html>');written[path]=title
 def money(n):
  if n is None:return 'Цена по запросу'
  value=float(n)
