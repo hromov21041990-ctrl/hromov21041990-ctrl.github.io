@@ -194,9 +194,15 @@ for raw in burners.xpath('//script[@type="application/ld+json"]/text()'):
     value=json.loads(raw);burner_nodes.extend(value.get('@graph',[value]))
 assert any(node.get('@type')=='CollectionPage' and node.get('url')==ORIGIN+'/zota/gorelki/' for node in burner_nodes)
 assert any(node.get('@type')=='ItemList' and node.get('numberOfItems')==3 for node in burner_nodes)
-assert home.xpath('//header//a[@href="/katalog/" and normalize-space(.)="Котлы и горелки"]')
+catalog_menu=home.xpath('//header//nav/details[summary[normalize-space(.)="Каталог товаров"]]')
+assert len(catalog_menu)==1
+assert [(link.text_content(),link.get('href')) for link in catalog_menu[0].xpath('.//a')]==[
+    ('Пеллеты','/pellety/'), ('Котлы','/kotly/'), ('Горелки','/zota/gorelki/'), ('Сантехника','/santehnika/'),
+]
+assert home.xpath('//header//nav/a[@href="/otzyvy/" and normalize-space(.)="Отзывы"]')
+assert ORIGIN+'/otzyvy/' in urls
 assert home.xpath('//footer//a[@href="/katalog/" and normalize-space(.)="Котлы и горелки"]')
-assert not home.xpath('//header//a[@href="/kotly/" or @href="/zota/gorelki/"]')
+assert not home.xpath('//header//nav/a[@href="/kotly/" or @href="/zota/gorelki/"]')
 for path in ('/dostavka/','/o-nas/'):
     assert home.xpath(f'//footer//a[@href="{path}"]'), path
 blog=html.fromstring((DIST/'blog'/'index.html').read_text())

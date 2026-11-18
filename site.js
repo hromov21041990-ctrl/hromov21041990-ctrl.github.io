@@ -1,14 +1,32 @@
-document.querySelector('.menu')?.addEventListener('click',e=>{const n=document.querySelector('.nav nav');const open=n.classList.toggle('open');e.currentTarget.setAttribute('aria-expanded',String(open));});
+const mainNav = document.getElementById('main-navigation');
+const menuToggle = document.querySelector('.menu');
+const catalogMenu = mainNav.querySelector('.catalog-menu');
+menuToggle.addEventListener('click', () => {
+  const open = mainNav.classList.toggle('open');
+  menuToggle.setAttribute('aria-expanded', String(open));
+  if (!open) catalogMenu.open = false;
+});
+document.addEventListener('click', event => {
+  if (catalogMenu.open && !catalogMenu.contains(event.target)) catalogMenu.open = false;
+});
+mainNav.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && catalogMenu.open) {
+    catalogMenu.open = false;
+    catalogMenu.querySelector('summary').focus();
+    event.preventDefault();
+  }
+});
 const money=n=>new Intl.NumberFormat('ru-RU').format(n)+' ₽';
 const plural=(n,forms)=>n%100>=11&&n%100<=14?forms[2]:n%10===1?forms[0]:n%10>=2&&n%10<=4?forms[1]:forms[2];
 const trackGoal=(name,params={})=>{if(typeof window.ym==='function')window.ym(91165337,'reachGoal',name,{page:location.pathname,...params});};
-const leadFrame = document.querySelector('.lead-frame');
-if (leadFrame) {
-  const formUrl = new URL(leadFrame.src);
+const feedbackFrame = document.querySelector('.lead-frame, .review-frame');
+if (feedbackFrame) {
+  const formUrl = new URL(feedbackFrame.src);
+  const tracksLead = feedbackFrame.classList.contains('lead-frame');
   const successPath = formUrl.pathname.replace(/\/$/, '') + '/success';
   let accepted = false;
   window.addEventListener('message', event => {
-    if (event.origin !== formUrl.origin || event.source !== leadFrame.contentWindow) return;
+    if (event.origin !== formUrl.origin || event.source !== feedbackFrame.contentWindow) return;
     if (typeof event.data !== 'string') return;
     let data;
     try {
@@ -18,9 +36,9 @@ if (leadFrame) {
     }
     const height = Number(data?.['iframe-height']);
     if (Number.isFinite(height) && height > 0 && height <= 3000) {
-      leadFrame.style.height = `${Math.ceil(height)}px`;
+      feedbackFrame.style.height = `${Math.ceil(height)}px`;
     }
-    if (accepted || data?.name !== leadFrame.name) return;
+    if (!tracksLead || accepted || data?.name !== feedbackFrame.name) return;
 
     // Yandex Forms sends the answer key after its server accepts the response.
     const hasAnswer = data.message === 'sent' &&

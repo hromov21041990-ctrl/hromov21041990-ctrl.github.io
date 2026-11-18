@@ -81,10 +81,22 @@ def rich(s):
    if href.startswith(('/','https://','http://','tel:','mailto:','#')):node.set('href',href)
  return (root.text or '')+''.join(html.tostring(c,encoding='unicode') for c in root)
 logo='<span class="brand-logo"><img src="/assets/pelletsgrupp-logo.png" alt="PelletsGrupp"></span>'
-head='''<header><div class="wrap"><div class="topline"><span>Екатеринбург · доставка по Свердловской области</span><span>Пн–Пт, 09:00–18:00</span></div><div class="nav"><a class="brand brand-image" href="/" aria-label="PelletsGrupp — главная">'''+logo+'''</a><button class="menu" aria-label="Открыть меню" aria-expanded="false">Меню</button><nav aria-label="Главная навигация"><a href="/pellety/">Пеллеты</a><a href="/katalog/">Котлы и горелки</a><a href="/santehnika/">Сантехника</a><a href="/servisiremont/">Сервис</a><a href="/blog/">Блог</a><a href="/kontakty/">Контакты</a></nav><a class="phone" href="tel:+73433455225">+7 (343) 345-52-25</a></div></div></header>'''
+head='''<header><div class="wrap"><div class="topline"><span>Екатеринбург · доставка по Свердловской области</span><span>Пн–Пт, 09:00–18:00</span></div><div class="nav"><a class="brand brand-image" href="/" aria-label="PelletsGrupp — главная">'''+logo+'''</a><button class="menu" aria-expanded="false" aria-controls="main-navigation">Меню</button>
+  <nav id="main-navigation" aria-label="Главная навигация">
+    <details class="catalog-menu">
+      <summary>Каталог товаров</summary>
+      <ul>
+        <li><a href="/pellety/">Пеллеты</a></li>
+        <li><a href="/kotly/">Котлы</a></li>
+        <li><a href="/zota/gorelki/">Горелки</a></li>
+        <li><a href="/santehnika/">Сантехника</a></li>
+      </ul>
+    </details>
+    <a href="/otoplenie/">Монтаж</a><a href="/servisiremont/">Сервис</a>
+    <a href="/otzyvy/">Отзывы</a><a href="/blog/">Блог</a><a href="/kontakty/">Контакты</a>
+  </nav><a class="phone" href="tel:+73433455225">+7 (343) 345-52-25</a></div></div></header>'''
 foot='''<footer><div class="wrap"><div class="footgrid"><div><a class="brand brand-image footer-logo" href="/" aria-label="PelletsGrupp — главная">'''+logo+'''</a><p>Пеллетное отопление с подбором оборудования,<br>поставкой топлива и сервисным сопровождением.</p></div><nav><a href="/katalog/">Котлы и горелки</a><a href="/pellety/">Пеллеты</a><a href="/dostavka/">Доставка</a><a href="/servisiremont/">Сервис и ремонт</a><a href="/blog/">Полезные статьи</a><a href="/o-nas/">О компании</a></nav><div><a class="phone" style="display:block" href="tel:+73433455225">+7 (343) 345-52-25</a><p><a href="mailto:office@pelletsgrupp.ru">office@pelletsgrupp.ru</a><br>Екатеринбург, ул. Лукиных, 1, оф. 4</p><a class="text-link" href="/kontakty/">Все контакты</a></div></div><div class="legal">© PelletsGrupp. ООО «ПЕЛЛЕТС ГРУПП», ИНН 6678134556. <a href="/soglasie-na-obrabotku-personalnyh-dannyh/">Обработка персональных данных</a></div></div></footer><a class="mobile-call" href="tel:+73433455225" aria-label="Позвонить">☎</a>'''
 foot=foot.replace('/soglasie-na-obrabotku-personalnyh-dannyh/',PRIVACY_PATH).replace('>Обработка персональных данных<','>Политика обработки персональных данных<')
-head=head.replace('<a href="/servisiremont/">Сервис</a>','<a href="/otoplenie/">Монтаж</a><a href="/servisiremont/">Сервис</a>')
 foot=foot.replace('<a href="/servisiremont/">Сервис и ремонт</a>','<a href="/otoplenie/">Монтаж отопления</a><a href="/servisiremont/">Сервис и ремонт</a>')
 head=prepare_body('',head)
 foot=prepare_body('',foot)
@@ -314,6 +326,32 @@ for p in PELLET_TYPES:
  pellet_schema={'@context':'https://schema.org','@type':'Product','sku':p['sku'],'name':p['name'],'image':ORIGIN+p['image'],'brand':{'@type':'Brand','name':'PelletsGrupp'},'category':'Пеллеты для розжига','offers':{'@type':'Offer','price':p['price'],'priceCurrency':'RUB','url':ORIGIN+p['path'],'availability':'https://schema.org/InStock'}}
  write(p['path'],p['name']+' — купить в Екатеринбурге | PelletsGrupp',pellet_detail(p)+cta(),p['description']+' Цена 150 ₽ за упаковку 3 кг.',pellet_schema)
 write('/pellety/','Топливные пеллеты в Екатеринбурге — цены и доставка | PelletsGrupp',pellets_page(pellets_extra),'Серые и светлые топливные пеллеты, а также пеллеты для розжига мангала в упаковке 3 кг. Самовывоз в Екатеринбурге и доставка.',{'@context':'https://schema.org','@graph':[{'@type':'Product','sku':p['sku'],'name':p['name'],'image':ORIGIN+p['image'],'brand':{'@type':'Brand','name':'PelletsGrupp'},'offers':{'@type':'Offer','price':p['price'],'priceCurrency':'RUB','url':ORIGIN+p.get('path','/pellety/#'+p['id']),'description':'Цена за '+p.get('price_unit','тонну')}} for p in PELLET_TYPES]})
+reviews=crumbs('Отзывы')+'''<section class="section reviews-section"><div class="wrap">
+  <div class="page-head">
+    <h1>Отзывы о PelletsGrupp</h1>
+    <a class="btn" href="#ostavit-otzyv">Оставить отзыв</a>
+  </div>
+  <div class="reviews-layout">
+    <section aria-labelledby="maps-reviews-title">
+      <h2 id="maps-reviews-title">Отзывы в Яндекс Картах</h2>
+      <iframe class="reviews-widget" title="Отзывы о PelletsGrupp в Яндекс Картах"
+        src="https://yandex.ru/maps-reviews-widget/121109401353?comments"></iframe>
+      <p class="reviews-link"><a href="https://yandex.ru/maps/org/pelletsgrupp/121109401353/reviews/"
+        target="_blank" rel="noopener">Открыть отзывы в Яндекс Картах</a></p>
+    </section>
+    <section id="ostavit-otzyv" aria-labelledby="review-form-title">
+      <h2 id="review-form-title">Оставить отзыв на сайте</h2>
+      <p>Расскажите о покупке или услуге. Отзыв получит команда PelletsGrupp.</p>
+      <iframe class="review-frame ym-hide-content" title="Форма отзыва PelletsGrupp"
+        src="https://forms.yandex.ru/u/6afd3e4d49af47b54d22be85?iframe=1"
+        name="ya-form-6afd3e4d49af47b54d22be85" loading="lazy" referrerpolicy="origin"></iframe>
+      <p class="reviews-link"><a href="https://forms.yandex.ru/u/6afd3e4d49af47b54d22be85"
+        target="_blank" rel="noopener">Открыть форму в новой вкладке</a></p>
+    </section>
+  </div>
+</div></section>'''
+write('/otzyvy/','Отзывы о PelletsGrupp в Екатеринбурге',reviews,
+      'Отзывы о покупке пеллетных котлов и пеллет, монтаже и сервисе PelletsGrupp в Екатеринбурге. Оставьте отзыв через форму на сайте.')
 for p in PAGES:
  path=p['path']
  if p['PUBLIC']!='Y' or p['ACTIVE']!='Y' or p['ID'] in skip or path in written or path=='/kotly_rxdg/' or path in SEO_REDIRECTS:continue
