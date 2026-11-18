@@ -295,3 +295,282 @@ img{height:auto}
     padding-inline: 10px;
   }
 }
+
+/* Approved PelletsGrupp lime palette. */
+:root {
+  --ink: #30351f;
+  --green: #566d19;
+  --lime: #a5c33d;
+  --paper: #f6f7ef;
+  --line: #dfe5ca;
+  --muted: #60664f;
+}
+
+header {
+  border-top: 4px solid var(--green);
+  box-shadow: 0 3px 20px rgb(48 53 31 / 5%);
+}
+
+.topline {
+  color: #60664f;
+  border-bottom-color: #e2e6d6;
+}
+
+.nav {
+  padding-block: 16px;
+}
+
+.catalog-menu summary {
+  padding-inline: 14px;
+  border-radius: 8px;
+  color: var(--ink);
+  background: var(--lime);
+}
+
+.catalog-menu summary:hover {
+  background: #b5d44b;
+}
+
+.catalog-menu ul {
+  border-top: 3px solid var(--lime);
+}
+
+main > .wrap > .hero {
+  margin-block: 28px 36px;
+  padding: 44px;
+  gap: 34px;
+  border-radius: 22px;
+  background: #a5c33d;
+  color: var(--ink);
+}
+
+.hero h1 {
+  font-size: clamp(36px, 3.7vw, 52px);
+  letter-spacing: -1.8px;
+}
+
+.hero .eyebrow {
+  color: #3d491e;
+}
+
+.hero .lead,
+.hero .proof {
+  color: #354020;
+}
+
+.hero .proof b {
+  color: var(--ink);
+}
+
+.hero .photo {
+  height: 410px;
+  border-radius: 14px;
+  background: #e9edda;
+}
+
+.hero .stamp {
+  border-left: 5px solid var(--lime);
+  color: var(--ink);
+  box-shadow: 0 8px 28px rgb(48 53 31 / 12%);
+}
+
+.btn {
+  border-color: var(--green);
+  border-radius: 8px;
+  background: var(--green);
+}
+
+.btn:hover {
+  background: var(--ink);
+  border-color: var(--ink);
+  box-shadow: 0 5px 15px rgb(86 109 25 / 15%);
+}
+
+.btn.lime {
+  background: var(--lime);
+  border-color: var(--lime);
+  color: #30351f;
+}
+
+.btn.lime:hover {
+  background: #b5d44b;
+  border-color: #b5d44b;
+  color: #30351f;
+}
+
+.hero .actions > .btn.light {
+  border-color: #788e2d;
+  color: var(--ink);
+  background: transparent;
+}
+
+.hero .actions > .btn.light:hover {
+  color: var(--ink);
+  background: rgb(255 255 255 / 22%);
+  border-color: var(--ink);
+}
+
+.hero .actions {
+  gap: 10px;
+}
+
+.hero .actions > .btn {
+  padding: 14px 17px;
+}
+
+.badge,
+.eyebrow,
+.price,
+.bigprice {
+  color: var(--green);
+}
+
+.card {
+  border-radius: 14px;
+  box-shadow: 0 5px 18px rgb(48 53 31 / 4%);
+}
+
+.card .badge {
+  align-self: flex-start;
+  padding: 6px 9px;
+  border-radius: 5px;
+  background: #edf2d9;
+  letter-spacing: .6px;
+}
+
+.card .btn {
+  background: #f1f4e5;
+  border-color: #dbe4bd;
+  color: #4b611a;
+}
+
+.card .btn:hover {
+  color: var(--white);
+  border-color: var(--green);
+  background: var(--green);
+}
+
+.cycle-grid .service {
+  border-radius: 14px;
+  background: var(--white);
+  border-top: 4px solid var(--green);
+}
+
+.cycle-grid .service:nth-child(2) {
+  background: #526724;
+  color: var(--white);
+  border-top-color: #526724;
+}
+
+.cycle-grid .service:nth-child(2) p,
+.cycle-grid .service:nth-child(2) .num {
+  color: #edf2df;
+}
+
+.cycle-grid .service:nth-child(3) {
+  background: #a5c33d;
+  border-top-color: #a5c33d;
+}
+
+.cycle-grid .service:nth-child(4) {
+  background: #e7edcf;
+}
+
+.tile,
+.gallery,
+.buybox,
+.lead-card {
+  border-radius: 14px;
+}
+
+.brand-tabs .active {
+  background: var(--green);
+  border-color: var(--green);
+}
+
+.cta {
+  color: var(--ink);
+  border-radius: 18px;
+  background: #a5c33d;
+}
+
+.cta p {
+  color: #354020;
+}
+
+footer {
+  border-top: 4px solid #a5c33d;
+  background: #edf0e2;
+}
+
+.write-us {
+  color: var(--ink);
+  border-color: #dbe5b8;
+  background: #a5c33d;
+  box-shadow: 0 5px 20px rgb(86 109 25 / 25%);
+}
+
+.write-us:hover {
+  color: var(--ink);
+  background: #b5d44b;
+}
+
+@media (max-width: 1000px) {
+  main > .wrap > .hero {
+    padding: 30px;
+    gap: 25px;
+  }
+
+  .hero .photo {
+    height: 380px;
+  }
+}
+
+@media (max-width: 700px) {
+  main > .wrap > .hero {
+    margin-block: 18px 28px;
+    padding: 25px 22px;
+    border-radius: 16px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+    letter-spacing: -1.3px;
+  }
+
+  .hero .photo {
+    height: 280px;
+  }
+
+  .hero .actions > .btn {
+    padding: 12px 14px;
+  }
+
+  .catalog-menu summary {
+    padding-inline: 12px;
+  }
+}
+
+.hero .actions > .btn:first-child { background: var(--ink); border-color: var(--ink); color: white; }
+.hero .actions > .btn:first-child:hover { background: #47551f; border-color: #47551f; color: white; }
+
+/* Keep supporting copy and calls to action legible on lime panels. */
+.cycle-grid .service:nth-child(3) p,
+.cycle-grid .service:nth-child(3) .num,
+.cta .badge,
+.cta .fine {
+  color: #354020;
+}
+.cta .btn.lime {
+  color: var(--white);
+  background: var(--ink);
+  border-color: var(--ink);
+}
+.cta .btn.lime:hover {
+  background: #47551f;
+  border-color: #47551f;
+}
+.write-us:active {
+  color: var(--ink);
+  background: #b5d44b;
+}
