@@ -167,7 +167,7 @@ boiler_power_links = ('<section class="section white"><div class="wrap">'
  '<h2>Подбор пеллетного котла по мощности</h2>'
  '<p>Сравните модели популярных мощностей. Окончательный выбор — по теплопотерям здания.</p>'
  '<div class="actions"><a class="btn light" href="/kotly-15-kvt/">Котлы 15 кВт →</a>'
- '<a class="btn light" href="/kotly-22-kvt/">Котлы 22 кВт →</a></div>'
+ '<a class="btn light" href="/kotly-20-kvt/">Котлы 20 кВт →</a><a class="btn light" href="/kotly-22-kvt/">Котлы 22 кВт →</a></div>'
  '</div></section>')
 write('/kotly/','Пеллетные котлы в Екатеринбурге — цены | PelletsGrupp',crumbs('Пеллетные котлы')+boilers_page(PRODUCTS,card)+boiler_power_links,'Пеллетные котлы BIOTEP, FACI, СТАРТ и Vulkan для дома и бизнеса. Цены, подбор мощности, доставка, монтаж и сервис в Екатеринбурге и области.',{'@context':'https://schema.org','@graph':[{'@type':'CollectionPage','name':'Пеллетные котлы в Екатеринбурге','url':ORIGIN+'/kotly/','inLanguage':'ru'},{'@type':'ItemList','name':'Модели пеллетных котлов','numberOfItems':len(boilers),'itemListElement':[{'@type':'ListItem','position':i,'name':p['name'],'url':ORIGIN+p['path']} for i,p in enumerate(featured_boilers,1)]}]})
 def power_landing(kw):
@@ -200,6 +200,7 @@ def power_landing(kw):
     write(path, f'{label} в Екатеринбурге — цены | PelletsGrupp', body,
           f'{label}: модели, характеристики и цены. Подбор мощности, доставка и монтаж в Екатеринбурге и Свердловской области.', schema)
 power_landing(15)
+power_landing(20)
 power_landing(22)
 
 def catalog(path,title,brand=None):
