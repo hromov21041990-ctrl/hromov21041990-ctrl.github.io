@@ -13,6 +13,9 @@ BOILER_TOPIC = '9008994231354102'
 LEAD_TOPICS = {
     '/': None,
     '/kotly/': BOILER_TOPIC,
+    '/kotly-15-kvt/': BOILER_TOPIC,
+    '/kotly-20-kvt/': BOILER_TOPIC,
+    '/kotly-22-kvt/': BOILER_TOPIC,
     '/biotep/': BOILER_TOPIC,
     '/faci/': BOILER_TOPIC,
     '/otoplenie/': '1794976625154',
