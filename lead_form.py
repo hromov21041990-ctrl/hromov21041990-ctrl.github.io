@@ -20,6 +20,8 @@ LEAD_TOPICS = {
     '/faci/': BOILER_TOPIC,
     '/otoplenie/': '1794976625154',
     '/servisiremont/': '1794976625490',
+    '/nashi-raboty/montazh-kotlov/': '1794976625154',
+    '/nashi-raboty/servis-kotlov/': '1794976625490',
 }
 
 
