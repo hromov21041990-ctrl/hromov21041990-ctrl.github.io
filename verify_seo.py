@@ -225,6 +225,17 @@ for old_path, new_path in (
     assert old_page.xpath('//meta[@http-equiv="refresh"]/@content') == ['0; url='+new_path], old_path
     assert old_page.xpath('//link[@rel="canonical"]/@href') == [ORIGIN+new_path], old_path
     assert old_page.xpath('//meta[@name="robots"]/@content') == ['noindex,follow'], old_path
+for project_path, required_heading, required_image in (
+    ('/nashi-raboty/montazh-kotlov/', 'Примеры монтажа пеллетных котлов и систем отопления', '/assets/archive-44187.webp'),
+    ('/nashi-raboty/servis-kotlov/', 'Обслуживание пеллетных котлов: фотографии и этапы ТО', '/assets/archive-44285.webp'),
+):
+    project = html.fromstring((DIST/project_path.strip('/')/'index.html').read_text())
+    assert project.xpath('string(//h1)') == required_heading, project_path
+    assert project.xpath('//img[@src="' + required_image + '"]'), project_path
+    assert project.xpath('//a[@href="#zayavka"]'), project_path
+    assert project.xpath('//iframe[contains(@class,"lead-frame")]'), project_path
+    assert 'CoPilot пишет' not in project.text_content(), project_path
+    assert 'Отмена' not in project.text_content(), project_path
 assert html.fromstring((DIST/'otoplenie'/'index.html').read_text()).xpath('//a[@href="/nashi-raboty/montazh-kotlov/"]')
 assert html.fromstring((DIST/'servisiremont'/'index.html').read_text()).xpath('//a[@href="/nashi-raboty/servis-kotlov/"]')
 print(f'SEO verification passed: {len(urls)} canonical sitemap URLs, unique metadata, {product_count} Product nodes, {breadcrumb_count} BreadcrumbList nodes, {image_count} raster images with dimensions, {len(redirects)} legacy URL fallbacks, noindex 404.')
