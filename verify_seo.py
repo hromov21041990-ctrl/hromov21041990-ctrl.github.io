@@ -212,4 +212,19 @@ assert blog.xpath('//a[@href="/preimushhestva-pelletnykh-otopitelnykh-kotlov/"]'
 source_js=(ROOT/'site.js').read_text()
 for token in ('normalizeSearch','replaceAll(\'ё\',\'е\')','window.addEventListener(\'pageshow\'','requestAnimationFrame(filter)','phone_click','email_click','contact_cta_click','quote_copy'):
     assert token in source_js, token
+for old_path, new_path in (
+    ('/pustayastranitsa/', '/nashi-raboty/montazh-kotlov/'),
+    ('/pustayastranitsa_qspm/', '/nashi-raboty/servis-kotlov/'),
+):
+    assert ORIGIN+new_path in urls, new_path
+    assert ORIGIN+old_path not in urls, old_path
+    new_page = html.fromstring((DIST/new_path.strip('/')/'index.html').read_text())
+    old_page = html.fromstring((DIST/old_path.strip('/')/'index.html').read_text())
+    assert new_page.xpath('//link[@rel="canonical"]/@href') == [ORIGIN+new_path], new_path
+    assert new_page.xpath('//iframe[contains(@class,"lead-frame")]'), new_path
+    assert old_page.xpath('//meta[@http-equiv="refresh"]/@content') == ['0; url='+new_path], old_path
+    assert old_page.xpath('//link[@rel="canonical"]/@href') == [ORIGIN+new_path], old_path
+    assert old_page.xpath('//meta[@name="robots"]/@content') == ['noindex,follow'], old_path
+assert html.fromstring((DIST/'otoplenie'/'index.html').read_text()).xpath('//a[@href="/nashi-raboty/montazh-kotlov/"]')
+assert html.fromstring((DIST/'servisiremont'/'index.html').read_text()).xpath('//a[@href="/nashi-raboty/servis-kotlov/"]')
 print(f'SEO verification passed: {len(urls)} canonical sitemap URLs, unique metadata, {product_count} Product nodes, {breadcrumb_count} BreadcrumbList nodes, {image_count} raster images with dimensions, {len(redirects)} legacy URL fallbacks, noindex 404.')
