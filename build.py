@@ -357,12 +357,83 @@ SEO_PAGE_MOVES = {
  '/pustayastranitsa/': '/nashi-raboty/montazh-kotlov/',
  '/pustayastranitsa_qspm/': '/nashi-raboty/servis-kotlov/',
 }
+CASE_STUDY_PAGES = {
+ '/nashi-raboty/montazh-kotlov/': (
+  'Примеры монтажа пеллетных котлов — PelletsGrupp',
+  '''<div class="wrap crumbs"><a href="/">Главная</a> / <a href="/otoplenie/">Монтаж</a> / Выполненные работы</div>
+<section class="section"><div class="wrap">
+<div class="page-head"><span class="eyebrow">Объекты из архива PelletsGrupp</span>
+<h1>Примеры монтажа пеллетных котлов и систем отопления</h1>
+<p class="lead">В архиве PelletsGrupp представлены решения на базе котлов BIOTEP для частных домов и производственных помещений. Ниже — сведения об оборудовании и объектах из описаний этих работ. Подбор для нового объекта выполняем индивидуально.</p></div>
+<div class="grid">
+<article class="tile"><h2>BIOTEP 25 — дом и баня</h2>
+<p>В описании объекта указан дом площадью 150 м² с баней. Система отопления включает радиаторные контуры и контур бойлера горячего водоснабжения.</p>
+<p class="fine">Фактический расход топлива зависит от утепления, температурного режима и условий эксплуатации.</p>
+<a class="text-link" href="/biotep/">Смотреть котлы BIOTEP →</a></article>
+<article class="tile"><h2>BIOTEP 32 — производственное помещение</h2>
+<p>В архиве описано отопление цеха площадью 200 м² с двумя тепловентиляторами ГРЕЕРС. Для подобных помещений подбор оборудования зависит от теплопотерь и режима работы.</p>
+<a class="text-link" href="/otoplenie/">Узнать о монтаже отопления →</a></article>
+<article class="tile"><h2>BIOTEP 32 — частный дом</h2>
+<p>Ещё один архивный пример — применение котла BIOTEP 32 для отопления дома площадью 100 м². Мощность котла не следует подбирать только по площади здания.</p>
+<a class="text-link" href="/kotly/">Подобрать котёл по параметрам →</a></article>
+</div></div></section>
+<section class="section white"><div class="wrap">
+<div class="section-head"><div><span class="eyebrow">Фотографии</span><h2>Котельные и монтаж оборудования</h2></div></div>
+<div class="grid installation-gallery">
+<figure><img src="/assets/archive-44187.webp" alt="Котельное оборудование и трубопроводы на фотографии из архива PelletsGrupp" loading="lazy"><figcaption>Фото котельного оборудования</figcaption></figure>
+<figure><img src="/assets/archive-44205.webp" alt="Монтаж котельного оборудования на архивной фотографии PelletsGrupp" loading="lazy"><figcaption>Монтаж оборудования</figcaption></figure>
+<figure><img src="/assets/archive-44279.webp" alt="Объект с системой отопления на фотографии из архива PelletsGrupp" loading="lazy"><figcaption>Система отопления</figcaption></figure>
+</div>
+<p class="fine">Фотографии из архива монтажных материалов PelletsGrupp; не все снимки привязаны к описанным выше объектам.</p>
+</div></section>
+<section class="section"><div class="wrap">
+<h2>Что уточняем перед монтажом</h2>
+<p>Чтобы подготовить предложение, понадобятся назначение и площадь здания, теплопотери или сведения об утеплении, место для котла и дымохода, существующая схема отопления и желаемая комплектация.</p>
+<div class="actions"><a class="btn" href="#zayavka">Обсудить монтаж и оставить заявку →</a><a class="btn light" href="/otoplenie/">Все услуги монтажа →</a></div>
+</div></section>'''
+ ),
+ '/nashi-raboty/servis-kotlov/': (
+  'Обслуживание пеллетных котлов — фото и этапы ТО | PelletsGrupp',
+  '''<div class="wrap crumbs"><a href="/">Главная</a> / <a href="/servisiremont/">Сервис и ремонт</a> / Фото и этапы обслуживания</div>
+<section class="section"><div class="wrap">
+<div class="page-head"><span class="eyebrow">Сервис PelletsGrupp</span>
+<h1>Обслуживание пеллетных котлов: фотографии и этапы ТО</h1>
+<p class="lead">Фотографии из архива PelletsGrupp и основные этапы технического обслуживания пеллетного котла. Конкретный перечень операций зависит от марки, модели, состояния оборудования и регламента производителя.</p></div>
+<div class="grid">
+<article class="tile"><h2>Очистка узлов</h2>
+<p>При плановом ТО проверяют загрязнение камеры сгорания, горелки и теплообменника, при необходимости проводят очистку доступных узлов в соответствии с инструкцией производителя.</p></article>
+<article class="tile"><h2>Проверка топливоподачи</h2>
+<p>Оценивают работу механизма подачи пеллет и состояние шнека. При заедании, посторонних звуках или ошибках автоматики необходима диагностика причины.</p></article>
+<article class="tile"><h2>Датчики и автоматика</h2>
+<p>Проверяют показания датчиков и работу автоматики котла, выполняют необходимые настройки по технической документации оборудования.</p></article>
+</div></div></section>
+<section class="section white"><div class="wrap">
+<div class="section-head"><div><span class="eyebrow">Фотоархив</span><h2>Обслуживание котельного оборудования</h2></div></div>
+<div class="grid installation-gallery">
+<figure><img src="/assets/archive-44285.webp" alt="Фотография сервисных работ с котельным оборудованием из архива PelletsGrupp" loading="lazy"><figcaption>Фото сервисных работ</figcaption></figure>
+<figure><img src="/assets/archive-44287.webp" alt="Фотография узлов котельного оборудования из архива сервисной службы PelletsGrupp" loading="lazy"><figcaption>Оборудование при обслуживании</figcaption></figure>
+</div>
+<p class="fine">В этом разделе показаны архивные фотографии и типовые операции, а не отчёт о конкретном заказе с подтверждёнными результатами измерений.</p>
+</div></section>
+<section class="section"><div class="wrap">
+<h2>Что сообщить при обращении в сервис</h2>
+<p>Подготовьте марку и модель котла, описание неисправности или требуемого обслуживания, адрес объекта и, по возможности, фотографии оборудования. Стоимость и объём работ согласуем после уточнения задачи.</p>
+<div class="actions"><a class="btn" href="#zayavka">Оставить заявку на обслуживание →</a>
+<a class="btn light" href="/servisiremont/">Услуги сервиса и ремонта →</a>
+<a class="text-link" href="/tekhnicheskoe-obsluzhivanie-kotla/">Что входит в ТО →</a></div>
+</div></section>'''
+ )
+}
 for p in PAGES:
  path=SEO_PAGE_MOVES.get(p['path'],p['path'])
  if p['PUBLIC']!='Y' or p['ACTIVE']!='Y' or p['ID'] in skip or path in written or path=='/kotly_rxdg/' or path in SEO_REDIRECTS:continue
  # Layout fragments and blank templates have no independent public content.
  if p['TITLE'].startswith('Область') or p['TITLE']=='Пустой шаблон':continue
  if p['ID']=='199':write(path,'Блог о пеллетном отоплении — PelletsGrupp',crumbs('Блог')+'<div class="wrap"><div class="page-head"><span class="eyebrow">Полезные материалы</span><h1>Разбираемся в отоплении</h1></div>'+tiles(articles)+'</div>');continue
+ if path in CASE_STUDY_PAGES:
+  case_title,case_body=CASE_STUDY_PAGES[path]
+  write(path,case_title,case_body)
+  continue
  seen=set();sections=[]
  for sec in p['sections']:
   if 'form' in sec['code'] or 'menu' in sec['code']:continue
