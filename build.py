@@ -353,8 +353,12 @@ reviews=crumbs('Отзывы')+'''<section class="section reviews-section"><div 
 </div></section>'''
 write('/otzyvy/','Отзывы о PelletsGrupp в Екатеринбурге',reviews,
       'Отзывы о покупке пеллетных котлов и пеллет, монтаже и сервисе PelletsGrupp в Екатеринбурге. Оставьте отзыв через форму на сайте.')
+SEO_PAGE_MOVES = {
+ '/pustayastranitsa/': '/nashi-raboty/montazh-kotlov/',
+ '/pustayastranitsa_qspm/': '/nashi-raboty/servis-kotlov/',
+}
 for p in PAGES:
- path=p['path']
+ path=SEO_PAGE_MOVES.get(p['path'],p['path'])
  if p['PUBLIC']!='Y' or p['ACTIVE']!='Y' or p['ID'] in skip or path in written or path=='/kotly_rxdg/' or path in SEO_REDIRECTS:continue
  # Layout fragments and blank templates have no independent public content.
  if p['TITLE'].startswith('Область') or p['TITLE']=='Пустой шаблон':continue
@@ -383,9 +387,10 @@ for path,(title,text) in LEGAL_PAGES.items():
 aliases={'/kotly-i-gorelki/':'/katalog/','/kotly_rxdg/':'/katalog/','/katalog/katalog/':'/katalog/'}
 # Confirmed old search-result URLs; static redirects until an HTTP redirect layer is available.
 aliases.update(SEO_REDIRECTS)
+aliases.update(SEO_PAGE_MOVES)
 assert all(target in written for target in aliases.values())
 for p in PAGES:
- if p['path'] not in written and p['PUBLIC']=='Y':aliases[p['path']]='/katalog/'
+ if p['path'] not in written and p['path'] not in aliases and p['PUBLIC']=='Y':aliases[p['path']]='/katalog/'
 for path,target in aliases.items():
  if path in written:continue
  source_page=next((p for p in PAGES if p['path']==path),None)
